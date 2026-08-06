@@ -1,0 +1,11 @@
+[route]
+# 内置子技能根目录（相对于本skill根目录）
+base_path = "skills/math-modeling-contest-route-selection"
+# 子技能内评分脚本相对路径（相对于base_path）
+score_script_path = "scripts/score_topics.py"
+# 子技能内参考文档目录（相对于base_path）
+references_dir = "references"
+# 启用补充校验的模式
+enable_modes = ["standard", "championship"]
+# 嵌入模式触发标记
+embed_trigger_marker = "[embed-for-mathmodel-skill-stage3]"
