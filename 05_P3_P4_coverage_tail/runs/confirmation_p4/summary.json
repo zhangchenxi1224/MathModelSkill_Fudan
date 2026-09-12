@@ -1,0 +1,62 @@
+[
+  {
+    "problem": 4,
+    "arm": "current",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.0,
+    "low_N_gain_pct": 0.0,
+    "mean_T": 7662.45305225,
+    "slower": 0,
+    "max_regression_s": 0.0,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 25.314498516659174
+  },
+  {
+    "problem": 4,
+    "arm": "current",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.0,
+    "low_N_gain_pct": 0.0,
+    "mean_T": 7664.4737961499995,
+    "slower": 0,
+    "max_regression_s": 0.0,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 26.441969870001778
+  },
+  {
+    "problem": 4,
+    "arm": "ring_search",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 17.330438124142354,
+    "low_N_gain_pct": 17.55918095528419,
+    "mean_T": 6341.246769783334,
+    "slower": 2,
+    "max_regression_s": 282.01243800000066,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 24.628119294995365
+  },
+  {
+    "problem": 4,
+    "arm": "ring_search",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 15.169844991874637,
+    "low_N_gain_pct": 16.264428413428465,
+    "mean_T": 6535.645621466667,
+    "slower": 4,
+    "max_regression_s": 1492.8682340000005,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 26.756016695000774
+  }
+]

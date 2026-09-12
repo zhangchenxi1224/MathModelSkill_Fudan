@@ -1,0 +1,18 @@
+{
+  "dataset": "final240",
+  "policies": {
+    "3": {
+      "candidate": "count_route",
+      "results": "runs/full_p3"
+    },
+    "4": {
+      "candidate": "recovery",
+      "results": "runs/full_p4_additions"
+    }
+  },
+  "completed_campaign_runs": 891,
+  "reused_screen_runs": 38,
+  "selected_full_clear": 240,
+  "comparison": "same scenes and fixed spatial error fields; previous selected policy",
+  "generalization": "Repeated development on final240, not an independent holdout or new official evaluation"
+}

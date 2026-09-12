@@ -1,0 +1,38 @@
+{
+  "3": {
+    "scores": {
+      "updated_smoothed": {
+        "n": 22,
+        "mean_negative_log_likelihood": 1.995065814708193,
+        "mean_brier": 0.871300185271792
+      },
+      "broad_joint": {
+        "n": 22,
+        "mean_negative_log_likelihood": 1.9459101490553135,
+        "mean_brier": 0.8571428571428571
+      }
+    },
+    "smoothed_minus_broad_NLL_CI95": [
+      -0.03143963670541056,
+      0.12755081737556687
+    ]
+  },
+  "4": {
+    "scores": {
+      "updated_smoothed": {
+        "n": 27,
+        "mean_negative_log_likelihood": 5.533341549336075,
+        "mean_brier": 0.9938313276681859
+      },
+      "broad_joint": {
+        "n": 27,
+        "mean_negative_log_likelihood": 4.602231962384198,
+        "mean_brier": 0.9901746333268941
+      }
+    },
+    "smoothed_minus_broad_NLL_CI95": [
+      0.1468930172760935,
+      1.7621280030372592
+    ]
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 3,
+  "config": {
+    "problem": 3,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 1,
+    "joint_detour_m": 800.0,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 12092.939667601868,
+  "switches": 99,
+  "measures": 105,
+  "clear_attempts": 17,
+  "clear_successes": 10,
+  "fallback_targets": 10,
+  "certified_clears": 0,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 0,
+  "macro_lookahead_selections": 0,
+  "feedback_pruned_clear_points": 0,
+  "feedback_absent_channels": 9,
+  "feedback_plan_calls": 14,
+  "feedback_no_signal": 83,
+  "probability_probes": 0,
+  "nominal_risk_spent": 0.0,
+  "risk_deferred_sources": 0,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "count_route_changes": 2,
+  "station_information_measures": 6,
+  "future_service_deferrals": 0,
+  "sweep_information_measures": 0,
+  "intersection_probes": 0,
+  "intersection_successes": 0,
+  "replaced_stations": 0,
+  "substitution_measures": 0,
+  "continuum_absent": 10,
+  "robust_deferrals": 0,
+  "total_virtual_time_s": 3113.587931,
+  "independently_accounted_time_s": 3113.5879335203736,
+  "timing_residual_s": -2.5203735276591033e-06,
+  "average_clear_time_s": 311.3587931,
+  "program_real_time_s": 15.974304700037464,
+  "stop_evidence": {
+    "type": "continuum_no_signal_cover",
+    "cleared_channels": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      12,
+      14,
+      16,
+      17,
+      19
+    ],
+    "absent_channels": [
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      15,
+      18,
+      20
+    ],
+    "certificates": {
+      "4": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "7": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "8": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "9": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "10": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "11": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "13": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "15": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "18": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "20": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            -574.9999999999998,
+            995.9292143521045
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      }
+    }
+  },
+  "source_total": 10,
+  "clear_fraction": 1.0,
+  "feedback_options": {
+    "planning": true,
+    "planning_region_depth": 0,
+    "horizon": 2,
+    "extra_measure_allowance": 1,
+    "planning_seconds": 60.0,
+    "count_route": true,
+    "station_information": true,
+    "coverage_reuse": true,
+    "route_length_ratio": 1.0,
+    "next_goal": null
+  },
+  "probability_status": "uncalibrated_working_model",
+  "case_id": "round-official369_confirmation-p3-0054-556e961d01e325d8",
+  "world_key": "57e7f57292adad2b31256f875f3d7c17d01f8f23111b912440cd0794a2064df8",
+  "arm": "substitute_tight",
+  "error_mode": "correlated",
+  "directional_total": 0,
+  "true_all_clear": true,
+  "complete": true,
+  "T_per_cleared_s": 311.3587931,
+  "T_per_source_s": 311.3587931,
+  "loss_s": 3113.587931,
+  "region_violations": [],
+  "wall_s": 15.997254499932751,
+  "environment": "frozen_local",
+  "requests_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\screen_p3\\cases\\57e7f57292adad2b\\substitute_tight\\requests.jsonl",
+  "decisions_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\screen_p3\\cases\\57e7f57292adad2b\\substitute_tight\\decisions.jsonl"
+}

@@ -1,0 +1,582 @@
+{
+  "selected_before_confirmation_generation": true,
+  "basis": "Same49 held-out cases, fixed already-available model families; no time matching and no candidate performance used.",
+  "status": "data-selected representative distribution, not identified official generator",
+  "problems": {
+    "3": {
+      "selected_family": "broad_joint",
+      "count_distribution": [
+        {
+          "n": 10,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 11,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 12,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 13,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 14,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 15,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        },
+        {
+          "n": 16,
+          "n_directed": 0,
+          "probability": 0.14285714285714285
+        }
+      ],
+      "reason": "Lower held-out NLL and Brier; P4 advantage CI excludes0, P3 difference uncertain, choose simpler broad representative.",
+      "development_check": {
+        "scores": {
+          "updated_smoothed": {
+            "n": 22,
+            "mean_negative_log_likelihood": 1.995065814708193,
+            "mean_brier": 0.871300185271792
+          },
+          "broad_joint": {
+            "n": 22,
+            "mean_negative_log_likelihood": 1.9459101490553135,
+            "mean_brier": 0.8571428571428571
+          }
+        },
+        "smoothed_minus_broad_NLL_CI95": [
+          -0.03143963670541056,
+          0.12755081737556687
+        ]
+      }
+    },
+    "4": {
+      "selected_family": "broad_joint",
+      "count_distribution": [
+        {
+          "n": 10,
+          "n_directed": 0,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 1,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 2,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 3,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 4,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 5,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 6,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 7,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 8,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 9,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 10,
+          "n_directed": 10,
+          "probability": 0.012987012987012986
+        },
+        {
+          "n": 11,
+          "n_directed": 0,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 1,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 2,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 3,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 4,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 5,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 6,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 7,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 8,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 9,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 10,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 11,
+          "n_directed": 11,
+          "probability": 0.011904761904761904
+        },
+        {
+          "n": 12,
+          "n_directed": 0,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 1,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 2,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 3,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 4,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 5,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 6,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 7,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 8,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 9,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 10,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 11,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 12,
+          "n_directed": 12,
+          "probability": 0.010989010989010988
+        },
+        {
+          "n": 13,
+          "n_directed": 0,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 1,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 2,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 3,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 4,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 5,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 6,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 7,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 8,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 9,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 10,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 11,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 12,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 13,
+          "n_directed": 13,
+          "probability": 0.01020408163265306
+        },
+        {
+          "n": 14,
+          "n_directed": 0,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 1,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 2,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 3,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 4,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 5,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 6,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 7,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 8,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 9,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 10,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 11,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 12,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 13,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 14,
+          "n_directed": 14,
+          "probability": 0.009523809523809523
+        },
+        {
+          "n": 15,
+          "n_directed": 0,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 1,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 2,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 3,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 4,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 5,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 6,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 7,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 8,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 9,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 10,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 11,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 12,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 13,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 14,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 15,
+          "n_directed": 15,
+          "probability": 0.008928571428571428
+        },
+        {
+          "n": 16,
+          "n_directed": 0,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 1,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 2,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 3,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 4,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 5,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 6,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 7,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 8,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 9,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 10,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 11,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 12,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 13,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 14,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 15,
+          "probability": 0.008403361344537815
+        },
+        {
+          "n": 16,
+          "n_directed": 16,
+          "probability": 0.008403361344537815
+        }
+      ],
+      "reason": "Lower held-out NLL and Brier; P4 advantage CI excludes0, P3 difference uncertain, choose simpler broad representative.",
+      "development_check": {
+        "scores": {
+          "updated_smoothed": {
+            "n": 27,
+            "mean_negative_log_likelihood": 5.533341549336075,
+            "mean_brier": 0.9938313276681859
+          },
+          "broad_joint": {
+            "n": 27,
+            "mean_negative_log_likelihood": 4.602231962384198,
+            "mean_brier": 0.9901746333268941
+          }
+        },
+        "smoothed_minus_broad_NLL_CI95": [
+          0.1468930172760935,
+          1.7621280030372592
+        ]
+      }
+    }
+  },
+  "fit_outputs_retained": "All369 smoothed distributions retained in composition_models.json for analysis and future updates.",
+  "created_utc": "2026-09-12T04:44:43Z"
+}

@@ -1,0 +1,12 @@
+{
+  "primary_fidelity_reference": "H1",
+  "sensitivity_reference": "H2",
+  "H2_observed_mismatch": "Direction hull area ratios lower than official in both problems and both protocols; optimistic contraction, even when total time is close.",
+  "H1_limit": "Closer in standardized survey, but small baseline contraction mismatch remains; not an identified official generator.",
+  "selection_interpretation": "Frozen equal-H development rule remains a robustness design criterion, not official population expected time; all final H results must be separate.",
+  "unchanged_physics": "No radius/position/orientation/noise parameter fitted merely to match time.",
+  "data": {
+    "official_cases": 369,
+    "local_protocol_executions": 320
+  }
+}

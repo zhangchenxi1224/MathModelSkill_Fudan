@@ -1,0 +1,10 @@
+{
+  "dataset": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\official369_mainline_20260912\\data\\confirmation240.json",
+  "sha256": "6f06f0807a9e82d5087750ac7a846f25979207bb30787c6c56ecf5098f9790bd",
+  "worlds": 240,
+  "overlap_with_old960": 0,
+  "primary": "H1 correlated, 60 per problem",
+  "sensitivity": "H2 extreme, 60 per problem",
+  "role": "User designated fast iteration set; historical filename confirmation does not make repeated tuning an independent validation.",
+  "physics": "Positions, radius, orientation and noise mechanism retain stated simulation assumptions."
+}

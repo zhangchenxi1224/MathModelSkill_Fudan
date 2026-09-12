@@ -1,0 +1,167 @@
+{
+  "problem": 3,
+  "candidate": "substitute",
+  "development_path": "runs/full_p3",
+  "candidates": [
+    {
+      "arm": "substitute",
+      "path": "runs/full_p3",
+      "H1": {
+        "problem": 3,
+        "H": "H1",
+        "cases": 60,
+        "complete": 60,
+        "baseline_mean_T": 3466.4503043166665,
+        "mean_T": 3460.611583,
+        "macro_gain_pct": 0.14050009108378392,
+        "macro_delta_T_per_N": -0.38308863207100785,
+        "CI95_delta_T_per_N": [
+          -0.9244091743197583,
+          0.06194953919752109
+        ],
+        "CI95_gain_pct": [
+          -0.02272037113916965,
+          0.339032699791877
+        ],
+        "low_N_gain_pct": 0.083670084373344,
+        "N16_gain_pct": 0.5728160945634331,
+        "slower": 1,
+        "max_regression_s": 88.6290869999998,
+        "mean_delta_s": -5.838721316666662,
+        "baseline_p95_T_per_N": 344.534292785,
+        "p95_T_per_N": 344.534292785,
+        "by_N": [
+          {
+            "N": 10,
+            "cases": 5,
+            "baseline_T": 3322.1381114,
+            "T": 3322.1381114,
+            "gain_pct": 0.0
+          },
+          {
+            "N": 11,
+            "cases": 13,
+            "baseline_T": 3275.565091153846,
+            "T": 3279.418866692308,
+            "gain_pct": -0.11765223499509148
+          },
+          {
+            "N": 12,
+            "cases": 8,
+            "baseline_T": 3426.3116485,
+            "T": 3426.311257375,
+            "gain_pct": 1.1415336376163765e-05
+          },
+          {
+            "N": 13,
+            "cases": 10,
+            "baseline_T": 3422.9194708,
+            "T": 3422.9194708,
+            "gain_pct": 0.0
+          },
+          {
+            "N": 14,
+            "cases": 7,
+            "baseline_T": 3714.6195734285716,
+            "T": 3714.6195734285716,
+            "gain_pct": 0.0
+          },
+          {
+            "N": 15,
+            "cases": 9,
+            "baseline_T": 3640.911209777778,
+            "T": 3614.485375222222,
+            "gain_pct": 0.7258027738932027
+          },
+          {
+            "N": 16,
+            "cases": 8,
+            "baseline_T": 3547.969464875,
+            "T": 3527.64612475,
+            "gain_pct": 0.5728160945634331
+          }
+        ]
+      },
+      "H2": {
+        "problem": 3,
+        "H": "H2",
+        "cases": 60,
+        "complete": 60,
+        "baseline_mean_T": 3412.2927943833333,
+        "mean_T": 3403.98248045,
+        "macro_gain_pct": 0.18414026730402266,
+        "macro_delta_T_per_N": -0.49734044019106705,
+        "CI95_delta_T_per_N": [
+          -1.4036655316023459,
+          0.34017850655769244
+        ],
+        "CI95_gain_pct": [
+          -0.1259510710702541,
+          0.5197070764955278
+        ],
+        "low_N_gain_pct": 0.12692101159376135,
+        "N16_gain_pct": 0.6364715844875746,
+        "slower": 1,
+        "max_regression_s": 100.13318800000025,
+        "mean_delta_s": -8.310313933333328,
+        "baseline_p95_T_per_N": 342.017152745,
+        "p95_T_per_N": 342.017152745,
+        "by_N": [
+          {
+            "N": 10,
+            "cases": 10,
+            "baseline_T": 3208.1089724,
+            "T": 3208.1089724,
+            "gain_pct": 0.0
+          },
+          {
+            "N": 11,
+            "cases": 11,
+            "baseline_T": 3143.6561501818182,
+            "T": 3133.6957363636366,
+            "gain_pct": 0.31684170730967853
+          },
+          {
+            "N": 12,
+            "cases": 8,
+            "baseline_T": 3451.9417224999997,
+            "T": 3446.9950685,
+            "gain_pct": 0.14330062317556846
+          },
+          {
+            "N": 13,
+            "cases": 4,
+            "baseline_T": 3683.295131,
+            "T": 3692.457932,
+            "gain_pct": -0.24876640817843576
+          },
+          {
+            "N": 14,
+            "cases": 8,
+            "baseline_T": 3553.8033273749998,
+            "T": 3532.56187425,
+            "gain_pct": 0.5977104293131918
+          },
+          {
+            "N": 15,
+            "cases": 9,
+            "baseline_T": 3703.1662982222224,
+            "T": 3703.1662982222224,
+            "gain_pct": 0.0
+          },
+          {
+            "N": 16,
+            "cases": 10,
+            "baseline_T": 3396.862268,
+            "T": 3375.2422048999997,
+            "gain_pct": 0.6364715844875746
+          }
+        ]
+      }
+    }
+  ],
+  "rule": "Full clear, H1 macro improvement, H2 non-regression; best H1 among eligible. Fresh confirmation must independently support H1 gain.",
+  "frozen_utc": "2026-09-12T12:06:24.667350+00:00",
+  "fresh_dataset_sha256": "7608fb24e2391c89922823807a6f4be4ecd36e08ecd2420ba42ede7c830ef635",
+  "policy_sha256": "1c1dfb2c914546b3f90c1f1529d55c0adb202e06a9266c60bdd67505d36aa6cb"
+}

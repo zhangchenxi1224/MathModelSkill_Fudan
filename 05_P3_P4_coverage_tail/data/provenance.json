@@ -1,0 +1,20 @@
+{
+  "fresh_cases": 240,
+  "old_overlap": 0,
+  "purpose": "untouched confirmation after development selection",
+  "composition": "Each P/H: N10..16 has 8 or9 cases (near uniform); P4 Nd conditional uniform0..N.",
+  "generation_model_source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\official369_mainline_20260912\\calibration\\generation_model.json",
+  "physical_models": {
+    "H1": "correlated150m, primary",
+    "H2": "extreme150m, sensitivity"
+  },
+  "unidentified": [
+    "source position distribution",
+    "reception radius distribution",
+    "orientation distribution",
+    "unique error field"
+  ],
+  "physical_parameters_updated": false,
+  "reason": "Official369 composition family and 320 matched protocol simulations support retained representative. Twenty new task-time observations alone cannot identify physical parameters.",
+  "dataset_sha256": "7608fb24e2391c89922823807a6f4be4ecd36e08ecd2420ba42ede7c830ef635"
+}

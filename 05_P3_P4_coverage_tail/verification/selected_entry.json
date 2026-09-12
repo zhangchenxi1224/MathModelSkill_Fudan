@@ -1,0 +1,18 @@
+[
+  {
+    "problem": 3,
+    "candidate": "current",
+    "world_key": "fd5a8c87d3a756bdcc5d2368b4e0c228043276f41bb3c152795ce26b0748076b",
+    "matched": true,
+    "T": 3080.498071,
+    "expected_T": 3080.498071
+  },
+  {
+    "problem": 4,
+    "candidate": "ring_search",
+    "world_key": "ae087be442fcbb3d8bb6085c3e3d0be8760eba24786a553ab076460302e1c29e",
+    "matched": true,
+    "T": 7090.397535,
+    "expected_T": 7090.397535
+  }
+]

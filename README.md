@@ -1,6 +1,6 @@
 # 数学建模 B 题：第一至第四问解答、算法与实验归档
 
-本仓库整理截至 **2026 年 9 月 12 日** 的 B 题第一至第四问已有解答、代码、实验结果与历史探索。**第一问为测向交会几何；第二问最新为允许无信号的三反馈选点；第三问采用局部两步前瞻，第四问采用三反馈成本决策。**各题最新入口如下，第二问旧保证接收方案另列历史。
+本仓库整理截至 **2026 年 9 月 12 日** 的 B 题第一至第四问已有解答、代码、实验结果与历史探索。**第一问为测向交会几何；第二问最新为允许无信号的三反馈选点；第三问保留上一轮部署算法，第四问最新采用“双环覆盖＋顺路搜索”。**各题最新入口如下，第二问旧保证接收方案另列历史。
 
 
 ## 按题目阅读
@@ -9,7 +9,7 @@
 |---|---|---|
 |第一问|交会区域分类、直径计算、覆盖圆反例和几何代码|[03_Q1/README.md](03_Q1/README.md)|
 |第二问|最新三反馈选点、8个首次上下文对照、1920条合成配对记录及历史分组|[04_Q2/README.md](04_Q2/README.md)|
-|第三、四问|最新搜索清除算法、1200个本地场景与10局官方演练|[最新算法](01_latest_algorithm/START_HERE.md) · [完整报告](P3_P4_模型与算法实验报告.pdf)|
+|第三、四问|P4双环覆盖＋顺路搜索，P3保留原版；新240条确认|[当前算法与使用](05_P3_P4_coverage_tail/README.md) · [本轮报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md)|
 
 **下载第一、二问全部整理材料：** [Q1/Q2 Release](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/q1-q2-delivery-20260912)，内含第一、二问合并ZIP，以及用户提供的第二问“最新与历史分组”原始ZIP。第一、二问的整理目录也完整保存在网页仓库中，可直接浏览或使用 Code → Download ZIP。
 
@@ -17,105 +17,75 @@
 
 第一、二问本次更新仅整理已有解答、脚本、输入、结果和报告，未重跑实验或展开工程审查。历史批次保留源码快照，原始研发路径仅用于来源追溯；运行优先使用各题README中的仓库相对路径。
 
-## 第三、四问资料
+## 第三、四问当前方案：覆盖与收尾优化
 
-**先读报告：** [PDF 阅读版](P3_P4_模型与算法实验报告.pdf) · [Word 可编辑版](P3_P4_模型与算法实验报告.docx) · [Markdown 原稿](P3_P4_模型与算法实验报告.md)
+**当前入口：[05_P3_P4_coverage_tail](05_P3_P4_coverage_tail/README.md)**。P4 采用 **双环覆盖＋顺路搜索**（`ring_search`）；P3 保留上一轮部署算法（`current`，对应 `opportunity`），未采用本轮测试的站点替代候选。
 
-**下载第三、四问全部资料：** [完整交付 Release](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-delivery-20260912)。第三、四问的大体积原始日志需从该 Release 下载，Code → Download ZIP 不包含这部分完整数据。
+**结果与原理：** [本轮实验报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md) · [第一性原理与方法](05_P3_P4_coverage_tail/METHOD.md) · [可视化表格 HTML](05_P3_P4_coverage_tail/reports/results.html) · [新240条数据](05_P3_P4_coverage_tail/data/fresh_confirmation240.json)
 
-## 目录说明
+**完整脚本、数据和日志：** [直接下载本轮完整 ZIP（约194 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/download/p3-p4-coverage-tail-20260912/coverage_tail_iteration_20260912_complete.zip) · [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-coverage-tail-20260912)。本轮只有一个 ZIP，无需分卷合并；解压后约2.75 GB、3245个文件。
 
-| 路径 | 内容 |
-| --- | --- |
-| [`03_Q1/`](03_Q1/) | 第一问当前解答、几何源码、证明、示例和运行说明 |
-| [`04_Q2/`](04_Q2/) | 第二问最新三反馈方案、最终报告及分组历史实验 |
-| [`01_latest_algorithm/`](01_latest_algorithm/) | 最新算法源码、配置、评测入口、关键输入与结果报告 |
-| [`02_historical_exploration/`](02_historical_exploration/) | 主线和侧线历史探索、算法来源、历史实验与报告 |
-| [`P3_P4_模型与算法实验报告.pdf`](P3_P4_模型与算法实验报告.pdf) | 两题分别按模型准备、模型建立、模型求解、结果分析、结果检验展开 |
-| [`report_assets/`](report_assets/) | 配对结果图、成本分解图、统计数据及报告生成脚本 |
-| [`provided_materials/`](provided_materials/) | 整理时提供的两份参考附件文本 |
-| [`restore_delivery.py`](restore_delivery.py) | 下载 Release 分卷并合并完整交付 ZIP |
+### 本轮实现与结果
 
-网页仓库便于查看代码和报告。全部原始请求、逐步决策、大体积日志、历史数据包、第三方依赖及既有交付物，保存在 Release 的完整包中。历史笔记中的未执行设想仍属于研究记录，不代表已经验证的算法。
+总虚拟时间仍按 $T=D/5+5M+S+3A+2C$ 计费。全清时成功清除数固定，因此本轮主要减少搜索移动，并利用已经到达的位置检测剩余未知频道。
 
-## 第三、四问模型与算法
+|题目|本轮实际采用|含义|
+|---|---|---|
+|P3|`current`，继承 `opportunity`|新候选未达到预先约定的确认标准，继续使用上一轮部署算法|
+|P4|`ring_search`|中心1点、内圈8点、外圈16点的双环覆盖，加上有预算限制的原地顺路搜索|
 
-第三、四问的共同目标是在**完整发现、清除全部源，并取得没有遗漏的退出依据**之后，使整局总虚拟时间尽可能小：
+P4仍为25个搜索站，固定路线从 **24.10 km降至17.73 km，缩短约26.40%**。这是固定搜索站路线；整局还包括定位清除绕行，实际收益见配对实验。
 
-$$
-T=\frac{D}{5}+5M+S+3A+2C.
-$$
+新240条上的最终组合 **240/240全清**。下表为P4相对上一轮部署版本 `count_transit` 的配对提速；主指标是各源数分组等权的平均 $T/N$，与早期1200场景报告的基线及统计口径不同。
 
-其中，$D$ 是移动米数，$M$ 是检测次数，$S$ 是换频次数，$A$ 是清除尝试次数，$C$ 是成功清除次数。算法根据每次反馈更新可能状态，再比较继续检测和直接清除的后续成本。
+|数据组|N10—16等权提速|N10—15|N16|变慢场景|
+|---|---:|---:|---:|---:|
+|H1：主要参考|**17.33%**|17.56%|15.15%|2|
+|H2：敏感性对照|**15.17%**|16.26%|3.50%|4|
 
-| 题目 | 模型名称 | 已采用的实现 |
-| --- | --- | --- |
-| P3 | 基于全反馈集合估计与局部两步前瞻的搜索清除优化模型 | `dp_geometric`：全向源集合约束、7 站覆盖、局部两步滚动前瞻 |
-| P4 | 基于混合可见性集合估计与三反馈期望成本的搜索清除优化模型 | `three_feedback_fast`：全向/定向联合约束、25 站覆盖、方位/near/无信号的一步成本决策 |
+P4共6场变慢，最大约1493秒；[逐局配对数据](05_P3_P4_coverage_tail/reports/paired_cases.json)和[退步诊断](05_P3_P4_coverage_tail/reports/worst_regressions.json)均已保留。P3测试候选的收益未达到确认标准，表内P3候选成绩不能当作已经部署的改动。
 
-这是几何覆盖、集合估计、工作概率与有限视界规划的混合求解。几何集合保留尚未排除的位置，工作概率用于比较动作费用。P4 的“一步”指单次预测深度，真实反馈后仍会重新规划。
+旧240用于开发；**新240在候选冻结后才运行**，形成480次基线/候选配对运行。其独立性针对本轮冻结候选；若继续据此调参，应转为开发数据。沿用官方记录支持的生成模型，未识别的源位置、接收半径、朝向和误差场仍含仿真假设。
 
-## 第三、四问已有实验结果
+**本轮尚未新增官方演练。** `reports/official_diagnosis.json` 分析的是此前20局，不是双环顺路搜索版本的新官方成绩。旧版5局/题演练及1200场景结果另见下面的历史资料。
 
-以下为同一场景中候选与冻结基线的配对结果，时间单位为秒。基线为 P3 `p3_r1150_w1`、P4 `p4_L2_d1200_w1`。
+### 运行与文件入口
 
-| 数据 | 题目 | 场景数 / 全清数 | 基线平均总时间 | 最新平均总时间 | 平均提速 |
-| --- | --- | ---: | ---: | ---: | ---: |
-| 新 240 迭代集 | P3 | 120 / 120 | 3720.46 | 3515.94 | 5.50% |
-| 新 240 迭代集 | P4 | 120 / 120 | 8513.88 | 8298.37 | 2.53% |
-| 旧 960 回归集 | P3 | 380 / 380 | 3732.81 | 3525.67 | 5.55% |
-| 旧 960 回归集 | P4 | 580 / 580 | 8476.30 | 8274.04 | 2.39% |
-
-共 **1200 个不同本地场景全部清除**。新旧两批无重复世界，但数据已经参与迭代，不能将其解释为未经调参的独立测试。平均提速不表示逐局更快；报告保留全部变慢案例、P95 和程序计算耗时。
-
-最新版本另完成 **P3、P4 各 5 局官方演练，共 10 局**：
-
-| 题目 | 演练局数 | 全清局数 | 平均总虚拟时间 | 平均每源时间 | 平均程序时间 |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| P3 | 5 | 5 | 3456.05 | 255.35 | 14.152 |
-| P4 | 5 | 5 | 7289.25 | 554.61 | 30.929 |
-
-这些是官方**演练**结果，不是正式测试，也没有同案例旧算法对照。完整案例编号和逐局指标见独立报告。
-
-## 运行第三、四问最新算法
-
-使用 Python 3.10 或以上，在最新算法目录执行：
+使用Python 3.10或以上及Shapely；原研发环境为 `D:\st_python\python.exe`。在仓库根目录执行：
 
 ```powershell
-cd 01_latest_algorithm
-python -X utf8 evaluate_selected.py --dataset inputs/new240/cases.json --output runs/my_replay --workers 6
+cd 05_P3_P4_coverage_tail
+# 运行实际采用的P4方案；每轮使用新的输出目录
+python -B -X utf8 solve.py --problem 4 --index 0 --output runs/my_local_p4
+
+# 同场景比较上一轮部署版本与双环顺路搜索
+python -B -X utf8 -u campaign.py --problem 4 --dataset data/fresh_confirmation240.json --arms current,ring_search --workers 6 --output runs/my_paired_p4
 ```
 
-默认在同一世界运行候选与冻结基线；仅运行候选可追加 `--no-baseline`。每轮使用新的输出目录。完整环境与历史依赖以 Release 解压目录为准。
+|文件或目录|作用|
+|---|---|
+|[`release.json`](05_P3_P4_coverage_tail/release.json)|**当前实际部署选择**；`selection.json`是继承的早期配置，不是本轮发布选择|
+|[`selected_policy.py`](05_P3_P4_coverage_tail/selected_policy.py)|按公开题号加载实际选择，接口为 `make_solver(client, problem)`|
+|[`tail_policy.py`](05_P3_P4_coverage_tail/tail_policy.py)|本轮覆盖、顺路搜索与候选策略|
+|[`METHOD.md`](05_P3_P4_coverage_tail/METHOD.md)|连续覆盖判据、双环几何、顺路搜索与评价方法|
+|[`frozen_p3.json`](05_P3_P4_coverage_tail/frozen_p3.json)、[`frozen_p4.json`](05_P3_P4_coverage_tail/frozen_p4.json)|查看新确认集结果之前冻结的候选|
+|[`data/`](05_P3_P4_coverage_tail/data/)|新240条、生成依据与校准参考|
+|[`reports/`](05_P3_P4_coverage_tail/reports/)|全部候选比较、确认结果、逐局表和退步分析|
+|[`runs/`](05_P3_P4_coverage_tail/runs/)|网页保留逐局结果；完整请求和决策日志在本轮ZIP中|
+|[`run_selected_official.py`](05_P3_P4_coverage_tail/run_selected_official.py)|已准备的官方入口，保留原研发工程的采集器和制表依赖；本轮未执行|
 
-- [`selection.json`](01_latest_algorithm/selection.json)：最终采用配置。
-- [`selected_policy.py`](01_latest_algorithm/selected_policy.py)：按题号选择算法，接口为 `make_solver(client, problem)`。
-- [`feedback/`](01_latest_algorithm/feedback/)：集合更新、工作状态、成本规划和反馈执行。
-- [`reports/`](01_latest_algorithm/reports/)：最终逐局结果、配对比较和退步分析。
-- [`START_HERE.md`](01_latest_algorithm/START_HERE.md)：最新算法入口说明。
+下载完整ZIP并解压后，双击 `reports/results.html` 查看交互表格；GitHub网页只显示HTML源码。历史日志中的原始绝对路径用于追溯。官方运行需要独立模拟器已登录，并满足脚本的原工程路径依赖；查看或下载资料不会自动开始演练。
 
-官方演练入口 `run_official_packaged.py` 从并列历史目录加载桥接支持，需要本机官方模拟器已经安装、登录并可演练。使用完整包保留其目录关系；打开仓库或下载资料不会自动发起演练。
+## 第三、四问早期资料与完整历史
 
-## 下载第三、四问完整脚本、数据与日志
+以下为**早期全反馈算法阶段**的资料：P3局部两步前瞻、P4三反馈成本决策，1200个本地场景与P3/P4各5局官方演练。这里的PDF/Word没有改写为本轮“双环覆盖＋顺路搜索”报告；本轮结果请使用上方当前入口。
 
-完整归档解压后约 **16.19 GB、119700 个文件**；原 ZIP 为 **4,473,457,412 字节（约 4.47 GB）**。Release 将其分成 5 个文件，每个前置分卷为 1 GiB，最后一卷较小：
+|内容|入口|
+|---|---|
+|早期算法、输入与结果|[`01_latest_algorithm/`](01_latest_algorithm/START_HERE.md)（目录名保留，当前已属于历史版本）|
+|主线及各侧线历史探索|[`02_historical_exploration/`](02_historical_exploration/HISTORY_INDEX.md)|
+|早期模型报告|[PDF](P3_P4_模型与算法实验报告.pdf) · [Word](P3_P4_模型与算法实验报告.docx) · [Markdown](P3_P4_模型与算法实验报告.md)|
+|早期图表与生成脚本|[`report_assets/`](report_assets/)|
+|早期全部脚本、数据和日志（约4.47 GB，5卷）|[P3/P4 完整历史 Release](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-delivery-20260912)|
 
-```text
-B_P3_P4_delivery_20260912.zip.001
-B_P3_P4_delivery_20260912.zip.002
-B_P3_P4_delivery_20260912.zip.003
-B_P3_P4_delivery_20260912.zip.004
-B_P3_P4_delivery_20260912.zip.005
-```
-
-在仓库根目录运行恢复脚本：
-
-```powershell
-python restore_delivery.py
-```
-
-脚本会下载上述分卷并合并为完整 ZIP。也可以从 [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-delivery-20260912) 下载全部分卷，再按编号顺序作二进制合并；分卷不能各自解压。
-
-将完整 ZIP 解压到较短路径（例如 `D:\B34`），打开其中的 `打开查看完整实验记录.html`，即可按场景访问 1200 个最终案例的结果、请求记录和决策日志，以及官方演练表格。该完整索引依赖 Release 中的原始文件。
-
-历史报告中的原始绝对路径保留用于追溯；阅读日志优先使用完整包中的相对路径索引。全部资料仍按 `01_latest_algorithm` 与 `02_historical_exploration` 两个并列目录组织。
+旧版完整包仍可在仓库根目录执行 `python restore_delivery.py` 下载合并。**该命令下载的是早期4.47 GB总归档**；本轮约194 MB的新包请使用上方直接下载链接。各Release和原始记录均保留，Code → Download ZIP只包含网页仓库中展开的文件。

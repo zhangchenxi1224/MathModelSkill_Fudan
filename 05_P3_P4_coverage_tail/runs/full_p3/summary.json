@@ -1,0 +1,32 @@
+[
+  {
+    "problem": 3,
+    "arm": "substitute",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.14050009108378392,
+    "low_N_gain_pct": 0.083670084373344,
+    "mean_T": 3460.611583,
+    "slower": 1,
+    "max_regression_s": 88.6290869999998,
+    "station_replacements": 9,
+    "extra_scans": 98,
+    "mean_wall_s": 14.767463865001142
+  },
+  {
+    "problem": 3,
+    "arm": "substitute",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.18414026730402266,
+    "low_N_gain_pct": 0.12692101159376135,
+    "mean_T": 3403.98248045,
+    "slower": 1,
+    "max_regression_s": 100.13318800000025,
+    "station_replacements": 6,
+    "extra_scans": 53,
+    "mean_wall_s": 14.348251538337596
+  }
+]

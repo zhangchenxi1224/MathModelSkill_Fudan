@@ -1,3 +1,5 @@
+> **历史版本说明：** 本目录保留早期全反馈算法与1200场景结果。当前P3/P4入口已更新至 [双环覆盖与顺路搜索](../05_P3_P4_coverage_tail/README.md)，本目录名为兼容历史链接继续保留。
+
 # 当前算法入口
 
 当前选择：P3 dp_geometric，P4 three_feedback_fast。`selection.json`为采用配置。

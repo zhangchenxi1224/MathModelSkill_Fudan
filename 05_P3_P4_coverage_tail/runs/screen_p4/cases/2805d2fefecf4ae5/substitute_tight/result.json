@@ -1,0 +1,659 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 4,
+  "config": {
+    "problem": 4,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 2,
+    "joint_detour_m": 1200,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 32355.42614959702,
+  "switches": 201,
+  "measures": 221,
+  "clear_attempts": 96,
+  "clear_successes": 15,
+  "fallback_targets": 12,
+  "certified_clears": 3,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 0,
+  "macro_lookahead_selections": 0,
+  "feedback_pruned_clear_points": 0,
+  "feedback_absent_channels": 4,
+  "feedback_plan_calls": 23,
+  "feedback_no_signal": 189,
+  "probability_probes": 0,
+  "nominal_risk_spent": 0.0,
+  "risk_deferred_sources": 0,
+  "resweep_checks": 4,
+  "resweep_measures": 0,
+  "count_route_changes": 2,
+  "station_information_measures": 8,
+  "future_service_deferrals": 69,
+  "sweep_information_measures": 0,
+  "intersection_probes": 0,
+  "intersection_successes": 0,
+  "replaced_stations": 0,
+  "substitution_measures": 0,
+  "continuum_absent": 5,
+  "robust_deferrals": 0,
+  "total_virtual_time_s": 8095.085241,
+  "independently_accounted_time_s": 8095.085229919404,
+  "timing_residual_s": 1.1080595868406817e-05,
+  "average_clear_time_s": 539.6723494,
+  "program_real_time_s": 61.117991899955086,
+  "stop_evidence": {
+    "type": "continuum_no_signal_cover",
+    "cleared_channels": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "absent_channels": [
+      1,
+      6,
+      7,
+      9,
+      20
+    ],
+    "certificates": {
+      "1": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -2487.5,
+            646.271458
+          ],
+          [
+            -1990.0,
+            -215.423819
+          ],
+          [
+            -1990.0,
+            1507.966735
+          ],
+          [
+            -1492.5,
+            -1077.119096
+          ],
+          [
+            -1492.5,
+            646.271458
+          ],
+          [
+            -995.0,
+            -1938.814373
+          ],
+          [
+            -995.0,
+            -215.423819
+          ],
+          [
+            -995.0,
+            1507.966735
+          ],
+          [
+            -497.5,
+            -1077.119096
+          ],
+          [
+            -497.5,
+            646.271458
+          ],
+          [
+            -497.5,
+            2369.662012
+          ],
+          [
+            0.0,
+            -1938.814373
+          ],
+          [
+            0.0,
+            -215.423819
+          ],
+          [
+            0.0,
+            1507.966735
+          ],
+          [
+            497.5,
+            -1077.119096
+          ],
+          [
+            497.5,
+            646.271458
+          ],
+          [
+            497.5,
+            2369.662012
+          ],
+          [
+            995.0,
+            -1938.814373
+          ],
+          [
+            995.0,
+            -215.423819
+          ],
+          [
+            995.0,
+            1507.966735
+          ],
+          [
+            1492.5,
+            -1077.119096
+          ],
+          [
+            1492.5,
+            646.271458
+          ],
+          [
+            1990.0,
+            -215.423819
+          ],
+          [
+            1990.0,
+            1507.966735
+          ],
+          [
+            2487.5,
+            646.271458
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": true
+      },
+      "6": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -2487.5,
+            646.271458
+          ],
+          [
+            -1990.0,
+            -215.423819
+          ],
+          [
+            -1990.0,
+            1507.966735
+          ],
+          [
+            -1492.5,
+            -1077.119096
+          ],
+          [
+            -1492.5,
+            646.271458
+          ],
+          [
+            -995.0,
+            -1938.814373
+          ],
+          [
+            -995.0,
+            -215.423819
+          ],
+          [
+            -995.0,
+            1507.966735
+          ],
+          [
+            -497.5,
+            -1077.119096
+          ],
+          [
+            -497.5,
+            646.271458
+          ],
+          [
+            -497.5,
+            2369.662012
+          ],
+          [
+            0.0,
+            -1938.814373
+          ],
+          [
+            0.0,
+            -215.423819
+          ],
+          [
+            0.0,
+            1507.966735
+          ],
+          [
+            497.5,
+            -1077.119096
+          ],
+          [
+            497.5,
+            646.271458
+          ],
+          [
+            497.5,
+            2369.662012
+          ],
+          [
+            995.0,
+            -1938.814373
+          ],
+          [
+            995.0,
+            -215.423819
+          ],
+          [
+            995.0,
+            1507.966735
+          ],
+          [
+            1492.5,
+            -1077.119096
+          ],
+          [
+            1492.5,
+            646.271458
+          ],
+          [
+            1990.0,
+            -215.423819
+          ],
+          [
+            1990.0,
+            1507.966735
+          ],
+          [
+            2487.5,
+            646.271458
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": true
+      },
+      "7": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -2487.5,
+            646.271458
+          ],
+          [
+            -1990.0,
+            -215.423819
+          ],
+          [
+            -1990.0,
+            1507.966735
+          ],
+          [
+            -1492.5,
+            -1077.119096
+          ],
+          [
+            -1492.5,
+            646.271458
+          ],
+          [
+            -995.0,
+            -1938.814373
+          ],
+          [
+            -995.0,
+            -215.423819
+          ],
+          [
+            -995.0,
+            1507.966735
+          ],
+          [
+            -497.5,
+            -1077.119096
+          ],
+          [
+            -497.5,
+            646.271458
+          ],
+          [
+            -497.5,
+            2369.662012
+          ],
+          [
+            0.0,
+            -1938.814373
+          ],
+          [
+            0.0,
+            -215.423819
+          ],
+          [
+            0.0,
+            1507.966735
+          ],
+          [
+            497.5,
+            -1077.119096
+          ],
+          [
+            497.5,
+            646.271458
+          ],
+          [
+            497.5,
+            2369.662012
+          ],
+          [
+            995.0,
+            -1938.814373
+          ],
+          [
+            995.0,
+            -215.423819
+          ],
+          [
+            995.0,
+            1507.966735
+          ],
+          [
+            1492.5,
+            -1077.119096
+          ],
+          [
+            1492.5,
+            646.271458
+          ],
+          [
+            1990.0,
+            -215.423819
+          ],
+          [
+            1990.0,
+            1507.966735
+          ],
+          [
+            2487.5,
+            646.271458
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": true
+      },
+      "9": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -2487.5,
+            646.271458
+          ],
+          [
+            -1990.0,
+            -215.423819
+          ],
+          [
+            -1990.0,
+            1507.966735
+          ],
+          [
+            -1492.5,
+            -1077.119096
+          ],
+          [
+            -1492.5,
+            646.271458
+          ],
+          [
+            -995.0,
+            -1938.814373
+          ],
+          [
+            -995.0,
+            -215.423819
+          ],
+          [
+            -995.0,
+            1507.966735
+          ],
+          [
+            -497.5,
+            -1077.119096
+          ],
+          [
+            -497.5,
+            646.271458
+          ],
+          [
+            -497.5,
+            2369.662012
+          ],
+          [
+            0.0,
+            -1938.814373
+          ],
+          [
+            0.0,
+            -215.423819
+          ],
+          [
+            0.0,
+            1507.966735
+          ],
+          [
+            497.5,
+            -1077.119096
+          ],
+          [
+            497.5,
+            646.271458
+          ],
+          [
+            497.5,
+            2369.662012
+          ],
+          [
+            995.0,
+            -1938.814373
+          ],
+          [
+            995.0,
+            -215.423819
+          ],
+          [
+            995.0,
+            1507.966735
+          ],
+          [
+            1492.5,
+            -1077.119096
+          ],
+          [
+            1492.5,
+            646.271458
+          ],
+          [
+            1990.0,
+            -215.423819
+          ],
+          [
+            1990.0,
+            1507.966735
+          ],
+          [
+            2487.5,
+            646.271458
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": true
+      },
+      "20": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -2487.5,
+            646.271458
+          ],
+          [
+            -1990.0,
+            -215.423819
+          ],
+          [
+            -1990.0,
+            1507.966735
+          ],
+          [
+            -1492.5,
+            -1077.119096
+          ],
+          [
+            -1492.5,
+            646.271458
+          ],
+          [
+            -995.0,
+            -1938.814373
+          ],
+          [
+            -995.0,
+            -215.423819
+          ],
+          [
+            -995.0,
+            1507.966735
+          ],
+          [
+            -497.5,
+            -1077.119096
+          ],
+          [
+            -497.5,
+            646.271458
+          ],
+          [
+            -497.5,
+            2369.662012
+          ],
+          [
+            0.0,
+            -1938.814373
+          ],
+          [
+            0.0,
+            -215.423819
+          ],
+          [
+            0.0,
+            1507.966735
+          ],
+          [
+            497.5,
+            -1077.119096
+          ],
+          [
+            497.5,
+            646.271458
+          ],
+          [
+            497.5,
+            2369.662012
+          ],
+          [
+            995.0,
+            -1938.814373
+          ],
+          [
+            995.0,
+            -215.423819
+          ],
+          [
+            995.0,
+            1507.966735
+          ],
+          [
+            1492.5,
+            -1077.119096
+          ],
+          [
+            1492.5,
+            646.271458
+          ],
+          [
+            1990.0,
+            -215.423819
+          ],
+          [
+            1990.0,
+            1507.966735
+          ],
+          [
+            2487.5,
+            646.271458
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": true
+      }
+    }
+  },
+  "source_total": 15,
+  "clear_fraction": 1.0,
+  "feedback_options": {
+    "planning": true,
+    "planning_region_depth": 0,
+    "region_depth": 3,
+    "planning_seconds": 60.0,
+    "mirror_recovery": true,
+    "resweep": true,
+    "expected_service": true,
+    "station_information": true,
+    "future_service": true,
+    "deferral_horizon": 3,
+    "count_route": true,
+    "coverage_reuse": true,
+    "route_length_ratio": 1.0,
+    "next_goal": [
+      0.0,
+      -1938.814373
+    ]
+  },
+  "probability_status": "uncalibrated_working_model",
+  "case_id": "round-official369_confirmation-p4-0010-220fa73e2f6c12c3",
+  "world_key": "2805d2fefecf4ae5866b033a17a4746821ae3e076ced60292b62c4e583ad4779",
+  "arm": "substitute_tight",
+  "error_mode": "correlated",
+  "directional_total": 12,
+  "true_all_clear": true,
+  "complete": true,
+  "T_per_cleared_s": 539.6723494,
+  "T_per_source_s": 539.6723494,
+  "loss_s": 8095.085241,
+  "region_violations": [],
+  "wall_s": 61.183069499908015,
+  "environment": "frozen_local",
+  "requests_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\screen_p4\\cases\\2805d2fefecf4ae5\\substitute_tight\\requests.jsonl",
+  "decisions_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\screen_p4\\cases\\2805d2fefecf4ae5\\substitute_tight\\decisions.jsonl"
+}

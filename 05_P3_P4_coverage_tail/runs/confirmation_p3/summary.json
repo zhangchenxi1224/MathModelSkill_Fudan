@@ -1,0 +1,62 @@
+[
+  {
+    "problem": 3,
+    "arm": "current",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.0,
+    "low_N_gain_pct": 0.0,
+    "mean_T": 3531.62408125,
+    "slower": 0,
+    "max_regression_s": 0.0,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 15.606266653330144
+  },
+  {
+    "problem": 3,
+    "arm": "current",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.0,
+    "low_N_gain_pct": 0.0,
+    "mean_T": 3516.77173245,
+    "slower": 0,
+    "max_regression_s": 0.0,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 15.040569794998737
+  },
+  {
+    "problem": 3,
+    "arm": "substitute",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.2220014210680854,
+    "low_N_gain_pct": 0.20959883475281105,
+    "mean_T": 3525.23211855,
+    "slower": 2,
+    "max_regression_s": 160.37239,
+    "station_replacements": 6,
+    "extra_scans": 72,
+    "mean_wall_s": 15.621689398330636
+  },
+  {
+    "problem": 3,
+    "arm": "substitute",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 0.04853185694514428,
+    "low_N_gain_pct": 0.09635441913387055,
+    "mean_T": 3515.3904999666665,
+    "slower": 2,
+    "max_regression_s": 101.48304600000029,
+    "station_replacements": 6,
+    "extra_scans": 56,
+    "mean_wall_s": 15.178689965004256
+  }
+]

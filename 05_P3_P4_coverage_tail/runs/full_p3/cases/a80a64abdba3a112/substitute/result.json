@@ -1,0 +1,216 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 3,
+  "config": {
+    "problem": 3,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 1,
+    "joint_detour_m": 800.0,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 15306.885429430773,
+  "switches": 84,
+  "measures": 90,
+  "clear_attempts": 68,
+  "clear_successes": 16,
+  "fallback_targets": 14,
+  "certified_clears": 2,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 1,
+  "macro_lookahead_selections": 0,
+  "feedback_pruned_clear_points": 0,
+  "feedback_absent_channels": 3,
+  "feedback_plan_calls": 22,
+  "feedback_no_signal": 56,
+  "probability_probes": 0,
+  "nominal_risk_spent": 0.0,
+  "risk_deferred_sources": 0,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "count_route_changes": 1,
+  "station_information_measures": 10,
+  "future_service_deferrals": 0,
+  "sweep_information_measures": 0,
+  "intersection_probes": 0,
+  "intersection_successes": 0,
+  "replaced_stations": 1,
+  "substitution_measures": 6,
+  "continuum_absent": 3,
+  "robust_deferrals": 0,
+  "total_virtual_time_s": 3831.377086,
+  "independently_accounted_time_s": 3831.3770858861544,
+  "timing_residual_s": 1.138455445470754e-07,
+  "average_clear_time_s": 239.461067875,
+  "program_real_time_s": 20.832817599992268,
+  "stop_evidence": {
+    "type": "known_upper_bound",
+    "cleared_channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18
+    ],
+    "reason": "16 distinct successful clear confirmations; at most 16 sources",
+    "feedback_absence": {
+      "10": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -774.4928823953317,
+            1270.2169246878138
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "15": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -774.4928823953317,
+            1270.2169246878138
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      },
+      "20": {
+        "type": "continuum_no_signal_cover",
+        "samples": [
+          [
+            -1150.0,
+            0.0
+          ],
+          [
+            -774.4928823953317,
+            1270.2169246878138
+          ],
+          [
+            -575.0000000000005,
+            -995.9292143521043
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            575.0000000000002,
+            -995.9292143521044
+          ],
+          [
+            575.0000000000002,
+            995.9292143521044
+          ],
+          [
+            1150.0,
+            0.0
+          ]
+        ],
+        "minimum_radius_m": 1000.0,
+        "directional_convex_hull": false
+      }
+    }
+  },
+  "source_total": 16,
+  "clear_fraction": 1.0,
+  "feedback_options": {
+    "planning": true,
+    "planning_region_depth": 0,
+    "horizon": 2,
+    "extra_measure_allowance": 1,
+    "planning_seconds": 60.0,
+    "count_route": true,
+    "station_information": true,
+    "coverage_reuse": true,
+    "next_goal": null
+  },
+  "probability_status": "uncalibrated_working_model",
+  "case_id": "round-official369_confirmation-p3-0023-5257f0ed2f5366cf",
+  "world_key": "a80a64abdba3a11292035da57db0d07895220ef8b7875c2b7b8039e9c23697f5",
+  "arm": "substitute",
+  "error_mode": "extreme",
+  "directional_total": 0,
+  "true_all_clear": true,
+  "complete": true,
+  "T_per_cleared_s": 239.461067875,
+  "T_per_source_s": 239.461067875,
+  "loss_s": 3831.377086,
+  "region_violations": [],
+  "wall_s": 20.884758900036104,
+  "environment": "frozen_local",
+  "requests_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\full_p3\\cases\\a80a64abdba3a112\\substitute\\requests.jsonl",
+  "decisions_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\full_p3\\cases\\a80a64abdba3a112\\substitute\\decisions.jsonl"
+}

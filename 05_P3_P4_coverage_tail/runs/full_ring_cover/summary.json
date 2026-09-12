@@ -1,0 +1,32 @@
+[
+  {
+    "problem": 4,
+    "arm": "ring_cover",
+    "H": "H1",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 15.251137983257145,
+    "low_N_gain_pct": 15.894994133793238,
+    "mean_T": 6515.053155883334,
+    "slower": 4,
+    "max_regression_s": 300.45529499999975,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 31.67965104166069
+  },
+  {
+    "problem": 4,
+    "arm": "ring_cover",
+    "H": "H2",
+    "cases": 60,
+    "complete": 60,
+    "macro_gain_pct": 16.453720217168666,
+    "low_N_gain_pct": 17.446740558148687,
+    "mean_T": 6573.995510016666,
+    "slower": 3,
+    "max_regression_s": 1264.7271660000006,
+    "station_replacements": 0,
+    "extra_scans": 0,
+    "mean_wall_s": 30.932002826653964
+  }
+]

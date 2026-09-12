@@ -1,0 +1,98 @@
+[
+  {
+    "problem": 3,
+    "H": "H1",
+    "official_cases_with_exact_composition_support": 10,
+    "metrics": {
+      "positive_per_source": {
+        "official": 2.2994443056943057,
+        "local": 2.3247657415335987
+      },
+      "no_signal_count": {
+        "official": 75.3,
+        "local": 70.23243894993895
+      },
+      "after_all_discovered_s": {
+        "official": 634.8825516,
+        "local": 889.47407763587
+      },
+      "after_last_clear_s": {
+        "official": 51.61339320000002,
+        "local": 37.69911338717949
+      }
+    },
+    "interpretation": "Behavioral comparison of the same deployed policy, matched N/Nd; sparse support and different hidden layouts. Not a physical parameter identification."
+  },
+  {
+    "problem": 3,
+    "H": "H2",
+    "official_cases_with_exact_composition_support": 10,
+    "metrics": {
+      "positive_per_source": {
+        "official": 2.2994443056943057,
+        "local": 2.3029427769200495
+      },
+      "no_signal_count": {
+        "official": 75.3,
+        "local": 68.13795454545455
+      },
+      "after_all_discovered_s": {
+        "official": 634.8825516,
+        "local": 1092.1342084926262
+      },
+      "after_last_clear_s": {
+        "official": 51.61339320000002,
+        "local": 29.666032665050498
+      }
+    },
+    "interpretation": "Behavioral comparison of the same deployed policy, matched N/Nd; sparse support and different hidden layouts. Not a physical parameter identification."
+  },
+  {
+    "problem": 4,
+    "H": "H1",
+    "official_cases_with_exact_composition_support": 3,
+    "metrics": {
+      "positive_per_source": {
+        "official": 2.1978021978021975,
+        "local": 2.1172161172161172
+      },
+      "no_signal_count": {
+        "official": 238.66666666666666,
+        "local": 232.5
+      },
+      "after_all_discovered_s": {
+        "official": 2232.282733,
+        "local": 2279.837698
+      },
+      "after_last_clear_s": {
+        "official": 275.1360693333336,
+        "local": 808.9173003333334
+      }
+    },
+    "interpretation": "Behavioral comparison of the same deployed policy, matched N/Nd; sparse support and different hidden layouts. Not a physical parameter identification."
+  },
+  {
+    "problem": 4,
+    "H": "H2",
+    "official_cases_with_exact_composition_support": 6,
+    "metrics": {
+      "positive_per_source": {
+        "official": 2.2132173382173383,
+        "local": 2.2081043956043955
+      },
+      "no_signal_count": {
+        "official": 240.33333333333334,
+        "local": 235.16666666666666
+      },
+      "after_all_discovered_s": {
+        "official": 3440.519706,
+        "local": 3288.8117684166664
+      },
+      "after_last_clear_s": {
+        "official": 1224.6684030000001,
+        "local": 1579.9606659166666
+      }
+    },
+    "interpretation": "Behavioral comparison of the same deployed policy, matched N/Nd; sparse support and different hidden layouts. Not a physical parameter identification."
+  }
+]
