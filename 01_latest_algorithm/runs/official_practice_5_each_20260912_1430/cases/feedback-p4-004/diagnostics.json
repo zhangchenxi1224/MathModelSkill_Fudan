@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p4-004",
+  "problem": 4,
+  "case_code": "UMSB-MJDC-J7YS-V4Z8",
+  "measurement_outcomes": {
+    "no_signal": 243,
+    "direction": 27
+  },
+  "planning_calls": 26,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 14,
+    "cover": 12
+  },
+  "http_records": 303,
+  "decision_records": 361,
+  "http_outcomes": {
+    "accepted": 303
+  },
+  "costs": {
+    "move_s": 6086.620446011739,
+    "measure_s": 1350,
+    "switch_s": 251,
+    "clear_s": 119
+  },
+  "timing_residual_s": 1.9882609194610268e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 555.1803129999998,
+  "feedback_no_signal": 243,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

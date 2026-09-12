@@ -1,0 +1,12 @@
+{
+  "verified_utc": "2026-09-11T09:51:54.915898+00:00",
+  "package": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\output\\B题数据驱动实验部署与证据.zip",
+  "sha256": "e060bea692c3d4228776f69e5c3e6b7927f5116cb113f745a8278bd1dd0b40bd",
+  "bytes": 654983279,
+  "verified_files": 28014,
+  "original_files_bytes": 4597734790,
+  "official_raw_request_files": 280,
+  "original_encrypted_logs": 284,
+  "formal_tests": "not executed",
+  "upload_performed": false
+}

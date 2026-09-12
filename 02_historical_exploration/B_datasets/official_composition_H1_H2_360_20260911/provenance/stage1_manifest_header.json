@@ -1,0 +1,82 @@
+{
+  "source_stage": 1,
+  "source_relative_path": "results/round1/local/manifest.json",
+  "source_file_sha256": "c56fea246d21e73ecba6e656a15737626d871471353217fe9223364d5d03283f",
+  "source_manifest_sha256": "dee3221c6c16b153ce7deb7b423ab76759c0634eb4006196343dce7ded3626b2",
+  "original_scenario_count": 1000,
+  "selected_scenario_count": 200,
+  "original_header": {
+    "schema_version": 1,
+    "stage": 1,
+    "master_seed": 2026091101,
+    "pool_sizes": {
+      "calibrated": 400,
+      "broad": 400,
+      "stress": 200
+    },
+    "distinct_scenarios": 1000,
+    "planned_strategy_runs": 4000,
+    "baseline": "joint_triangular_l5",
+    "frozen_core_sha256": "1b673484453104a5d87d4605d30b20826a3b7ec64769fd6ce8d3c8f7a1ad24f6",
+    "calibration_model_id": "composition-d0efea5015d5ecb6",
+    "calibration_model_sha256": "8fefabca8c14fc629b4f84df4428bcc129b2e01d095623c3b1bbb87392e7dd5a",
+    "calibration_model_status": "fitted_composition_only",
+    "calibration_provenance": {
+      "n_official_attempts": 160,
+      "n_official_cases": 160,
+      "n_fit": 120,
+      "roots": [
+        "results\\round1\\cases"
+      ],
+      "compare_roots": [],
+      "split_unit": "whole_case",
+      "split_salt": "cumcm-b-calibration-v1",
+      "fit_fraction": 0.75,
+      "retrospective_assignments": 0,
+      "bootstrap_repeats": 500,
+      "n_planned_unstarted": 0
+    },
+    "calibrated_models": [
+      "smoothed_joint",
+      "broad_joint"
+    ],
+    "mechanism_candidates": [
+      {
+        "id": "mixed_correlated150_after_observable_screen",
+        "error_mode": "correlated",
+        "radius_mode": "mixed",
+        "correlation_length": 150.0,
+        "status": "unresolved",
+        "selected_before_strategy_scenarios": true,
+        "evidence": {
+          "neighbor_witness_summary": "results/calibration/neighbor_error_witnesses/summary.json",
+          "radius_witness_summary": "results/calibration/radius_extreme_witnesses/summary.json",
+          "exact_neighbor_diagnostics": "results/calibration/round1_mechanism_diagnostics/diagnostic_contrasts.json",
+          "same_protocol_checks": "results/calibration/round1_checked_combined/model_checks.json"
+        },
+        "scope": "Retained as a tested representative, not an identified official generator; broad-composition cross-product remains a sensitivity assumption"
+      },
+      {
+        "id": "mixed_extreme150_after_observable_screen",
+        "error_mode": "extreme",
+        "radius_mode": "mixed",
+        "correlation_length": 150.0,
+        "status": "unresolved",
+        "selected_before_strategy_scenarios": true,
+        "evidence": {
+          "neighbor_witness_summary": "results/calibration/neighbor_error_witnesses/summary.json",
+          "radius_witness_summary": "results/calibration/radius_extreme_witnesses/summary.json",
+          "exact_neighbor_diagnostics": "results/calibration/round1_mechanism_diagnostics/diagnostic_contrasts.json",
+          "same_protocol_checks": "results/calibration/round1_checked_combined/model_checks.json"
+        },
+        "scope": "Exact plus/minus-one field not excluded by preregistered neighbor witnesses; no claim of full joint feasibility"
+      }
+    ],
+    "calibrated_pool_mechanism_scope": "preregistered_retained_and_unresolved_candidates",
+    "partition_rule": "20% independent hash rank within pool/problem/composition; floor for small strata",
+    "environment_scope": "composition calibration only; radius, noise, positions and orientations remain synthetic assumptions",
+    "official_formal_authorized": false,
+    "manifest_sha256": "dee3221c6c16b153ce7deb7b423ab76759c0634eb4006196343dce7ded3626b2"
+  },
+  "note": "Header copy omits scenarios; original manifest digest is a provenance identifier, not the digest of this header."
+}

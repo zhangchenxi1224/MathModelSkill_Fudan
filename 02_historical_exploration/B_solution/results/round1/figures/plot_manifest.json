@@ -1,0 +1,12 @@
+{
+  "generated_utc": "2026-09-11T07:47:05.197912+00:00",
+  "audited_cases": 160,
+  "complete": 160,
+  "incomplete_case_ids": [],
+  "source": "post_exit_audit.json and untouched per-case result.json",
+  "scope": "official practice only; no formal results",
+  "files": [
+    "joint_composition.png",
+    "collection_time_and_cost.png"
+  ]
+}

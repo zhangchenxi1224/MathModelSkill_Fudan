@@ -1,0 +1,58 @@
+{
+  "purpose": "six-case diagnostic, not stage1 selection or stage2 confirmation",
+  "local_limit": 2,
+  "nosignal_config": {
+    "directional_prior": 0.5,
+    "position_sample_count": 7,
+    "radius_samples": [
+      1000.0,
+      1250.0,
+      1500.0
+    ],
+    "orientation_sample_count": 24,
+    "interior_fraction": 0.75
+  },
+  "case_specs": [
+    [
+      3,
+      631301,
+      "random",
+      0.0
+    ],
+    [
+      3,
+      631302,
+      "random",
+      0.0
+    ],
+    [
+      4,
+      631401,
+      "random",
+      0.5
+    ],
+    [
+      4,
+      631402,
+      "random",
+      1.0
+    ],
+    [
+      4,
+      631403,
+      "boundary_outward",
+      1.0
+    ],
+    [
+      4,
+      631404,
+      "boundary_tangent",
+      1.0
+    ]
+  ],
+  "error_field": "extreme",
+  "snapshot_policy": "baseline trajectory; same evidence for both selectors",
+  "repeats": 2,
+  "max_snapshots": 48,
+  "module_sha256": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0"
+}

@@ -1,0 +1,91 @@
+{
+  "release": "dynamic_joint_v1",
+  "source_files": {
+    "dynamic_joint/__init__.py": "ffc03779bfcf50244182ce3f79748c3d0663f0822f98ed0a1869982f62521371",
+    "dynamic_joint/_core/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "dynamic_joint/_core/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "dynamic_joint/_core/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "dynamic_joint/_core/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "dynamic_joint/_core/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "dynamic_joint/_core/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "dynamic_joint/_core/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "dynamic_joint/_core/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "dynamic_joint/_core/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "dynamic_joint/_core/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "dynamic_joint/counts.py": "43d04082d6ad43696c1f8eedde3fbbd8a1d8a9ecccf65e8ff02ebe0a9519f3c4",
+    "dynamic_joint/model.py": "a546311bae3c9237246115b9c88e67d53652a77c52586d1c85f5e8fd5d42bc82",
+    "dynamic_joint/solver.py": "bc47f4f6f75d28ebc42a98756dc93d52c15c0b893dbd9eba2c76374289c6646f",
+    "dynamic_joint/working_belief.py": "cd3bb1f278dbc738de4cff13bc9ca9eaa199cd22d7d26e25bdb055814cafbc55",
+    "evaluate.py": "1b8ab097be3b2879adedb58b7a520f29d9a3aa25b1e78c69e61f2606414ca162",
+    "export_prior.py": "7bd026438539c9bb8d19b4ac9dd47ff8c569085d09c2fe185800776d8ffc8802",
+    "run.py": "f4fc036a8375a948212c3466d79d5c9e9abb7c3f49ba32da10469aa852ac00fe"
+  },
+  "configs": {
+    "configs/dynamic_h1.json": "1de81117b7ffad83cc135d19fdd9d57d27d3212c004e602df91520d42148d083",
+    "configs/dynamic_h2.json": "16f06e0546acd9c0492787e62971ea0c93d536ecbefb843ae14682cd5c77e463",
+    "configs/official_prior/dynamic_h2_prior_p3.json": "c124c999aad0b660a8d09ccea49fef16a9e368bda7dd059879867adb70a963b5",
+    "configs/official_prior/dynamic_h2_prior_p4.json": "a09b28dcf1e0326decb1aaef09902f4d561569e4626c0a9b64a371b1391f1b82",
+    "configs/official_prior/provenance.json": "0360469d452320ecbb4fcbc79b4c3e19c05f15bd2ae2b0034b16f3adf95f8335"
+  },
+  "core_provenance": {
+    "source_directory": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\diverse_exploration\\vendor\\bsolver",
+    "files": {
+      "coverage.py": {
+        "source_sha256": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+        "copied_sha256": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+        "identical": true
+      },
+      "experiments.py": {
+        "source_sha256": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+        "copied_sha256": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+        "identical": true
+      },
+      "geometry.py": {
+        "source_sha256": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+        "copied_sha256": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+        "identical": true
+      },
+      "knowledge.py": {
+        "source_sha256": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+        "copied_sha256": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+        "identical": true
+      },
+      "nosignal_sensing.py": {
+        "source_sha256": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+        "copied_sha256": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+        "identical": true
+      },
+      "protocol.py": {
+        "source_sha256": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+        "copied_sha256": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+        "identical": true
+      },
+      "sensing.py": {
+        "source_sha256": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+        "copied_sha256": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+        "identical": true
+      },
+      "simulator.py": {
+        "source_sha256": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+        "copied_sha256": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+        "identical": true
+      },
+      "strategy.py": {
+        "source_sha256": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+        "copied_sha256": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+        "identical": true
+      },
+      "__init__.py": {
+        "source_sha256": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+        "copied_sha256": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+        "identical": true
+      }
+    }
+  },
+  "working_belief_provenance": {
+    "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\diverse_exploration\\diverse\\belief.py",
+    "source_sha256": "d68fefa4ec5ba5f1314102d5b60e10d8f31383b606e7a0ac4ab0449b55e1cf60",
+    "change": "only absolute import adapted to private namespace"
+  },
+  "main_experiments_modified": false
+}

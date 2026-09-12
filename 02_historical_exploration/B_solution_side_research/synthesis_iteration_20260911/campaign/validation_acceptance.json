@@ -1,0 +1,16 @@
+{
+  "registered_before_confirmation": true,
+  "confirmation_results_exist": false,
+  "primary": "One frozen candidate per problem vs strongest prior champion; no reselection from confirmation.",
+  "resamples": 10000,
+  "seed": 202609115303,
+  "stratification": "resample whole paired cases independently within H1/H2, combine equal H means",
+  "confidence_level": 0.975,
+  "adopt_if": [
+    "independent audit passes",
+    "all candidate confirmation and stress runs audited complete",
+    "H1 and H2 mean paired differences <= 0",
+    "stratified paired 97.5% CI upper < 0"
+  ],
+  "on_failure": "retain prior champion; no retuning on these confirmation worlds"
+}

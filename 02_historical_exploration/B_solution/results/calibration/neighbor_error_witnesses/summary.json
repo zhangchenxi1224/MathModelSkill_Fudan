@@ -1,0 +1,104 @@
+{
+  "version": "fixed-survey-neighbors-exact-error-formulas-v1",
+  "audited_cases": 40,
+  "errors": [],
+  "pair_selection": "all preregistered survey neighbor probes, earliest prior accepted anchor; b<=2m; no angular-value selection",
+  "plan_sha256": "cafd3e33d3e86ea646eac89f302469fda887488994348bfe423d0ef26a8a3433",
+  "script_sha256": "04329e23069ccd2cf02fb9fa7bca682e92e665c89b02e53962deffd8ca967acc",
+  "distance_helper_sha256": "ce8237609c2bc1ad6dc16de481d2ce8fe3a8caa47b0cc134bcf3aee6a08bda35",
+  "tested_formula_source_sha256": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+  "epsilon_deg": 1.0051,
+  "quantization_plus_numerical_guard_deg": 0.0102,
+  "groups": [
+    {
+      "problem": 3,
+      "protocol": "survey",
+      "split": "fit",
+      "cases": 15,
+      "planned_pairs": 60,
+      "evaluated_pairs": 60,
+      "hypotheses": {
+        "extreme_errors_exactly_minus1_or_plus1_deg": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        },
+        "FixedErrorField_correlated_scale150": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        }
+      }
+    },
+    {
+      "problem": 3,
+      "protocol": "survey",
+      "split": "development",
+      "cases": 5,
+      "planned_pairs": 20,
+      "evaluated_pairs": 20,
+      "hypotheses": {
+        "extreme_errors_exactly_minus1_or_plus1_deg": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        },
+        "FixedErrorField_correlated_scale150": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        }
+      }
+    },
+    {
+      "problem": 4,
+      "protocol": "survey",
+      "split": "fit",
+      "cases": 15,
+      "planned_pairs": 60,
+      "evaluated_pairs": 60,
+      "hypotheses": {
+        "extreme_errors_exactly_minus1_or_plus1_deg": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        },
+        "FixedErrorField_correlated_scale150": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        }
+      }
+    },
+    {
+      "problem": 4,
+      "protocol": "survey",
+      "split": "development",
+      "cases": 5,
+      "planned_pairs": 20,
+      "evaluated_pairs": 20,
+      "hypotheses": {
+        "extreme_errors_exactly_minus1_or_plus1_deg": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        },
+        "FixedErrorField_correlated_scale150": {
+          "status": "no_witness_not_validated",
+          "witness_count": 0,
+          "witness_cases": [],
+          "first_witness": null
+        }
+      }
+    }
+  ],
+  "witness_count": 0,
+  "limits": "Only exact +/-1 or the documented scale150 smooth formula excluded; arbitrary spatial correlation and continuous bounded errors remain unidentified"
+}

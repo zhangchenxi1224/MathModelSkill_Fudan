@@ -1,0 +1,15 @@
+{
+  "stage": 2,
+  "manifest_sha256": "f9ffbe734bc37653bebadf06778320395c80106f25e85d538286de044da3fc27",
+  "selected_variants": {
+    "3": "normal",
+    "4": "nosignal"
+  },
+  "selection_basis": "development_only",
+  "frozen_before_confirmation": true,
+  "development_results_sha256": "b79670a48cc59a8032ea906ced50e7aafd27dfce5ed2bfcb3dec5ed05e25eeca",
+  "formal_authorized": false,
+  "practice_validation_in_authorized_plan": true,
+  "official_dispatch_ready": false,
+  "selection_sha256": "0fabf5f0a3e515fccfafac5147c7a8edcd40387d2ac81403b4c1f15ae620200d"
+}

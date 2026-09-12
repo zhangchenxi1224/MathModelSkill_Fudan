@@ -1,0 +1,50 @@
+[
+  {
+    "model_candidate": "broad_joint__radius_mixed__noise_deterministic",
+    "problem": 3,
+    "protocol": "baseline",
+    "n_cases": 60,
+    "complete_cases": 60,
+    "hull_invariant_violations": 0,
+    "total_virtual_time_s_mean": 5024.8535757,
+    "failure_penalized_time_s_mean": 5024.8535757,
+    "program_real_time_s_mean": 2.6223918049945496,
+    "model_comparison_status": "not_yet_checked_against_official_observables"
+  },
+  {
+    "model_candidate": "broad_joint__radius_mixed__noise_deterministic",
+    "problem": 3,
+    "protocol": "survey",
+    "n_cases": 20,
+    "complete_cases": 20,
+    "hull_invariant_violations": 0,
+    "total_virtual_time_s_mean": 13503.952754499998,
+    "failure_penalized_time_s_mean": 13503.952754499998,
+    "program_real_time_s_mean": 1.7177334299951326,
+    "model_comparison_status": "not_yet_checked_against_official_observables"
+  },
+  {
+    "model_candidate": "broad_joint__radius_mixed__noise_deterministic",
+    "problem": 4,
+    "protocol": "baseline",
+    "n_cases": 60,
+    "complete_cases": 60,
+    "hull_invariant_violations": 0,
+    "total_virtual_time_s_mean": 11274.481451733333,
+    "failure_penalized_time_s_mean": 11274.481451733333,
+    "program_real_time_s_mean": 4.236454876677211,
+    "model_comparison_status": "not_yet_checked_against_official_observables"
+  },
+  {
+    "model_candidate": "broad_joint__radius_mixed__noise_deterministic",
+    "problem": 4,
+    "protocol": "survey",
+    "n_cases": 20,
+    "complete_cases": 20,
+    "hull_invariant_violations": 0,
+    "total_virtual_time_s_mean": 17650.23231595,
+    "failure_penalized_time_s_mean": 17650.23231595,
+    "program_real_time_s_mean": 2.0433631000109016,
+    "model_comparison_status": "not_yet_checked_against_official_observables"
+  }
+]

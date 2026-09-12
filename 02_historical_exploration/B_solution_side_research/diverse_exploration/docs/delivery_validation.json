@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-11T08:37:52.455687+00:00",
+  "tests_passed": 38,
+  "smoke_runs": 48,
+  "smoke_distinct_worlds": 8,
+  "audited_complete": 48,
+  "hull_violations": 0,
+  "max_abs_timing_residual_s": 4.076959157828242e-06,
+  "gzip_logs_verified": 96,
+  "jsonl_rows_verified": 31741,
+  "artifact_errors": 0,
+  "first_run_wall_s": 71.38429040007759,
+  "smoke_manifest_sha256": "4e3e88e994adc6cf544c1abb2952f7127dff4013984756eadaebf449fbd3eaf5",
+  "research_manifest_sha256": "8f30c4e3689774f6767d1a10449b1998db03db0aad6125b17b44d5aa2e9490a7",
+  "research_scenarios": 360,
+  "development_scenarios": 240,
+  "confirmation_scenarios": 120,
+  "research_not_run": true,
+  "runtime_source_matches_release_smoke": true
+}

@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-09-11T12:20:17.428520+00:00",
+  "output_directory": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_datasets\\official_composition_H1_H2_360_20260911",
+  "archive": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_datasets\\official_composition_H1_H2_360_20260911.zip",
+  "archive_sha256": "6927c9f64468fdc4f52256fb59a350a06c8a8c6f9cfae34170e43b37a8a7aaa0",
+  "archive_bytes": 770063,
+  "archive_files_verified": 383,
+  "source_files_unchanged": true,
+  "sealed_package_verification": {
+    "status": "passed",
+    "scenario_count": 360,
+    "unique_hidden_worlds": 360,
+    "group_counts": {
+      "H1_P3": 90,
+      "H1_P4": 90,
+      "H2_P3": 90,
+      "H2_P4": 90
+    },
+    "scenario_hash_checks": 360,
+    "local_replay_smoke_cases": 360,
+    "local_replay_purpose": "evaluator-only interface checks; not a solving benchmark",
+    "official_requests": 0,
+    "package_files_verified": 382,
+    "package_check": "passed",
+    "elapsed_real_s": 3.231590999988839
+  }
+}

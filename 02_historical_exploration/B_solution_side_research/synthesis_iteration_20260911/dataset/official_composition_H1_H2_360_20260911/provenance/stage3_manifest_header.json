@@ -1,0 +1,278 @@
+{
+  "source_stage": 3,
+  "source_relative_path": "results/round1/stage3/manifest.json",
+  "source_file_sha256": "683364c6488f9514908ffe02a68319a01f5d923e5fa47fb966c8d54db0a3d7b5",
+  "source_manifest_sha256": "cd1e242cb9e30b1167239aaab152a2f8cb6ca89aa41498b580ec1889fd2c4b5c",
+  "original_scenario_count": 400,
+  "selected_scenario_count": 80,
+  "original_header": {
+    "schema_version": 1,
+    "stage": 3,
+    "master_seed": 2026091307,
+    "pool_sizes": {
+      "calibrated": 160,
+      "broad": 160,
+      "stress": 80
+    },
+    "distinct_scenarios": 400,
+    "planned_strategy_runs": 1200,
+    "baseline": "joint",
+    "frozen_core_sha256": "1b673484453104a5d87d4605d30b20826a3b7ec64769fd6ce8d3c8f7a1ad24f6",
+    "calibration_model_id": "composition-d0efea5015d5ecb6",
+    "calibration_model_sha256": "8fefabca8c14fc629b4f84df4428bcc129b2e01d095623c3b1bbb87392e7dd5a",
+    "calibration_model_status": "fitted_composition_only",
+    "calibration_provenance": {
+      "n_official_attempts": 160,
+      "n_official_cases": 160,
+      "n_fit": 120,
+      "roots": [
+        "results\\round1\\cases"
+      ],
+      "compare_roots": [],
+      "split_unit": "whole_case",
+      "split_salt": "cumcm-b-calibration-v1",
+      "fit_fraction": 0.75,
+      "retrospective_assignments": 0,
+      "bootstrap_repeats": 500,
+      "n_planned_unstarted": 0
+    },
+    "calibrated_models": [
+      "smoothed_joint",
+      "broad_joint"
+    ],
+    "mechanism_candidates": [
+      {
+        "id": "mixed_correlated150_after_observable_screen",
+        "error_mode": "correlated",
+        "radius_mode": "mixed",
+        "correlation_length": 150.0,
+        "status": "unresolved",
+        "selected_before_strategy_scenarios": true,
+        "evidence": {
+          "neighbor_witness_summary": "results/calibration/neighbor_error_witnesses/summary.json",
+          "radius_witness_summary": "results/calibration/radius_extreme_witnesses/summary.json",
+          "exact_neighbor_diagnostics": "results/calibration/round1_mechanism_diagnostics/diagnostic_contrasts.json",
+          "same_protocol_checks": "results/calibration/round1_checked_combined/model_checks.json"
+        },
+        "scope": "Retained as a tested representative, not an identified official generator; broad-composition cross-product remains a sensitivity assumption"
+      },
+      {
+        "id": "mixed_extreme150_after_observable_screen",
+        "error_mode": "extreme",
+        "radius_mode": "mixed",
+        "correlation_length": 150.0,
+        "status": "unresolved",
+        "selected_before_strategy_scenarios": true,
+        "evidence": {
+          "neighbor_witness_summary": "results/calibration/neighbor_error_witnesses/summary.json",
+          "radius_witness_summary": "results/calibration/radius_extreme_witnesses/summary.json",
+          "exact_neighbor_diagnostics": "results/calibration/round1_mechanism_diagnostics/diagnostic_contrasts.json",
+          "same_protocol_checks": "results/calibration/round1_checked_combined/model_checks.json"
+        },
+        "scope": "Exact plus/minus-one field not excluded by preregistered neighbor witnesses; no claim of full joint feasibility"
+      }
+    ],
+    "calibrated_pool_mechanism_scope": "preregistered_retained_and_unresolved_candidates",
+    "partition_rule": "20% independent hash rank within pool/problem/composition; floor for small strata",
+    "environment_scope": "composition calibration only; radius, noise, positions and orientations remain synthetic assumptions",
+    "official_formal_authorized": false,
+    "arm_definitions": {
+      "3": [
+        {
+          "variant": "joint",
+          "solver_class": "normal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 3,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "joint",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": null
+        },
+        {
+          "variant": "immediate",
+          "solver_class": "normal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 3,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "immediate",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": null
+        },
+        {
+          "variant": "scan_then_clear",
+          "solver_class": "normal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 3,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "scan_then_clear",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": null
+        }
+      ],
+      "4": [
+        {
+          "variant": "joint",
+          "solver_class": "nosignal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 4,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "joint",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": {
+            "directional_prior": 0.5,
+            "interior_fraction": 0.75,
+            "orientation_sample_count": 24,
+            "position_sample_count": 7,
+            "radius_samples": [
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          }
+        },
+        {
+          "variant": "immediate",
+          "solver_class": "nosignal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 4,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "immediate",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": {
+            "directional_prior": 0.5,
+            "interior_fraction": 0.75,
+            "orientation_sample_count": 24,
+            "position_sample_count": 7,
+            "radius_samples": [
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          }
+        },
+        {
+          "variant": "scan_then_clear",
+          "solver_class": "nosignal",
+          "solver_config": {
+            "bin_width_deg": 4.0,
+            "clear_radius": 19.999,
+            "coverage": "triangular",
+            "epsilon_deg": 1.0051,
+            "joint_detour_m": 800.0,
+            "local_measure_limit": 1,
+            "max_virtual_s": 360000.0,
+            "nearest_safe": true,
+            "opportunistic_known_measurements": false,
+            "problem": 4,
+            "radius_weight": 2.0,
+            "reserve_real_s": 5.0,
+            "scheduling": "scan_then_clear",
+            "sensing": "active",
+            "spacing": null
+          },
+          "nosignal_config": {
+            "directional_prior": 0.5,
+            "interior_fraction": 0.75,
+            "orientation_sample_count": 24,
+            "position_sample_count": 7,
+            "radius_samples": [
+              1000.0,
+              1250.0,
+              1500.0
+            ]
+          }
+        }
+      ]
+    },
+    "selected_local_limits": {
+      "3": 1,
+      "4": 1
+    },
+    "selected_sensing_modes": {
+      "3": "normal",
+      "4": "nosignal"
+    },
+    "single_factor": "scheduling_only",
+    "previous_manifests": [
+      {
+        "stage": 1,
+        "manifest_sha256": "dee3221c6c16b153ce7deb7b423ab76759c0634eb4006196343dce7ded3626b2",
+        "master_seed": 2026091101
+      },
+      {
+        "stage": 2,
+        "manifest_sha256": "f9ffbe734bc37653bebadf06778320395c80106f25e85d538286de044da3fc27",
+        "master_seed": 2026091207
+      }
+    ],
+    "fresh_world_audit": "no shared seed or source+error-field world with any supplied earlier manifest",
+    "dependency_sha256": {
+      "scripts/run_candidate_stages.py": "c2e66de2b6e26dfd94409d1597cd4af87a371372b9a722dc25f90691b1c3cd1b",
+      "src/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+      "src/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0"
+    },
+    "confirmation_policy": "run development first; only baseline and preregistered selected candidate may enter confirmation",
+    "manifest_sha256": "cd1e242cb9e30b1167239aaab152a2f8cb6ca89aa41498b580ec1889fd2c4b5c"
+  },
+  "note": "Header copy omits scenarios; original manifest digest is a provenance identifier, not the digest of this header."
+}

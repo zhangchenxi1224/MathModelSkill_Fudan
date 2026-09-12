@@ -1,0 +1,14 @@
+{
+  "dataset": "C:\\Users\\Expedition\\Downloads\\B题_核心仿真960_20260912_125042.zip",
+  "sha256": "8c13bca7f0866ec2f65e18d23bc1ab0f685233298666749c2b2765de92877620",
+  "worlds": 960,
+  "training": 360,
+  "screening": 16,
+  "screen_groups": {
+    "(3, 'correlated')": 4,
+    "(4, 'correlated')": 4,
+    "(4, 'extreme')": 4,
+    "(3, 'extreme')": 4
+  },
+  "interpretation": "All 960 worlds are historical development/regression evidence. Screening excludes the 360 worlds used to fit this prior. The full 960 comparison includes those prior-training worlds."
+}

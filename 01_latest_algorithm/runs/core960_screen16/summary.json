@@ -1,0 +1,150 @@
+{
+  "groups": [
+    {
+      "problem": 3,
+      "arm": "baseline",
+      "runs": 8,
+      "complete": 8,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 3760.256280625,
+      "mean_T_per_source_success_s": 298.79761056641536,
+      "mean_loss_s": 3760.256280625,
+      "mean_paired_loss_difference_s": 0.0,
+      "max_wall_s": 2.4939113999716938
+    },
+    {
+      "problem": 3,
+      "arm": "geometry",
+      "runs": 8,
+      "complete": 7,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 3778.962200285714,
+      "mean_T_per_source_success_s": 294.3659279376843,
+      "mean_loss_s": 48306.59192525,
+      "mean_paired_loss_difference_s": 44546.335644624996,
+      "max_wall_s": 5.949451100081205
+    },
+    {
+      "problem": 3,
+      "arm": "three_feedback",
+      "runs": 8,
+      "complete": 8,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 3617.898926125,
+      "mean_T_per_source_success_s": 288.19194339775953,
+      "mean_loss_s": 3617.898926125,
+      "mean_paired_loss_difference_s": -142.35735449999999,
+      "max_wall_s": 27.760895000072196
+    },
+    {
+      "problem": 3,
+      "arm": "probability",
+      "runs": 8,
+      "complete": 8,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 4547.0709985,
+      "mean_T_per_source_success_s": 355.9867245849833,
+      "mean_loss_s": 4547.0709985,
+      "mean_paired_loss_difference_s": 786.8147178750002,
+      "max_wall_s": 34.56531580002047
+    },
+    {
+      "problem": 3,
+      "arm": "lookahead",
+      "runs": 8,
+      "complete": 7,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 4590.380883714286,
+      "mean_T_per_source_success_s": 349.7027358621414,
+      "mean_loss_s": 49016.58327325,
+      "mean_paired_loss_difference_s": 45256.326992625,
+      "max_wall_s": 71.37017699994612
+    },
+    {
+      "problem": 3,
+      "arm": "risk_cut",
+      "runs": 8,
+      "complete": 3,
+      "mean_clear_fraction": 0.9204441391941391,
+      "mean_T_success_s": 3445.883788333333,
+      "mean_T_per_source_success_s": 323.34130767878787,
+      "mean_loss_s": 226292.206420625,
+      "mean_paired_loss_difference_s": 222531.95014,
+      "max_wall_s": 66.16428379993886
+    },
+    {
+      "problem": 4,
+      "arm": "baseline",
+      "runs": 8,
+      "complete": 8,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 8829.230143125,
+      "mean_T_per_source_success_s": 648.5651080326465,
+      "mean_loss_s": 8829.230143125,
+      "mean_paired_loss_difference_s": 0.0,
+      "max_wall_s": 3.7976716000121087
+    },
+    {
+      "problem": 4,
+      "arm": "geometry",
+      "runs": 8,
+      "complete": 7,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 8759.02282357143,
+      "mean_T_per_source_success_s": 652.3732693268588,
+      "mean_loss_s": 52664.144970625,
+      "mean_paired_loss_difference_s": 43834.914827500004,
+      "max_wall_s": 31.98008819995448
+    },
+    {
+      "problem": 4,
+      "arm": "three_feedback",
+      "runs": 8,
+      "complete": 5,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 8471.2338952,
+      "mean_T_per_source_success_s": 643.3090093087878,
+      "mean_loss_s": 140294.5211845,
+      "mean_paired_loss_difference_s": 131465.291041375,
+      "max_wall_s": 70.3808463999303
+    },
+    {
+      "problem": 4,
+      "arm": "probability",
+      "runs": 8,
+      "complete": 7,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 9348.139332428571,
+      "mean_T_per_source_success_s": 695.5524975994981,
+      "mean_loss_s": 53179.621915875,
+      "mean_paired_loss_difference_s": 44350.391772749994,
+      "max_wall_s": 69.63055399991572
+    },
+    {
+      "problem": 4,
+      "arm": "lookahead",
+      "runs": 8,
+      "complete": 8,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 9621.245747125,
+      "mean_T_per_source_success_s": 705.2190846478022,
+      "mean_loss_s": 9621.245747125,
+      "mean_paired_loss_difference_s": 792.0156039999997,
+      "max_wall_s": 117.59788000001572
+    },
+    {
+      "problem": 4,
+      "arm": "risk_cut",
+      "runs": 8,
+      "complete": 3,
+      "mean_clear_fraction": 0.9195887445887446,
+      "mean_T_success_s": 9065.301998,
+      "mean_T_per_source_success_s": 684.5195075512821,
+      "mean_loss_s": 228399.48824925,
+      "mean_paired_loss_difference_s": 219570.258106125,
+      "max_wall_s": 103.80324719997589
+    }
+  ],
+  "runs": 96,
+  "note": "360000 is an explicit incomplete-run evaluation penalty, not an official score or completion time."
+}

@@ -1,0 +1,458 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "official_l1": {
+    "implementation": "official_l1"
+  },
+  "previous_p4": {
+    "implementation": "previous_selected",
+    "problems": [
+      4
+    ]
+  },
+  "p3_finish16": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p4_finish16": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  },
+  "p3_r1130": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1130,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p3_r1175": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1175,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p3_r1200": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p3_d400": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "joint_detour_m": 400
+    }
+  },
+  "p3_d1200": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p3_d1600": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "joint_detour_m": 1600
+    }
+  },
+  "p3_w0.5": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 0.5
+    }
+  },
+  "p3_w1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.0
+    }
+  },
+  "p3_w3": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 3.0
+    }
+  },
+  "p3_L0": {
+    "implementation": "synthesis",
+    "limit": 0,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p3_count": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "detour_by_known": true
+  },
+  "p4_L0": {
+    "implementation": "synthesis",
+    "limit": 0,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  },
+  "p4_L1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  },
+  "p4_L3": {
+    "implementation": "synthesis",
+    "limit": 3,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  },
+  "p4_d600": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 600
+    },
+    "completion_aware": true
+  },
+  "p4_d800": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 800
+    },
+    "completion_aware": true
+  },
+  "p4_d1600": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1600
+    },
+    "completion_aware": true
+  },
+  "p4_d2400": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 2400
+    },
+    "completion_aware": true
+  },
+  "p4_w0.5": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200,
+      "radius_weight": 0.5
+    },
+    "completion_aware": true
+  },
+  "p4_w1": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200,
+      "radius_weight": 1.0
+    },
+    "completion_aware": true
+  },
+  "p4_w3": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200,
+      "radius_weight": 3.0
+    },
+    "completion_aware": true
+  },
+  "p4_count": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true,
+    "detour_by_known": true
+  }
+}

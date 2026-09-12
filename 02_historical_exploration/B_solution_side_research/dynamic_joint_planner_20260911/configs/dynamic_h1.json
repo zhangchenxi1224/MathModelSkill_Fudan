@@ -1,0 +1,7 @@
+{
+  "name": "dynamic_joint_h1",
+  "implementation": "dynamic_joint",
+  "problems": [3, 4],
+  "limit": 2,
+  "planner": {"horizon": 1}
+}

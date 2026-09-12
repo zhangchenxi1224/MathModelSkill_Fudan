@@ -1,0 +1,303 @@
+{
+  "distinct_worlds": 336,
+  "rows": 1344,
+  "public_first_contexts": 9,
+  "interpretation": "deterministic boundary/sensitivity design; not official or an estimated source prior",
+  "fixed_error_rule": "nominal error1 at the first coordinate, error2 elsewhere; two-decimal reports clamped inward to physical returned-error bound 1 degree; no resampling on repeated query",
+  "summaries": {
+    "active": {
+      "n": 336,
+      "no_signal": 0,
+      "truth_retained": 336,
+      "mean_movement_m": 437.32139211339756,
+      "mean_posterior_mec_radius_m": 71.27317902432145,
+      "max_posterior_mec_radius_m": 170.78609522895795,
+      "mean_posterior_diameter_m": 142.54576199557144,
+      "two_measurement_certified_fraction": 0.30357142857142855
+    },
+    "fixed": {
+      "n": 336,
+      "no_signal": 0,
+      "truth_retained": 336,
+      "mean_movement_m": 806.2257748298549,
+      "mean_posterior_mec_radius_m": 32.59832809492273,
+      "max_posterior_mec_radius_m": 78.78573580441999,
+      "mean_posterior_diameter_m": 65.19644950662686,
+      "two_measurement_certified_fraction": 0.28869047619047616
+    },
+    "precision": {
+      "n": 336,
+      "no_signal": 0,
+      "truth_retained": 336,
+      "mean_movement_m": 1004.0205036454214,
+      "mean_posterior_mec_radius_m": 26.074439597565913,
+      "max_posterior_mec_radius_m": 44.849033453156096,
+      "mean_posterior_diameter_m": 52.148683466327746,
+      "two_measurement_certified_fraction": 0.25892857142857145
+    },
+    "precision_800": {
+      "n": 336,
+      "no_signal": 0,
+      "truth_retained": 336,
+      "mean_movement_m": 800.0,
+      "mean_posterior_mec_radius_m": 33.558634902342924,
+      "max_posterior_mec_radius_m": 75.25809419551805,
+      "mean_posterior_diameter_m": 67.11634585731802,
+      "two_measurement_certified_fraction": 0.4017857142857143
+    }
+  },
+  "by_distance": {
+    "100.0": {
+      "active": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 12.07995506532999,
+        "max_posterior_mec_radius_m": 12.378196624542865,
+        "mean_posterior_diameter_m": 24.15991013063684,
+        "two_measurement_certified_fraction": 1
+      },
+      "fixed": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 25.50404059204362,
+        "max_posterior_mec_radius_m": 26.2595522732516,
+        "mean_posterior_diameter_m": 51.00808118406373,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 28.29621001302296,
+        "max_posterior_mec_radius_m": 28.939473807887023,
+        "mean_posterior_diameter_m": 56.592420026022296,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision_800": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 19.798955261143952,
+        "max_posterior_mec_radius_m": 20.169224257631534,
+        "mean_posterior_diameter_m": 39.597910522264556,
+        "two_measurement_certified_fraction": 0.7142857142857143
+      }
+    },
+    "300.0": {
+      "active": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 8.073779421970412,
+        "max_posterior_mec_radius_m": 8.13325113031626,
+        "mean_posterior_diameter_m": 16.14755884391785,
+        "two_measurement_certified_fraction": 1
+      },
+      "fixed": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 20.00427324411899,
+        "max_posterior_mec_radius_m": 20.49677432716936,
+        "mean_posterior_diameter_m": 40.00854648821462,
+        "two_measurement_certified_fraction": 0.5238095238095238
+      },
+      "precision": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 23.847180315721307,
+        "max_posterior_mec_radius_m": 24.263991014822736,
+        "mean_posterior_diameter_m": 47.69436063141915,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision_800": {
+        "n": 42,
+        "no_signal": 0,
+        "truth_retained": 42,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 16.39621790263054,
+        "max_posterior_mec_radius_m": 16.60138013715936,
+        "mean_posterior_diameter_m": 32.79243580523782,
+        "two_measurement_certified_fraction": 1
+      }
+    },
+    "600.0": {
+      "active": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 20.63586148527826,
+        "max_posterior_mec_radius_m": 22.02773703905477,
+        "mean_posterior_diameter_m": 41.27172297052556,
+        "two_measurement_certified_fraction": 0.2857142857142857
+      },
+      "fixed": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 14.577742370774116,
+        "max_posterior_mec_radius_m": 14.667466013206601,
+        "mean_posterior_diameter_m": 29.155484741517565,
+        "two_measurement_certified_fraction": 1
+      },
+      "precision": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 18.910113484805798,
+        "max_posterior_mec_radius_m": 19.057328165351585,
+        "mean_posterior_diameter_m": 37.82022696958074,
+        "two_measurement_certified_fraction": 1
+      },
+      "precision_800": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 14.038155763448012,
+        "max_posterior_mec_radius_m": 14.0434891751151,
+        "mean_posterior_diameter_m": 28.072719883968762,
+        "two_measurement_certified_fraction": 1
+      }
+    },
+    "1000.0": {
+      "active": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 79.45329655763045,
+        "max_posterior_mec_radius_m": 94.24308392528343,
+        "mean_posterior_diameter_m": 158.90659311523186,
+        "two_measurement_certified_fraction": 0
+      },
+      "fixed": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 29.906911753791555,
+        "max_posterior_mec_radius_m": 31.857265049834872,
+        "mean_posterior_diameter_m": 59.81382350755584,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 24.245336467643664,
+        "max_posterior_mec_radius_m": 24.831483380455733,
+        "mean_posterior_diameter_m": 48.49067293526032,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision_800": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 31.935457599091862,
+        "max_posterior_mec_radius_m": 33.558528080652714,
+        "mean_posterior_diameter_m": 63.87091519815629,
+        "two_measurement_certified_fraction": 0
+      }
+    },
+    "1250.0": {
+      "active": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 138.37787068650348,
+        "max_posterior_mec_radius_m": 169.66427593952642,
+        "mean_posterior_diameter_m": 276.7557413729785,
+        "two_measurement_certified_fraction": 0
+      },
+      "fixed": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 55.384665081139865,
+        "max_posterior_mec_radius_m": 62.1051277106185,
+        "mean_posterior_diameter_m": 110.76933016225406,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 39.64573292159223,
+        "max_posterior_mec_radius_m": 41.28986235455633,
+        "mean_posterior_diameter_m": 79.29146584315941,
+        "two_measurement_certified_fraction": 0
+      },
+      "precision_800": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 52.9944438128874,
+        "max_posterior_mec_radius_m": 57.275994317473256,
+        "mean_posterior_diameter_m": 105.98888762574904,
+        "two_measurement_certified_fraction": 0
+      }
+    },
+    "1500.0": {
+      "active": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 437.32139211339756,
+        "mean_posterior_mec_radius_m": 128.22076974210194,
+        "max_posterior_mec_radius_m": 170.78609522895795,
+        "mean_posterior_diameter_m": 256.43836053460865,
+        "two_measurement_certified_fraction": 0
+      },
+      "fixed": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 806.2257748298549,
+        "mean_posterior_mec_radius_m": 43.64955474310727,
+        "max_posterior_mec_radius_m": 78.78573580441999,
+        "mean_posterior_diameter_m": 87.29800717583021,
+        "two_measurement_certified_fraction": 0.19047619047619047
+      },
+      "precision": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 1004.0205036454214,
+        "mean_posterior_mec_radius_m": 21.500234760480335,
+        "max_posterior_mec_radius_m": 44.849033453156096,
+        "mean_posterior_diameter_m": 42.99942563411988,
+        "two_measurement_certified_fraction": 0.38095238095238093
+      },
+      "precision_800": {
+        "n": 63,
+        "no_signal": 0,
+        "truth_retained": 63,
+        "mean_movement_m": 800.0,
+        "mean_posterior_mec_radius_m": 55.88121352788533,
+        "max_posterior_mec_radius_m": 75.25809419551805,
+        "mean_posterior_diameter_m": 111.76109097948711,
+        "two_measurement_certified_fraction": 0
+      }
+    }
+  }
+}

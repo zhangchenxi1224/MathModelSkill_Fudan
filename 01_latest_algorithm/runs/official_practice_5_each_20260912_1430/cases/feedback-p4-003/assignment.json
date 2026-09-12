@@ -1,0 +1,16 @@
+{
+  "case_id": "feedback-p4-003",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "selected_policy": {
+    "arm": "three_feedback_fast",
+    "options": {
+      "region_depth": 3,
+      "planning_region_depth": 0,
+      "planning_seconds": 60.0
+    },
+    "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+  },
+  "split": "official_descriptive",
+  "pilot": false
+}

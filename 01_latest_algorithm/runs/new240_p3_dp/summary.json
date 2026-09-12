@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "problem": 3,
+      "arm": "dp_geometric",
+      "runs": 120,
+      "complete": 120,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 3515.9424139416665,
+      "mean_T_per_source_success_s": 275.8533195935534,
+      "mean_loss_s": 3515.9424139416665,
+      "mean_paired_loss_difference_s": null,
+      "max_wall_s": 36.1396909999894
+    }
+  ],
+  "runs": 120,
+  "note": "360000 is an explicit incomplete-run evaluation penalty, not an official score or completion time."
+}

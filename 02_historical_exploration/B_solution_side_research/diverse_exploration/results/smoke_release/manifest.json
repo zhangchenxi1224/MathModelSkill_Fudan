@@ -1,0 +1,1037 @@
+{
+  "schema_version": 1,
+  "profile": "smoke",
+  "master_seed": 202609119200,
+  "environment": "self_built_only",
+  "routes": [
+    "robust",
+    "fisher",
+    "infogain",
+    "rollout",
+    "joint_route",
+    "probe"
+  ],
+  "configs": {
+    "3": {
+      "problem": 3,
+      "sensing": "active",
+      "scheduling": "joint",
+      "coverage": "triangular",
+      "spacing": null,
+      "epsilon_deg": 1.0051,
+      "clear_radius": 19.999,
+      "local_measure_limit": 5,
+      "joint_detour_m": 800.0,
+      "bin_width_deg": 4.0,
+      "radius_weight": 2.0,
+      "reserve_real_s": 5.0,
+      "max_virtual_s": 360000.0,
+      "nearest_safe": true,
+      "opportunistic_known_measurements": false
+    },
+    "4": {
+      "problem": 4,
+      "sensing": "active",
+      "scheduling": "joint",
+      "coverage": "triangular",
+      "spacing": null,
+      "epsilon_deg": 1.0051,
+      "clear_radius": 19.999,
+      "local_measure_limit": 5,
+      "joint_detour_m": 800.0,
+      "bin_width_deg": 4.0,
+      "radius_weight": 2.0,
+      "reserve_real_s": 5.0,
+      "max_virtual_s": 360000.0,
+      "nearest_safe": true,
+      "opportunistic_known_measurements": false
+    }
+  },
+  "options": {
+    "particle_count": 64,
+    "candidate_count": 8,
+    "planning_budget_s": 0.2,
+    "min_particles": 8,
+    "max_position_proposals": 512,
+    "directional_prior": 0.5,
+    "angle_bin_deg": 2.0,
+    "seed": 20260911,
+    "terminal_weight": 1.0,
+    "fisher_ridge_m": 1800.0
+  },
+  "source_files": {
+    "run.py": "e05e6ecce0000d7d8d36ee5165e37768b1811293673df6da1a3983daa9e59439",
+    "diverse/__init__.py": "9e577df0f7cd55e6ce6d9fa5583b8fe0b47f22c18d0d778f02e1aed52b52c100",
+    "diverse/belief.py": "d68fefa4ec5ba5f1314102d5b60e10d8f31383b606e7a0ac4ab0449b55e1cf60",
+    "diverse/experiment.py": "42560f5a5d8cbb7da86c5160438db74a75bfa04173fc6c483bd140cbb8e74c33",
+    "diverse/planning.py": "cfbfe9b94c9bdbcd7df2089495aff822f73f4dd559c0eb6f64de5592af2ed2a0",
+    "diverse/policies.py": "31dcbf577223a2dc9fda9f7f910f52334db9551bb2cd7cae8c50424e57c1126e",
+    "vendor/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "vendor/bsolver/calibration.py": "420610e239e81fb4cb404d3212a09a321076517cda2a03a0c66513e790360545",
+    "vendor/bsolver/cli.py": "a62855a646bf21deabf4b23a2ce8e38ee5d12edadd0419ec08944fc80834ed96",
+    "vendor/bsolver/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "vendor/bsolver/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "vendor/bsolver/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "vendor/bsolver/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "vendor/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "vendor/bsolver/posterior_archive.py": "7212a69e59ef2130c514295298ad140098a08b564998f1f1db74087a25bb3670",
+    "vendor/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "vendor/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+    "vendor/bsolver/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "vendor/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "vendor/bsolver/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "vendor/bsolver/survey.py": "af8a0b29d4db390dd8aee11a4255b44d69ae8934835979ba290a5037b5568247"
+  },
+  "cases": [
+    {
+      "case_id": "diverse-engineering-p3-broad-202609119200",
+      "seed": 202609119200,
+      "problem": 3,
+      "layout": "random",
+      "radius_mode": "min",
+      "error_mode": "deterministic",
+      "sources": [
+        {
+          "channel": 17,
+          "position": [
+            258.2013769576568,
+            720.6126200045375
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1383.226487081053,
+            216.47642402080703
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1681.4418483525685,
+            93.66386362896577
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1625.782173139957,
+            -81.82816969765695
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 15,
+          "position": [
+            -308.87390229285694,
+            1573.8598536897819
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            -816.0789488875456,
+            64.01673177073023
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 1,
+          "position": [
+            -1163.4572307454393,
+            -1164.750309683716
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            -504.91287618335497,
+            -260.2275839057175
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            793.718296302997,
+            1283.2898125135378
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            387.84238684258304,
+            1399.3880046473917
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 0,
+      "pool": "broad",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "88b4ff0f2f9855617e797802393dcbbb8db22b645f88ad9554f020e7ed9209a8",
+      "scenario_sha256": "1225883dfd2aff41f441c3eafafd084aae20176307ce5b88359e671717df2681"
+    },
+    {
+      "case_id": "diverse-engineering-p3-broad-202609119201",
+      "seed": 202609119201,
+      "problem": 3,
+      "layout": "random",
+      "radius_mode": "mixed",
+      "error_mode": "correlated",
+      "sources": [
+        {
+          "channel": 2,
+          "position": [
+            -54.31980368795289,
+            1051.6758111804695
+          ],
+          "radius": 1217.314847464067,
+          "direction_deg": null
+        },
+        {
+          "channel": 8,
+          "position": [
+            560.3959246213926,
+            -67.42418529300484
+          ],
+          "radius": 1062.0822009171018,
+          "direction_deg": null
+        },
+        {
+          "channel": 5,
+          "position": [
+            -660.9610652908609,
+            990.0260580295339
+          ],
+          "radius": 1286.1806835734235,
+          "direction_deg": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            -864.5182454037036,
+            245.73118449544378
+          ],
+          "radius": 1149.1973537401384,
+          "direction_deg": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1722.4520831389639,
+            337.25279280895506
+          ],
+          "radius": 1314.0951959611284,
+          "direction_deg": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            1161.0543823028154,
+            349.1504056269046
+          ],
+          "radius": 1429.1194213805136,
+          "direction_deg": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            -970.2010505956044,
+            931.7187622315311
+          ],
+          "radius": 1183.8758541640204,
+          "direction_deg": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            -1345.323962300238,
+            762.1573523028933
+          ],
+          "radius": 1323.9423284363943,
+          "direction_deg": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            -142.68885918837012,
+            1478.015189964064
+          ],
+          "radius": 1031.7514987803615,
+          "direction_deg": null
+        },
+        {
+          "channel": 12,
+          "position": [
+            269.695139793271,
+            979.2324496425474
+          ],
+          "radius": 1119.9443774096644,
+          "direction_deg": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1012.7585350776187,
+            466.2027149611457
+          ],
+          "radius": 1386.5620112359559,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 0,
+      "pool": "broad",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "3ce3fa7e278ee6e2c9cac0d2f0ed7e2d91eec4fce0cc4813d594c93628435527",
+      "scenario_sha256": "c8824f054b14d9dc46cf76e3137245d31a6eb628cd52d2de7cf814510e4f3c70"
+    },
+    {
+      "case_id": "diverse-engineering-p3-stress-202609119202",
+      "seed": 202609119202,
+      "problem": 3,
+      "layout": "boundary",
+      "radius_mode": "min",
+      "error_mode": "deterministic",
+      "sources": [
+        {
+          "channel": 7,
+          "position": [
+            1800.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            1456.2305898749055,
+            1058.0134541264517
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 1,
+          "position": [
+            556.2305898749054,
+            1711.9017293312763
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            -556.2305898749053,
+            1711.9017293312766
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1456.2305898749053,
+            1058.0134541264517
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            -1800.0,
+            2.2043642384652357e-13
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 14,
+          "position": [
+            -1456.2305898749055,
+            -1058.0134541264515
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            -556.2305898749056,
+            -1711.9017293312763
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            556.230589874905,
+            -1711.9017293312766
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            1456.2305898749053,
+            -1058.013454126452
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 0,
+      "pool": "stress",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "92306470e37db2d69d9e99b34e58996d3fe89cdce017fe6ff97d097fc4cfa31b",
+      "scenario_sha256": "4b84b778115e2caa34a928f31e2e1afeb4513873941f29493909d2398bec015b"
+    },
+    {
+      "case_id": "diverse-engineering-p3-stress-202609119203",
+      "seed": 202609119203,
+      "problem": 3,
+      "layout": "tangent",
+      "radius_mode": "min",
+      "error_mode": "correlated",
+      "sources": [
+        {
+          "channel": 5,
+          "position": [
+            1800.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 2,
+          "position": [
+            1514.256359096126,
+            973.1534714200756
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 4,
+          "position": [
+            747.7470234033956,
+            1637.337591638133
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 11,
+          "position": [
+            -256.166708891913,
+            1781.678595385679
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            -1178.749321101513,
+            1360.349233837665
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            -1727.0873525060952,
+            507.1186023145734
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            -1727.0873525060954,
+            -507.1186023145729
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1178.7493211015135,
+            -1360.3492338376648
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            -256.1667088919134,
+            -1781.6785953856788
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            747.7470234033949,
+            -1637.3375916381333
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 1,
+          "position": [
+            1514.256359096126,
+            -973.1534714200754
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 0,
+      "pool": "stress",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "18b1612db475e9dc89a5d2d1c49ee12dca754bf5aee548d291234c041b8b3ede",
+      "scenario_sha256": "020079d4e372f4cc011385e5a4649862994b38f2b2adaeba4c3fae807d8b7b4f"
+    },
+    {
+      "case_id": "diverse-engineering-p4-broad-202609119204",
+      "seed": 202609119204,
+      "problem": 4,
+      "layout": "random",
+      "radius_mode": "min",
+      "error_mode": "deterministic",
+      "sources": [
+        {
+          "channel": 11,
+          "position": [
+            397.52284310759114,
+            -1727.2330571654834
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            603.7238311126871,
+            -535.555967383583
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            129.7167127578202,
+            370.182428448335
+          ],
+          "radius": 1000.0,
+          "direction_deg": 107.00466233660745
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1465.9812068462973,
+            -238.60153539592403
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 20,
+          "position": [
+            1773.2180088809243,
+            -292.2648396000748
+          ],
+          "radius": 1000.0,
+          "direction_deg": 282.2035084264034
+        },
+        {
+          "channel": 5,
+          "position": [
+            -265.33270784927487,
+            967.0906042162242
+          ],
+          "radius": 1000.0,
+          "direction_deg": 87.1471917242674
+        },
+        {
+          "channel": 18,
+          "position": [
+            -657.4158354670348,
+            -1460.0508381534921
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 13,
+          "position": [
+            -47.20382402898913,
+            297.8452788364569
+          ],
+          "radius": 1000.0,
+          "direction_deg": 78.24360909283853
+        },
+        {
+          "channel": 12,
+          "position": [
+            -1568.5019001028545,
+            -692.1112930952079
+          ],
+          "radius": 1000.0,
+          "direction_deg": 205.00529847323762
+        },
+        {
+          "channel": 4,
+          "position": [
+            553.0513836964642,
+            1342.6106683396358
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        },
+        {
+          "channel": 16,
+          "position": [
+            596.3964827194073,
+            -1186.3424973193664
+          ],
+          "radius": 1000.0,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 5,
+      "pool": "broad",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "e3b96a2a43fef83418bccc493f6a390a54f26e5348ee2ea37044be9a37fe2b23",
+      "scenario_sha256": "08daf134029dd890120cbad79447b9d97c8e30fb0e44e6942707e4f851cec926"
+    },
+    {
+      "case_id": "diverse-engineering-p4-broad-202609119205",
+      "seed": 202609119205,
+      "problem": 4,
+      "layout": "random",
+      "radius_mode": "mixed",
+      "error_mode": "correlated",
+      "sources": [
+        {
+          "channel": 4,
+          "position": [
+            1266.3336918022965,
+            -220.21604841872283
+          ],
+          "radius": 1280.8894155494972,
+          "direction_deg": null
+        },
+        {
+          "channel": 17,
+          "position": [
+            48.104310360210164,
+            1397.0294959332496
+          ],
+          "radius": 1149.1818913913876,
+          "direction_deg": 80.08556121791261
+        },
+        {
+          "channel": 5,
+          "position": [
+            129.83361832759468,
+            -26.71842917893875
+          ],
+          "radius": 1025.6478551878317,
+          "direction_deg": 139.46445610665714
+        },
+        {
+          "channel": 8,
+          "position": [
+            685.7214295367737,
+            -1024.5774188981043
+          ],
+          "radius": 1058.2177672516268,
+          "direction_deg": null
+        },
+        {
+          "channel": 10,
+          "position": [
+            331.0821452033143,
+            634.6119657179246
+          ],
+          "radius": 1490.5579751460298,
+          "direction_deg": null
+        },
+        {
+          "channel": 7,
+          "position": [
+            688.3377003371965,
+            1392.6981909806743
+          ],
+          "radius": 1302.2405531841612,
+          "direction_deg": 312.9334960799835
+        },
+        {
+          "channel": 14,
+          "position": [
+            422.1705385014524,
+            70.13504462308212
+          ],
+          "radius": 1188.8620599231156,
+          "direction_deg": null
+        },
+        {
+          "channel": 19,
+          "position": [
+            696.5404509177475,
+            8.351366326636407
+          ],
+          "radius": 1351.576091280349,
+          "direction_deg": null
+        },
+        {
+          "channel": 1,
+          "position": [
+            -245.43832454889758,
+            323.58480324147365
+          ],
+          "radius": 1365.9773710010804,
+          "direction_deg": 2.5309571129818975
+        },
+        {
+          "channel": 20,
+          "position": [
+            217.43112770514284,
+            -383.2879928599557
+          ],
+          "radius": 1358.1502250813012,
+          "direction_deg": 80.49192213895134
+        },
+        {
+          "channel": 11,
+          "position": [
+            -912.6739955872814,
+            -318.4689085358511
+          ],
+          "radius": 1010.7616838974535,
+          "direction_deg": 252.64261954401385
+        },
+        {
+          "channel": 9,
+          "position": [
+            369.92062523801053,
+            -332.2725777590055
+          ],
+          "radius": 1411.361292547203,
+          "direction_deg": null
+        }
+      ],
+      "n_directed": 6,
+      "pool": "broad",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "407b6a4a7ad7d1c8e744072a24718b6870d924e6f59b8c727ae439fdb5e133a6",
+      "scenario_sha256": "bda195b91c4c4321ba170f5f966fe1c071b171d11468e5805e23ff61aaaf1861"
+    },
+    {
+      "case_id": "diverse-engineering-p4-stress-202609119206",
+      "seed": 202609119206,
+      "problem": 4,
+      "layout": "boundary",
+      "radius_mode": "min",
+      "error_mode": "deterministic",
+      "sources": [
+        {
+          "channel": 1,
+          "position": [
+            1800.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": 0.0
+        },
+        {
+          "channel": 20,
+          "position": [
+            1514.256359096126,
+            973.1534714200756
+          ],
+          "radius": 1000.0,
+          "direction_deg": 32.72727272727273
+        },
+        {
+          "channel": 8,
+          "position": [
+            747.7470234033956,
+            1637.337591638133
+          ],
+          "radius": 1000.0,
+          "direction_deg": 65.45454545454545
+        },
+        {
+          "channel": 6,
+          "position": [
+            -256.166708891913,
+            1781.678595385679
+          ],
+          "radius": 1000.0,
+          "direction_deg": 98.18181818181817
+        },
+        {
+          "channel": 3,
+          "position": [
+            -1178.749321101513,
+            1360.349233837665
+          ],
+          "radius": 1000.0,
+          "direction_deg": 130.9090909090909
+        },
+        {
+          "channel": 11,
+          "position": [
+            -1727.0873525060952,
+            507.1186023145734
+          ],
+          "radius": 1000.0,
+          "direction_deg": 163.63636363636365
+        },
+        {
+          "channel": 7,
+          "position": [
+            -1727.0873525060954,
+            -507.1186023145729
+          ],
+          "radius": 1000.0,
+          "direction_deg": 196.36363636363632
+        },
+        {
+          "channel": 13,
+          "position": [
+            -1178.7493211015135,
+            -1360.3492338376648
+          ],
+          "radius": 1000.0,
+          "direction_deg": 229.09090909090907
+        },
+        {
+          "channel": 2,
+          "position": [
+            -256.1667088919134,
+            -1781.6785953856788
+          ],
+          "radius": 1000.0,
+          "direction_deg": 261.8181818181818
+        },
+        {
+          "channel": 4,
+          "position": [
+            747.7470234033949,
+            -1637.3375916381333
+          ],
+          "radius": 1000.0,
+          "direction_deg": 294.5454545454545
+        },
+        {
+          "channel": 12,
+          "position": [
+            1514.256359096126,
+            -973.1534714200754
+          ],
+          "radius": 1000.0,
+          "direction_deg": 327.27272727272725
+        }
+      ],
+      "n_directed": 11,
+      "pool": "stress",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "176003212bddc249e4a1898c46fe422c020d18354f4162f00091b97025c0e830",
+      "scenario_sha256": "ab484155a68e35bbb7ef1b48db231dde6a6ed21558b7b56ca01a7103a14865b9"
+    },
+    {
+      "case_id": "diverse-engineering-p4-stress-202609119207",
+      "seed": 202609119207,
+      "problem": 4,
+      "layout": "tangent",
+      "radius_mode": "min",
+      "error_mode": "correlated",
+      "sources": [
+        {
+          "channel": 14,
+          "position": [
+            1800.0,
+            0.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": 90.0
+        },
+        {
+          "channel": 5,
+          "position": [
+            1558.8457268119896,
+            899.9999999999999
+          ],
+          "radius": 1000.0,
+          "direction_deg": 120.0
+        },
+        {
+          "channel": 12,
+          "position": [
+            900.0000000000002,
+            1558.8457268119894
+          ],
+          "radius": 1000.0,
+          "direction_deg": 150.0
+        },
+        {
+          "channel": 17,
+          "position": [
+            1.1021821192326178e-13,
+            1800.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": 180.0
+        },
+        {
+          "channel": 10,
+          "position": [
+            -899.9999999999995,
+            1558.8457268119896
+          ],
+          "radius": 1000.0,
+          "direction_deg": 210.0
+        },
+        {
+          "channel": 9,
+          "position": [
+            -1558.8457268119896,
+            899.9999999999999
+          ],
+          "radius": 1000.0,
+          "direction_deg": 240.0
+        },
+        {
+          "channel": 4,
+          "position": [
+            -1800.0,
+            2.2043642384652357e-13
+          ],
+          "radius": 1000.0,
+          "direction_deg": 270.0
+        },
+        {
+          "channel": 6,
+          "position": [
+            -1558.8457268119898,
+            -899.9999999999995
+          ],
+          "radius": 1000.0,
+          "direction_deg": 300.0
+        },
+        {
+          "channel": 13,
+          "position": [
+            -900.0000000000008,
+            -1558.8457268119894
+          ],
+          "radius": 1000.0,
+          "direction_deg": 330.0
+        },
+        {
+          "channel": 18,
+          "position": [
+            -3.3065463576978535e-13,
+            -1800.0
+          ],
+          "radius": 1000.0,
+          "direction_deg": 360.0
+        },
+        {
+          "channel": 8,
+          "position": [
+            900.0000000000002,
+            -1558.8457268119894
+          ],
+          "radius": 1000.0,
+          "direction_deg": 30.000000000000007
+        },
+        {
+          "channel": 16,
+          "position": [
+            1558.8457268119892,
+            -900.0000000000008
+          ],
+          "radius": 1000.0,
+          "direction_deg": 59.99999999999997
+        }
+      ],
+      "n_directed": 12,
+      "pool": "stress",
+      "correlation_length": 75.0,
+      "mechanism_status": "synthetic_assumptions_not_official_generator",
+      "partition": "engineering",
+      "world_sha256": "24743c7afe6076dd3d15a16014e51e5cea205bcea2712c10a940f55d287eba5b",
+      "scenario_sha256": "80b41bd0931c5c3ab7f4d7d75b1d327217a0c02d888d5209376e178a3a7f12dd"
+    }
+  ],
+  "excluded_manifests": [
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\diverse_exploration\\results\\smoke_v1\\manifest.json",
+      "sha256": "bebb826b89fca12b42f267444ddf55414963d4a32dbd6c8bb9b5d507aee74a24"
+    },
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\diverse_exploration\\results\\smoke_final\\manifest.json",
+      "sha256": "c94a2f4f1b46ef28345d23fe33596a85231c5e4aa7bddb6555888632d5e258bc"
+    }
+  ],
+  "composition_snapshot": null,
+  "mechanism_snapshot": null,
+  "mechanism_input_sha256": null,
+  "composition_input_sha256": null,
+  "mechanisms": "radius, geometry, direction and fixed error fields are uncalibrated sensitivity assumptions",
+  "score": {
+    "primary": "complete-and-truth-audited",
+    "failure_penalty_s": 360000.0,
+    "comparisons": "paired within pool/problem; no official population aggregate",
+    "selection": "development only; max one candidate per problem; all pools mean penalty <= baseline and no extra failures"
+  },
+  "manifest_sha256": "4e3e88e994adc6cf544c1abb2952f7127dff4013984756eadaebf449fbd3eaf5"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "stopped_normally",
+  "updated_utc": "2026-09-11T07:46:11.262675+00:00",
+  "pid": 39440,
+  "audited": 160,
+  "counts": {
+    "p3_baseline": 60,
+    "p3_survey": 20,
+    "p4_baseline": 60,
+    "p4_survey": 20
+  }
+}

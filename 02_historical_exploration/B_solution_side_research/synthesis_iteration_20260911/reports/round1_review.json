@@ -1,0 +1,178 @@
+{
+  "runs": 304,
+  "all_complete": 304,
+  "summary": [
+    {
+      "problem": 3,
+      "variant": "champion",
+      "n": 16,
+      "mean_loss_s": 3696.450183,
+      "mean_difference_s": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0
+    },
+    {
+      "problem": 3,
+      "variant": "dynamic_h1",
+      "n": 16,
+      "mean_loss_s": 5946.8910528125,
+      "mean_difference_s": 2250.4408698125003,
+      "regressions": 16,
+      "worst_regression_s": 3171.882201
+    },
+    {
+      "problem": 3,
+      "variant": "dynamic_h2",
+      "n": 16,
+      "mean_loss_s": 6524.71169375,
+      "mean_difference_s": 2828.26151075,
+      "regressions": 16,
+      "worst_regression_s": 4506.607435
+    },
+    {
+      "problem": 3,
+      "variant": "official_l1",
+      "n": 16,
+      "mean_loss_s": 4344.7215359375,
+      "mean_difference_s": 648.2713529375002,
+      "regressions": 15,
+      "worst_regression_s": 1800.5091270000003
+    },
+    {
+      "problem": 3,
+      "variant": "p3_costgate",
+      "n": 16,
+      "mean_loss_s": 3692.08276075,
+      "mean_difference_s": -4.367422250000004,
+      "regressions": 0,
+      "worst_regression_s": 0.0
+    },
+    {
+      "problem": 3,
+      "variant": "p3_finish16",
+      "n": 16,
+      "mean_loss_s": 3692.08276075,
+      "mean_difference_s": -4.367422250000004,
+      "regressions": 0,
+      "worst_regression_s": 0.0
+    },
+    {
+      "problem": 3,
+      "variant": "p3_macro2",
+      "n": 16,
+      "mean_loss_s": 3755.0034114375,
+      "mean_difference_s": 58.553228437500024,
+      "regressions": 8,
+      "worst_regression_s": 835.82863
+    },
+    {
+      "problem": 3,
+      "variant": "p3_shared",
+      "n": 16,
+      "mean_loss_s": 3692.08276075,
+      "mean_difference_s": -4.367422250000004,
+      "regressions": 0,
+      "worst_regression_s": 0.0
+    },
+    {
+      "problem": 4,
+      "variant": "champion",
+      "n": 16,
+      "mean_loss_s": 9152.5042879375,
+      "mean_difference_s": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0
+    },
+    {
+      "problem": 4,
+      "variant": "dynamic_h1",
+      "n": 16,
+      "mean_loss_s": 11694.8192955,
+      "mean_difference_s": 2542.3150075625003,
+      "regressions": 15,
+      "worst_regression_s": 3797.7218650000013
+    },
+    {
+      "problem": 4,
+      "variant": "dynamic_h2",
+      "n": 16,
+      "mean_loss_s": 13302.375087375,
+      "mean_difference_s": 4149.8707994375,
+      "regressions": 14,
+      "worst_regression_s": 7242.774906000001
+    },
+    {
+      "problem": 4,
+      "variant": "official_l1",
+      "n": 16,
+      "mean_loss_s": 10835.707908875,
+      "mean_difference_s": 1683.2036209374999,
+      "regressions": 16,
+      "worst_regression_s": 2858.128014000001
+    },
+    {
+      "problem": 4,
+      "variant": "p4_bridge",
+      "n": 16,
+      "mean_loss_s": 8346.238622125,
+      "mean_difference_s": -806.2656658125,
+      "regressions": 3,
+      "worst_regression_s": 412.9850929999993
+    },
+    {
+      "problem": 4,
+      "variant": "p4_bridge_L1",
+      "n": 16,
+      "mean_loss_s": 8411.5730553125,
+      "mean_difference_s": -740.9312326249999,
+      "regressions": 4,
+      "worst_regression_s": 1154.9311289999987
+    },
+    {
+      "problem": 4,
+      "variant": "p4_costgate",
+      "n": 16,
+      "mean_loss_s": 8346.238622125,
+      "mean_difference_s": -806.2656658125,
+      "regressions": 3,
+      "worst_regression_s": 412.9850929999993
+    },
+    {
+      "problem": 4,
+      "variant": "p4_finish16",
+      "n": 16,
+      "mean_loss_s": 8346.238622125,
+      "mean_difference_s": -806.2656658125,
+      "regressions": 3,
+      "worst_regression_s": 412.9850929999993
+    },
+    {
+      "problem": 4,
+      "variant": "p4_macro2",
+      "n": 16,
+      "mean_loss_s": 8562.721983187499,
+      "mean_difference_s": -589.7823047500001,
+      "regressions": 6,
+      "worst_regression_s": 533.7991430000002
+    },
+    {
+      "problem": 4,
+      "variant": "p4_shared",
+      "n": 16,
+      "mean_loss_s": 8346.238622125,
+      "mean_difference_s": -806.2656658125,
+      "regressions": 3,
+      "worst_regression_s": 412.9850929999993
+    },
+    {
+      "problem": 4,
+      "variant": "previous_p4",
+      "n": 16,
+      "mean_loss_s": 9519.9553975,
+      "mean_difference_s": 367.45110956250016,
+      "regressions": 12,
+      "worst_regression_s": 2345.2806629999995
+    }
+  ],
+  "decision": "Remove individual-action particle planning from expansion; retain completion-aware strong geometry bridge and test bounded local-cost/route parameter neighbors. Shared/cost-gate had no activations in this screen; macro-two underperformed."
+}

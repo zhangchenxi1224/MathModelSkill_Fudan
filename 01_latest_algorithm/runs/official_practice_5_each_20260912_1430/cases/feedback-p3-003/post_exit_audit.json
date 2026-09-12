@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p3-003",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "MEE4-QDUE-VM4N-5VBU",
+  "source_total_post_exit": 12,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 12,
+  "cleared": 12,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3146.342449,
+  "original_log_filename": "practice-p3-8251080467559847191-MEE4-QDUE-VM4N-5VBU.jlog",
+  "original_log_sha256": "5933f8bbbe2c7a8d4d4629a48fb84df0249d6224422c9338218c0a7b4429a36d",
+  "original_log_bytes": 38603,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:30:13.313234+00:00"
+}

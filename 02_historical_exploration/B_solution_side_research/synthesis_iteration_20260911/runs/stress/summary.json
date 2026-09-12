@@ -1,0 +1,217 @@
+{
+  "runs": 96,
+  "all_complete": 96,
+  "hull_violations": 0,
+  "groups": [
+    {
+      "problem": 3,
+      "hypothesis": "design_mixture",
+      "variant": "champion",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 3777.4681098749998,
+      "mean_T_per_N_s": 310.9990091734375,
+      "p95_success_s": 5579.4392386,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": [
+        0.0,
+        0.0
+      ],
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 1.8415129000786692,
+      "mean_walk_m": 15800.673882420333,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 3,
+      "hypothesis": "design_mixture",
+      "variant": "p3_r1150_w1",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 3386.6065902083333,
+      "mean_T_per_N_s": 283.29184246614585,
+      "p95_success_s": 5609.638808899999,
+      "mean_difference_s": -390.86151966666665,
+      "paired_ci95_s": [
+        -577.8745808041666,
+        -216.38928075520838
+      ],
+      "paired_ci975_s": [
+        -606.0917350052082,
+        -185.7673333703125
+      ],
+      "mean_pair_pct": -14.257905451697145,
+      "regressions": 8,
+      "worst_regression_s": 371.6428020000003,
+      "worst_regression_pct": 6.654074727905734,
+      "max_program_real_s": 1.861946899909526,
+      "mean_walk_m": 13720.116281254226,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 3,
+      "hypothesis": "stress",
+      "variant": "champion",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 3777.4681098749998,
+      "mean_T_per_N_s": 310.9990091734375,
+      "p95_success_s": 5579.4392386,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 1.8415129000786692,
+      "mean_walk_m": 15800.673882420333,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 3,
+      "hypothesis": "stress",
+      "variant": "p3_r1150_w1",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 3386.6065902083333,
+      "mean_T_per_N_s": 283.29184246614585,
+      "p95_success_s": 5609.638808899999,
+      "mean_difference_s": -390.86151966666665,
+      "paired_ci95_s": [
+        -577.8745808041666,
+        -216.38928075520838
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -14.257905451697145,
+      "regressions": 8,
+      "worst_regression_s": 371.6428020000003,
+      "worst_regression_pct": 6.654074727905734,
+      "max_program_real_s": 1.861946899909526,
+      "mean_walk_m": 13720.116281254226,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 4,
+      "hypothesis": "design_mixture",
+      "variant": "champion",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 8985.327266625,
+      "mean_T_per_N_s": 727.590062371875,
+      "p95_success_s": 10413.47437615,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": [
+        0.0,
+        0.0
+      ],
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 3.79295130004175,
+      "mean_walk_m": 34338.92800144754,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 4,
+      "hypothesis": "design_mixture",
+      "variant": "p4_L2_d1200_w1",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 7118.756409208333,
+      "mean_T_per_N_s": 601.7439674239583,
+      "p95_success_s": 9118.3697862,
+      "mean_difference_s": -1866.5708574166667,
+      "paired_ci95_s": [
+        -2643.0398479843752,
+        -1157.3542328635422
+      ],
+      "paired_ci975_s": [
+        -2765.7926755171875,
+        -1068.3395411223958
+      ],
+      "mean_pair_pct": -21.027652029950694,
+      "regressions": 3,
+      "worst_regression_s": 606.2219139999997,
+      "worst_regression_pct": 7.119258130887496,
+      "max_program_real_s": 4.026414299965836,
+      "mean_walk_m": 26681.698701362453,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 4,
+      "hypothesis": "stress",
+      "variant": "champion",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 8985.327266625,
+      "mean_T_per_N_s": 727.590062371875,
+      "p95_success_s": 10413.47437615,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 3.79295130004175,
+      "mean_walk_m": 34338.92800144754,
+      "walk_observed_n": 24
+    },
+    {
+      "problem": 4,
+      "hypothesis": "stress",
+      "variant": "p4_L2_d1200_w1",
+      "n": 24,
+      "complete": 24,
+      "new_failures": 0,
+      "mean_loss_s": 7118.756409208333,
+      "mean_T_per_N_s": 601.7439674239583,
+      "p95_success_s": 9118.3697862,
+      "mean_difference_s": -1866.5708574166667,
+      "paired_ci95_s": [
+        -2643.0398479843752,
+        -1157.3542328635422
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -21.027652029950694,
+      "regressions": 3,
+      "worst_regression_s": 606.2219139999997,
+      "worst_regression_pct": 7.119258130887496,
+      "max_program_real_s": 4.026414299965836,
+      "mean_walk_m": 26681.698701362453,
+      "walk_observed_n": 24
+    }
+  ],
+  "interpretation": "Synthetic development/regression or separately frozen fresh synthetic validation; not official scores.",
+  "partition": "stress",
+  "expected_runs": 96,
+  "wall_s": 103.57209759997204,
+  "workers": 2,
+  "plan_sha256": "2753b08c95fae817f550a06b1d342f5a752e5cdf45f7c67bb96f234c56f57129"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "counts": {
+    "runs": 304,
+    "requests": 86954,
+    "hulls": 47732
+  },
+  "issues": [],
+  "stages": [
+    "runs/round1"
+  ],
+  "scope": "Recomputed fixed feedback, billing, client state, source hull, actual coverage and stopping ledger; synthetic truth only."
+}

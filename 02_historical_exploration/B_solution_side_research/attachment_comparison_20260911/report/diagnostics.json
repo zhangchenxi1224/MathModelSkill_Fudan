@@ -1,0 +1,491 @@
+[
+  {
+    "problem": 4,
+    "variant": "p4_route_rescue",
+    "reference": "main",
+    "case_id": "stage2-round-calibrated-p4-0056-739f6a942526e1a5",
+    "hypothesis": "H1",
+    "N": 12,
+    "Nd": 5,
+    "delta_T_s": 1093.2237519999999,
+    "baseline_T_s": 8750.591811,
+    "candidate_T_s": 9843.815563,
+    "movement_delta_s": 1170.2237527071732,
+    "measure_delta_s": -235,
+    "switch_delta_s": -55,
+    "clear_delta_s": 213,
+    "baseline_trace_costs": {
+      "phases": {
+        "global_coverage": {
+          "movement_s": 3904.0751850278266,
+          "measurement_s": 1630.0,
+          "switch_s": 311.0,
+          "no_signal": 314.0,
+          "direction": 12.0
+        },
+        "local_active_sensing": {
+          "movement_s": 1171.291693741156,
+          "measurement_s": 60.0,
+          "switch_s": 12.0,
+          "direction": 12.0
+        },
+        "clear": {
+          "movement_s": 1479.2249333759767,
+          "clear_s": 183.0
+        }
+      },
+      "targets": {
+        "6": {
+          "local_movement_s": 298.07333459372796,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 10.0,
+          "failed_clears": 9.0
+        },
+        "17": {
+          "local_movement_s": 147.95217350299623,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 4.0,
+          "failed_clears": 3.0
+        },
+        "3": {
+          "local_movement_s": 211.22538562587593,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 7.0,
+          "failed_clears": 6.0
+        },
+        "19": {
+          "local_movement_s": 145.64345173522065,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "7": {
+          "local_movement_s": 223.74952902380997,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "5": {
+          "local_movement_s": 286.83835518769735,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "15": {
+          "local_movement_s": 152.3696513525822,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "20": {
+          "local_movement_s": 320.64994314679956,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "4": {
+          "local_movement_s": 144.27096044219078,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "12": {
+          "local_movement_s": 167.0816028919172,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 5.0,
+          "failed_clears": 4.0
+        },
+        "16": {
+          "local_movement_s": 286.7873800048948,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 18.0,
+          "failed_clears": 17.0
+        },
+        "2": {
+          "local_movement_s": 265.8748596094214,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        }
+      }
+    },
+    "candidate_trace_costs": {
+      "phases": {
+        "global_coverage": {
+          "movement_s": 4610.149098554291,
+          "measurement_s": 1370.0,
+          "switch_s": 258.0,
+          "no_signal": 262.0,
+          "direction": 12.0
+        },
+        "local_active_sensing": {
+          "movement_s": 931.1294201522805,
+          "measurement_s": 60.0,
+          "switch_s": 10.0,
+          "direction": 11.0,
+          "no_signal": 1.0
+        },
+        "clear": {
+          "movement_s": 1490.00125964079,
+          "clear_s": 396.0
+        },
+        "attachment_rescue": {
+          "movement_s": 693.5357865047706,
+          "measurement_s": 25.0,
+          "switch_s": 0.0,
+          "direction": 5.0
+        }
+      },
+      "targets": {
+        "4": {
+          "local_movement_s": 104.55073071301794,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 4.0,
+          "failed_clears": 3.0
+        },
+        "5": {
+          "local_movement_s": 164.73240464178673,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 4.0,
+          "failed_clears": 3.0
+        },
+        "20": {
+          "local_movement_s": 212.68776347452783,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 14.0,
+          "failed_clears": 13.0
+        },
+        "15": {
+          "local_movement_s": 161.27261101610776,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 3.0,
+          "failed_clears": 2.0
+        },
+        "12": {
+          "local_movement_s": 168.46757149436033,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "16": {
+          "local_movement_s": 249.93465530112132,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 8.0,
+          "failed_clears": 7.0
+        },
+        "17": {
+          "local_movement_s": 289.4211266430142,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 7.0,
+          "failed_clears": 6.0
+        },
+        "6": {
+          "local_movement_s": 730.9714128406795,
+          "measurements": 1.0,
+          "no_signal": 1.0,
+          "clear_attempts": 75.0,
+          "failed_clears": 74.0
+        },
+        "3": {
+          "local_movement_s": 207.26630988854586,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 4.0,
+          "failed_clears": 3.0
+        },
+        "7": {
+          "local_movement_s": 303.40907181010783,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "19": {
+          "local_movement_s": 164.29684209375628,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "2": {
+          "local_movement_s": 357.6559663808182,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        }
+      }
+    }
+  },
+  {
+    "problem": 4,
+    "variant": "p4_route_rescue",
+    "reference": "main",
+    "case_id": "stage3-round-calibrated-p4-0058-21214e6527864dd3",
+    "hypothesis": "H2",
+    "N": 13,
+    "Nd": 10,
+    "delta_T_s": 1026.0905829999992,
+    "baseline_T_s": 8486.859125,
+    "candidate_T_s": 9512.949708,
+    "movement_delta_s": 566.0905840603897,
+    "measure_delta_s": 380,
+    "switch_delta_s": 71,
+    "clear_delta_s": 9,
+    "baseline_trace_costs": {
+      "phases": {
+        "global_coverage": {
+          "movement_s": 4375.348240486459,
+          "measurement_s": 1105.0,
+          "switch_s": 202.0,
+          "direction": 13.0,
+          "no_signal": 208.0
+        },
+        "local_active_sensing": {
+          "movement_s": 602.2037283606521,
+          "measurement_s": 65.0,
+          "switch_s": 13.0,
+          "direction": 12.0,
+          "no_signal": 1.0
+        },
+        "clear": {
+          "movement_s": 1795.3071555699694,
+          "clear_s": 329.0
+        }
+      },
+      "targets": {
+        "13": {
+          "local_movement_s": 147.52205392117102,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 5.0,
+          "failed_clears": 4.0
+        },
+        "2": {
+          "local_movement_s": 95.97226624074942,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "17": {
+          "local_movement_s": 115.17092823264002,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 3.0,
+          "failed_clears": 2.0
+        },
+        "9": {
+          "local_movement_s": 123.90113071545422,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "12": {
+          "local_movement_s": 182.97850676887515,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 3.0,
+          "failed_clears": 2.0
+        },
+        "4": {
+          "local_movement_s": 109.36605002183533,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "7": {
+          "local_movement_s": 237.67732044121917,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 15.0,
+          "failed_clears": 14.0
+        },
+        "20": {
+          "local_movement_s": 212.02555705804622,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "18": {
+          "local_movement_s": 196.09099656747603,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "1": {
+          "local_movement_s": 510.99178822256084,
+          "measurements": 1.0,
+          "no_signal": 1.0,
+          "clear_attempts": 62.0,
+          "failed_clears": 61.0
+        },
+        "19": {
+          "local_movement_s": 113.8085856697245,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "3": {
+          "local_movement_s": 158.8628119268517,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "14": {
+          "local_movement_s": 193.14288814401908,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        }
+      }
+    },
+    "candidate_trace_costs": {
+      "phases": {
+        "global_coverage": {
+          "movement_s": 4454.200798066731,
+          "measurement_s": 1470.0,
+          "switch_s": 275.0,
+          "direction": 13.0,
+          "no_signal": 281.0
+        },
+        "local_active_sensing": {
+          "movement_s": 941.1260780961672,
+          "measurement_s": 65.0,
+          "switch_s": 11.0,
+          "direction": 11.0,
+          "no_signal": 2.0
+        },
+        "attachment_rescue": {
+          "movement_s": 459.8397393500472,
+          "measurement_s": 15.0,
+          "switch_s": 0.0,
+          "direction": 3.0
+        },
+        "clear": {
+          "movement_s": 1483.7830929645197,
+          "clear_s": 338.0
+        }
+      },
+      "targets": {
+        "20": {
+          "local_movement_s": 305.1017192385001,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 7.0,
+          "failed_clears": 6.0
+        },
+        "18": {
+          "local_movement_s": 193.3951354639506,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "7": {
+          "local_movement_s": 237.68984373113963,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 12.0,
+          "failed_clears": 11.0
+        },
+        "4": {
+          "local_movement_s": 242.89824911722727,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 25.0,
+          "failed_clears": 24.0
+        },
+        "12": {
+          "local_movement_s": 246.89945254936094,
+          "measurements": 2.0,
+          "direction": 2.0,
+          "clear_attempts": 5.0,
+          "failed_clears": 4.0
+        },
+        "9": {
+          "local_movement_s": 100.20847142922074,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "17": {
+          "local_movement_s": 200.24377875140902,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "2": {
+          "local_movement_s": 233.37600471693676,
+          "measurements": 1.0,
+          "no_signal": 1.0,
+          "clear_attempts": 13.0,
+          "failed_clears": 12.0
+        },
+        "3": {
+          "local_movement_s": 163.47824985922708,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "13": {
+          "local_movement_s": 74.75121212532045,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 1.0,
+          "failed_clears": 0.0
+        },
+        "19": {
+          "local_movement_s": 214.52388376442568,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 3.0,
+          "failed_clears": 2.0
+        },
+        "1": {
+          "local_movement_s": 94.88130284753004,
+          "measurements": 1.0,
+          "direction": 1.0,
+          "clear_attempts": 2.0,
+          "failed_clears": 1.0
+        },
+        "14": {
+          "local_movement_s": 577.3016068164881,
+          "measurements": 1.0,
+          "no_signal": 1.0,
+          "clear_attempts": 31.0,
+          "failed_clears": 30.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "case_id": "local-p3-88123001-random-mixed-deterministic",
+  "seed": 88123001,
+  "problem": 3,
+  "layout": "random",
+  "radius_mode": "mixed",
+  "error_mode": "deterministic",
+  "sources": [
+    {
+      "channel": 13,
+      "position": [
+        -764.2253960132226,
+        -825.4685188733287
+      ],
+      "radius": 1112.3546633902426,
+      "direction_deg": null
+    },
+    {
+      "channel": 3,
+      "position": [
+        -1272.5473874017123,
+        -1158.6282299231714
+      ],
+      "radius": 1263.934596960575,
+      "direction_deg": null
+    },
+    {
+      "channel": 9,
+      "position": [
+        174.56540124936336,
+        765.7587802682093
+      ],
+      "radius": 1206.7867365994387,
+      "direction_deg": null
+    },
+    {
+      "channel": 19,
+      "position": [
+        -991.330756368682,
+        -1314.9671704593316
+      ],
+      "radius": 1160.4833322316226,
+      "direction_deg": null
+    },
+    {
+      "channel": 10,
+      "position": [
+        1130.2573894561822,
+        -464.04857484629434
+      ],
+      "radius": 1009.9781972074112,
+      "direction_deg": null
+    },
+    {
+      "channel": 5,
+      "position": [
+        1286.0375990643458,
+        -350.97151627840793
+      ],
+      "radius": 1336.8062135408873,
+      "direction_deg": null
+    },
+    {
+      "channel": 4,
+      "position": [
+        -1636.4810702563866,
+        72.90229928225573
+      ],
+      "radius": 1230.7345110651736,
+      "direction_deg": null
+    },
+    {
+      "channel": 16,
+      "position": [
+        289.7726350765233,
+        -1197.4350629173468
+      ],
+      "radius": 1266.1348254441189,
+      "direction_deg": null
+    },
+    {
+      "channel": 1,
+      "position": [
+        -1239.9602293932637,
+        439.33156780093884
+      ],
+      "radius": 1218.760218150891,
+      "direction_deg": null
+    },
+    {
+      "channel": 2,
+      "position": [
+        918.9572223897186,
+        -1210.6732755953597
+      ],
+      "radius": 1416.475620761077,
+      "direction_deg": null
+    }
+  ],
+  "error_field": {
+    "seed": 44231,
+    "mode": "deterministic",
+    "correlation_length_m": 150.0
+  }
+}

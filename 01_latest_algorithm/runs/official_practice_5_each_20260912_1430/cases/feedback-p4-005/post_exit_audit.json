@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p4-005",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "Y9SY-2Y39-8568-56NR",
+  "source_total_post_exit": 15,
+  "directional_total_post_exit": 11,
+  "omnidirectional_total_post_exit": 4,
+  "cleared": 15,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 8494.758211,
+  "original_log_filename": "practice-p4-4871204978748528238-Y9SY-2Y39-8568-56NR.jlog",
+  "original_log_sha256": "ce3a03d7a089a5f8a89cb590d6f8c70f60d37a03b9b2e085f0f71d64e4875107",
+  "original_log_bytes": 81673,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:34:50.650556+00:00"
+}

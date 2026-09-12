@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p3-004",
+  "problem": 3,
+  "case_code": "DWHX-GXYF-2TFM-WUAK",
+  "measurement_outcomes": {
+    "direction": 30,
+    "no_signal": 60
+  },
+  "planning_calls": 26,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 17,
+    "cover": 9
+  },
+  "http_records": 121,
+  "decision_records": 175,
+  "http_outcomes": {
+    "accepted": 121
+  },
+  "costs": {
+    "move_s": 3258.4282960105566,
+    "measure_s": 450,
+    "switch_s": 85,
+    "clear_s": 115
+  },
+  "timing_residual_s": 3.9894434848974925e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 60,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

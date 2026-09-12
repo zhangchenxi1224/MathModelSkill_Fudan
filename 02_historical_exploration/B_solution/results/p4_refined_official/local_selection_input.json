@@ -1,0 +1,55 @@
+{
+  "manifest_sha256": "2012d9b665c1852cd3640038169e7b568cb220ef4e0175b5544c8dc285ed9daa",
+  "source_freeze_sha256": "33d35e5838d7b3ac482f19e0ce67639942974aa016e703d5ecd53c0247a77ee6",
+  "development_results_sha256": "f3955b80726118efbfaf86d77afe4c7d9d6ab57777969c6a00fd1b9595c63440",
+  "rule": {
+    "completion": "Every candidate run must fully clear and have zero truth-hull violations; missing runs disqualify.",
+    "pool_gate": "Candidate-minus-current mean penalized time must be <=0 in each of calibrated/broad/stress.",
+    "primary": "Among eligible candidates choose smallest calibrated mean total time; ties use declared arm order.",
+    "secondary": "If eligible and not primary, retain coverage as an additional conservative comparator.",
+    "maximum_candidates": 2,
+    "no_forced_choice": true,
+    "confirmation": "Current plus frozen eligible selection only; no new selection from confirmation.",
+    "ci": "Pointwise paired bootstrap, 2000 draws; per-pool/composition/mechanism reporting; not multiplicity-adjusted.",
+    "population": "Each synthetic design pool reported separately; calibrated mixture is not an official population estimate."
+  },
+  "assessments": [
+    {
+      "variant": "coverage",
+      "eligible": true,
+      "pool_penalized_delta_s": {
+        "calibrated": -1432.14752515,
+        "broad": -1563.9374485875,
+        "stress": -1297.1122414249999
+      },
+      "calibrated_mean_s": 9280.860555225
+    },
+    {
+      "variant": "local_cover",
+      "eligible": true,
+      "pool_penalized_delta_s": {
+        "calibrated": -218.88441572500005,
+        "broad": -160.4989607,
+        "stress": -38.41398924999997
+      },
+      "calibrated_mean_s": 10494.12366465
+    },
+    {
+      "variant": "combined_cover",
+      "eligible": true,
+      "pool_penalized_delta_s": {
+        "calibrated": -1616.090661125,
+        "broad": -1697.1867885750003,
+        "stress": -1364.959793625
+      },
+      "calibrated_mean_s": 9096.91741925
+    }
+  ],
+  "selected_variants": [
+    "combined_cover",
+    "coverage"
+  ],
+  "status": "selected_from_development",
+  "confirmation_used": false,
+  "selection_sha256": "5db18de458ee30406e20ffcdb0728653cf7af1e36b3f70471413031b0531b7a4"
+}

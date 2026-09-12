@@ -1,0 +1,36 @@
+{
+  "status": "validated_local_candidates_on_new240_and_old960",
+  "primary": "New 240 H1, sensitivity H2; old 960 regression",
+  "baseline": "inputs/previous_selection.json: p3_r1150_w1 and p4_L2_d1200_w1",
+  "policies": {
+    "3": {
+      "arm": "dp_geometric",
+      "options": {
+        "planning_seconds": 60.0
+      },
+      "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+    },
+    "4": {
+      "arm": "three_feedback_fast",
+      "options": {
+        "region_depth": 3,
+        "planning_region_depth": 0,
+        "planning_seconds": 60.0
+      },
+      "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+    }
+  },
+  "note": "选择只依赖公开题号。在线决策读取客户端反馈，不读取场景真值、编号或H标签。",
+  "computation": "Fixed candidate/node budgets; 60-second emergency guard. Reuse 5-second runs only when no planning call reached that guard, otherwise rerun.",
+  "evaluated_worlds": 1200,
+  "all_cleared_worlds": 1200,
+  "evidence": {
+    "new240": "reports/final_new240",
+    "core960": "reports/final_core960",
+    "latest_mainline_comparison": [
+      "reports/final_vs_mainline_new240",
+      "reports/final_vs_mainline_core960"
+    ]
+  },
+  "limitation": "Finite-candidate local lookahead; empirical local simulation results, not global optimality or new official evaluation."
+}

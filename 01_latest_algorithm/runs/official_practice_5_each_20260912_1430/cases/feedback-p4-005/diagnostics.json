@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p4-005",
+  "problem": 4,
+  "case_code": "Y9SY-2Y39-8568-56NR",
+  "measurement_outcomes": {
+    "no_signal": 204,
+    "direction": 33
+  },
+  "planning_calls": 29,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 21,
+    "cover": 8
+  },
+  "http_records": 341,
+  "decision_records": 406,
+  "http_outcomes": {
+    "accepted": 341
+  },
+  "costs": {
+    "move_s": 6759.758216149441,
+    "measure_s": 1185,
+    "switch_s": 214,
+    "clear_s": 336
+  },
+  "timing_residual_s": -5.149440767127089e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 580.4489030000004,
+  "feedback_no_signal": 204,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

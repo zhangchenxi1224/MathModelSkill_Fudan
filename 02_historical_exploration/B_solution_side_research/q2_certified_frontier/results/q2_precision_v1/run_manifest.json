@@ -1,0 +1,28 @@
+{
+  "source_files": {
+    "study.py": "dfb045ccc4aad32adefeb87cdfe6d89fd4fdf06897cd6695756058f9089b3005",
+    "q2_geometry.py": "39e38b124e6fa6ceda413e3ad29a74a9914d73bcfe7b7c0859815368be3d9d7f",
+    "vendor/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "vendor/bsolver/calibration.py": "420610e239e81fb4cb404d3212a09a321076517cda2a03a0c66513e790360545",
+    "vendor/bsolver/cli.py": "a62855a646bf21deabf4b23a2ce8e38ee5d12edadd0419ec08944fc80834ed96",
+    "vendor/bsolver/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "vendor/bsolver/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "vendor/bsolver/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "vendor/bsolver/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "vendor/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "vendor/bsolver/posterior_archive.py": "7212a69e59ef2130c514295298ad140098a08b564998f1f1db74087a25bb3670",
+    "vendor/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "vendor/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+    "vendor/bsolver/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "vendor/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "vendor/bsolver/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "vendor/bsolver/survey.py": "af8a0b29d4db390dd8aee11a4255b44d69ae8934835979ba290a5037b5568247"
+  },
+  "epsilon_deg": 1.0051,
+  "selection": "precision-first bound / explicit 800m movement budget; no posterior target data in selection",
+  "options": {
+    "angle_step": 5.0,
+    "coarse_bin": 1.0,
+    "fine_bin": 0.25
+  }
+}

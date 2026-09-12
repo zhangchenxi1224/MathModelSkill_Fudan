@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p4-002",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "S6J2-EDRR-HAYP-XBDD",
+  "source_total_post_exit": 13,
+  "directional_total_post_exit": 1,
+  "omnidirectional_total_post_exit": 12,
+  "cleared": 13,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 8707.941054,
+  "original_log_filename": "practice-p4-726393689377447990-S6J2-EDRR-HAYP-XBDD.jlog",
+  "original_log_sha256": "2636bd174ac89d9f267a3a1f5c1b230a150f3ff1d6b1d718c6bab18b93f01e3a",
+  "original_log_bytes": 72741,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:32:43.907195+00:00"
+}

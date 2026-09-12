@@ -1,0 +1,66 @@
+{
+  "version": "development-worst-pairs-actual-journal-v1",
+  "selection": {
+    "created_utc": "2026-09-11T08:39:44.519285+00:00",
+    "stage": 1,
+    "manifest_sha256": "dee3221c6c16b153ce7deb7b423ab76759c0634eb4006196343dce7ded3626b2",
+    "selected_local_limits": {
+      "3": 1,
+      "4": 1
+    },
+    "selected_variants": {
+      "3": "joint_triangular_l1",
+      "4": "joint_triangular_l1"
+    },
+    "selection_basis": "development_only",
+    "frozen_before_confirmation": true,
+    "frozen_before_confirmation_review": true,
+    "development_results_sha256": "9375a9eb2b994316fdcc74c557a78f406a1ec44a55379cc8f3adc926dffa1874",
+    "development_file_sha256": "4f4c419f7f2e73e49d66b4a26fffa018e120fe41e80e53eceea98cb3bc97fa6d",
+    "screening_rule_file": "results/round1/local/selection_rule_before_performance_review.json",
+    "confirmation_rule_file": "results/round1/later_stage_selection_rule.json",
+    "evidence": [
+      {
+        "problem": 3,
+        "variant": "joint_triangular_l1",
+        "worst_development_group_delta_s": -181.2914132875,
+        "status": "exploratory_shortlist_only",
+        "official_dispatch_ready": false
+      },
+      {
+        "problem": 4,
+        "variant": "joint_triangular_l1",
+        "worst_development_group_delta_s": -335.72270097500007,
+        "status": "exploratory_shortlist_only",
+        "official_dispatch_ready": false
+      }
+    ],
+    "independent_audit": "results/round1/local/integrity_development_prefix/overall.json",
+    "regression_note": "P4 L1 regression fractions 7.5%-15% across development design groups. Worst selected-arm regressions around +1279.60s; four small mechanism strata have positive means with intervals spanning zero. Choice follows the predeclared group gate; no claim of pointwise dominance.",
+    "formal_authorized": false,
+    "official_dispatch_ready": false,
+    "selection_sha256": "d52358e443a2d32c7bca10eb8b8812c64cf64da1fbd08c82e251c7ad7c91a6d4"
+  },
+  "selected_variants": {
+    "3": "joint_triangular_l1",
+    "4": "joint_triangular_l1"
+  },
+  "per_problem_choice_status": {
+    "3": "changed_variant",
+    "4": "changed_variant"
+  },
+  "input_development_sha256": "4f4c419f7f2e73e49d66b4a26fffa018e120fe41e80e53eceea98cb3bc97fa6d",
+  "selection_sha256": "849034abf5df7733f80896faf281c2a08d01256e621c31680531b1ad63807d1b",
+  "script_sha256": "0f7c38b9513e7adab2189e81e759ee83a1c5b0f3fdd2d1a6a6bdcd69148c7686",
+  "development_rows": 3200,
+  "selected_pairs": 6,
+  "diagnosed_pairs": 6,
+  "errors": [],
+  "plots": [
+    "trajectory_01_round-stress-p4-0020-4e199213594cf0cd.png",
+    "trajectory_02_round-broad-p4-0006-776bd34f4f96e11b.png"
+  ],
+  "confirmation_read": false,
+  "selection_rule": "largest signed penalized delta per selected variant/pool/problem; also every actual development failure, including unselected variants",
+  "inference": "post hoc explanatory cases, not a fresh sample, CI, or selection criterion"
+}

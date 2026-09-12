@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p4-003",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "QVR6-23Y9-B22A-KFKH",
+  "source_total_post_exit": 11,
+  "directional_total_post_exit": 3,
+  "omnidirectional_total_post_exit": 8,
+  "cleared": 11,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 7799.035216,
+  "original_log_filename": "practice-p4-1215776055165565441-QVR6-23Y9-B22A-KFKH.jlog",
+  "original_log_sha256": "c90b3b284c42c2e53ca9cbb6b586e67ab8707d01ab4605e99996c60e641c14eb",
+  "original_log_bytes": 70364,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:33:21.953022+00:00"
+}

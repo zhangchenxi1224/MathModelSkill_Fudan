@@ -1,0 +1,13 @@
+{
+  "archive": "dynamic_joint_v1.zip",
+  "sha256": "683536b98cf86215bb43ea2fa7cfe57280c35af20437a3b7e8c7acc92294901b",
+  "bytes": 4247497,
+  "file_count": 145,
+  "source_files_verified": true,
+  "config_files_verified": true,
+  "archive_crc_verified": true,
+  "unit_tests_passed": 27,
+  "paired_smoke_runs": 24,
+  "prior_integration_runs": 2,
+  "all_26_runs_audit_complete": true
+}

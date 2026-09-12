@@ -1,0 +1,13 @@
+﻿variant,case_id,problem,seed,layout,radius_mode,error_mode,status,error,source_total,clear_successes,clear_fraction,total_virtual_time_s,average_clear_time_s,walk_distance_m,measures,switches,clear_attempts,fallback_targets,program_real_time_s,timing_residual_s
+baseline,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,5690.780398,569.0780397999999,24873.901985950317,113,101,10,0,0.12576179997995496,8.099368642433546e-07
+active,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,4930.861015,493.08610150000004,21049.305084263287,114,101,10,1,0.6482902999268845,-1.8526570784160867e-06
+nearest_safe,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,4919.332041,491.93320409999995,20991.66020788068,114,101,10,1,0.6391017000423744,-5.761357897426933e-07
+immediate,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,5785.001045,578.5001045,24950.005258679237,129,91,13,2,0.8576782000018284,-6.73584781907266e-06
+joint_square,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,4075.54707,407.554707,16407.735363764506,126,105,13,2,0.8680355000542477,-2.7529013095772825e-06
+joint_triangular,local-p3-71300-random-min-deterministic,3,71300,random,min,deterministic,complete,,10,10,1.0,4075.54707,407.554707,16407.735363764506,126,105,13,2,0.9144391999579966,-2.7529013095772825e-06
+baseline,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,13185.597786,1318.5597786,47962.98891534648,600,540,11,1,0.5846380000002682,2.930702976300381e-06
+active,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,12731.650608,1273.1650608,44963.25303396346,601,540,58,3,1.7199027999304235,1.20730692287907e-06
+nearest_safe,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,12726.060204,1272.6060204,44935.30101073614,601,540,58,3,1.6065218999283388,1.8527716747485101e-06
+immediate,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,13694.838015,1369.4838015,49944.190047614204,618,530,22,8,1.4654670000309125,5.4771589930169284e-06
+joint_square,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,11984.954925,1198.4954925,41469.7746143731,613,549,19,6,1.4943313000258058,2.1253799786791205e-06
+joint_triangular,local-p4-71400-random-min-deterministic,4,71400,random,min,deterministic,complete,,10,10,1.0,11377.490873,1137.7490873000002,42922.45435838839,421,377,97,3,1.6232068999670446,1.3223216228652745e-06

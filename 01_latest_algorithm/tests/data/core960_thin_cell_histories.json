@@ -1,0 +1,1905 @@
+[
+  {
+    "problem": 3,
+    "channel": 6,
+    "true_position": [
+      650.8646366171878,
+      -1066.3550843079202
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189050219,
+          "virtual_time_s": 35.0,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          575.0000000000002,
+          -995.9292143521044
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189059073,
+          "virtual_time_s": 504.7377,
+          "measure_result": "direction",
+          "svd_deg": 316.92
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          796.5973895353931,
+          -1203.0998602228838
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063411,
+          "virtual_time_s": 628.408971,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          819.9207270974507,
+          -1224.910187767443
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063427,
+          "virtual_time_s": 637.795421,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          843.2440646595085,
+          -1246.7205153120021
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063439,
+          "virtual_time_s": 647.181871,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          866.5674022215662,
+          -1268.5308428565615
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063452,
+          "virtual_time_s": 656.568321,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          889.8907397836238,
+          -1290.341170401121
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063467,
+          "virtual_time_s": 665.954771,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          913.2140773456815,
+          -1312.1514979456801
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063492,
+          "virtual_time_s": 675.341221,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          959.8607524697969,
+          -1355.7721530347987
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063521,
+          "virtual_time_s": 691.11412,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          983.1840900318546,
+          -1377.582480579358
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063550,
+          "virtual_time_s": 700.50057,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1006.5074275939122,
+          -1399.3928081239173
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063582,
+          "virtual_time_s": 709.88702,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1029.8307651559699,
+          -1421.2031356684765
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063617,
+          "virtual_time_s": 719.27347,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1053.1541027180276,
+          -1443.013463213036
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063650,
+          "virtual_time_s": 728.65992,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          936.5374149077392,
+          -1333.9618254902393
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063680,
+          "virtual_time_s": 763.592168,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          773.2740519733354,
+          -1181.2895326783243
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063716,
+          "virtual_time_s": 811.297315,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          749.9507144112778,
+          -1159.4792051337652
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063748,
+          "virtual_time_s": 820.683765,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          703.3040392871624,
+          -1115.8585500446466
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063777,
+          "virtual_time_s": 836.456664,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          679.9807017251046,
+          -1094.0482225000871
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063807,
+          "virtual_time_s": 845.843114,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          586.6873514768739,
+          -1006.8069123218501
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063840,
+          "virtual_time_s": 874.388912,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          610.0106890389316,
+          -1028.6172398664094
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063870,
+          "virtual_time_s": 883.775362,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          633.3340266009893,
+          -1050.4275674109688
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063905,
+          "virtual_time_s": 893.161812,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          656.657364163047,
+          -1072.237894955528
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189063939,
+          "virtual_time_s": 904.548262,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 4,
+    "channel": 3,
+    "true_position": [
+      -1067.5028601550598,
+      1057.0902381658098
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189052362,
+          "virtual_time_s": 60.084764,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189065161,
+          "virtual_time_s": 580.23387,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189067270,
+          "virtual_time_s": 900.466754,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189070750,
+          "virtual_time_s": 1398.58101,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          995.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189076219,
+          "virtual_time_s": 2066.973729,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          1492.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189076701,
+          "virtual_time_s": 2342.973729,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          995.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189080473,
+          "virtual_time_s": 2702.384999,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          1990.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189083790,
+          "virtual_time_s": 3160.69992,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          1492.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189084359,
+          "virtual_time_s": 3430.69992,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          2487.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189084951,
+          "virtual_time_s": 3694.69992,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          1990.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189085574,
+          "virtual_time_s": 3958.69992,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          995.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189086265,
+          "virtual_time_s": 4222.69992,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          497.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189091060,
+          "virtual_time_s": 4657.253948,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189096209,
+          "virtual_time_s": 4979.242226,
+          "measure_result": "direction",
+          "svd_deg": 143.46
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -564.138847708982,
+          754.7225281460335
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189098730,
+          "virtual_time_s": 5052.699933,
+          "measure_result": "direction",
+          "svd_deg": 148.11
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -912.2033231887657,
+          967.0935245383633
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189100497,
+          "virtual_time_s": 5137.247543,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -940.0345619057886,
+          985.0949842122462
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189100605,
+          "virtual_time_s": 5146.876662,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -967.8658006228114,
+          1003.0964438861291
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189100739,
+          "virtual_time_s": 5156.505781,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -995.6970393398342,
+          1021.097903560012
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189100917,
+          "virtual_time_s": 5166.1349,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1023.5282780568571,
+          1039.0993632338948
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189101102,
+          "virtual_time_s": 5175.764019,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1051.35951677388,
+          1057.1008229077777
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189101275,
+          "virtual_time_s": 5187.393138,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 4,
+    "channel": 14,
+    "true_position": [
+      -156.27704577430816,
+      -4.949857182201815
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189308433,
+          "virtual_time_s": 126.084764,
+          "measure_result": "direction",
+          "svd_deg": 127.59
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -588.3785427679034,
+          759.2880392891287
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321169,
+          "virtual_time_s": 444.039923,
+          "measure_result": "direction",
+          "svd_deg": 300.48
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -126.33823292924609,
+          -51.27258876112838
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321516,
+          "virtual_time_s": 633.640007,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -103.89469956294329,
+          -81.50947691124895
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321543,
+          "virtual_time_s": 644.171226,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -81.45116619664049,
+          -111.74636506136953
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321572,
+          "virtual_time_s": 654.702445,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -59.007632830337684,
+          -141.98325321149008
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321600,
+          "virtual_time_s": 665.233664,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -36.56409946403488,
+          -172.22014136161064
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321631,
+          "virtual_time_s": 675.764883,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -148.7817662955489,
+          -21.035700611007826
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321655,
+          "virtual_time_s": 718.420979,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 4,
+    "channel": 16,
+    "true_position": [
+      608.8022328537712,
+      1614.412238858645
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189297995,
+          "virtual_time_s": 138.084764,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189317034,
+          "virtual_time_s": 1107.34689,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1492.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189321307,
+          "virtual_time_s": 1405.626604,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -2487.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189330176,
+          "virtual_time_s": 2068.011663,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1990.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189330606,
+          "virtual_time_s": 2338.011663,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189331054,
+          "virtual_time_s": 2602.011663,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189331568,
+          "virtual_time_s": 2866.011663,
+          "measure_result": "direction",
+          "svd_deg": 10.92
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          304.9773241193366,
+          1642.5493287951854
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189334892,
+          "virtual_time_s": 2971.123432,
+          "measure_result": "direction",
+          "svd_deg": 355.71
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          551.2237968353179,
+          1625.90249944551
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189335608,
+          "virtual_time_s": 3023.485135,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          580.7140139949684,
+          1623.1693184342778
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189335668,
+          "virtual_time_s": 3032.408456,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          610.2042311546188,
+          1620.4361374230455
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189335734,
+          "virtual_time_s": 3043.331777,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 4,
+    "channel": 7,
+    "true_position": [
+      -1643.5954202877392,
+      541.4970565557808
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189359863,
+          "virtual_time_s": 84.084764,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189361029,
+          "virtual_time_s": 537.426505,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189361749,
+          "virtual_time_s": 868.455086,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189362198,
+          "virtual_time_s": 1156.455086,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1492.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189363135,
+          "virtual_time_s": 1516.207653,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189363717,
+          "virtual_time_s": 1798.207653,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189364522,
+          "virtual_time_s": 2176.948109,
+          "measure_result": "direction",
+          "svd_deg": 130.43
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -955.7242447706944,
+          -179.79518460512662
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365008,
+          "virtual_time_s": 2229.553739,
+          "measure_result": "direction",
+          "svd_deg": 133.36
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1106.8612547564612,
+          -51.084922106512394
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365131,
+          "virtual_time_s": 2274.257002,
+          "measure_result": "direction",
+          "svd_deg": 132.29
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1401.4550535587773,
+          265.60252028097767
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365336,
+          "virtual_time_s": 2363.761671,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1420.8392188520997,
+          287.5624056875682
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365445,
+          "virtual_time_s": 2372.619938,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1440.2233841454222,
+          309.5222910941587
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365565,
+          "virtual_time_s": 2381.478205,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1459.6075494387446,
+          331.4821765007492
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365687,
+          "virtual_time_s": 2390.336472,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1478.9917147320668,
+          353.4420619073396
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365828,
+          "virtual_time_s": 2399.194739,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1498.3758800253893,
+          375.4019473139301
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189365978,
+          "virtual_time_s": 2408.053006,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1517.7600453187115,
+          397.3618327205206
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366123,
+          "virtual_time_s": 2416.911273,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1537.144210612034,
+          419.3217181271111
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366271,
+          "virtual_time_s": 2425.76954,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1556.5283759053564,
+          441.2816035337016
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366415,
+          "virtual_time_s": 2434.627807,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1575.9125411986788,
+          463.24148894029213
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366543,
+          "virtual_time_s": 2443.486074,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1595.296706492001,
+          485.20137434688263
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366682,
+          "virtual_time_s": 2452.344341,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1614.6808717853235,
+          507.1612597534731
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366818,
+          "virtual_time_s": 2461.202608,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          -1634.065037078646,
+          529.1211451600635
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189366954,
+          "virtual_time_s": 2472.060875,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 4,
+    "channel": 4,
+    "true_position": [
+      629.5011197591062,
+      -1496.6875170180808
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189409999,
+          "virtual_time_s": 66.084764,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189413209,
+          "virtual_time_s": 422.031518,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1492.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189413594,
+          "virtual_time_s": 740.031518,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -2487.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189418654,
+          "virtual_time_s": 1587.78276,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1990.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189419107,
+          "virtual_time_s": 1893.78276,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189421557,
+          "virtual_time_s": 2356.699709,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          1507.966735
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189425996,
+          "virtual_time_s": 2757.437032,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          497.5,
+          646.271458
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189428882,
+          "virtual_time_s": 3168.034039,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          995.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189437728,
+          "virtual_time_s": 3794.916694,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189441741,
+          "virtual_time_s": 4180.353949,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -497.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189445048,
+          "virtual_time_s": 4595.180668,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189450438,
+          "virtual_time_s": 4924.625371,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1990.0,
+          -215.423819
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189450973,
+          "virtual_time_s": 5182.625371,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1492.5,
+          -1077.119096
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189458260,
+          "virtual_time_s": 5573.085533,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -995.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189458678,
+          "virtual_time_s": 5819.085533,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189459056,
+          "virtual_time_s": 6059.085533,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          995.0,
+          -1938.814373
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189459486,
+          "virtual_time_s": 6299.085533,
+          "measure_result": "direction",
+          "svd_deg": 128.89
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          358.28737434820255,
+          -1148.496775913309
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466642,
+          "virtual_time_s": 9063.607798,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          370.5176947288633,
+          -1164.2158589607648
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466724,
+          "virtual_time_s": 9070.591115,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          382.7480151095241,
+          -1179.9349420082206
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466797,
+          "virtual_time_s": 9077.574432,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          394.97833549018486,
+          -1195.6540250556766
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466861,
+          "virtual_time_s": 9084.557749,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          407.2086558708457,
+          -1211.3731081031324
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466921,
+          "virtual_time_s": 9091.541066,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          419.4389762515065,
+          -1227.0921911505884
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189466983,
+          "virtual_time_s": 9098.524383,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          431.6692966321673,
+          -1242.8112741980442
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467050,
+          "virtual_time_s": 9105.5077,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          443.89961701282806,
+          -1258.5303572455
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467123,
+          "virtual_time_s": 9112.491017,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          456.1299373934889,
+          -1274.249440292956
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467205,
+          "virtual_time_s": 9119.474334,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          468.36025777414966,
+          -1289.968523340412
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467274,
+          "virtual_time_s": 9126.457651,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          480.59057815481043,
+          -1305.6876063878678
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467340,
+          "virtual_time_s": 9133.440968,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          492.8208985354712,
+          -1321.4066894353236
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467398,
+          "virtual_time_s": 9140.424285,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          505.05121891613203,
+          -1337.1257724827797
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467459,
+          "virtual_time_s": 9147.407602,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          517.2815392967929,
+          -1352.8448555302355
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467533,
+          "virtual_time_s": 9154.390919,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          529.5118596774537,
+          -1368.5639385776915
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467604,
+          "virtual_time_s": 9161.374236,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          541.7421800581144,
+          -1384.2830216251473
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467678,
+          "virtual_time_s": 9168.357553,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          553.9725004387752,
+          -1400.002104672603
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467757,
+          "virtual_time_s": 9175.34087,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          566.202820819436,
+          -1415.721187720059
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467826,
+          "virtual_time_s": 9182.324187,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          578.4331412000968,
+          -1431.440270767515
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467905,
+          "virtual_time_s": 9189.307504,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          590.6634615807576,
+          -1447.159353814971
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189467981,
+          "virtual_time_s": 9196.290821,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          602.8937819614184,
+          -1462.8784368624267
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189468052,
+          "virtual_time_s": 9203.274138,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          615.1241023420791,
+          -1478.5975199098825
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189468145,
+          "virtual_time_s": 9210.257455,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          627.35442272274,
+          -1494.3166029573385
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189468228,
+          "virtual_time_s": 9219.240772,
+          "clear_result": "success"
+        }
+      }
+    ]
+  },
+  {
+    "problem": 3,
+    "channel": 5,
+    "true_position": [
+      1285.615195907406,
+      -186.56543592072416
+    ],
+    "history": [
+      {
+        "kind": "measure",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189506423,
+          "virtual_time_s": 29.0,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          575.0000000000002,
+          995.9292143521044
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189506919,
+          "virtual_time_s": 538.966972,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -574.9999999999998,
+          995.9292143521045
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189507371,
+          "virtual_time_s": 979.665853,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -1150.0,
+          0.0
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189507924,
+          "virtual_time_s": 1630.569968,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          -575.0000000000005,
+          -995.9292143521043
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189508204,
+          "virtual_time_s": 1943.569968,
+          "measure_result": "no_signal"
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          575.0000000000002,
+          -995.9292143521044
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189508726,
+          "virtual_time_s": 2281.471428,
+          "measure_result": "direction",
+          "svd_deg": 48.65
+        }
+      },
+      {
+        "kind": "measure",
+        "position": [
+          783.3255782462113,
+          -929.4991500108608
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189508993,
+          "virtual_time_s": 2391.203567,
+          "measure_result": "direction",
+          "svd_deg": 55.39
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1192.6325578367025,
+          -328.3942703641747
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509067,
+          "virtual_time_s": 2539.64899,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1203.9095373066689,
+          -312.6515192493232
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509106,
+          "virtual_time_s": 2546.521996,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1215.1865167766355,
+          -296.90876813447176
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509172,
+          "virtual_time_s": 2553.395002,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1226.4634962466018,
+          -281.1660170196203
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509223,
+          "virtual_time_s": 2560.268008,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1237.7404757165684,
+          -265.4232659047688
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509274,
+          "virtual_time_s": 2567.141014,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1249.0174551865348,
+          -249.68051478991737
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509325,
+          "virtual_time_s": 2574.01402,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1260.2944346565014,
+          -233.93776367506592
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509379,
+          "virtual_time_s": 2580.887026,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1271.571414126468,
+          -218.19501256021442
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509431,
+          "virtual_time_s": 2587.760032,
+          "clear_result": "no_target_in_range"
+        }
+      },
+      {
+        "kind": "clear",
+        "position": [
+          1282.8483935964343,
+          -202.45226144536304
+        ],
+        "response": {
+          "accepted": true,
+          "real_timestamp_ms": 1789189509482,
+          "virtual_time_s": 2596.633038,
+          "clear_result": "success"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,436 @@
+{
+  "blocks": 183,
+  "flowables": 217,
+  "headings": [
+    {
+      "line": 1,
+      "level": 1,
+      "text": "无线电干扰源的快速自动定位与清除"
+    },
+    {
+      "line": 3,
+      "level": 2,
+      "text": "基于有界误差外包、确定性发现覆盖与有限光学兜底的单机器人策略"
+    },
+    {
+      "line": 7,
+      "level": 2,
+      "text": "摘要"
+    },
+    {
+      "line": 19,
+      "level": 2,
+      "text": "1 问题重述、材料依据与基本原则"
+    },
+    {
+      "line": 27,
+      "level": 3,
+      "text": "1.1 题设事实与代码对应"
+    },
+    {
+      "line": 44,
+      "level": 3,
+      "text": "1.2 假设与歧义处理"
+    },
+    {
+      "line": 52,
+      "level": 2,
+      "text": "2 统一隐藏状态与信息更新模型"
+    },
+    {
+      "line": 54,
+      "level": 3,
+      "text": "2.1 隐藏状态、公开状态与动作"
+    },
+    {
+      "line": 72,
+      "level": 3,
+      "text": "2.2 前向角度集合与外包不变量"
+    },
+    {
+      "line": 86,
+      "level": 3,
+      "text": "2.3 目标函数与统计指标"
+    },
+    {
+      "line": 94,
+      "level": 2,
+      "text": "3 问题1：交会区域直径与安全清除位置"
+    },
+    {
+      "line": 96,
+      "level": 3,
+      "text": "3.1 完整交会算法"
+    },
+    {
+      "line": 106,
+      "level": 3,
+      "text": "3.2 直径定理与反例"
+    },
+    {
+      "line": 116,
+      "level": 3,
+      "text": "3.3 最小包围圆与最近安全清除点"
+    },
+    {
+      "line": 130,
+      "level": 2,
+      "text": "4 问题2：第二测点的保证接收区与主动选择"
+    },
+    {
+      "line": 132,
+      "level": 3,
+      "text": "4.1 首次观测所包含的联合信息"
+    },
+    {
+      "line": 148,
+      "level": 3,
+      "text": "4.2 候选生成与评价"
+    },
+    {
+      "line": 160,
+      "level": 3,
+      "text": "4.3 已执行的第二测点实验"
+    },
+    {
+      "line": 174,
+      "level": 2,
+      "text": "5 问题3：全向源的确定性发现与有限清除"
+    },
+    {
+      "line": 176,
+      "level": 3,
+      "text": "5.1 七点覆盖的连续域证明"
+    },
+    {
+      "line": 186,
+      "level": 3,
+      "text": "5.2 从一次方向到有限步清除"
+    },
+    {
+      "line": 194,
+      "level": 3,
+      "text": "5.3 全局与局部的在线调度"
+    },
+    {
+      "line": 200,
+      "level": 3,
+      "text": "5.4 可检查停止证据"
+    },
+    {
+      "line": 206,
+      "level": 2,
+      "text": "6 问题4：未知发射半平面的完整发现"
+    },
+    {
+      "line": 208,
+      "level": 3,
+      "text": "6.1 凸包可见性判据"
+    },
+    {
+      "line": 214,
+      "level": 3,
+      "text": "6.2 方格与等边三角网格"
+    },
+    {
+      "line": 233,
+      "level": 3,
+      "text": "6.3 阴性信息、类型与停止"
+    },
+    {
+      "line": 239,
+      "level": 3,
+      "text": "6.4 有限性与100小时上界"
+    },
+    {
+      "line": 255,
+      "level": 2,
+      "text": "7 软件实现与可靠执行"
+    },
+    {
+      "line": 267,
+      "level": 3,
+      "text": "7.1 统一流程与复杂度"
+    },
+    {
+      "line": 292,
+      "level": 2,
+      "text": "8 自建实验、消融与失败审计"
+    },
+    {
+      "line": 294,
+      "level": 3,
+      "text": "8.1 实验设计及隔离"
+    },
+    {
+      "line": 311,
+      "level": 3,
+      "text": "8.2 独立测试集结果"
+    },
+    {
+      "line": 338,
+      "level": 3,
+      "text": "8.3 保留退步与故障案例"
+    },
+    {
+      "line": 354,
+      "level": 3,
+      "text": "8.4 敏感性与证据边界"
+    },
+    {
+      "line": 362,
+      "level": 2,
+      "text": "9 官方演练与待执行正式测试"
+    },
+    {
+      "line": 364,
+      "level": 3,
+      "text": "9.1 已执行的官方演练"
+    },
+    {
+      "line": 377,
+      "level": 3,
+      "text": "9.2 问题3正式测试表"
+    },
+    {
+      "line": 385,
+      "level": 3,
+      "text": "9.3 问题4正式测试表"
+    },
+    {
+      "line": 395,
+      "level": 2,
+      "text": "10 相关工作、局限与可复现结论"
+    },
+    {
+      "line": 405,
+      "level": 2,
+      "text": "参考文献"
+    },
+    {
+      "line": 417,
+      "level": 2,
+      "text": "附录A 复现与交付索引"
+    },
+    {
+      "line": 425,
+      "level": 2,
+      "text": "附录B 正式执行前检查"
+    }
+  ],
+  "tables": [
+    {
+      "source_line": 29,
+      "columns": 4,
+      "rows": 11,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 62,
+      "columns": 3,
+      "rows": 6,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 164,
+      "columns": 5,
+      "rows": 4,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.2755905511811,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 222,
+      "columns": 5,
+      "rows": 5,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 279,
+      "columns": 3,
+      "rows": 9,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 302,
+      "columns": 3,
+      "rows": 7,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 315,
+      "columns": 6,
+      "rows": 13,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 368,
+      "columns": 6,
+      "rows": 5,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": true,
+      "case_code_column": 1
+    },
+    {
+      "source_line": 379,
+      "columns": 5,
+      "rows": 4,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 387,
+      "columns": 5,
+      "rows": 4,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    }
+  ],
+  "images": [
+    {
+      "source_line": 128,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\q12\\q1_geometry.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 216.99298496778815,
+      "source_pixels": [
+        1980,
+        864
+      ]
+    },
+    {
+      "source_line": 172,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\q12\\q2_strategy_comparison.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 198.91023622047246,
+      "source_pixels": [
+        1890,
+        756
+      ]
+    },
+    {
+      "source_line": 231,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\coverage_q3_q4.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 170.84058507806225,
+      "source_pixels": [
+        2381,
+        818
+      ]
+    },
+    {
+      "source_line": 334,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\time_breakdown_test.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 193.8853351148075,
+      "source_pixels": [
+        2098,
+        818
+      ]
+    },
+    {
+      "source_line": 336,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\paired_time_test.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 335.13173236523005,
+      "source_pixels": [
+        1926,
+        1298
+      ]
+    },
+    {
+      "source_line": 346,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\trajectory_p3.png",
+      "width_pt": 411.33802816901414,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1298,
+        1278
+      ]
+    },
+    {
+      "source_line": 348,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\trajectory_p4.png",
+      "width_pt": 387.8389830508475,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1243,
+        1298
+      ]
+    },
+    {
+      "source_line": 350,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\region_contraction_p3.png",
+      "width_pt": 497.2755905511812,
+      "height_pt": 162.5285145379857,
+      "source_pixels": [
+        2258,
+        738
+      ]
+    },
+    {
+      "source_line": 352,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\figures\\region_contraction_p4.png",
+      "width_pt": 497.2755905511812,
+      "height_pt": 162.5285145379857,
+      "source_pixels": [
+        2258,
+        738
+      ]
+    }
+  ],
+  "content_width_pt": 497.27559055118115,
+  "content_height_pt": 741.8897637795277,
+  "body_font_size_pt": 11.0,
+  "pdf_created": true,
+  "measured_flowables": 173,
+  "width_overflows": [],
+  "pages": 20,
+  "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\docs\\paper.md",
+  "output": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\output\\pdf\\B题研究论文.pdf",
+  "bytes": 1937073,
+  "fonts": {
+    "PaperSong": "C:\\Windows\\Fonts\\simsun.ttc",
+    "PaperHei": "C:\\Windows\\Fonts\\simhei.ttf",
+    "PaperLatin": "C:\\Windows\\Fonts\\cambria.ttc",
+    "PaperSymbols": "C:\\Windows\\Fonts\\seguisym.ttf",
+    "PaperCode": "C:\\Windows\\Fonts\\consola.ttf"
+  },
+  "source_sha256": "f574a403a32d74b8dc514be9c9816adae0fccbca7e3cbf9ebebe0cca96406487",
+  "pdf_sha256": "911a9cd5b34eeeab9635b32d2e3ffd9740b697858762954c2a2b14e33c7e424c",
+  "qa_status": "Passed: every final PDF page rendered and visually inspected; see paper_visual_qa.json",
+  "visual_qa_record": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\tmp\\pdfs\\paper_visual_qa.json"
+}

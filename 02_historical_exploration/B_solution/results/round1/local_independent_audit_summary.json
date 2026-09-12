@@ -1,0 +1,169 @@
+{
+  "created_utc": "2026-09-11T09:03:58.051143+00:00",
+  "all_audited_issues": 0,
+  "entries": [
+    {
+      "stage": 1,
+      "partition": "development",
+      "runs": 3200,
+      "requests": 922592,
+      "direction_values": 115475,
+      "max_continuous_time_residual_s": 8.806368896330241e-06,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\local\\integrity_development\\overall.json",
+      "sha256": "35c9be2f2cde2bbe706bd6704a10f31c3d2af7a49bb24e257e13790854fff99a"
+    },
+    {
+      "stage": 1,
+      "partition": "confirmation",
+      "runs": 400,
+      "requests": 121000,
+      "direction_values": 14746,
+      "max_continuous_time_residual_s": 9.674693501438014e-06,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\local\\integrity_confirmation\\overall.json",
+      "sha256": "7f0ffb36b987fb86ce08da9def559bd4d0e8253bdb90243036e4e4510dc29c85"
+    },
+    {
+      "stage": 2,
+      "partition": "development",
+      "runs": 640,
+      "requests": 182859,
+      "direction_values": 16036,
+      "max_continuous_time_residual_s": 6.2705803429707885e-06,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage2\\integrity_development\\overall.json",
+      "sha256": "d0d20919c5c715a06247d680ac0bd0b42b3144e0d092e0300ea3ea2088cbef6b"
+    },
+    {
+      "stage": 2,
+      "partition": "confirmation",
+      "runs": 120,
+      "requests": 41312,
+      "direction_values": 2902,
+      "max_continuous_time_residual_s": 5.488147508003749e-06,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage2\\integrity_confirmation\\overall.json",
+      "sha256": "80137454466a46a327363f56cb6aa9a32ab3e1a8bca37637d3fdccf57ea59ad0"
+    },
+    {
+      "stage": 3,
+      "partition": "development",
+      "runs": 960,
+      "requests": 266152,
+      "direction_values": 24460,
+      "max_continuous_time_residual_s": 1.0214322173851542e-05,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage3\\integrity_development\\overall.json",
+      "sha256": "1a954104749791251ec51fc23e18d194238e36261f95053a9b01e26077553082"
+    },
+    {
+      "stage": 3,
+      "partition": "confirmation",
+      "runs": 80,
+      "requests": 21412,
+      "direction_values": 2061,
+      "max_continuous_time_residual_s": 6.698455308651319e-06,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage3\\integrity_confirmation\\overall.json",
+      "sha256": "1b9f268e14ecf7a9b84b2512aa2c00c670982b9e696bf3aaddbc3f3cdb032681"
+    }
+  ],
+  "totals": {
+    "runs": 5400,
+    "requests": 1555327,
+    "direction_values": 175680
+  },
+  "confirmation_gate_consistency": [
+    {
+      "stage": 1,
+      "problem": 3,
+      "baseline": "joint_triangular_l5",
+      "selected": "joint_triangular_l1",
+      "selected_runs": 100,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 4,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "frozen choice passes no-clear-deterioration gate; does not prove improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    },
+    {
+      "stage": 1,
+      "problem": 4,
+      "baseline": "joint_triangular_l5",
+      "selected": "joint_triangular_l1",
+      "selected_runs": 100,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 4,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "frozen choice passes no-clear-deterioration gate; does not prove improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    },
+    {
+      "stage": 2,
+      "problem": 3,
+      "baseline": "normal",
+      "selected": "normal",
+      "selected_runs": 40,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 0,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "baseline retained: reliability only, no comparative improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    },
+    {
+      "stage": 2,
+      "problem": 4,
+      "baseline": "normal",
+      "selected": "nosignal",
+      "selected_runs": 40,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 4,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "frozen choice passes no-clear-deterioration gate; does not prove improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    },
+    {
+      "stage": 3,
+      "problem": 3,
+      "baseline": "joint",
+      "selected": "joint",
+      "selected_runs": 40,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 0,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "baseline retained: reliability only, no comparative improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    },
+    {
+      "stage": 3,
+      "problem": 4,
+      "baseline": "joint",
+      "selected": "joint",
+      "selected_runs": 40,
+      "selected_failures": 0,
+      "reported_hull_violations": 0,
+      "design_groups": 0,
+      "positive_ci_lower_groups": 0,
+      "gate_passes": true,
+      "interpretation": "baseline retained: reliability only, no comparative improvement",
+      "ci_scope": "Uses saved frozen pointwise paired bootstrap intervals; no repeated bootstrap or alternative selection"
+    }
+  ],
+  "excluded_stage1_confirmation_unselected_runs": 400,
+  "excluded_scope": "L2/L3 confirmation outputs deliberately never opened; their reliability comes only from the frozen runner aggregate",
+  "tests": {
+    "command": "D:/st_python/python.exe -m pytest -q",
+    "passed": 271,
+    "wall_time_reported_s": 38.58
+  },
+  "claim_limits": [
+    "Audited counts cover 5400 selected development/confirmation runs, not all 5800 physically generated strategy runs.",
+    "NoSignal probabilities remain heuristic; no official hidden parameters were read.",
+    "Fresh round2 official independent-arm results remain required."
+  ]
+}

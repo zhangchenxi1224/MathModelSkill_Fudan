@@ -1,0 +1,265 @@
+{
+  "blocks": 80,
+  "flowables": 88,
+  "headings": [
+    {
+      "line": 1,
+      "level": 1,
+      "text": "官方数据校准与策略迁移实验"
+    },
+    {
+      "line": 5,
+      "level": 2,
+      "text": "研究目标与当前证据"
+    },
+    {
+      "line": 19,
+      "level": 2,
+      "text": "冻结、分配与审计"
+    },
+    {
+      "line": 31,
+      "level": 2,
+      "text": "首轮官方实际结果"
+    },
+    {
+      "line": 46,
+      "level": 2,
+      "text": "联合数量分布：修正支持范围，保留稀疏性"
+    },
+    {
+      "line": 65,
+      "level": 2,
+      "text": "反馈校准：耗时接近仍可能机制失配"
+    },
+    {
+      "line": 84,
+      "level": 2,
+      "text": "用位置外包构造明确反例"
+    },
+    {
+      "line": 96,
+      "level": 2,
+      "text": "分阶段策略比较"
+    },
+    {
+      "line": 152,
+      "level": 2,
+      "text": "新官方验证与复现边界"
+    }
+  ],
+  "tables": [
+    {
+      "source_line": 33,
+      "columns": 8,
+      "rows": 5,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 50,
+      "columns": 6,
+      "rows": 7,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 73,
+      "columns": 4,
+      "rows": 5,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 104,
+      "columns": 7,
+      "rows": 9,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 131,
+      "columns": 5,
+      "rows": 5,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 166,
+      "columns": 6,
+      "rows": 3,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.27559055118115,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 177,
+      "columns": 5,
+      "rows": 9,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.2755905511812,
+      "keep_together": false,
+      "case_code_column": null
+    },
+    {
+      "source_line": 194,
+      "columns": 5,
+      "rows": 3,
+      "panel": 1,
+      "panels": 1,
+      "width_pt": 497.2755905511812,
+      "keep_together": false,
+      "case_code_column": null
+    }
+  ],
+  "images": [
+    {
+      "source_line": 42,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round1_completion_time.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 301.37914578859466,
+      "source_pixels": [
+        1452,
+        880
+      ]
+    },
+    {
+      "source_line": 44,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round1_action_costs.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 301.37914578859466,
+      "source_pixels": [
+        1452,
+        880
+      ]
+    },
+    {
+      "source_line": 61,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round1_p3_composition.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 286.3101884991649,
+      "source_pixels": [
+        1452,
+        836
+      ]
+    },
+    {
+      "source_line": 63,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round1_p4_composition.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 286.3101884991649,
+      "source_pixels": [
+        1452,
+        836
+      ]
+    },
+    {
+      "source_line": 117,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\stage1_p3_l1_l5.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 339.051539012169,
+      "source_pixels": [
+        1452,
+        990
+      ]
+    },
+    {
+      "source_line": 119,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\stage1_p4_l1_l5.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 339.051539012169,
+      "source_pixels": [
+        1452,
+        990
+      ]
+    },
+    {
+      "source_line": 140,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\stage2_p4_nosignal.png",
+      "width_pt": 497.27559055118115,
+      "height_pt": 339.051539012169,
+      "source_pixels": [
+        1452,
+        990
+      ]
+    },
+    {
+      "source_line": 146,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\stage3_p3_scheduling.png",
+      "width_pt": 486.0,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1452,
+        1210
+      ]
+    },
+    {
+      "source_line": 148,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\stage3_p4_scheduling.png",
+      "width_pt": 486.0,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1452,
+        1210
+      ]
+    },
+    {
+      "source_line": 173,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round2_p3_validation.png",
+      "width_pt": 486.0,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1452,
+        1210
+      ]
+    },
+    {
+      "source_line": 175,
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\pipeline_summary\\report_figures\\round2_p4_validation.png",
+      "width_pt": 486.0,
+      "height_pt": 405.0,
+      "source_pixels": [
+        1452,
+        1210
+      ]
+    }
+  ],
+  "content_width_pt": 497.27559055118115,
+  "content_height_pt": 741.8897637795277,
+  "body_font_size_pt": 11.0,
+  "pdf_created": true,
+  "measured_flowables": 69,
+  "width_overflows": [],
+  "pages": 15,
+  "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\docs\\data_driven_experiment_report.md",
+  "output": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\tmp\\pdf_report_builds\\B题数据驱动实验报告_fc98fec4b3b44a9f88ad197945cda8a0\\new_report.pdf",
+  "bytes": 1419773,
+  "fonts": {
+    "PaperSong": "C:\\Windows\\Fonts\\simsun.ttc",
+    "PaperHei": "C:\\Windows\\Fonts\\simhei.ttf",
+    "PaperLatin": "C:\\Windows\\Fonts\\cambria.ttc",
+    "PaperSymbols": "C:\\Windows\\Fonts\\seguisym.ttf",
+    "PaperCode": "C:\\Windows\\Fonts\\consola.ttf"
+  },
+  "source_sha256": "30dcb208b95a6e21e8d94fc21e228f4f3b8d39fea6bee3b7136a7c73cd3599d5",
+  "pdf_sha256": "db57d78ee087ddd79099c53ae9bdd3df42aa3d565ea49a2703f232c02a3a22ed",
+  "qa_status": "Built; every page still requires rendered visual inspection"
+}

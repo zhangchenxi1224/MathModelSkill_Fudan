@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p4-004",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "UMSB-MJDC-J7YS-V4Z8",
+  "source_total_post_exit": 13,
+  "directional_total_post_exit": 1,
+  "omnidirectional_total_post_exit": 12,
+  "cleared": 13,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 7806.620448,
+  "original_log_filename": "practice-p4-7444639182483458076-UMSB-MJDC-J7YS-V4Z8.jlog",
+  "original_log_sha256": "005fc28f2e3e5d7282d64346df6722bc488e8d11eb2b2731c12748c7dfaa172b",
+  "original_log_bytes": 68047,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:34:02.792400+00:00"
+}

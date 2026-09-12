@@ -1,0 +1,210 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "official_l1": {
+    "implementation": "official_l1"
+  },
+  "previous_p4": {
+    "implementation": "previous_selected",
+    "problems": [
+      4
+    ]
+  },
+  "dynamic_h1": {
+    "implementation": "dynamic",
+    "planner": {
+      "horizon": 1
+    }
+  },
+  "dynamic_h2": {
+    "implementation": "dynamic",
+    "planner": {
+      "horizon": 2
+    }
+  },
+  "p3_finish16": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true
+  },
+  "p3_costgate": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "cost_gate": true
+  },
+  "p3_shared": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "shared_current": true
+  },
+  "p3_macro2": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "route_depth": 2
+  },
+  "p4_bridge": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p4_finish16": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  },
+  "p4_costgate": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true,
+    "cost_gate": true
+  },
+  "p4_shared": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true,
+    "shared_current": true
+  },
+  "p4_macro2": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true,
+    "route_depth": 2
+  },
+  "p4_bridge_L1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    },
+    "completion_aware": true
+  }
+}

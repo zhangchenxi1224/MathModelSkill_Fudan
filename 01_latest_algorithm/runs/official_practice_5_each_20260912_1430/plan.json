@@ -1,0 +1,157 @@
+{
+  "practice_only": true,
+  "planned_cases": 10,
+  "per_problem": 5,
+  "cases": [
+    {
+      "case_id": "feedback-p3-001",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p3-002",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p3-003",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p3-004",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p3-005",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p4-001",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p4-002",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p4-003",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p4-004",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "feedback-p4-005",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    }
+  ]
+}

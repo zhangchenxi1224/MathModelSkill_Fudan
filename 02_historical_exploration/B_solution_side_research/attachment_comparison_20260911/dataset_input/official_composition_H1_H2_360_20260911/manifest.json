@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "dataset_id": "B_H1_H2_official_composition_360_v1",
+  "created_at_utc": "2026-09-11T12:20:17.428520+00:00",
+  "kind": "existing_synthetic_scenario_subset",
+  "next_round_role": "development_regression",
+  "scenario_count": 360,
+  "filter": {
+    "pool": "calibrated",
+    "composition_model": "smoothed_joint",
+    "error_mode": [
+      "correlated",
+      "extreme"
+    ]
+  },
+  "hypotheses": {
+    "H1": {
+      "error_mode": "correlated",
+      "n": 180
+    },
+    "H2": {
+      "error_mode": "extreme",
+      "n": 180
+    }
+  },
+  "group_counts": {
+    "H1_P3": 90,
+    "H2_P3": 90,
+    "H1_P4": 90,
+    "H2_P4": 90
+  },
+  "stage_counts": {
+    "1": 200,
+    "2": 80,
+    "3": 80
+  },
+  "historical_partition_counts": {
+    "development": 288,
+    "confirmation": 72
+  },
+  "original_source_root": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution",
+  "source_files_sha256": {
+    "results/round1/local/manifest.json": "c56fea246d21e73ecba6e656a15737626d871471353217fe9223364d5d03283f",
+    "results/round1/stage2/manifest.json": "de48b9acbe8570edefe4ff532cc74b956ec1ff54a3dde7571a8f5c7424cd41dc",
+    "results/round1/stage3/manifest.json": "683364c6488f9514908ffe02a68319a01f5d923e5fa47fb966c8d54db0a3d7b5",
+    "src/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "src/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "src/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa"
+  },
+  "runtime_files_sha256": {
+    "runtime/bsolver_frozen/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "runtime/bsolver_frozen/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "runtime/bsolver_frozen/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa"
+  },
+  "mechanism_status": "unresolved",
+  "official_requests_during_export": 0,
+  "source_scenario_objects_preserved": true,
+  "generator_reexecuted": false,
+  "not_official_raw_cases": true,
+  "not_fresh_holdout": true,
+  "calibration_provenance": {
+    "n_official_attempts": 160,
+    "n_official_cases": 160,
+    "n_fit": 120,
+    "roots": [
+      "results\\round1\\cases"
+    ],
+    "compare_roots": [],
+    "split_unit": "whole_case",
+    "split_salt": "cumcm-b-calibration-v1",
+    "fit_fraction": 0.75,
+    "retrospective_assignments": 0,
+    "bootstrap_repeats": 500,
+    "n_planned_unstarted": 0
+  },
+  "calibration_model_id": "composition-d0efea5015d5ecb6",
+  "interpretation": "Only count/type composition is informed by official observations; hidden geometry and both fixed error fields remain synthetic. Group mixing weights are experimental, not official probabilities."
+}

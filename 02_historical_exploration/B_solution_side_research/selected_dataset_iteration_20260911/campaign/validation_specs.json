@@ -1,0 +1,36 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "p3_hull_r1150": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ]
+  },
+  "p4_hull_L2_d1200": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  }
+}

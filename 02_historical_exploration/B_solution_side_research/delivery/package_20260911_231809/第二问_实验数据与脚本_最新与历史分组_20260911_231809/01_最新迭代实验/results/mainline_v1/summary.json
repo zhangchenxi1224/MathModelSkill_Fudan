@@ -1,0 +1,391 @@
+{
+  "contexts": 5,
+  "worlds": 480,
+  "paired_rows": 1920,
+  "new_official_calls": 0,
+  "official_results_scope": "public first-observation model bounds only",
+  "primary_metric": "worst legal feedback MEC radius interval, same evaluator for every method",
+  "global_optimality_claim": false,
+  "context_comparison": [
+    {
+      "context_id": "center",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            400.0
+          ],
+          "point_global": [
+            700.0,
+            400.0
+          ],
+          "lower_m": 78.532642,
+          "upper_m": 78.71029539834424,
+          "gap_m": 0.17765339834424765,
+          "gap_reached": true,
+          "elapsed_s": 0.30996729992330074,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "point_global": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "lower_m": 55.555878,
+          "upper_m": 55.71727496422965,
+          "gap_m": 0.16139696422965244,
+          "gap_reached": true,
+          "elapsed_s": 0.44409929995890707,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            850.0,
+            600.0
+          ],
+          "lower_m": 52.91651,
+          "upper_m": 53.09496870308454,
+          "gap_m": 0.17845870308453726,
+          "gap_reached": true,
+          "elapsed_s": 0.5379083999432623,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            886.58855358,
+            -621.53634069
+          ],
+          "point_global": [
+            886.58855358,
+            -621.53634069
+          ],
+          "lower_m": 50.122607,
+          "upper_m": 50.27065244947306,
+          "gap_m": 0.14804544947305942,
+          "gap_reached": true,
+          "elapsed_s": 0.5217962000751868,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 222
+    },
+    {
+      "context_id": "edge",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            400.0
+          ],
+          "point_global": [
+            900.0,
+            -399.9999999999999
+          ],
+          "lower_m": 78.532642,
+          "upper_m": 78.71029539834382,
+          "gap_m": 0.17765339834382132,
+          "gap_reached": true,
+          "elapsed_s": 0.3017262000357732,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "point_global": [
+            777.5545519307898,
+            -575.8825025043232
+          ],
+          "lower_m": 55.555878,
+          "upper_m": 55.71727496422965,
+          "gap_m": 0.16139696422965244,
+          "gap_reached": true,
+          "elapsed_s": 0.46911419997923076,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            749.9999999999999,
+            -599.9999999999999
+          ],
+          "lower_m": 52.91651,
+          "upper_m": 53.09496870308455,
+          "gap_m": 0.17845870308454437,
+          "gap_reached": true,
+          "elapsed_s": 0.5282672999892384,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            886.58855358,
+            -621.53634069
+          ],
+          "point_global": [
+            713.4114464200001,
+            621.5363406900001
+          ],
+          "lower_m": 50.122607,
+          "upper_m": 50.27065244947306,
+          "gap_m": 0.14804544947305942,
+          "gap_reached": true,
+          "elapsed_s": 0.5272888999897987,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 218
+    },
+    {
+      "context_id": "outside",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            400.0
+          ],
+          "point_global": [
+            1500.0,
+            -399.9999999999999
+          ],
+          "lower_m": 78.532642,
+          "upper_m": 78.71029539834382,
+          "gap_m": 0.17765339834382132,
+          "gap_reached": true,
+          "elapsed_s": 0.2982286000624299,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "point_global": [
+            1377.5545519307898,
+            -575.8825025043232
+          ],
+          "lower_m": 55.555878,
+          "upper_m": 55.71727496422965,
+          "gap_m": 0.16139696422965244,
+          "gap_reached": true,
+          "elapsed_s": 0.38787360000424087,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            1350.0,
+            -599.9999999999999
+          ],
+          "lower_m": 52.91651,
+          "upper_m": 53.09496870308455,
+          "gap_m": 0.17845870308454437,
+          "gap_reached": true,
+          "elapsed_s": 0.4462825999362394,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            1157.32780253,
+            -549.37267945
+          ],
+          "point_global": [
+            1042.67219747,
+            549.3726794500001
+          ],
+          "lower_m": 37.569691,
+          "upper_m": 37.75328116120263,
+          "gap_m": 0.1835901612026305,
+          "gap_reached": true,
+          "elapsed_s": 0.8479176999535412,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 214
+    },
+    {
+      "context_id": "r1-p3-survey-001-ch01",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            -399.99999999999994
+          ],
+          "point_global": [
+            -752.7809008361603,
+            -16.10888961276737
+          ],
+          "lower_m": 78.590387,
+          "upper_m": 78.77185019716951,
+          "gap_m": 0.18146319716950643,
+          "gap_reached": true,
+          "elapsed_s": 0.2855039000278339,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692102,
+            575.8825025043233
+          ],
+          "point_global": [
+            -1112.4228902682662,
+            899.3129726367023
+          ],
+          "lower_m": 55.542136,
+          "upper_m": 55.68921207904401,
+          "gap_m": 0.14707607904401243,
+          "gap_reached": true,
+          "elapsed_s": 0.4516381999710575,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            -1099.7753124625701,
+            933.6778645063041
+          ],
+          "lower_m": 52.91651,
+          "upper_m": 53.09496870308494,
+          "gap_m": 0.17845870308493517,
+          "gap_reached": true,
+          "elapsed_s": 0.473766699898988,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            878.30273438,
+            631.09521484
+          ],
+          "point_global": [
+            -1089.8110196836917,
+            974.5272222582613
+          ],
+          "lower_m": 50.294278,
+          "upper_m": 50.466799377905296,
+          "gap_m": 0.17252137790529787,
+          "gap_reached": true,
+          "elapsed_s": 0.51252599991858,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 219
+    },
+    {
+      "context_id": "r1-p3-survey-002-ch02",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            699.9999999999999,
+            399.99999999999994
+          ],
+          "point_global": [
+            -58.694013105729766,
+            804.0864461148093
+          ],
+          "lower_m": 78.578558,
+          "upper_m": 78.77038508767612,
+          "gap_m": 0.191827087676117,
+          "gap_reached": true,
+          "elapsed_s": 0.3652039999142289,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692101,
+            -575.8825025043234
+          ],
+          "point_global": [
+            874.4583395103485,
+            493.33536686640434
+          ],
+          "lower_m": 55.555878,
+          "upper_m": 55.73686137469441,
+          "gap_m": 0.1809833746944136,
+          "gap_reached": true,
+          "elapsed_s": 0.43562389991711825,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            -174.36371789610632,
+            1025.7179407037038
+          ],
+          "lower_m": 52.928674,
+          "upper_m": 53.107842757534776,
+          "gap_m": 0.17916875753477512,
+          "gap_reached": true,
+          "elapsed_s": 0.4332145000807941,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            910.25,
+            -587.0625
+          ],
+          "point_global": [
+            922.4409820736992,
+            567.7147840220117
+          ],
+          "lower_m": 49.72486,
+          "upper_m": 49.86283185592907,
+          "gap_m": 0.13797185592907368,
+          "gap_reached": true,
+          "elapsed_s": 0.4983862000517547,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 214
+    }
+  ],
+  "synthetic_secondary": {
+    "old_fixed": {
+      "n": 480,
+      "mean_radius_upper_m": 32.42677065241798,
+      "sample_max_radius_upper_m": 78.59039672395261,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    },
+    "old_precision": {
+      "n": 480,
+      "mean_radius_upper_m": 27.706709307689565,
+      "sample_max_radius_upper_m": 55.5421432217631,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    },
+    "open_search": {
+      "n": 480,
+      "mean_radius_upper_m": 28.304798482056007,
+      "sample_max_radius_upper_m": 50.056590086877755,
+      "no_signal_count": 30,
+      "all_truths_covered": true
+    },
+    "open_seed": {
+      "n": 480,
+      "mean_radius_upper_m": 27.452896010408335,
+      "sample_max_radius_upper_m": 52.928680352960654,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    }
+  }
+}

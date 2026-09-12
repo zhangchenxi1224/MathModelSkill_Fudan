@@ -1,0 +1,31 @@
+{
+  "dataset": "core960",
+  "selection": {
+    "status": "experimental_selection_old960_p4_regression_in_progress",
+    "primary": "New 240 H1, sensitivity H2; old 960 regression",
+    "baseline": "inputs/previous_selection.json: p3_r1150_w1 and p4_L2_d1200_w1",
+    "policies": {
+      "3": {
+        "arm": "dp_geometric",
+        "options": {
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+      },
+      "4": {
+        "arm": "three_feedback_fast",
+        "options": {
+          "region_depth": 3,
+          "planning_region_depth": 0,
+          "planning_seconds": 60.0
+        },
+        "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+      }
+    },
+    "note": "选择只依赖公开题号。在线决策读取客户端反馈，不读取场景真值、编号或H标签。",
+    "computation": "Fixed candidate/node budgets; 60-second emergency guard. Reuse 5-second runs only when no planning call reached that guard, otherwise rerun."
+  },
+  "worlds": 960,
+  "compute_guard_reruns": 27,
+  "note": "All raw runs are preserved. Replacement depends only on the logged computation-guard flag, not on the score. Raw logs are referenced by each result."
+}

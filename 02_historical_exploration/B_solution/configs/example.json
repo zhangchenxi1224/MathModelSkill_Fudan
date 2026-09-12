@@ -1,0 +1,17 @@
+{
+  "problem": 4,
+  "sensing": "active",
+  "scheduling": "joint",
+  "coverage": "triangular",
+  "spacing": 950.0,
+  "epsilon_deg": 1.0051,
+  "clear_radius": 19.999,
+  "local_measure_limit": 5,
+  "joint_detour_m": 800.0,
+  "bin_width_deg": 4.0,
+  "radius_weight": 2.0,
+  "reserve_real_s": 5.0,
+  "max_virtual_s": 360000.0,
+  "nearest_safe": true,
+  "opportunistic_known_measurements": false
+}

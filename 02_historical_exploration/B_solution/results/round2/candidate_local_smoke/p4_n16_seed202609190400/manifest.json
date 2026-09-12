@@ -1,0 +1,91 @@
+{
+  "environment": "local_synthetic",
+  "problem": 4,
+  "master_seed": 202609190400,
+  "planned_local_cases": 1,
+  "frozen": {
+    "candidate_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round2\\candidate.json",
+    "candidate_sha256": "3e305f7f13a9e22d8b37a6e3d5ab3b1321357a3a8d4c418364ca8adae5424816",
+    "candidate_dependencies": {
+      "scripts/run_candidate_stages.py": "c2e66de2b6e26dfd94409d1597cd4af87a371372b9a722dc25f90691b1c3cd1b",
+      "src/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+      "src/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0"
+    },
+    "policy_specs": {
+      "3": {
+        "solver_class": "normal",
+        "solver_config": {
+          "problem": 3,
+          "sensing": "active",
+          "scheduling": "joint",
+          "coverage": "triangular",
+          "spacing": null,
+          "epsilon_deg": 1.0051,
+          "clear_radius": 19.999,
+          "local_measure_limit": 1,
+          "joint_detour_m": 800.0,
+          "bin_width_deg": 4.0,
+          "radius_weight": 2.0,
+          "reserve_real_s": 5.0,
+          "max_virtual_s": 360000.0,
+          "nearest_safe": true,
+          "opportunistic_known_measurements": false
+        },
+        "nosignal_config": null
+      },
+      "4": {
+        "solver_class": "nosignal",
+        "solver_config": {
+          "problem": 4,
+          "sensing": "active",
+          "scheduling": "joint",
+          "coverage": "triangular",
+          "spacing": null,
+          "epsilon_deg": 1.0051,
+          "clear_radius": 19.999,
+          "local_measure_limit": 1,
+          "joint_detour_m": 800.0,
+          "bin_width_deg": 4.0,
+          "radius_weight": 2.0,
+          "reserve_real_s": 5.0,
+          "max_virtual_s": 360000.0,
+          "nearest_safe": true,
+          "opportunistic_known_measurements": false
+        },
+        "nosignal_config": {
+          "directional_prior": 0.5,
+          "position_sample_count": 7,
+          "radius_samples": [
+            1000.0,
+            1250.0,
+            1500.0
+          ],
+          "orientation_sample_count": 24,
+          "interior_fraction": 0.75
+        }
+      }
+    },
+    "baseline_source_sha256": "1b673484453104a5d87d4605d30b20826a3b7ec64769fd6ce8d3c8f7a1ad24f6",
+    "baseline_freeze_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round2\\baseline_freeze.json",
+    "baseline_freeze_sha256": "b825cd6a55942a847e2a2ca486ced36c1c4742b46dbfbaadcab2135247792e30",
+    "candidate_hash_anchors": [
+      {
+        "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round2\\plan.json",
+        "sha256": "d24e331e1462156a9f885e5e39428d05bee7a30ec6496ef9dcd7861e00452131"
+      },
+      {
+        "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round2\\validation_freeze.json",
+        "sha256": "ae4bca70422dc98cad1cdeec433e907ad3a2d7ae95b1606662636cc1c5ce45e5"
+      }
+    ],
+    "candidate_hash_scope": "matched existing freeze/plan"
+  },
+  "runner_sha256": "8b13963efe8c7fa08f7678c79a231021ccfb5fefeac3f9c43f4bf13b69bfc2af",
+  "normalizer_sha256": "8ffb782971b1ef6e9b8e623b2e1e6d0477e0093651557ec93d824ab34ada6979",
+  "generator": "N uniform 10..16; source locations uniform by disk area; R uniform 1000..1500; P3 omni, P4 independent directional probability .5 with uniform orientation; fixed correlated150 error",
+  "interpretation": "Explicit synthetic reference design, not fitted official population or a new tuning/confirmation allocation",
+  "scenario_sha256": {
+    "local-p4-0001-0236d7090111ab35": "41e5bed0ba845d42c313c3e722a613bbbc65a050924cd66010e0a868b77c3642"
+  },
+  "formal_or_official_requests": false
+}

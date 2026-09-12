@@ -1,0 +1,36 @@
+{
+  "status": "frozen_before_stage2_development_dispatch",
+  "created_utc": "2026-09-11T08:41:56.121863+00:00",
+  "files": {
+    "src/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "src/bsolver/cli.py": "a62855a646bf21deabf4b23a2ce8e38ee5d12edadd0419ec08944fc80834ed96",
+    "src/bsolver/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "src/bsolver/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "src/bsolver/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "src/bsolver/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "src/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "src/bsolver/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "src/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "src/bsolver/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "src/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+    "src/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "scripts/run_candidate_stages.py": "c2e66de2b6e26dfd94409d1597cd4af87a371372b9a722dc25f90691b1c3cd1b"
+  },
+  "inputs": {
+    "results/calibration/round1/model_frozen.json": "975a6a9c8090c0416240afe056bc3d0cae503350b75b918a065d1a0721ab1e74",
+    "results/round1/mechanisms_selected.json": "76fd7735a152f6f7c201a0d736945a3847af8eaa7ea780aa8bd341ae6ff7ca1e",
+    "results/round1/local/manifest.json": "c56fea246d21e73ecba6e656a15737626d871471353217fe9223364d5d03283f",
+    "results/round1/local/selection.json": "849034abf5df7733f80896faf281c2a08d01256e621c31680531b1ad63807d1b",
+    "results/round1/local/confirmation/gate_decision.json": "a780da925b249dcdcf36d82ef79bd35bc6edc88b5c66b7d4e04bcbf8474e0519",
+    "results/round1/later_stage_selection_rule.json": "b0460741b24982ce1b9e167eb788235320fc24ab6dc0445fe6e9317ff9ea398e",
+    "results/round1/later_stage_seed_decision.json": "c5d261ed14f16bb44dabe774afbcaf3835f70cb0a8e784f365947175633dd565",
+    "results/round1/stage2/manifest.json": "de48b9acbe8570edefe4ff532cc74b956ec1ff54a3dde7571a8f5c7424cd41dc"
+  },
+  "manifest_sha256": "f9ffbe734bc37653bebadf06778320395c80106f25e85d538286de044da3fc27",
+  "workers": 8,
+  "partition": "development",
+  "source_bundle_sha256": "a5e5e90fbd1b9007e8b8d4980bec8b9ee4f675c9e6d9a26dbe452f3fb7b034fc",
+  "seed_decision": "results/round1/later_stage_seed_decision.json",
+  "seed_reason": "Explicit 2026091207 avoids prior engineering fixture default seed 2026091202; frozen before stage2 results.",
+  "confirmation_not_executed": true
+}

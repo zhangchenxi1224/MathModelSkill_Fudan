@@ -1,0 +1,14 @@
+[
+  "tests/test_calibration.py::test_training_prior_has_normalized_masses_and_tracks_worlds",
+  "tests/test_feedback.py::test_core960_reported_cell_membership_failures",
+  "tests/test_feedback.py::test_fixed_orientation_cannot_change_between_feedbacks",
+  "tests/test_feedback.py::test_long_thin_region_after_many_failed_clears",
+  "tests/test_feedback.py::test_negative_and_clear_failure_holes_are_retained",
+  "tests/test_feedback.py::test_no_signal_planning_branch_updates_geometry",
+  "tests/test_feedback.py::test_optical_expected_cost_includes_failed_attempt_and_movement",
+  "tests/test_feedback.py::test_p4_no_signal_preserves_backside_source",
+  "tests/test_feedback.py::test_proposals_include_open_seed_and_no_repeated_point",
+  "tests/test_feedback.py::test_random_legal_histories_keep_true_position[3]",
+  "tests/test_feedback.py::test_random_legal_histories_keep_true_position[4]",
+  "tests/test_feedback.py::test_retroactive_shared_radius_bisector"
+]

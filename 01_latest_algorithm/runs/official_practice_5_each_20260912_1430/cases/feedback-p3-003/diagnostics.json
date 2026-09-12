@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p3-003",
+  "problem": 3,
+  "case_code": "MEE4-QDUE-VM4N-5VBU",
+  "measurement_outcomes": {
+    "no_signal": 77,
+    "direction": 28
+  },
+  "planning_calls": 22,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 16,
+    "cover": 6
+  },
+  "http_records": 140,
+  "decision_records": 185,
+  "http_outcomes": {
+    "accepted": 140
+  },
+  "costs": {
+    "move_s": 2398.342451987709,
+    "measure_s": 525,
+    "switch_s": 100,
+    "clear_s": 123
+  },
+  "timing_residual_s": -2.9877087399654556e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 77,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

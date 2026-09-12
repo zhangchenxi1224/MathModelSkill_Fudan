@@ -1,0 +1,583 @@
+{
+  "title": "最新版算法官方演练：P3、P4各5局",
+  "environment": "official_practice",
+  "selected_policies": {
+    "3": {
+      "arm": "dp_geometric",
+      "options": {
+        "planning_seconds": 60.0
+      },
+      "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+    },
+    "4": {
+      "arm": "three_feedback_fast",
+      "options": {
+        "region_depth": 3,
+        "planning_region_depth": 0,
+        "planning_seconds": 60.0
+      },
+      "description": "全反馈几何，局部一步三反馈期望成本，保留几何清除覆盖"
+    }
+  },
+  "sections": [
+    {
+      "problem": 3,
+      "scheme": "最新版：dp_geometric，全部反馈几何更新＋局部两步前瞻；保留覆盖清除",
+      "summary": {
+        "cases": 5,
+        "full_clear_cases": 5,
+        "mean_total_virtual_time_s": 3456.0519498000003,
+        "mean_time_per_source_s": 255.34578873871797,
+        "mean_program_real_time_s": 14.152161039970816
+      },
+      "cases": [
+        {
+          "index": 1,
+          "case_id": "feedback-p3-001",
+          "problem": 3,
+          "case_code": "AJTU-7P9Y-SY88-VXX7",
+          "status": "complete",
+          "full_clear": true,
+          "N": 15,
+          "Nd": 0,
+          "cleared": 15,
+          "total_virtual_time_s": 3316.246913,
+          "average_time_per_source_s": 221.08312753333334,
+          "walk_distance_m": 13326.23456398514,
+          "measures": 86,
+          "switches": 80,
+          "clear_attempts": 37,
+          "failed_clear_attempts": 22,
+          "program_real_time_s": 13.936931199976243,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p3-001"
+        },
+        {
+          "index": 2,
+          "case_id": "feedback-p3-002",
+          "problem": 3,
+          "case_code": "TS6T-JTBH-YMHS-33HG",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 0,
+          "cleared": 13,
+          "total_virtual_time_s": 3778.296367,
+          "average_time_per_source_s": 290.63818207692304,
+          "walk_distance_m": 15446.481852057419,
+          "measures": 95,
+          "switches": 89,
+          "clear_attempts": 33,
+          "failed_clear_attempts": 20,
+          "program_real_time_s": 15.40222059993539,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p3-002"
+        },
+        {
+          "index": 3,
+          "case_id": "feedback-p3-003",
+          "problem": 3,
+          "case_code": "MEE4-QDUE-VM4N-5VBU",
+          "status": "complete",
+          "full_clear": true,
+          "N": 12,
+          "Nd": 0,
+          "cleared": 12,
+          "total_virtual_time_s": 3146.342449,
+          "average_time_per_source_s": 262.19520408333335,
+          "walk_distance_m": 11991.712259938546,
+          "measures": 105,
+          "switches": 100,
+          "clear_attempts": 33,
+          "failed_clear_attempts": 21,
+          "program_real_time_s": 11.907286399975419,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p3-003"
+        },
+        {
+          "index": 4,
+          "case_id": "feedback-p3-004",
+          "problem": 3,
+          "case_code": "DWHX-GXYF-2TFM-WUAK",
+          "status": "complete",
+          "full_clear": true,
+          "N": 14,
+          "Nd": 0,
+          "cleared": 14,
+          "total_virtual_time_s": 3908.4283,
+          "average_time_per_source_s": 279.17345,
+          "walk_distance_m": 16292.141480052784,
+          "measures": 90,
+          "switches": 85,
+          "clear_attempts": 29,
+          "failed_clear_attempts": 15,
+          "program_real_time_s": 13.944725499954075,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p3-004"
+        },
+        {
+          "index": 5,
+          "case_id": "feedback-p3-005",
+          "problem": 3,
+          "case_code": "YY26-DCHS-JZ68-H67Y",
+          "status": "complete",
+          "full_clear": true,
+          "N": 14,
+          "Nd": 0,
+          "cleared": 14,
+          "total_virtual_time_s": 3130.94572,
+          "average_time_per_source_s": 223.63898,
+          "walk_distance_m": 12389.728604613081,
+          "measures": 92,
+          "switches": 84,
+          "clear_attempts": 27,
+          "failed_clear_attempts": 13,
+          "program_real_time_s": 15.569641500012949,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p3-005"
+        }
+      ]
+    },
+    {
+      "problem": 4,
+      "scheme": "最新版：three_feedback_fast，有方位／近距离／无信号三类反馈成本决策；保留覆盖清除",
+      "summary": {
+        "cases": 5,
+        "full_clear_cases": 5,
+        "mean_total_virtual_time_s": 7289.250101200001,
+        "mean_time_per_source_s": 554.6079547705885,
+        "mean_program_real_time_s": 30.928671200037932
+      },
+      "cases": [
+        {
+          "index": 1,
+          "case_id": "feedback-p4-001",
+          "problem": 4,
+          "case_code": "67HD-3HYX-EGS8-QVQD",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 2,
+          "cleared": 16,
+          "total_virtual_time_s": 3637.895577,
+          "average_time_per_source_s": 227.3684735625,
+          "walk_distance_m": 13839.477848510105,
+          "measures": 79,
+          "switches": 74,
+          "clear_attempts": 123,
+          "failed_clear_attempts": 107,
+          "program_real_time_s": 33.3890151999658,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p4-001"
+        },
+        {
+          "index": 2,
+          "case_id": "feedback-p4-002",
+          "problem": 4,
+          "case_code": "S6J2-EDRR-HAYP-XBDD",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 1,
+          "cleared": 13,
+          "total_virtual_time_s": 8707.941054,
+          "average_time_per_source_s": 669.8416195384616,
+          "walk_distance_m": 34659.70525997092,
+          "measures": 273,
+          "switches": 250,
+          "clear_attempts": 45,
+          "failed_clear_attempts": 32,
+          "program_real_time_s": 35.36178490007296,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p4-002"
+        },
+        {
+          "index": 3,
+          "case_id": "feedback-p4-003",
+          "problem": 4,
+          "case_code": "QVR6-23Y9-B22A-KFKH",
+          "status": "complete",
+          "full_clear": true,
+          "N": 11,
+          "Nd": 3,
+          "cleared": 11,
+          "total_virtual_time_s": 7799.035216,
+          "average_time_per_source_s": 709.0032014545454,
+          "walk_distance_m": 29755.17606406708,
+          "measures": 294,
+          "switches": 272,
+          "clear_attempts": 28,
+          "failed_clear_attempts": 17,
+          "program_real_time_s": 23.867013600072823,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p4-003"
+        },
+        {
+          "index": 4,
+          "case_id": "feedback-p4-004",
+          "problem": 4,
+          "case_code": "UMSB-MJDC-J7YS-V4Z8",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 1,
+          "cleared": 13,
+          "total_virtual_time_s": 7806.620448,
+          "average_time_per_source_s": 600.5092652307692,
+          "walk_distance_m": 30433.102230058696,
+          "measures": 270,
+          "switches": 251,
+          "clear_attempts": 31,
+          "failed_clear_attempts": 18,
+          "program_real_time_s": 27.420919500058517,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p4-004"
+        },
+        {
+          "index": 5,
+          "case_id": "feedback-p4-005",
+          "problem": 4,
+          "case_code": "Y9SY-2Y39-8568-56NR",
+          "status": "complete",
+          "full_clear": true,
+          "N": 15,
+          "Nd": 11,
+          "cleared": 15,
+          "total_virtual_time_s": 8494.758211,
+          "average_time_per_source_s": 566.3172140666667,
+          "walk_distance_m": 33798.79108074721,
+          "measures": 237,
+          "switches": 214,
+          "clear_attempts": 102,
+          "failed_clear_attempts": 87,
+          "program_real_time_s": 34.60462280001957,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\official_practice_5_each_20260912_1430\\cases\\feedback-p4-005"
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "case_id": "feedback-p3-001",
+      "problem": 3,
+      "case_code": "AJTU-7P9Y-SY88-VXX7",
+      "measurement_outcomes": {
+        "direction": 32,
+        "no_signal": 54
+      },
+      "planning_calls": 28,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 17,
+        "cover": 11
+      },
+      "http_records": 125,
+      "decision_records": 184,
+      "http_outcomes": {
+        "accepted": 125
+      },
+      "costs": {
+        "move_s": 2665.246912797028,
+        "measure_s": 430,
+        "switch_s": 80,
+        "clear_s": 141
+      },
+      "timing_residual_s": 2.029719325946644e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 167.2227939999998,
+      "feedback_no_signal": 54,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p3-002",
+      "problem": 3,
+      "case_code": "TS6T-JTBH-YMHS-33HG",
+      "measurement_outcomes": {
+        "no_signal": 64,
+        "direction": 31
+      },
+      "planning_calls": 25,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 18,
+        "cover": 7
+      },
+      "http_records": 130,
+      "decision_records": 185,
+      "http_outcomes": {
+        "accepted": 130
+      },
+      "costs": {
+        "move_s": 3089.2963704114836,
+        "measure_s": 475,
+        "switch_s": 89,
+        "clear_s": 125
+      },
+      "timing_residual_s": -3.4114837035303935e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 574.3940549999998,
+      "feedback_no_signal": 64,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p3-003",
+      "problem": 3,
+      "case_code": "MEE4-QDUE-VM4N-5VBU",
+      "measurement_outcomes": {
+        "no_signal": 77,
+        "direction": 28
+      },
+      "planning_calls": 22,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 16,
+        "cover": 6
+      },
+      "http_records": 140,
+      "decision_records": 185,
+      "http_outcomes": {
+        "accepted": 140
+      },
+      "costs": {
+        "move_s": 2398.342451987709,
+        "measure_s": 525,
+        "switch_s": 100,
+        "clear_s": 123
+      },
+      "timing_residual_s": -2.9877087399654556e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 77,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p3-004",
+      "problem": 3,
+      "case_code": "DWHX-GXYF-2TFM-WUAK",
+      "measurement_outcomes": {
+        "direction": 30,
+        "no_signal": 60
+      },
+      "planning_calls": 26,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 17,
+        "cover": 9
+      },
+      "http_records": 121,
+      "decision_records": 175,
+      "http_outcomes": {
+        "accepted": 121
+      },
+      "costs": {
+        "move_s": 3258.4282960105566,
+        "measure_s": 450,
+        "switch_s": 85,
+        "clear_s": 115
+      },
+      "timing_residual_s": 3.9894434848974925e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 60,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p3-005",
+      "problem": 3,
+      "case_code": "YY26-DCHS-JZ68-H67Y",
+      "measurement_outcomes": {
+        "direction": 32,
+        "no_signal": 60
+      },
+      "planning_calls": 27,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 18,
+        "cover": 9
+      },
+      "http_records": 121,
+      "decision_records": 176,
+      "http_outcomes": {
+        "accepted": 121
+      },
+      "costs": {
+        "move_s": 2477.945720922616,
+        "measure_s": 460,
+        "switch_s": 84,
+        "clear_s": 109
+      },
+      "timing_residual_s": -9.226159818354063e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 60,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p4-001",
+      "problem": 4,
+      "case_code": "67HD-3HYX-EGS8-QVQD",
+      "measurement_outcomes": {
+        "no_signal": 47,
+        "direction": 32
+      },
+      "planning_calls": 30,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 18,
+        "cover": 12
+      },
+      "http_records": 204,
+      "decision_records": 271,
+      "http_outcomes": {
+        "accepted": 204
+      },
+      "costs": {
+        "move_s": 2767.895569702021,
+        "measure_s": 395,
+        "switch_s": 74,
+        "clear_s": 401
+      },
+      "timing_residual_s": 7.297978754650103e-06,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 47,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p4-002",
+      "problem": 4,
+      "case_code": "S6J2-EDRR-HAYP-XBDD",
+      "measurement_outcomes": {
+        "direction": 31,
+        "no_signal": 242
+      },
+      "planning_calls": 26,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 18,
+        "cover": 8
+      },
+      "http_records": 320,
+      "decision_records": 379,
+      "http_outcomes": {
+        "accepted": 320
+      },
+      "costs": {
+        "move_s": 6931.941051994184,
+        "measure_s": 1365,
+        "switch_s": 250,
+        "clear_s": 161
+      },
+      "timing_residual_s": 2.005815986194648e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 1571.2676330000004,
+      "feedback_no_signal": 242,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p4-003",
+      "problem": 4,
+      "case_code": "QVR6-23Y9-B22A-KFKH",
+      "measurement_outcomes": {
+        "no_signal": 269,
+        "direction": 25
+      },
+      "planning_calls": 20,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 14,
+        "cover": 6
+      },
+      "http_records": 324,
+      "decision_records": 368,
+      "http_outcomes": {
+        "accepted": 324
+      },
+      "costs": {
+        "move_s": 5951.035212813416,
+        "measure_s": 1470,
+        "switch_s": 272,
+        "clear_s": 106
+      },
+      "timing_residual_s": 3.186583853675984e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 1629.0861940000004,
+      "feedback_no_signal": 269,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p4-004",
+      "problem": 4,
+      "case_code": "UMSB-MJDC-J7YS-V4Z8",
+      "measurement_outcomes": {
+        "no_signal": 243,
+        "direction": 27
+      },
+      "planning_calls": 26,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 14,
+        "cover": 12
+      },
+      "http_records": 303,
+      "decision_records": 361,
+      "http_outcomes": {
+        "accepted": 303
+      },
+      "costs": {
+        "move_s": 6086.620446011739,
+        "measure_s": 1350,
+        "switch_s": 251,
+        "clear_s": 119
+      },
+      "timing_residual_s": 1.9882609194610268e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 555.1803129999998,
+      "feedback_no_signal": 243,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "feedback-p4-005",
+      "problem": 4,
+      "case_code": "Y9SY-2Y39-8568-56NR",
+      "measurement_outcomes": {
+        "no_signal": 204,
+        "direction": 33
+      },
+      "planning_calls": 29,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 21,
+        "cover": 8
+      },
+      "http_records": 341,
+      "decision_records": 406,
+      "http_outcomes": {
+        "accepted": 341
+      },
+      "costs": {
+        "move_s": 6759.758216149441,
+        "measure_s": 1185,
+        "switch_s": 214,
+        "clear_s": 336
+      },
+      "timing_residual_s": -5.149440767127089e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 580.4489030000004,
+      "feedback_no_signal": 204,
+      "feedback_pruned_clear_points": 0,
+      "original_log_retained": true
+    }
+  ],
+  "interpretation": "本次为10个新官方演练案例，未与旧算法在相同案例配对；用于检验官方可运行性和实际表现，不能单凭本次均值推断相对提速。"
+}

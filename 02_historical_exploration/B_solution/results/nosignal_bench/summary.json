@@ -1,0 +1,27 @@
+{
+  "purpose": "six-case diagnostic, not stage1 selection or stage2 confirmation",
+  "snapshot_count": 48,
+  "changed_choices": 18,
+  "changed_fraction": 0.375,
+  "p4_snapshot_count": 32,
+  "p4_changed_choices": 18,
+  "p4_changed_fraction": 0.5625,
+  "baseline_fallback_count": 0,
+  "convex_visibility_mixed_count": 4,
+  "normal_mean_ms": 46.2181947902233,
+  "nosignal_mean_ms": 51.832381257554516,
+  "mean_added_ms": 5.614186467331213,
+  "normal_p95_ms": 70.06100000580773,
+  "nosignal_p95_ms": 78.80975003354251,
+  "all_twelve_case_runs_complete": true,
+  "hull_violations": 0,
+  "case_virtual_deltas_s": [
+    0.0,
+    0.0,
+    -652.1322359999995,
+    -209.32580899999994,
+    -1667.828196999999,
+    -804.52261
+  ],
+  "performance_claim": "diagnostic only; no parameter changes or model selection from these cases"
+}

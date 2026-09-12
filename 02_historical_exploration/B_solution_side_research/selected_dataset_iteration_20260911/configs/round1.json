@@ -1,0 +1,16 @@
+{
+  "legacy_L5": {"implementation":"legacy"},
+  "champion": {"implementation":"champion", "limit":1},
+  "L0": {"limit":0},
+  "L2": {"limit":2},
+  "fisher_L1": {"mode":"fisher", "limit":1},
+  "infogain_L1": {"mode":"infogain", "limit":1},
+  "rollout_L1": {"mode":"rollout", "limit":1},
+  "probe_L1": {"mode":"probe", "limit":1},
+  "adaptive_L1": {"cover":"bbox", "limit":1},
+  "adaptive_L0": {"cover":"bbox", "limit":0},
+  "route_center": {"limit":1, "reorder":true, "schedule_options":{"reorder":true,"service_score":"center","shared":false}},
+  "route_adaptive": {"limit":1,"cover":"bbox","reorder":true,"schedule_options":{"reorder":true,"service_score":"center","shared":false}},
+  "detour1600": {"limit":1,"config":{"joint_detour_m":1600.0}},
+  "ring1300": {"limit":1,"ring":1300.0,"problems":[3]}
+}

@@ -1,0 +1,254 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "p3_r1150": {
+    "limit": 1,
+    "ring": 1150,
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200": {
+    "limit": 1,
+    "ring": 1200,
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1300": {
+    "limit": 1,
+    "ring": 1300,
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1150_bbox": {
+    "limit": 1,
+    "ring": 1150,
+    "cover": "bbox",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1300_bbox": {
+    "limit": 1,
+    "ring": 1300,
+    "cover": "bbox",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_mass": {
+    "limit": 1,
+    "ring": 1200,
+    "cover_order": "mass",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox_mass": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "cover_order": "mass",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox_nearest": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "cover_order": "nearest",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox_fisher": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "mode": "fisher",
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox_d400": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "config": {
+      "joint_detour_m": 400
+    },
+    "problems": [
+      3
+    ]
+  },
+  "p3_r1200_bbox_route": {
+    "limit": 1,
+    "ring": 1200,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      3
+    ]
+  },
+  "p4_route_bbox": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_route_bbox_L2": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_route_bbox_mass": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "cover_order": "mass"
+  },
+  "p4_route_bbox_nearest": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "cover_order": "nearest"
+  },
+  "p4_route_bbox_L2_mass": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "cover_order": "mass"
+  },
+  "p4_route_bbox_d400": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 400
+    }
+  },
+  "p4_route_bbox_d1200": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p4_route_bbox_hull": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_route_bbox_w1": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "radius_weight": 1
+    }
+  },
+  "p4_route_mass": {
+    "limit": 1,
+    "cover": "original",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "cover_order": "mass"
+  }
+}

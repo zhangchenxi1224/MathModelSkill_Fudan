@@ -1,0 +1,13 @@
+﻿case_id,problem,pool,composition_model,partition,error_mode,variant,baseline_complete,candidate_complete,both_complete,completion_delta,penalized_time_delta_s,completed_time_delta_s,completed_reduction_pct,baseline_total_virtual_time_s,candidate_total_virtual_time_s
+round-broad-p3-0000-ce725646ac7343cb,3,broad,broad_joint,development,deterministic,joint_triangular_l1,True,True,True,0,-345.3791940000001,-345.3791940000001,7.979042823467756,4328.579275,3983.200081
+round-broad-p3-0000-ce725646ac7343cb,3,broad,broad_joint,development,deterministic,joint_triangular_l2,True,True,True,0,-276.21998399999984,-276.21998399999984,6.381308194938853,4328.579275,4052.359291
+round-broad-p3-0000-ce725646ac7343cb,3,broad,broad_joint,development,deterministic,joint_triangular_l3,True,True,True,0,-199.9421540000003,-199.9421540000003,4.619117296864115,4328.579275,4128.637121
+round-broad-p3-0001-9907d67c96495fc8,3,broad,broad_joint,development,correlated,joint_triangular_l1,True,True,True,0,-225.04075099999955,-225.04075099999955,4.590005356573845,4902.842884,4677.802133
+round-broad-p3-0001-9907d67c96495fc8,3,broad,broad_joint,development,correlated,joint_triangular_l2,True,True,True,0,-156.74201099999937,-156.74201099999937,3.1969617364552563,4902.842884,4746.100873
+round-broad-p3-0001-9907d67c96495fc8,3,broad,broad_joint,development,correlated,joint_triangular_l3,True,True,True,0,-109.1738779999996,-109.1738779999996,2.2267464118884788,4902.842884,4793.669006
+round-broad-p4-0000-f484f762ac599d43,4,broad,broad_joint,development,deterministic,joint_triangular_l1,True,True,True,0,-545.8964880000003,-545.8964880000003,4.802876942606607,11366.031121,10820.134633
+round-broad-p4-0000-f484f762ac599d43,4,broad,broad_joint,development,deterministic,joint_triangular_l2,True,True,True,0,-450.79199100000005,-450.79199100000005,3.9661337031456125,11366.031121,10915.23913
+round-broad-p4-0000-f484f762ac599d43,4,broad,broad_joint,development,deterministic,joint_triangular_l3,True,True,True,0,-309.0308249999998,-309.0308249999998,2.7188982830517787,11366.031121,11057.000296
+round-broad-p4-0001-aceeeea3ace11e1f,4,broad,broad_joint,development,correlated,joint_triangular_l1,True,True,True,0,-598.9069920000002,-598.9069920000002,5.3654661929699135,11162.254508,10563.347516
+round-broad-p4-0001-aceeeea3ace11e1f,4,broad,broad_joint,development,correlated,joint_triangular_l2,True,True,True,0,-415.50956600000063,-415.50956600000063,3.722451998404126,11162.254508,10746.744942
+round-broad-p4-0001-aceeeea3ace11e1f,4,broad,broad_joint,development,correlated,joint_triangular_l3,True,True,True,0,-304.3307339999992,-304.3307339999992,2.7264271190186986,11162.254508,10857.923774

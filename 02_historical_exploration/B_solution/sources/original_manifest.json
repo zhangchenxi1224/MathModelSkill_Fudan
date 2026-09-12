@@ -1,0 +1,23 @@
+[
+  {
+    "file": "B题/B题.pdf",
+    "bytes": 514825,
+    "sha256": "81c992a9bee5376308c4768b58719b177f17d6ee1f9861577a851924c5a838ca",
+    "zip_entry": "CUMCM2026Problems/B题/B题.pdf",
+    "zip_byte_identical": true
+  },
+  {
+    "file": "B题/附件/附件1.docx",
+    "bytes": 30227,
+    "sha256": "65c49fe70d2c71771b972f08d7d04af8368dabad6fe96afce822ff4d2acadd49",
+    "zip_entry": "CUMCM2026Problems/B题/附件/附件1.docx",
+    "zip_byte_identical": true
+  },
+  {
+    "file": "B题/附件/附件2.docx",
+    "bytes": 57179,
+    "sha256": "c882513d5b7e0ec50f3068570ea55fdc1b5c4a5fa2d6e9e54e79b33cf0858cb2",
+    "zip_entry": "CUMCM2026Problems/B题/附件/附件2.docx",
+    "zip_byte_identical": true
+  }
+]

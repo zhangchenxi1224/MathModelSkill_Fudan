@@ -1,0 +1,21 @@
+{
+  "old_unique_worlds": 1800,
+  "new_confirmation": 240,
+  "new_stress": 48,
+  "overlap_with_three_prior_campaigns": 0,
+  "exclude_next_count": 2088,
+  "origins": {
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\local\\manifest.json": {
+      "sha256": "eb9f98a06d8a339bda50b8add30acc7400736b038188e221ae645ef728824898",
+      "count": 1000
+    },
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage2\\manifest.json": {
+      "sha256": "711f822d3802f80ef2b0cf6aa41127dcffd046b1d8d29238902eec0ce1c1dcf1",
+      "count": 400
+    },
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\stage3\\manifest.json": {
+      "sha256": "cecbb8e39aa1fd54be335ed774cb878b5d621b7c530f35bcc7083bde067b1e01",
+      "count": 400
+    }
+  }
+}

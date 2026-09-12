@@ -1,0 +1,92 @@
+{
+  "description": "Analytic checks and finite synthetic Q2 geometry sweep; not official simulator results.",
+  "epsilon_used_deg": 1.005,
+  "q1_equilateral_diameter_m": 40,
+  "q1_enclosing_radius_m": 23.09401076758503,
+  "q2_band_max_distance_m": 957.6020460197693,
+  "q2_sweep": [
+    {
+      "a_m": 550,
+      "b_m": 150,
+      "safe_distance_bound_m": 966.2220428151719,
+      "travel_time_s": 114.0175425099138,
+      "sampled_max_enclosing_radius_m": 183.43768808177228,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    },
+    {
+      "a_m": 650,
+      "b_m": 250,
+      "safe_distance_bound_m": 893.7823750133966,
+      "travel_time_s": 139.2838827718412,
+      "sampled_max_enclosing_radius_m": 115.0556259002524,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    },
+    {
+      "a_m": 750,
+      "b_m": 400,
+      "safe_distance_bound_m": 862.6933294506132,
+      "travel_time_s": 170.0,
+      "sampled_max_enclosing_radius_m": 73.92781558802655,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    },
+    {
+      "a_m": 750,
+      "b_m": 500,
+      "safe_distance_bound_m": 916.2432420166865,
+      "travel_time_s": 180.27756377319946,
+      "sampled_max_enclosing_radius_m": 65.14714973981636,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    },
+    {
+      "a_m": 750,
+      "b_m": 600,
+      "safe_distance_bound_m": 977.1200419620469,
+      "travel_time_s": 192.09372712298546,
+      "sampled_max_enclosing_radius_m": 59.60706333130546,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    },
+    {
+      "a_m": 900,
+      "b_m": 250,
+      "safe_distance_bound_m": 941.4600012133219,
+      "travel_time_s": 186.81541692269406,
+      "sampled_max_enclosing_radius_m": 79.3288540420264,
+      "samples": 45,
+      "witness": {
+        "range_m": 1500,
+        "true_first_bearing_deg": -1,
+        "second_error_deg": -1
+      }
+    }
+  ],
+  "omni_7point_endpoint_bounds_m": [
+    807.4179764203197,
+    901.921736939537
+  ],
+  "rectangle_110point_cell_radius_m": 19.79898987322333
+}

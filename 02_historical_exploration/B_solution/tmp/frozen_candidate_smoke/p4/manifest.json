@@ -1,0 +1,80 @@
+{
+  "environment": "local_synthetic",
+  "problem": 4,
+  "master_seed": 202609119901,
+  "planned_local_cases": 1,
+  "frozen": {
+    "candidate_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\tmp\\frozen_candidate_smoke\\candidate.json",
+    "candidate_sha256": "b09ffb90675f503f0b9a3538c933886a0f7c6eb4b4c4a3568d7e9ceb8b6a74be",
+    "candidate_dependencies": {
+      "src/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0"
+    },
+    "policy_specs": {
+      "3": {
+        "solver_class": "normal",
+        "solver_config": {
+          "problem": 3,
+          "sensing": "active",
+          "scheduling": "joint",
+          "coverage": "triangular",
+          "spacing": null,
+          "epsilon_deg": 1.0051,
+          "clear_radius": 19.999,
+          "local_measure_limit": 1,
+          "joint_detour_m": 800.0,
+          "bin_width_deg": 4.0,
+          "radius_weight": 2.0,
+          "reserve_real_s": 5.0,
+          "max_virtual_s": 360000.0,
+          "nearest_safe": true,
+          "opportunistic_known_measurements": false
+        },
+        "nosignal_config": null
+      },
+      "4": {
+        "solver_class": "nosignal",
+        "solver_config": {
+          "problem": 4,
+          "sensing": "active",
+          "scheduling": "joint",
+          "coverage": "triangular",
+          "spacing": null,
+          "epsilon_deg": 1.0051,
+          "clear_radius": 19.999,
+          "local_measure_limit": 1,
+          "joint_detour_m": 800.0,
+          "bin_width_deg": 4.0,
+          "radius_weight": 2.0,
+          "reserve_real_s": 5.0,
+          "max_virtual_s": 360000.0,
+          "nearest_safe": true,
+          "opportunistic_known_measurements": false
+        },
+        "nosignal_config": {
+          "directional_prior": 0.5,
+          "position_sample_count": 7,
+          "radius_samples": [
+            1000.0,
+            1250.0,
+            1500.0
+          ],
+          "orientation_sample_count": 24,
+          "interior_fraction": 0.75
+        }
+      }
+    },
+    "baseline_source_sha256": "1b673484453104a5d87d4605d30b20826a3b7ec64769fd6ce8d3c8f7a1ad24f6",
+    "baseline_freeze_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\baseline_freeze.json",
+    "baseline_freeze_sha256": "b825cd6a55942a847e2a2ca486ced36c1c4742b46dbfbaadcab2135247792e30",
+    "candidate_hash_anchors": [],
+    "candidate_hash_scope": "explicit input file hash; no adjacent plan/freeze hash anchor"
+  },
+  "runner_sha256": "8b13963efe8c7fa08f7678c79a231021ccfb5fefeac3f9c43f4bf13b69bfc2af",
+  "normalizer_sha256": "8ffb782971b1ef6e9b8e623b2e1e6d0477e0093651557ec93d824ab34ada6979",
+  "generator": "N uniform 10..16; source locations uniform by disk area; R uniform 1000..1500; P3 omni, P4 independent directional probability .5 with uniform orientation; fixed correlated150 error",
+  "interpretation": "Explicit synthetic reference design, not fitted official population or a new tuning/confirmation allocation",
+  "scenario_sha256": {
+    "local-p4-0001-44ef5cc411a9fc5c": "19e377a2c73bb9edf453096626c37a7ada129d5d4d00d3edb8fac0262ada7461"
+  },
+  "formal_or_official_requests": false
+}

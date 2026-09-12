@@ -1,0 +1,68 @@
+{
+  "study": "synthetic_legal_two_measurement_comparison_not_official",
+  "legal_initial_scenarios": 90,
+  "rows": 270,
+  "bin_width_deg": 4.0,
+  "first_errors_deg": [
+    -1,
+    0,
+    1
+  ],
+  "second_error_deg": 0.75,
+  "hidden_truth_is_used_only_for_observation_generation_and_evaluation": true,
+  "no_source_distribution_or_error_independence_claim": true,
+  "summary_by_mode": {
+    "fixed": {
+      "n": 90,
+      "no_signal_count": 0,
+      "mean_movement_m": 806.2257748298549,
+      "mean_posterior_mec_radius_m": 30.249678992689446,
+      "max_posterior_mec_radius_m": 75.65562852262707,
+      "mean_mec_center_error_m": 20.528939263090166,
+      "mean_crossing_acute_angle_deg": 45.053701499526426,
+      "certified_clear_fraction_after_two": 0.35555555555555557
+    },
+    "estimated": {
+      "n": 90,
+      "no_signal_count": 0,
+      "mean_movement_m": 710.6123181837622,
+      "mean_posterior_mec_radius_m": 55.450570086462946,
+      "max_posterior_mec_radius_m": 147.54383989015594,
+      "mean_mec_center_error_m": 37.08008900451759,
+      "mean_crossing_acute_angle_deg": 26.085628648238476,
+      "certified_clear_fraction_after_two": 0.23333333333333334
+    },
+    "active": {
+      "n": 90,
+      "no_signal_count": 0,
+      "mean_movement_m": 437.32139211339756,
+      "mean_posterior_mec_radius_m": 64.3327641745669,
+      "max_posterior_mec_radius_m": 169.89790602302276,
+      "mean_mec_center_error_m": 41.67476005581534,
+      "mean_crossing_acute_angle_deg": 34.00124991657672,
+      "certified_clear_fraction_after_two": 0.3888888888888889
+    }
+  },
+  "near_threshold_checks": [
+    {
+      "distance_m": 0.0,
+      "response": "near",
+      "true_state_retained": true
+    },
+    {
+      "distance_m": 1.0,
+      "response": "near",
+      "true_state_retained": true
+    },
+    {
+      "distance_m": 5.0,
+      "response": "near",
+      "true_state_retained": true
+    },
+    {
+      "distance_m": 5.0001,
+      "response": "direction",
+      "true_state_retained": true
+    }
+  ]
+}

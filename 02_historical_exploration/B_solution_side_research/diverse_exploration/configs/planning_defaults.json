@@ -1,0 +1,12 @@
+{
+  "particle_count": 64,
+  "candidate_count": 8,
+  "planning_budget_s": 0.2,
+  "min_particles": 8,
+  "max_position_proposals": 512,
+  "directional_prior": 0.5,
+  "angle_bin_deg": 2.0,
+  "seed": 20260911,
+  "terminal_weight": 1.0,
+  "fisher_ridge_m": 1800.0
+}

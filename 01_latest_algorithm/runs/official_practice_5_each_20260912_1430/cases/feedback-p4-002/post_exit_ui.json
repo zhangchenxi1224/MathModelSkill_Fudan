@@ -1,0 +1,305 @@
+{
+  "items": [
+    {
+      "type": "ControlType.Text",
+      "name": "环境模拟器",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Group",
+      "name": "主导航",
+      "class": "sidebar-nav",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "测试",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "演练测试",
+      "class": "nav-item active",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "正式测试",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "问题3正式测试",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "问题4正式测试",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "其他",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "公告",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "账号",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "设置",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "关于",
+      "class": "nav-item",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "v1.1",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "无线电干扰源环境模拟器",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "2026年9月13日17:30之后无法启动新的演练测试或正式测试",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "已连接",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "队号 202609001482",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "退出登录",
+      "class": "icon-button",
+      "enabled": false
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "- 一定要自行记录相关信息。赛题原文：“模拟器生成加密行为日志”，“机器狗程序应自行记录测试过程中的指令序列、响应信息等内容。”\n- 在线队数较多时，请耐心等待日志上传。\n- 重要提醒：正式测试没有上传完成时，不要退出模拟器！\n- 重要提醒：各参赛队在附录中、支撑材料中提交代码时，注意将参赛队号隐去或使用占位符代替，以免违规。建议不要将参赛队号在程序中写死，而是以命令行参数等方式提供。",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "关闭公告",
+      "class": "announcement-dismiss",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Group",
+      "name": "问题4 演练 测试",
+      "class": "page test-run-page",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "问题4 演练 测试",
+      "class": "run-title",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "测试已结束",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "测试案例编码",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "S6J2-EDRR-HAYP-XBDD",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "测试窗口剩余",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "24:24",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "机器狗程序剩余",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "19:25",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "接口端口",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "2026",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "返回演练测试",
+      "class": "secondary-button run-return-button",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Group",
+      "name": "本次演练测试干扰源数量",
+      "class": "practice-result-summary",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "本次演练测试干扰源数量",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "共",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "13",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "个， 全向",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "12",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "个， 定向",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "1",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "个",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "行为日志已保存",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "practice-p4-726393689377447990-S6J2-EDRR-HAYP-XBDD.jlog",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "71.0 KiB",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "指令与反馈",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "仅显示最新1000条",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Window",
+      "name": "问题4演练测试完成",
+      "class": "action-dialog-panel",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "问题4演练测试完成",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Text",
+      "name": "问题4演练测试：机器狗已发送 /exit 指令，测试正常结束。\n本次案例含干扰源13个，其中全向12个、定向1个。\n行为日志已保存。",
+      "class": "",
+      "enabled": true
+    },
+    {
+      "type": "ControlType.Button",
+      "name": "确认",
+      "class": "primary-button",
+      "enabled": true
+    }
+  ],
+  "captured_utc": "2026-09-12T06:32:43.9005807Z"
+}

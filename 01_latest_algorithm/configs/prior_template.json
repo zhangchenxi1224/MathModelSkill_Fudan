@@ -1,0 +1,12 @@
+{
+  "status": "uncalibrated_template_not_trained",
+  "directional_prior": 0.5,
+  "radius_mass": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ],
+  "note": "Template only; not fitted to data."
+}

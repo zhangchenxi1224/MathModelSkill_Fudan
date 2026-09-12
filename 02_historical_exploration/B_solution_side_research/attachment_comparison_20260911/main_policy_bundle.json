@@ -1,0 +1,320 @@
+{
+  "current_spec": {
+    "solver_class": "nosignal",
+    "solver_config": {
+      "problem": 4,
+      "sensing": "active",
+      "scheduling": "joint",
+      "coverage": "triangular",
+      "spacing": null,
+      "epsilon_deg": 1.0051,
+      "clear_radius": 19.999,
+      "local_measure_limit": 1,
+      "joint_detour_m": 800.0,
+      "bin_width_deg": 4.0,
+      "radius_weight": 2.0,
+      "reserve_real_s": 5.0,
+      "max_virtual_s": 360000.0,
+      "nearest_safe": true,
+      "opportunistic_known_measurements": false
+    },
+    "nosignal_config": {
+      "directional_prior": 0.5,
+      "position_sample_count": 7,
+      "radius_samples": [
+        1000.0,
+        1250.0,
+        1500.0
+      ],
+      "orientation_sample_count": 24,
+      "interior_fraction": 0.75
+    }
+  },
+  "refinement": {
+    "refined_route": [
+      [
+        0.0,
+        -215.423819
+      ],
+      [
+        -995.0,
+        -215.423819
+      ],
+      [
+        -1990.0,
+        -215.423819
+      ],
+      [
+        -1492.5,
+        646.271458
+      ],
+      [
+        -2487.5,
+        646.271458
+      ],
+      [
+        -1990.0,
+        1507.966735
+      ],
+      [
+        -995.0,
+        1507.966735
+      ],
+      [
+        -497.5,
+        2369.662012
+      ],
+      [
+        497.5,
+        2369.662012
+      ],
+      [
+        0.0,
+        1507.966735
+      ],
+      [
+        -497.5,
+        646.271458
+      ],
+      [
+        497.5,
+        646.271458
+      ],
+      [
+        995.0,
+        1507.966735
+      ],
+      [
+        1990.0,
+        1507.966735
+      ],
+      [
+        2487.5,
+        646.271458
+      ],
+      [
+        1492.5,
+        646.271458
+      ],
+      [
+        1990.0,
+        -215.423819
+      ],
+      [
+        995.0,
+        -215.423819
+      ],
+      [
+        1492.5,
+        -1077.119096
+      ],
+      [
+        497.5,
+        -1077.119096
+      ],
+      [
+        -497.5,
+        -1077.119096
+      ],
+      [
+        -1492.5,
+        -1077.119096
+      ],
+      [
+        -995.0,
+        -1938.814373
+      ],
+      [
+        0.0,
+        -1938.814373
+      ],
+      [
+        995.0,
+        -1938.814373
+      ]
+    ],
+    "refined_route_sha256": "243d7dd7948f8c09c98f9a28e17d22b0ca2811695bb57b4166047f6ffd3f6af4",
+    "coverage_certificate": {
+      "certificate_type": "exact_closed_cell_selection_with_analytic_directional_cover",
+      "proof_path": "docs/refined_coverage.md",
+      "kind": "refined_directional_triangular",
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "outward_halo_m": 0.01,
+      "coordinate_error_bound_m": 1e-08,
+      "max_cell_diameter_m": 995.0000002030687,
+      "point_count": 25,
+      "cell_count": 33,
+      "strict_projection_lower_bound_m": 0.00499999,
+      "reception_distance_upper_bound_m": 995.0050002130687,
+      "open_route_length_m": 24095.423821030687,
+      "integer_units_per_m": 1000000,
+      "fixed_station_route_lower_bound_m": 24095.423818749998,
+      "route_minus_lower_bound_m": 2.280688931932673e-06,
+      "all_20_channels_scan_time_upper_bound_s": 7819.084764206137,
+      "scan_bound_scope": "Move at 5m/s; every station scans20 channels at5s plus <=1s switch each. Excludes localization and clearance detours.",
+      "guarantees_localization": false,
+      "requires_scan_of_each_unresolved_channel": true,
+      "includes_all_incident_cells_at_edges_and_vertices": true,
+      "scenario_independent": true,
+      "exact_intersection_predicates": true,
+      "coordinate_magnitude_upper_bound_m": 3000,
+      "ordered_station_sha256": "243d7dd7948f8c09c98f9a28e17d22b0ca2811695bb57b4166047f6ffd3f6af4",
+      "stations": [
+        [
+          0.0,
+          -215.423819
+        ],
+        [
+          -995.0,
+          -215.423819
+        ],
+        [
+          -1990.0,
+          -215.423819
+        ],
+        [
+          -1492.5,
+          646.271458
+        ],
+        [
+          -2487.5,
+          646.271458
+        ],
+        [
+          -1990.0,
+          1507.966735
+        ],
+        [
+          -995.0,
+          1507.966735
+        ],
+        [
+          -497.5,
+          2369.662012
+        ],
+        [
+          497.5,
+          2369.662012
+        ],
+        [
+          0.0,
+          1507.966735
+        ],
+        [
+          -497.5,
+          646.271458
+        ],
+        [
+          497.5,
+          646.271458
+        ],
+        [
+          995.0,
+          1507.966735
+        ],
+        [
+          1990.0,
+          1507.966735
+        ],
+        [
+          2487.5,
+          646.271458
+        ],
+        [
+          1492.5,
+          646.271458
+        ],
+        [
+          1990.0,
+          -215.423819
+        ],
+        [
+          995.0,
+          -215.423819
+        ],
+        [
+          1492.5,
+          -1077.119096
+        ],
+        [
+          497.5,
+          -1077.119096
+        ],
+        [
+          -497.5,
+          -1077.119096
+        ],
+        [
+          -1492.5,
+          -1077.119096
+        ],
+        [
+          -995.0,
+          -1938.814373
+        ],
+        [
+          0.0,
+          -1938.814373
+        ],
+        [
+          995.0,
+          -1938.814373
+        ]
+      ],
+      "grid": {
+        "side_units": 995000000,
+        "height_units": 861695277,
+        "offset_units": [
+          497500000,
+          646271458
+        ],
+        "index_bound": 9,
+        "phase_u": 3,
+        "phase_v": 18,
+        "phase_denominator": 24
+      },
+      "finite_search": {
+        "spacing_values_m": [
+          950,
+          960,
+          970,
+          980,
+          990,
+          995,
+          999,
+          900,
+          925,
+          940,
+          945,
+          985,
+          991,
+          992,
+          993,
+          994,
+          996,
+          997,
+          998
+        ],
+        "phase_denominator": 24,
+        "phase_pairs_per_spacing": 576,
+        "constructed_grids": 10944,
+        "route_method": "frozen order_route: nearest-neighbor then open2-opt, fixed origin",
+        "rotation_scope": "Global rotations preserve this circular domain, origin and route cost; orientation0 used without losing any rotated copy of an ordered route.",
+        "selection_scope": "Geometry-only engineering choice among reviewed routes, comparing length/5+120*station_count. Not a proof of minimum for this cost across all10944 grids, all translations, all routes or all possible covers.",
+        "route_pruning": "Only routes with (n-1)*(spacing-1e-6)+nearest_origin <= current shortest route were ordered during the search. This is valid for pure length, not a complete search for the later scan-time objective."
+      }
+    },
+    "refined_config": {
+      "cell_side_m": 28.0,
+      "max_extra_measures": 5,
+      "min_bound_gain_s": 0.0,
+      "direction_bin_width_deg": 30.0
+    }
+  },
+  "local_manifest_sha256": "2012d9b665c1852cd3640038169e7b568cb220ef4e0175b5544c8dc285ed9daa",
+  "local_source_freeze_sha256": "33d35e5838d7b3ac482f19e0ce67639942974aa016e703d5ecd53c0247a77ee6",
+  "local_selection_sha256": "5db18de458ee30406e20ffcdb0728653cf7af1e36b3f70471413031b0531b7a4",
+  "policy_boundary": "Only current_spec/refinement passed to make_policy; no scenario or source truth.",
+  "bundle_sha256": "fe404c415486ec7834f17fcfc0f283ed4056c823cb913717beb00c561fbff40d"
+}

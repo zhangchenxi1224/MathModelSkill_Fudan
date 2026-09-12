@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-11T09:44:53.097338+00:00",
+  "files": {
+    "actions.csv": "ab5a84b65e23bb9f9970b1de1e8fcd19ce7761ad4c31e65d92f0302b88c52a5a",
+    "cases.csv": "4c7fcf0c8e2bae870a7946c28ad6750a1989eafacb1d525a659e17282b001132",
+    "cases.json": "f13f4cdfe0780fd3a5650c738bc20352724250f38c25af5697085debba7a66d4",
+    "design_integrity.json": "7f1e1add40bac75300d20e25a3f3955d1e3f5358ef19daf174961a41d067c456",
+    "issues.csv": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+    "overall.csv": "3a755155a4464ec5126f8f94476f53bd8f7572d8705d10571ec6540416d7531a",
+    "overall.json": "c0b598a957b551da966c6d5bcf8d3e98da1e0e3af7509188b315d515071db2e3",
+    "public_evidence_cases.json": "4ba7c50f678e4caf30f07b593d855a7d9675fb7266471a79a056fafa3e7e640a",
+    "public_evidence_summary.json": "00736047a49255052d841bab879597c447dbc4cf9f34db4911c02e473aa33ddb",
+    "report.md": "c9ec95698e7c495169f9b29191c6b60973aed3bc75b3d6d27c81600172ccba69",
+    "verified_summary.json": "df8f53507451ebe8ec3376edf05526ea316cb594956460f4fe4973bdf2973431",
+    "audit_sources/audit_post_exit_evidence.py": "cd2abe43f187be040d8cf76c49984a782bc8903b5296a227ef642bcc37464cae",
+    "audit_sources/audit_round_integrity.py": "2c61223aed48695d8d6ef59ebd5acfa8fd166f638904d7417f25789ce7ac73d2",
+    "audit_sources/audit_validation_design.py": "df3aaf81c74ddac3d3e35392156abd8f8efd908518ab862610eba08e8fda4cb7"
+  },
+  "summary_sha256": "df8f53507451ebe8ec3376edf05526ea316cb594956460f4fe4973bdf2973431",
+  "scope": "All final audit deliverables; original experiment files and historical prefix outputs unchanged."
+}

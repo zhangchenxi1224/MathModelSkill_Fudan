@@ -1,0 +1,10 @@
+{
+  "region_depth": 5,
+  "orientation_sectors": 16,
+  "samples": 40,
+  "particles": 20,
+  "candidate_limit": 5,
+  "angle_bin_deg": 8,
+  "node_budget": 8,
+  "planning_seconds": 5
+}

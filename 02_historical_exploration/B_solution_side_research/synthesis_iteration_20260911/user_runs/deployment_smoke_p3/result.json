@@ -1,0 +1,316 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 3,
+  "config": {
+    "problem": 3,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 1,
+    "joint_detour_m": 800.0,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 13389.449015420023,
+  "switches": 92,
+  "measures": 95,
+  "clear_attempts": 30,
+  "clear_successes": 12,
+  "fallback_targets": 9,
+  "certified_clears": 3,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 0,
+  "macro_lookahead_selections": 0,
+  "total_virtual_time_s": 3358.889802,
+  "independently_accounted_time_s": 3358.8898030840046,
+  "timing_residual_s": -1.0840044524229597e-06,
+  "average_clear_time_s": 279.9074835,
+  "program_real_time_s": 1.0226319000357762,
+  "stop_evidence": {
+    "type": "per_channel_coverage",
+    "cleared_channels": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "absent_channels": [
+      5,
+      7,
+      9,
+      10,
+      11,
+      13,
+      16,
+      20
+    ],
+    "required_point_count": 7,
+    "points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -574.9999999999998,
+        995.9292143521045
+      ],
+      [
+        575.0000000000002,
+        995.9292143521044
+      ],
+      [
+        1150.0,
+        0.0
+      ],
+      [
+        575.0000000000002,
+        -995.9292143521044
+      ],
+      [
+        -575.0000000000005,
+        -995.9292143521043
+      ],
+      [
+        -1150.0,
+        0.0
+      ]
+    ],
+    "checked_indices": {
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "7": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "11": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "13": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "16": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "construction": "certified_contracted_seven",
+    "analytic_certificate": {
+      "type": "analytic_regular_hexagon_and_origin",
+      "problem": 3,
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "ring_radius_m": 1150.0,
+      "covering_radius_upper_m": 988.5114214360133,
+      "distance_margin_m": 11.48857856398672,
+      "point_count": 7,
+      "requires_each_unresolved_channel_at_all_seven_points": true,
+      "guarantees_localization_alone": false,
+      "proof": "docs/policies.md"
+    }
+  },
+  "source_total": 12,
+  "clear_fraction": 1.0,
+  "audit_complete": true,
+  "environment_summary": {
+    "source_count": 12,
+    "cleared_count": 12,
+    "cleared_channels": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "clearance_ratio": 1.0,
+    "all_cleared": true,
+    "virtual_time_s": 3358.889802,
+    "average_clear_time_s": 279.9074835,
+    "position": [
+      -1150.0,
+      0.0
+    ],
+    "current_channel": 20,
+    "accepted_actions": 127,
+    "closed": true,
+    "exit_reason": "user_exit",
+    "stats": {
+      "walk_distance": 13389.449015420023,
+      "movement_time": 2677.8898019999997,
+      "switches": 92,
+      "measures": 95,
+      "clear_attempts": 30,
+      "successes": 12,
+      "failures": 18,
+      "switch_time": 92.0,
+      "measure_time": 475.0,
+      "clear_time": 114.0
+    }
+  },
+  "hull_invariant_violations": [],
+  "policy": "selected",
+  "variant": "p3_r1150_w1",
+  "spec": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.0
+    }
+  },
+  "case_id": "round-calibrated-p3-0000-a21d558e975c4b8b",
+  "scenario_sha256": "6ecff48794663d9fe4b2afd9f0378662e679ab5eaeb62ef453c151e4666a5680",
+  "supplied_scenario_hash": true,
+  "world_sha256": "1159b548be1ad48695764c6dad96a22b3514adf855e00403757dfbc04bbb0c0a",
+  "total_time_per_source_s": 279.9074835,
+  "selection_sha256": "7b6e5dba4dd1b64e11f669e55ee7d1eb9dae4b30878045c8bcc0a7d048f0f99a",
+  "protocol_sha256": "ba3ff5b5a84bce9ac2552ac6d4e1b68ff39439996bbe38721400c548ce617577",
+  "source_files": {
+    "run.py": "77746c833264bc49c1433d14c71aa8f96664502125c876a5a1ca2e233414deae",
+    "experiment.py": "c8440164066a082de2b41b0a178206dde29368a5e80fee0aa005cc074547abb8",
+    "methods/__init__.py": "c3a7799466e0c53063c9a664448bca67aa5bb556dcf9a35875928a0977dd3261",
+    "methods/clear_cover.py": "2d8df0eaf529a966d7b9f0bb1798e66eee809b5daa5f6f407b14c94b28fa9146",
+    "methods/cover_order.py": "0cbd9c45f4c75d119929829a5213d56f726f491b3a822193e82aaa02192d8d30",
+    "methods/previous.py": "591a953f4dc553cd7d137ed03ca903294b6fc5a0a49d33088a2d80a0d7492c14",
+    "methods/scheduling.py": "e87cddfb7ea062b08787ffeb3eb30f93cd1f04d66a3d8c39221d8c334702e4a6",
+    "methods/solver.py": "d154bf204b9d7a05db25d921182910999e2dc25490d5a798bf2c8b1f097ba7a4",
+    "methods/synthesis.py": "713c3e2b019a98db6f8be4904e341089a6e8744583bec0e693a860c6d637fb78",
+    "vendor/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "vendor/bsolver/calibration.py": "420610e239e81fb4cb404d3212a09a321076517cda2a03a0c66513e790360545",
+    "vendor/bsolver/cli.py": "a62855a646bf21deabf4b23a2ce8e38ee5d12edadd0419ec08944fc80834ed96",
+    "vendor/bsolver/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "vendor/bsolver/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "vendor/bsolver/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "vendor/bsolver/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "vendor/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "vendor/bsolver/posterior_archive.py": "7212a69e59ef2130c514295298ad140098a08b564998f1f1db74087a25bb3670",
+    "vendor/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "vendor/bsolver/refined_coverage.py": "2b4df965c8e7e450ca60aaea98800bf8ec4d56d47a7e20338ee4018b8f75e46c",
+    "vendor/bsolver/refined_local.py": "1b6df2fd7a676cf318d0debad218633a377fda62aa41168c12897c89aa11f61f",
+    "vendor/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+    "vendor/bsolver/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "vendor/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "vendor/bsolver/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "vendor/bsolver/survey.py": "af8a0b29d4db390dd8aee11a4255b44d69ae8934835979ba290a5037b5568247",
+    "vendor/diverse/__init__.py": "9e577df0f7cd55e6ce6d9fa5583b8fe0b47f22c18d0d778f02e1aed52b52c100",
+    "vendor/diverse/belief.py": "d68fefa4ec5ba5f1314102d5b60e10d8f31383b606e7a0ac4ab0449b55e1cf60",
+    "vendor/diverse/experiment.py": "42560f5a5d8cbb7da86c5160438db74a75bfa04173fc6c483bd140cbb8e74c33",
+    "vendor/diverse/planning.py": "cfbfe9b94c9bdbcd7df2089495aff822f73f4dd559c0eb6f64de5592af2ed2a0",
+    "vendor/diverse/policies.py": "31dcbf577223a2dc9fda9f7f910f52334db9551bb2cd7cae8c50424e57c1126e",
+    "vendor/dynamic_joint/__init__.py": "ffc03779bfcf50244182ce3f79748c3d0663f0822f98ed0a1869982f62521371",
+    "vendor/dynamic_joint/counts.py": "43d04082d6ad43696c1f8eedde3fbbd8a1d8a9ecccf65e8ff02ebe0a9519f3c4",
+    "vendor/dynamic_joint/model.py": "a546311bae3c9237246115b9c88e67d53652a77c52586d1c85f5e8fd5d42bc82",
+    "vendor/dynamic_joint/solver.py": "bc47f4f6f75d28ebc42a98756dc93d52c15c0b893dbd9eba2c76374289c6646f",
+    "vendor/dynamic_joint/working_belief.py": "cd3bb1f278dbc738de4cff13bc9ca9eaa199cd22d7d26e25bdb055814cafbc55",
+    "vendor/dynamic_joint/_core/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "vendor/dynamic_joint/_core/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "vendor/dynamic_joint/_core/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "vendor/dynamic_joint/_core/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "vendor/dynamic_joint/_core/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "vendor/dynamic_joint/_core/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "vendor/dynamic_joint/_core/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "vendor/dynamic_joint/_core/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "vendor/dynamic_joint/_core/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "vendor/dynamic_joint/_core/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b"
+  },
+  "source_valid": true,
+  "dataset_runtime_hashes": {
+    "bsolver_frozen/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "bsolver_frozen/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "bsolver_frozen/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa"
+  },
+  "cli_sha256": "ec2348a513100627874f29c56116733bed23bc3254a278be33552e5969e607b2",
+  "environment": "frozen_local_simulator",
+  "official_actions": 0
+}

@@ -1,0 +1,112 @@
+{
+  "figures": [
+    "time_breakdown_stress.png",
+    "paired_time_stress.png",
+    "time_breakdown_test.png",
+    "paired_time_test.png",
+    "time_breakdown_tune.png",
+    "paired_time_tune.png",
+    "trajectory_p3.png",
+    "region_contraction_p3.png",
+    "trajectory_p4.png",
+    "region_contraction_p4.png",
+    "coverage_q3_q4.png"
+  ],
+  "trace_examples": [
+    {
+      "problem": 3,
+      "split": "test",
+      "variant": "joint_triangular",
+      "case_id": "local-p3-71300-random-min-deterministic",
+      "selected_channel": 3,
+      "selection_rule": "first positive channel; fixed split/variant/case ordering",
+      "distinct_updates": 2,
+      "outer_hull_areas_m2": [
+        39474.62367801262,
+        228.3002157372439
+      ],
+      "enclosing_radii_m": [
+        750.2382535488823,
+        16.01259652452058
+      ],
+      "source_of_truth": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\test\\joint_triangular\\local-p3-71300-random-min-deterministic\\case.json",
+      "policy_receives_truth": false
+    },
+    {
+      "problem": 4,
+      "split": "test",
+      "variant": "joint_triangular",
+      "case_id": "local-p4-71400-random-min-deterministic",
+      "selected_channel": 7,
+      "selection_rule": "first positive channel; fixed split/variant/case ordering",
+      "distinct_updates": 2,
+      "outer_hull_areas_m2": [
+        39483.54780426974,
+        633.6373217091314
+      ],
+      "enclosing_radii_m": [
+        750.4035632447652,
+        18.615673342578965
+      ],
+      "source_of_truth": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\test\\joint_triangular\\local-p4-71400-random-min-deterministic\\case.json",
+      "policy_receives_truth": false
+    }
+  ],
+  "coverage_certificates": [
+    {
+      "certificate_type": "analytic_construction_metadata",
+      "proof_path": "docs/coverage_proofs.md",
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "guarantees_localization": false,
+      "requires_scan_of_each_unresolved_channel": true,
+      "kind": "omnidirectional",
+      "point_count": 7,
+      "cell_count": 0,
+      "spacing_m": null,
+      "max_cell_diameter_m": null,
+      "ring_radius_m": 1558.8457268119894,
+      "covering_radius_bound_m": 900.0,
+      "guarantee": "Every source in the closed disk is within 900 m of a scan point.",
+      "open_route_length_m": 9353.074360871935
+    },
+    {
+      "certificate_type": "analytic_construction_metadata",
+      "proof_path": "docs/coverage_proofs.md",
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "guarantees_localization": false,
+      "requires_scan_of_each_unresolved_channel": true,
+      "kind": "square",
+      "point_count": 45,
+      "cell_count": 32,
+      "spacing_m": 700.0,
+      "max_cell_diameter_m": 989.9494936611666,
+      "distance_margin_m": 10.05050633883343,
+      "intersection_tolerance_m": 1e-07,
+      "cell_selection": "closed cell minimum distance to disk center <= disk radius (outward tolerance)",
+      "includes_all_incident_cells_at_edges_and_vertices": true,
+      "guarantee": "For every source and directional normal, a distinct selected vertex is within the cell-diameter bound and has strictly positive projection on the normal.",
+      "open_route_length_m": 31669.8484809835
+    },
+    {
+      "certificate_type": "analytic_construction_metadata",
+      "proof_path": "docs/coverage_proofs.md",
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "guarantees_localization": false,
+      "requires_scan_of_each_unresolved_channel": true,
+      "kind": "triangular",
+      "point_count": 31,
+      "cell_count": 42,
+      "spacing_m": 950.0,
+      "max_cell_diameter_m": 950.0,
+      "distance_margin_m": 50.0,
+      "intersection_tolerance_m": 1e-07,
+      "cell_selection": "closed cell minimum distance to disk center <= disk radius (outward tolerance)",
+      "includes_all_incident_cells_at_edges_and_vertices": true,
+      "guarantee": "For every source and directional normal, a distinct selected vertex is within the cell-diameter bound and has strictly positive projection on the normal.",
+      "open_route_length_m": 29890.896534380867
+    }
+  ]
+}

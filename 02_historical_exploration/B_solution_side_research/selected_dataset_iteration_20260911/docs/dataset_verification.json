@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scenario_count": 360,
+  "unique_hidden_worlds": 360,
+  "group_counts": {
+    "H1_P3": 90,
+    "H1_P4": 90,
+    "H2_P3": 90,
+    "H2_P4": 90
+  },
+  "scenario_hash_checks": 360,
+  "local_replay_smoke_cases": 360,
+  "local_replay_purpose": "evaluator-only interface checks; not a solving benchmark",
+  "official_requests": 0,
+  "package_files_verified": 382,
+  "package_check": "passed",
+  "elapsed_real_s": 3.055181000032462
+}

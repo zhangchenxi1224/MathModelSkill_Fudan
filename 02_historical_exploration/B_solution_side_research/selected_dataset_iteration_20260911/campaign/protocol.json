@@ -1,0 +1,52 @@
+{
+  "objective": "Complete clearance first; then mean total virtual seconds on 50/50 H1/H2, per problem.",
+  "secondary": "Mean T/N, p95, maximum regression, failures, wall time, movement and calls.",
+  "development_role": "All 360 supplied worlds are reused development/regression, including old confirmation labels.",
+  "selection": "Require all development runs audited complete; both H means no worse than champion; minimize equal-H mean T. Select at most one policy per problem, never use H or case_id in policy.",
+  "confirmation": "Freeze policy and code before running new synthetic confirmation. No retuning after seeing it. Negative outcome retains champion as validated recommendation.",
+  "failure_loss_seconds": 360000,
+  "fresh_per_group": 60,
+  "confirmatory_ci": "Paired case bootstrap; two problem-level primary contrasts, 97.5% intervals (Bonferroni 5% family). H-specific 95% intervals descriptive.",
+  "dataset_runtime": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\selected_dataset_iteration_20260911\\dataset\\official_composition_H1_H2_360_20260911\\runtime",
+  "dataset_sha256": "6d9f893e328dc96d605d6de412449d1c1bd1dff19fcd92c0001ac53b7818ed47",
+  "dataset_runtime_hashes": {
+    "bsolver_frozen/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "bsolver_frozen/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "bsolver_frozen/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa"
+  },
+  "case_file_hashes": {
+    "development": "1a50d13e39982f05090d791108d344b5665d185ee4c8c0463d07f81661d14b05",
+    "confirmation": "a1b16a51fd64b9af4d14321484946dc5f5a70f1f0186845852acc3144edeed92",
+    "stress": "dcfd566ab1810aa6192f92692590ac6377484a5041035853f5ccb6536ef44ce6"
+  },
+  "calibration_sha256": "8fefabca8c14fc629b4f84df4428bcc129b2e01d095623c3b1bbb87392e7dd5a",
+  "campaign_seed": 202609112101,
+  "source_at_registration": {
+    "run.py": "77746c833264bc49c1433d14c71aa8f96664502125c876a5a1ca2e233414deae",
+    "experiment.py": "9007ec37794e0ef725283b0497fce64f295daaf6168fb67c034f1c0c6902dcee",
+    "methods/__init__.py": "c3a7799466e0c53063c9a664448bca67aa5bb556dcf9a35875928a0977dd3261",
+    "methods/clear_cover.py": "2d8df0eaf529a966d7b9f0bb1798e66eee809b5daa5f6f407b14c94b28fa9146",
+    "methods/scheduling.py": "e87cddfb7ea062b08787ffeb3eb30f93cd1f04d66a3d8c39221d8c334702e4a6",
+    "methods/solver.py": "d2d46aba757b5c00372948532e07c767f3497ab361cc8ebe4f2cc05bdc39963d",
+    "vendor/bsolver/__init__.py": "d332f9a2e036ec7c0c665e6d70e491838d693d399c4c0f7f5ae2743fb9730d84",
+    "vendor/bsolver/calibration.py": "420610e239e81fb4cb404d3212a09a321076517cda2a03a0c66513e790360545",
+    "vendor/bsolver/cli.py": "a62855a646bf21deabf4b23a2ce8e38ee5d12edadd0419ec08944fc80834ed96",
+    "vendor/bsolver/coverage.py": "8f57e7b0bc1c99437066d83f76f7deaa4ff75c7ea91c6c945f529c4e12c7c7f7",
+    "vendor/bsolver/experiments.py": "d8c98c008845101aef56da0803047cd79510e4070ab0bfd95fe102732c68343e",
+    "vendor/bsolver/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "vendor/bsolver/knowledge.py": "e6f3f89601794d86ac8fb201fe365e5a6bc14b48f3ecec889e3e86513aec83e0",
+    "vendor/bsolver/nosignal_sensing.py": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+    "vendor/bsolver/posterior_archive.py": "7212a69e59ef2130c514295298ad140098a08b564998f1f1db74087a25bb3670",
+    "vendor/bsolver/protocol.py": "a75e1c41257cc6fd4debc1ec96053adf720c6e8db915765bd2ab389f3b41fe1a",
+    "vendor/bsolver/round_experiments.py": "6836dedaa30c8a24e910cede983b3e811c97e52dbd994f4e1dbd4f3a576c8c7a",
+    "vendor/bsolver/sensing.py": "5dccd735da02bef77aca5a12c1a916572f33b0a972fcc864f9751c3dc7bd3561",
+    "vendor/bsolver/simulator.py": "f29b67f0cd62bc1231254eee859908d37842e43d580205cd1aa4a869215066aa",
+    "vendor/bsolver/strategy.py": "4fb73ff9ec38d3d7741f25efca469ea27d77908198850b4911e461058612485b",
+    "vendor/bsolver/survey.py": "af8a0b29d4db390dd8aee11a4255b44d69ae8934835979ba290a5037b5568247",
+    "vendor/diverse/__init__.py": "9e577df0f7cd55e6ce6d9fa5583b8fe0b47f22c18d0d778f02e1aed52b52c100",
+    "vendor/diverse/belief.py": "d68fefa4ec5ba5f1314102d5b60e10d8f31383b606e7a0ac4ab0449b55e1cf60",
+    "vendor/diverse/experiment.py": "42560f5a5d8cbb7da86c5160438db74a75bfa04173fc6c483bd140cbb8e74c33",
+    "vendor/diverse/planning.py": "cfbfe9b94c9bdbcd7df2089495aff822f73f4dd559c0eb6f64de5592af2ed2a0",
+    "vendor/diverse/policies.py": "31dcbf577223a2dc9fda9f7f910f52334db9551bb2cd7cae8c50424e57c1126e"
+  }
+}

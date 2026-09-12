@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-12T04:31:05Z",
+  "created_before_development_selection": true,
+  "basis": "Composition support and ESS only; no candidate performance inspected for this amendment.",
+  "P3_rank": "unchanged new/old composition-weighted mean paired delta; ESS about181-182 of190 perH",
+  "P4_rank": "unweighted H1 mean paired delta; H1 is closer to official feedback. Require ordinary overall and both H mean deltas<=0 and every case complete.",
+  "P4_weighting_limitation": "ESS about20-22 of290 perH; represented updated composition mass about56%. Importance-weighted values are descriptive only.",
+  "confirmation": "Still240 new worlds under all369 composition. H1 is primary fidelity evidence; H2 is sensitivity. No reselection after confirmation.",
+  "code": "select_fidelity.py"
+}

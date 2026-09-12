@@ -1,0 +1,36 @@
+{
+  "repository": "zhangchenxi1224/MathModelSkill_Fudan",
+  "tag": "p3-p4-delivery-20260912",
+  "archive": "B_P3_P4_delivery_20260912.zip",
+  "archive_bytes": 4473457412,
+  "archive_sha256": "165609df855c53c11c8cb4fb73e31c47b2c75e7847d55ea83629b60117c93c02",
+  "parts": [
+    {
+      "name": "B_P3_P4_delivery_20260912.zip.001",
+      "bytes": 1073741824,
+      "sha256": "776a52f3cfcdf4c2f3dca91b887469d1928db59aca44fd41343d80aa22a534d7"
+    },
+    {
+      "name": "B_P3_P4_delivery_20260912.zip.002",
+      "bytes": 1073741824,
+      "sha256": "496e372e62e2f7e960667e4cadf43fdb308626e18ad30d5c947f888cd2beac70"
+    },
+    {
+      "name": "B_P3_P4_delivery_20260912.zip.003",
+      "bytes": 1073741824,
+      "sha256": "85fe347e5431a1b312e8a251fc13323eb7d8973725b1ae748bba5885969464e4"
+    },
+    {
+      "name": "B_P3_P4_delivery_20260912.zip.004",
+      "bytes": 1073741824,
+      "sha256": "61b6be2c6716f6e0b70bd0097096f92ebc425ba7c14c9276018b81f942280fc0"
+    },
+    {
+      "name": "B_P3_P4_delivery_20260912.zip.005",
+      "bytes": 178490116,
+      "sha256": "ac2f7b8947e4685a1eaaf91c52bcbdb275f2e7040b70deae7dfc76b4c33f9dc1"
+    }
+  ],
+  "uncompressed_files": 119700,
+  "uncompressed_bytes": 16186015469
+}

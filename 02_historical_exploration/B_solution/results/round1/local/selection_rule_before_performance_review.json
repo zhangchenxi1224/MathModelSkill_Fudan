@@ -1,0 +1,19 @@
+{
+  "final_choice_count_per_problem": 1,
+  "ranking": "Existing screening_shortlist: minimize the worst pool/composition mean difference, without averaging different scenario pools",
+  "performance_data_read": "Only pre-existing engineering benchmark, not the running 1000-scene performance results",
+  "baseline": "joint_triangular_l5",
+  "stage": 1,
+  "alternatives": [
+    "joint_triangular_l1",
+    "joint_triangular_l2",
+    "joint_triangular_l3"
+  ],
+  "partition_for_selection": "development_only",
+  "fallback": "Keep L5 if no candidate satisfies the gates",
+  "created_utc": "2026-09-11T08:26:04.1396623Z",
+  "review": "Report retreat fraction, largest retreat and cost components; no claim that average improvement applies to every world",
+  "efficiency_gate": "Require negative mean candidate-minus-baseline penalized cost in every pool/composition design group; inspect retained-mechanism effects separately",
+  "confirmation_rule": "Freeze selected limits and development-results hash before reading confirmation performance; confirmation cannot be used to tune another limit",
+  "completion_gate": "Reject any candidate with more failures than baseline in any pool/composition or mechanism stratum"
+}

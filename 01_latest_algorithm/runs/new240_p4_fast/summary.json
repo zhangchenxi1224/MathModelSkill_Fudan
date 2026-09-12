@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "problem": 4,
+      "arm": "three_feedback_fast",
+      "runs": 120,
+      "complete": 120,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 8300.59593755,
+      "mean_T_per_source_success_s": 666.2577219915063,
+      "mean_loss_s": 8300.59593755,
+      "mean_paired_loss_difference_s": null,
+      "max_wall_s": 76.28524539992213
+    }
+  ],
+  "runs": 120,
+  "note": "360000 is an explicit incomplete-run evaluation penalty, not an official score or completion time."
+}

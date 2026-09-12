@@ -1,0 +1,17 @@
+{
+  "registered_utc": "2026-09-11 13:16:09 UTC",
+  "stage_status_at_registration": "full development running; no confirmation/stress results exist",
+  "applies_to": "Promotion of each frozen non-champion candidate; at most one per problem",
+  "requirements": [
+    "independent audit passes with zero issues",
+    "every selected confirmation and stress run is audited complete",
+    "confirmation H1 and H2 mean paired total-time differences are both <= 0",
+    "confirmation problem-level paired 97.5% bootstrap confidence interval upper endpoint is < 0"
+  ],
+  "confidence": {
+    "two_primary_contrasts": "P3 and P4; Bonferroni family-wise 5%",
+    "resamples": 10000
+  },
+  "stress_time": "Descriptive; no average-time superiority requirement on the deliberately shifted stress mix",
+  "failure_action": "Retain champion as validated recommendation for any failing problem; do not retune on these confirmation results"
+}

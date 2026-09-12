@@ -1,0 +1,25 @@
+{
+  "source_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\round1\\model_frozen.json",
+  "model_id": "composition-d0efea5015d5ecb6",
+  "source_sha256": "975a6a9c8090c0416240afe056bc3d0cae503350b75b918a065d1a0721ab1e74",
+  "provenance": {
+    "n_official_attempts": 160,
+    "n_official_cases": 160,
+    "n_fit": 120,
+    "roots": [
+      "results\\round1\\cases"
+    ],
+    "compare_roots": [],
+    "split_unit": "whole_case",
+    "split_salt": "cumcm-b-calibration-v1",
+    "fit_fraction": 0.75,
+    "retrospective_assignments": 0,
+    "bootstrap_repeats": 500,
+    "n_planned_unstarted": 0
+  },
+  "output_sha256": {
+    "dynamic_h2_prior_p3.json": "c124c999aad0b660a8d09ccea49fef16a9e368bda7dd059879867adb70a963b5",
+    "dynamic_h2_prior_p4.json": "a09b28dcf1e0326decb1aaef09902f4d561569e4626c0a9b64a371b1391f1b82"
+  },
+  "interpretation": "Count marginal plus expected source-type fraction only. Online per-channel particles approximate geometry; not a full joint N/N_directed posterior. No calibration case coordinates or evaluation scenario truth enter the policy."
+}

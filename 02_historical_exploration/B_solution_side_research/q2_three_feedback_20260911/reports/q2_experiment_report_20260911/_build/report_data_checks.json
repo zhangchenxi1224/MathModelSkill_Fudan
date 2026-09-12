@@ -1,0 +1,22 @@
+{
+  "verified_contexts": 8,
+  "worlds": 480,
+  "rows": 1920,
+  "paired_decomposition": [
+    {
+      "group": "新方案仍有方向",
+      "n": 450,
+      "old_mean": 27.679335405855767,
+      "new_mean": 26.869278224096036,
+      "overall_contribution": -0.7594286078997464
+    },
+    {
+      "group": "新方案无信号",
+      "n": 30,
+      "old_mean": 28.11731783519656,
+      "new_mean": 49.83760235145557,
+      "overall_contribution": 1.3575177822661884
+    }
+  ],
+  "cover_unresolved_boxes": 0
+}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-09-11T08:31:19.607133+00:00",
+  "files": [
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\local_next_plan.json",
+      "sha256": "0172b0cd16cbb93354f14f37f3872a153838bce4988a0cb32e653f16118de780",
+      "status": "stage1_running"
+    },
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round1\\mechanisms_selected.json",
+      "sha256": "76fd7735a152f6f7c201a0d736945a3847af8eaa7ea780aa8bd341ae6ff7ca1e",
+      "status": null
+    },
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\radius_extreme_witnesses\\summary.json",
+      "sha256": "c5bf66f85d306e7df255d1892777221893e2c81caa2f4f6622a8e50e8a35f9c6",
+      "status": null
+    },
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\neighbor_error_witnesses\\summary.json",
+      "sha256": "920b96a7bb7c574107ab3a084391b1cb10726663c86a9f6e5d293cf0233d2265",
+      "status": null
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-09-11T08:56:49.663740+00:00",
+  "status": "local_selection_chain_complete_waiting_for_fresh_official_validation",
+  "scope": "Main local execution after the frozen official160 composition model; excludes earlier engineering fixtures, unit tests, sensitivity runs and diagnostic replays. No official calls made by this local pipeline.",
+  "final_policy": {
+    "3": {
+      "variant": "joint",
+      "solver_class": "normal",
+      "solver_config": {
+        "bin_width_deg": 4.0,
+        "clear_radius": 19.999,
+        "coverage": "triangular",
+        "epsilon_deg": 1.0051,
+        "joint_detour_m": 800.0,
+        "local_measure_limit": 1,
+        "max_virtual_s": 360000.0,
+        "nearest_safe": true,
+        "opportunistic_known_measurements": false,
+        "problem": 3,
+        "radius_weight": 2.0,
+        "reserve_real_s": 5.0,
+        "scheduling": "joint",
+        "sensing": "active",
+        "spacing": null
+      },
+      "nosignal_config": null
+    },
+    "4": {
+      "variant": "joint",
+      "solver_class": "nosignal",
+      "solver_config": {
+        "bin_width_deg": 4.0,
+        "clear_radius": 19.999,
+        "coverage": "triangular",
+        "epsilon_deg": 1.0051,
+        "joint_detour_m": 800.0,
+        "local_measure_limit": 1,
+        "max_virtual_s": 360000.0,
+        "nearest_safe": true,
+        "opportunistic_known_measurements": false,
+        "problem": 4,
+        "radius_weight": 2.0,
+        "reserve_real_s": 5.0,
+        "scheduling": "joint",
+        "sensing": "active",
+        "spacing": null
+      },
+      "nosignal_config": {
+        "directional_prior": 0.5,
+        "interior_fraction": 0.75,
+        "orientation_sample_count": 24,
+        "position_sample_count": 7,
+        "radius_samples": [
+          1000.0,
+          1250.0,
+          1500.0
+        ]
+      }
+    }
+  },
+  "frozen_core_sha256": "1b673484453104a5d87d4605d30b20826a3b7ec64769fd6ce8d3c8f7a1ad24f6",
+  "nosignal_sha256": "2073393686e1538ad046965cbc3b4cf1f16b6882a157b6efa5c7855ff50be6c0",
+  "selection_sha256": {
+    "1": "d52358e443a2d32c7bca10eb8b8812c64cf64da1fbd08c82e251c7ad7c91a6d4",
+    "2": "0fabf5f0a3e515fccfafac5147c7a8edcd40387d2ac81403b4c1f15ae620200d",
+    "3": "f20b3dc942e5cb72a9c2b7c8d14a4f451af9be5ee8d7a77387626f7e090fe653"
+  },
+  "runs": [
+    {
+      "name": "mechanism_primary",
+      "physical_runs": 800,
+      "iteration": false,
+      "wall_time_s": 309.6305438000709,
+      "metadata": "results\\round1\\protocol_checks_primary\\run_metadata.json"
+    },
+    {
+      "name": "mechanism_broad_reference",
+      "physical_runs": 160,
+      "iteration": false,
+      "wall_time_s": 64.00623880000785,
+      "metadata": "results\\round1\\protocol_checks_broad_reference\\run_metadata.json"
+    },
+    {
+      "name": "stage1_all_arms",
+      "physical_runs": 4000,
+      "iteration": true,
+      "wall_time_s": 996.5375959000085,
+      "metadata": "results\\round1\\local\\run_metadata.json"
+    },
+    {
+      "name": "stage2_development",
+      "physical_runs": 640,
+      "iteration": true,
+      "wall_time_s": 129.31705630000215,
+      "metadata": "results\\round1\\stage2\\development\\run_metadata.json"
+    },
+    {
+      "name": "stage2_confirmation",
+      "physical_runs": 120,
+      "iteration": true,
+      "wall_time_s": 23.312727499986067,
+      "metadata": "results\\round1\\stage2\\confirmation\\run_metadata.json"
+    },
+    {
+      "name": "stage3_development",
+      "physical_runs": 960,
+      "iteration": true,
+      "wall_time_s": 182.12514059990644,
+      "metadata": "results\\round1\\stage3\\development\\run_metadata.json"
+    },
+    {
+      "name": "stage3_confirmation",
+      "physical_runs": 80,
+      "iteration": true,
+      "wall_time_s": 18.235384900006466,
+      "metadata": "results\\round1\\stage3\\confirmation\\run_metadata.json"
+    }
+  ],
+  "iteration_distinct_worlds": 1800,
+  "iteration_physical_runs": 5800,
+  "mechanism_physical_runs": 960,
+  "total_main_local_physical_runs": 6760,
+  "total_main_local_wall_time_s_sum": 1723.1646877999883,
+  "reported_complete_runs": 6760,
+  "reported_failures": 0,
+  "reported_hull_invariant_violations": 0,
+  "stage1_confirmation_accounting": {
+    "physically_run": 800,
+    "reviewed_selected_L1_vs_L5_runs": 400,
+    "unused_L2_L3_confirmation_runs": 400,
+    "unused_arms_performance_read": false,
+    "review_did_not_add_physical_runs": true
+  },
+  "stage2_confirmation_accounting": {
+    "p3_baseline_only": 40,
+    "p4_two_arms": 80
+  },
+  "stage3_confirmation_accounting": {
+    "joint_only_runs": 80,
+    "paired_scheduling_comparisons": 0
+  },
+  "source_and_log_audits": [
+    "results/round1/protocol_checks_primary/completion_audit.json",
+    "results/round1/protocol_checks_broad_reference/completion_audit.json",
+    "results/round1/local/completion_audit.json",
+    "results/round1/stage2/development/completion_audit.json",
+    "results/round1/stage2/confirmation/completion_audit.json",
+    "results/round1/stage3/development/completion_audit.json",
+    "results/round1/stage3/confirmation/completion_audit.json"
+  ],
+  "interpretation": [
+    "Composition and retained mechanism uncertainty remains; local pools are not the official hidden generator.",
+    "The three stages use distinct worlds; do not add stage-specific deltas into an end-to-end gain estimate.",
+    "NoSignal P4 passes the predefined confirmation rejection gate, but three confirmation design intervals include zero.",
+    "Stage3 keeps the existing joint scheduler and makes no changed-scheduling improvement claim.",
+    "Fresh official practice validation is within the current authorized plan and is executed by root; formal tests remain unauthorized."
+  ]
+}

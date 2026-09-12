@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p3-002",
+  "problem": 3,
+  "case_code": "TS6T-JTBH-YMHS-33HG",
+  "measurement_outcomes": {
+    "no_signal": 64,
+    "direction": 31
+  },
+  "planning_calls": 25,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 18,
+    "cover": 7
+  },
+  "http_records": 130,
+  "decision_records": 185,
+  "http_outcomes": {
+    "accepted": 130
+  },
+  "costs": {
+    "move_s": 3089.2963704114836,
+    "measure_s": 475,
+    "switch_s": 89,
+    "clear_s": 125
+  },
+  "timing_residual_s": -3.4114837035303935e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 574.3940549999998,
+  "feedback_no_signal": 64,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

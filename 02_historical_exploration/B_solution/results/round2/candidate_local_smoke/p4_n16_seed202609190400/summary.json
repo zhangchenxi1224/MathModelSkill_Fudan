@@ -1,0 +1,10 @@
+{
+  "environment": "local_synthetic",
+  "evidence_role": "engineering_reproduction_not_tuning_or_official",
+  "cases": 1,
+  "complete": 1,
+  "failures": 0,
+  "hull_invariant_violations": 0,
+  "wall_time_s": 1.5737084000138566,
+  "candidate_sha256": "3e305f7f13a9e22d8b37a6e3d5ab3b1321357a3a8d4c418364ca8adae5424816"
+}

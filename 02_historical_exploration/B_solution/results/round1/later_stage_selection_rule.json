@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-11T08:33:02.695112+00:00",
+  "scope": "Later local stages 2 and 3 plus confirmation acceptance; fixed before reading any Stage1 performance summary or running later stages.",
+  "development_gate": "Same conservative screening as Stage1: no increase in failures in any pool/composition/mechanism stratum; mean penalized delta negative in every pool/composition design group. Retain current module if no eligible alternative.",
+  "development_ranking": "Choose the alternative minimizing the largest pool/composition mean delta; inspect per-mechanism effects and retained worst-regression logs.",
+  "confirmation_gate": "No increased failures or hull-invariant violations. Reject an efficiency change if any pool/composition design group has a positive paired 95% bootstrap lower bound for cost change (clear deterioration in that group); otherwise retain the frozen development choice for fresh official validation with uncertainty explicitly reported.",
+  "confirmation_limit": "This is a one-time accept/reject of the frozen choice, never a source for selecting another setting. No claim of improvement follows merely from passing this gate. Pointwise exploratory intervals are not multiplicity-adjusted.",
+  "official_candidate_rule": "At most one final changed policy per problem; do not fabricate improvement or compare identically configured arms if every stage retains the original baseline.",
+  "failure_penalty_s": 360000
+}

@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "feedback-p3-004",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "DWHX-GXYF-2TFM-WUAK",
+  "source_total_post_exit": 14,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 14,
+  "cleared": 14,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3908.4283,
+  "original_log_filename": "practice-p3-1141483204526326055-DWHX-GXYF-2TFM-WUAK.jlog",
+  "original_log_sha256": "8ef966632a81955a266e24b2c73602d9bb26903a21b7792226ae56b6e9893efd",
+  "original_log_bytes": 34845,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T06:30:40.045056+00:00"
+}

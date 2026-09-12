@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p4-002",
+  "problem": 4,
+  "case_code": "S6J2-EDRR-HAYP-XBDD",
+  "measurement_outcomes": {
+    "direction": 31,
+    "no_signal": 242
+  },
+  "planning_calls": 26,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 18,
+    "cover": 8
+  },
+  "http_records": 320,
+  "decision_records": 379,
+  "http_outcomes": {
+    "accepted": 320
+  },
+  "costs": {
+    "move_s": 6931.941051994184,
+    "measure_s": 1365,
+    "switch_s": 250,
+    "clear_s": 161
+  },
+  "timing_residual_s": 2.005815986194648e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 1571.2676330000004,
+  "feedback_no_signal": 242,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

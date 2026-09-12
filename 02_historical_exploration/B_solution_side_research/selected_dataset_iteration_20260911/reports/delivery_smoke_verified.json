@@ -1,0 +1,22 @@
+[
+  {
+    "problem": 3,
+    "policy": "selected",
+    "virtual_time_exact_match": true
+  },
+  {
+    "problem": 3,
+    "policy": "champion",
+    "virtual_time_exact_match": true
+  },
+  {
+    "problem": 4,
+    "policy": "selected",
+    "virtual_time_exact_match": true
+  },
+  {
+    "problem": 4,
+    "policy": "champion",
+    "virtual_time_exact_match": true
+  }
+]

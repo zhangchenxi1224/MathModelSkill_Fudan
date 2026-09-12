@@ -1,0 +1,211 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 3,
+  "config": {
+    "problem": 3,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 1,
+    "joint_detour_m": 800.0,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 11799.008460668028,
+  "switches": 77,
+  "measures": 87,
+  "clear_attempts": 28,
+  "clear_successes": 14,
+  "fallback_targets": 11,
+  "certified_clears": 3,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 0,
+  "macro_lookahead_selections": 0,
+  "feedback_pruned_clear_points": 0,
+  "feedback_absent_channels": 0,
+  "feedback_plan_calls": 26,
+  "feedback_no_signal": 55,
+  "probability_probes": 0,
+  "nominal_risk_spent": 0.0,
+  "risk_deferred_sources": 0,
+  "total_virtual_time_s": 2983.801694,
+  "independently_accounted_time_s": 2983.8016921336057,
+  "timing_residual_s": 1.866394541139016e-06,
+  "average_clear_time_s": 213.12869242857144,
+  "program_real_time_s": 28.837199500063434,
+  "stop_evidence": {
+    "type": "per_channel_coverage",
+    "cleared_channels": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      12,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20
+    ],
+    "absent_channels": [
+      2,
+      5,
+      10,
+      11,
+      15,
+      18
+    ],
+    "required_point_count": 7,
+    "points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1150.0,
+        0.0
+      ],
+      [
+        -575.0000000000005,
+        -995.9292143521043
+      ],
+      [
+        575.0000000000002,
+        -995.9292143521044
+      ],
+      [
+        1150.0,
+        0.0
+      ],
+      [
+        575.0000000000002,
+        995.9292143521044
+      ],
+      [
+        -574.9999999999998,
+        995.9292143521045
+      ]
+    ],
+    "checked_indices": {
+      "2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "11": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "15": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "18": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "construction": "certified_contracted_seven",
+    "analytic_certificate": {
+      "type": "analytic_regular_hexagon_and_origin",
+      "problem": 3,
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "ring_radius_m": 1150.0,
+      "covering_radius_upper_m": 988.5114214360133,
+      "distance_margin_m": 11.48857856398672,
+      "point_count": 7,
+      "requires_each_unresolved_channel_at_all_seven_points": true,
+      "guarantees_localization_alone": false,
+      "proof": "docs/policies.md"
+    },
+    "feedback_absence": {}
+  },
+  "source_total": 14,
+  "clear_fraction": 1.0,
+  "feedback_options": {
+    "planning": true,
+    "planning_region_depth": 0,
+    "horizon": 2,
+    "extra_measure_allowance": 1
+  },
+  "probability_status": "uncalibrated_working_model",
+  "case_id": "round-calibrated-p3-0040-35bcafaf44d91c9c",
+  "world_key": "24601f769282ec0e42b3d7bc78f7456a8ef3a4dc7e18942b5ef8b5d794080bd4",
+  "arm": "dp_geometric",
+  "error_mode": "correlated",
+  "directional_total": 0,
+  "true_all_clear": true,
+  "complete": true,
+  "T_per_cleared_s": 213.12869242857144,
+  "T_per_source_s": 213.12869242857144,
+  "loss_s": 2983.801694,
+  "region_violations": [],
+  "wall_s": 28.875431000022218,
+  "environment": "frozen_local",
+  "original_result_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\core960_p3_dp\\cases\\24601f769282ec0e\\dp_geometric\\result.json",
+  "used_result_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\core960_p3_dp\\cases\\24601f769282ec0e\\dp_geometric\\result.json",
+  "requests_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\core960_p3_dp\\cases\\24601f769282ec0e\\dp_geometric\\requests.jsonl",
+  "decisions_path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\all_feedback_experiments_20260912\\runs\\core960_p3_dp\\cases\\24601f769282ec0e\\dp_geometric\\decisions.jsonl",
+  "original_planning_guard_hits": 0,
+  "compute_guard_rerun": false,
+  "effective_selection": {
+    "arm": "dp_geometric",
+    "options": {
+      "planning_seconds": 60.0
+    },
+    "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+  },
+  "reuse_basis": "original run never reached the shorter guard; full fixed work budget already executed"
+}

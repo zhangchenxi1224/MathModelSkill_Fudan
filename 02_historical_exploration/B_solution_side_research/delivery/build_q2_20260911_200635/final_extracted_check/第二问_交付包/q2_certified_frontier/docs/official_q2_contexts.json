@@ -1,0 +1,2174 @@
+{
+  "schema_version": 1,
+  "purpose": "public first-observation geometry contexts for offline worst-case candidate bounds; not counterfactual official measurements",
+  "source": "already archived official P3 survey public measurements",
+  "source_files": {
+    "measurements": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\round1\\features\\measurements.jsonl",
+    "measurements_sha256": "0b5e747e4257b4d4958cb3d72309886abc1c52ffc542ca3f4bdb77faab3e4720",
+    "cases": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\round1\\features\\cases.jsonl",
+    "cases_sha256": "d81b14ac4fdc5713b958f2c2facc5c797f88a14fb759aa9acb528aeabaa5f6ca"
+  },
+  "selection": {
+    "case_filter": "official, survey, problem=3; retain existing fit/development labels",
+    "measurement_filter": "accepted-deduplicated features; any_cleared_before=false",
+    "channel_rule": "First positive must be direction. Sort eligible channels numerically; select first two per case without conditioning on second result, report angles, geometry quality, or performance.",
+    "first": "earliest direction in retained channel",
+    "second": "earliest later direction in retained channel, possibly after intervening no_signal or near; null if unavailable",
+    "next_measurement_after_first": "earliest subsequent retained measurement, to expose intervening outcomes",
+    "max_contexts_per_case": 2,
+    "prior_no_signal_policy": "count retained only for bias audit; not included in simple Q2 position knowledge",
+    "not_pre_registered_at_original_collection": true
+  },
+  "interpretation": {
+    "truth_coordinates_included": false,
+    "clear_positions_used": false,
+    "future_outer_hull_used": false,
+    "exact_counterfactual_second_reading_available": false,
+    "independent_statistical_unit": "case, not channel or measurement",
+    "selection_bias": "First detection is conditional on fixed survey route and visibility; case/channel contexts are exploratory geometry fixtures, not an unbiased source-distance distribution. Second direction is provided only as an observed historical outcome and must not influence a new choice q."
+  },
+  "summary": {
+    "case_count": 20,
+    "context_count": 40,
+    "contexts_by_split": {
+      "fit": 30,
+      "development": 10
+    },
+    "contexts_with_second_direction": 32,
+    "first_positive_near_exclusions": 0
+  },
+  "case_selection_audit": [
+    {
+      "case_id": "r1-p3-survey-001",
+      "split": "fit",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        1,
+        2
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-002",
+      "split": "fit",
+      "eligible_first_direction_channels": 11,
+      "selected_channels": [
+        2,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 9
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-003",
+      "split": "development",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        3,
+        4
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-004",
+      "split": "fit",
+      "eligible_first_direction_channels": 10,
+      "selected_channels": [
+        5,
+        8
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 10
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-005",
+      "split": "development",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        1,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-006",
+      "split": "fit",
+      "eligible_first_direction_channels": 16,
+      "selected_channels": [
+        2,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 4
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-007",
+      "split": "fit",
+      "eligible_first_direction_channels": 10,
+      "selected_channels": [
+        2,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 10
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-008",
+      "split": "development",
+      "eligible_first_direction_channels": 14,
+      "selected_channels": [
+        3,
+        4
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 6
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-009",
+      "split": "fit",
+      "eligible_first_direction_channels": 13,
+      "selected_channels": [
+        1,
+        4
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 7
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-010",
+      "split": "fit",
+      "eligible_first_direction_channels": 16,
+      "selected_channels": [
+        1,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 4
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-011",
+      "split": "fit",
+      "eligible_first_direction_channels": 15,
+      "selected_channels": [
+        2,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 5
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-012",
+      "split": "fit",
+      "eligible_first_direction_channels": 11,
+      "selected_channels": [
+        2,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 9
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-013",
+      "split": "fit",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        1,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-014",
+      "split": "fit",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        1,
+        2
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-015",
+      "split": "development",
+      "eligible_first_direction_channels": 13,
+      "selected_channels": [
+        1,
+        4
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 7
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-016",
+      "split": "fit",
+      "eligible_first_direction_channels": 14,
+      "selected_channels": [
+        1,
+        2
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 6
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-017",
+      "split": "fit",
+      "eligible_first_direction_channels": 10,
+      "selected_channels": [
+        1,
+        3
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 10
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-018",
+      "split": "development",
+      "eligible_first_direction_channels": 15,
+      "selected_channels": [
+        1,
+        2
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 5
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-019",
+      "split": "fit",
+      "eligible_first_direction_channels": 15,
+      "selected_channels": [
+        1,
+        2
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 5
+      }
+    },
+    {
+      "case_id": "r1-p3-survey-020",
+      "split": "fit",
+      "eligible_first_direction_channels": 12,
+      "selected_channels": [
+        3,
+        4
+      ],
+      "exclusion_counts": {
+        "no_positive_before_any_clear": 8
+      }
+    }
+  ],
+  "contexts": [
+    {
+      "context_id": "r1-p3-survey-001-ch01",
+      "case_id": "r1-p3-survey-001",
+      "case_group_id": "e3934840cb4f4508d5570264bef332637e037b3c1465c9df15221da66763e81f",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 28.6,
+        "outcome": "direction",
+        "sequence": 121,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "35c06008b717871595f2acbb4de30b2ca1d4e8122496c3f79e4697b8268fbc1a"
+      },
+      "second": null,
+      "next_measurement_after_first": null,
+      "prior_no_signal_count_before_first": 6,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-001-ch02",
+      "case_id": "r1-p3-survey-001",
+      "case_group_id": "e3934840cb4f4508d5570264bef332637e037b3c1465c9df15221da66763e81f",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 21.91,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "71adef6bb5a3eadb4f39abe0b8a32dad0df546780a39cda0d1331475c48c7e16"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 284.27,
+        "outcome": "direction",
+        "sequence": 42,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "5307671f8b6b2149ac19cdc316d6951a97da598c6ae6723c340586753a31d3fc"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "049673d2319bd0ce6e462186888e489c40ffedcc422741128351b9c9220157ed"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-002-ch02",
+      "case_id": "r1-p3-survey-002",
+      "case_group_id": "e58dd6e038ad5b959b25290892801d44ff3e8c0826cf77685d7c24f8e72914d2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 64.43,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "7e3b95eaf6cff6008b99f53aaa684307272a18c2a0356173cf4415d12a89a2a5"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 236.93,
+        "outcome": "direction",
+        "sequence": 42,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "07c28046c5e223a42fad97149205732144ab40ba7964c92386f41bb2f03974bc"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "9ba59a5350b19034f68684d45015fdf159887cbc2909fe4603ff219af3e65d11"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-002-ch03",
+      "case_id": "r1-p3-survey-002",
+      "case_group_id": "e58dd6e038ad5b959b25290892801d44ff3e8c0826cf77685d7c24f8e72914d2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 27.63,
+        "outcome": "direction",
+        "sequence": 3,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "94b48b2347937fdd3a74b8f7c3e957840a236f0fe92e9ae1b5a16d8dc1dadd0f"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 289.68,
+        "outcome": "direction",
+        "sequence": 43,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "698ae3901a2e8ac77982f69056aa00902a6850b84c1d911c32e56b12fc118562"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "55306b8fc92bbadc2634d9c2202a4ec6e35079d43bbb965228c91e430a2bba75"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-003-ch03",
+      "case_id": "r1-p3-survey-003",
+      "case_group_id": "e824f5d47ae7b6c4c2f037c246604869aa81c4c96a1ea37a785a6ff62e69ced2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 3,
+      "first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 240.79,
+        "outcome": "direction",
+        "sequence": 63,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "ec53b8678c4e2ff7cddd19eb30902e716f204266d29f609d35fc82b6184ec73d"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 59.79,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "1ce77901b8c3bcc5b7f6355d1a37cef251083acd5bd32fe3de604b344580e27f"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 59.79,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "1ce77901b8c3bcc5b7f6355d1a37cef251083acd5bd32fe3de604b344580e27f"
+      },
+      "prior_no_signal_count_before_first": 3,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-003-ch04",
+      "case_id": "r1-p3-survey-003",
+      "case_group_id": "e824f5d47ae7b6c4c2f037c246604869aa81c4c96a1ea37a785a6ff62e69ced2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 4,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 3.06,
+        "outcome": "direction",
+        "sequence": 4,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "037498e8e32098945007a77c7c7e471525f0e11e5134c03f23343cb294af7b0e"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "afe857d1466150ac5c1952b0d297b31c900051b84ed8b7f147a775bf48510ba6"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-004-ch05",
+      "case_id": "r1-p3-survey-004",
+      "case_group_id": "725ce75ee6a6e4d36654d45b8855781fde61036ab1a065c74127e30aee0885f0",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 5,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 50.62,
+        "outcome": "direction",
+        "sequence": 5,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "73964f0762185ae50e24d9cf0a97bd5bd14b05e2d5c37976eee0ed8519c562c2"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 252.28,
+        "outcome": "direction",
+        "sequence": 45,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "816dce59da2f1bb88a3953b13b4c8cf94b85c7a0ad98bce9b513c18d664e6ad1"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 25,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "2cc22d07d2a0984b04b37367ac0c740530aa0bf23e7a02aabfb9a882e43bdde7"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-004-ch08",
+      "case_id": "r1-p3-survey-004",
+      "case_group_id": "725ce75ee6a6e4d36654d45b8855781fde61036ab1a065c74127e30aee0885f0",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 8,
+      "first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 106.05,
+        "outcome": "direction",
+        "sequence": 88,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "46ba186f502a92eda67ee76e1b30a5179c0c178779a0ecb52fb8d6709c624b0f"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 108,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "90a90dd66b7c9d83a25d2ffe443b0f69613e29ce9f6f5e2cc3cf48862f4e541e"
+      },
+      "prior_no_signal_count_before_first": 4,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-005-ch01",
+      "case_id": "r1-p3-survey-005",
+      "case_group_id": "0f69df5d308a8badb761cc49cbefe5cec361000765722c4af12d2ee93a9c1b0b",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 1,
+      "first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 239.27,
+        "outcome": "direction",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "061c7b5a07b270f0761561f1e53d069fbf8bda86ba84f780827b6835ce07133d"
+      },
+      "second": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 61.58,
+        "outcome": "direction",
+        "sequence": 121,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "6e8611dcfc9a606338956f116c9b6f8efc9fea549bf6851c2fd1c3fcb238de3c"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 41,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "621744b3e419e3a2e80607e32c0df0df88b2084ebde6d7868f81379aa324225f"
+      },
+      "prior_no_signal_count_before_first": 1,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-005-ch03",
+      "case_id": "r1-p3-survey-005",
+      "case_group_id": "0f69df5d308a8badb761cc49cbefe5cec361000765722c4af12d2ee93a9c1b0b",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 3,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 221.8,
+        "outcome": "direction",
+        "sequence": 3,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "f77914c270d80db12c87a6002eb61b696ccb99884db3143052d4fbc3f3645760"
+      },
+      "second": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 96.41,
+        "outcome": "direction",
+        "sequence": 103,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "e6906eaa9f15b8444b852c5465ca9fce945545f73ce94c6176d1970311729f4b"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "81a0194761333c9a94da5002368a742e769d13a8323389b9230257b19ef64992"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-006-ch02",
+      "case_id": "r1-p3-survey-006",
+      "case_group_id": "af8e8974cec8e4fe0b1483d22218deef0bb506d0759a2ce65211892510bdb2a9",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 304.98,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "30b3e64c1911b9ff0b36b9744de9fbe1549757566fedc26a7477df0b606134da"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 117.12,
+        "outcome": "direction",
+        "sequence": 82,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "aa0873cac8ce3526d9bc4e283543a37e5b6ea7f86a7010a16160caf949deca85"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "876fe2cc44ebf273c3d7af5e525941f01d7142c1ce7c4ec4cb2980dd0839ce25"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-006-ch03",
+      "case_id": "r1-p3-survey-006",
+      "case_group_id": "af8e8974cec8e4fe0b1483d22218deef0bb506d0759a2ce65211892510bdb2a9",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 248.18,
+        "outcome": "direction",
+        "sequence": 63,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "beac52e0b28bceb07896aa65ac33ee45c5d9b7361cf3bb1790a7d36661de8f0b"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 36.9,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "e5e5473033fc7cd79eb5802e5f84fc603321a0d122f350d0c8faffdfa3c97a31"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 36.9,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "e5e5473033fc7cd79eb5802e5f84fc603321a0d122f350d0c8faffdfa3c97a31"
+      },
+      "prior_no_signal_count_before_first": 3,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-007-ch02",
+      "case_id": "r1-p3-survey-007",
+      "case_group_id": "569bf67362231bbb41a2b17bc8172b9395f26f11617462d77b9fb5cfb8d7b5c1",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 200.97,
+        "outcome": "direction",
+        "sequence": 42,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "f1d87cbcf8589bf35f852016b38f8e51d5a0a09ed802356bd29fd8c4af257f4d"
+      },
+      "second": {
+        "position": [
+          677.1173951482646,
+          1085.6709389513503
+        ],
+        "report_deg": 91.43,
+        "outcome": "direction",
+        "sequence": 157,
+        "phase": "survey",
+        "station_id": "survey:02:00",
+        "request_id_sha256": "de1d80f8021c576293364f20ed52fdbfb2b0f9a393d5f9d1cc12eb00745b0742"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 62,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "40df9cc60bb22ba08454b9311ef7aa900dec369812ac42a0c62f78396919490a"
+      },
+      "prior_no_signal_count_before_first": 2,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-007-ch03",
+      "case_id": "r1-p3-survey-007",
+      "case_group_id": "569bf67362231bbb41a2b17bc8172b9395f26f11617462d77b9fb5cfb8d7b5c1",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 56.79,
+        "outcome": "direction",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0be7e447dfdeb0d2f54de8abf1752fafa616620c38bd8dba5255f0de85d0aa90"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 168.7,
+        "outcome": "direction",
+        "sequence": 43,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "1e25859f030a57d44362600a7337e7ffa436f6c1e83448454547e5d2351bf1e5"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 168.7,
+        "outcome": "direction",
+        "sequence": 43,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "1e25859f030a57d44362600a7337e7ffa436f6c1e83448454547e5d2351bf1e5"
+      },
+      "prior_no_signal_count_before_first": 1,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-008-ch03",
+      "case_id": "r1-p3-survey-008",
+      "case_group_id": "7b77957d12266a844c83f65a0c5532e3099b380650b3d3d3e33437a7eb7288f7",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 3,
+      "first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 113.58,
+        "outcome": "direction",
+        "sequence": 103,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "f15285357a50aa1ae33e1c00f53ede8056aaf630ebb00b4c3311c9ba78e478a7"
+      },
+      "second": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 306.58,
+        "outcome": "direction",
+        "sequence": 123,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "31cd12b59906cf7d4fa0c474bbf285325491f151ddf6dfd90b1e6f0b9ae87410"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 306.58,
+        "outcome": "direction",
+        "sequence": 123,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "31cd12b59906cf7d4fa0c474bbf285325491f151ddf6dfd90b1e6f0b9ae87410"
+      },
+      "prior_no_signal_count_before_first": 5,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-008-ch04",
+      "case_id": "r1-p3-survey-008",
+      "case_group_id": "7b77957d12266a844c83f65a0c5532e3099b380650b3d3d3e33437a7eb7288f7",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 4,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 118.77,
+        "outcome": "direction",
+        "sequence": 4,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "62ec2593516a730bf60a0005e5a09c1b8fd89930b103983875e4a29fa6c3b890"
+      },
+      "second": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 301.22,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0b7e5c721ca29be30efef7f4e53bea983c13890c4bdf84a197080cfbc7601ce6"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 301.22,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0b7e5c721ca29be30efef7f4e53bea983c13890c4bdf84a197080cfbc7601ce6"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-009-ch01",
+      "case_id": "r1-p3-survey-009",
+      "case_group_id": "dec54ff2320d281fe82359e710e9bd8b2a2380a82f5d0f1449fe740183bac6d9",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 64.41,
+        "outcome": "direction",
+        "sequence": 1,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "1639c157b1da65221c48ab55d825ed438bb1a560a10e08cfa6e1bf157905d0e4"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 231.81,
+        "outcome": "direction",
+        "sequence": 41,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "2db28103b746c729022978aaac9c0a96f6f3940c49c161c6d29bb2432106c1c3"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0012bcfd083e3c7018b04d6a171fa246a18db5ab65ed2242f4d2ac157ceba88e"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-009-ch04",
+      "case_id": "r1-p3-survey-009",
+      "case_group_id": "dec54ff2320d281fe82359e710e9bd8b2a2380a82f5d0f1449fe740183bac6d9",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 4,
+      "first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 171.55,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "804623f18300cdecf76cd2fa387c5b77b7f21e1b55f4e28157647eeb963dbb8e"
+      },
+      "second": {
+        "position": [
+          -357.53896910023377,
+          1373.2751932581978
+        ],
+        "report_deg": 178.06,
+        "outcome": "direction",
+        "sequence": 141,
+        "phase": "survey",
+        "station_id": "survey:04:00",
+        "request_id_sha256": "e4c8a1ce9ce7eff5e3559b1b39d6aa1ffc92fc3de00fa593880c79bebad19eb8"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 44,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "58558ab85431a3e47a2ebdae72c63f1334ee62294a9b5e609db71071b877d77f"
+      },
+      "prior_no_signal_count_before_first": 1,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-010-ch01",
+      "case_id": "r1-p3-survey-010",
+      "case_group_id": "7d62a9a9c520c6b3817a3f49016e15e8ad6e8a70feda92cd1781d72804b3317c",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 221.28,
+        "outcome": "direction",
+        "sequence": 1,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "a6308291aaf2467da8b7e6cc5f9f6002b721f22d0093641293989c25cdbfde45"
+      },
+      "second": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 87.0,
+        "outcome": "direction",
+        "sequence": 101,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "53d7f6ea56dec772ab0b4cc85304f7cce5824bfb7a080a662fcf9e974b7f3345"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "13833cd0f64ba218b2f2a75a2bd7c8b465ea13f2be10d7c2b187eaf123229ce4"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-010-ch03",
+      "case_id": "r1-p3-survey-010",
+      "case_group_id": "7d62a9a9c520c6b3817a3f49016e15e8ad6e8a70feda92cd1781d72804b3317c",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 223.01,
+        "outcome": "direction",
+        "sequence": 63,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "5d790a9d285cf3e7fee2b54478b92eba3c23b9ff71511d406123e5abe687ef57"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 76.1,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "f7381ebddbc9b137fdc5fa9983bfc7d1396e16490e22d7446c7f0d5b9c798721"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 76.1,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "f7381ebddbc9b137fdc5fa9983bfc7d1396e16490e22d7446c7f0d5b9c798721"
+      },
+      "prior_no_signal_count_before_first": 3,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-011-ch02",
+      "case_id": "r1-p3-survey-011",
+      "case_group_id": "a512f1c6fffc6181a0ecdbac6b5468d8bbb39e8c16f943dc4ac836501668b8d6",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 346.34,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "fe1552fb5d63e7ae128b36bdf93601f486e41cd2fb31e374ae60b6a61e4a5315"
+      },
+      "second": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 189.84,
+        "outcome": "direction",
+        "sequence": 62,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "b6568eefeb9528979554ec9e90fa470e4217c529fe0291aac2348b4627cf4d6d"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "3e1e9dc451a7e0b05a966dae3a43235fa1483df78e3dca6857240f0a3b228fdb"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-011-ch03",
+      "case_id": "r1-p3-survey-011",
+      "case_group_id": "a512f1c6fffc6181a0ecdbac6b5468d8bbb39e8c16f943dc4ac836501668b8d6",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 112.02,
+        "outcome": "direction",
+        "sequence": 3,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "e37012c6d0823ed299e3ca10efe063d1abc2d21f7ca01485961505296b84db7e"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "8bdc1b3bbf5998951086f31db78542a4ba679bf5b18929fcd72f3cc696260506"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-012-ch02",
+      "case_id": "r1-p3-survey-012",
+      "case_group_id": "f4f7767b1f166f1c096761080af19365e7f1a7a8279c744e704999cb7529adf7",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 186.6,
+        "outcome": "direction",
+        "sequence": 82,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "0931f127323d968d235b3d75ab5a9ddb6a71021068ad58baffedd8279dbe5f2b"
+      },
+      "second": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 325.24,
+        "outcome": "direction",
+        "sequence": 102,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "51a316d5ecfe511e2d3c45a84f83d90ca63b1566aa927101fc4c438ea99f3591"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 325.24,
+        "outcome": "direction",
+        "sequence": 102,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "51a316d5ecfe511e2d3c45a84f83d90ca63b1566aa927101fc4c438ea99f3591"
+      },
+      "prior_no_signal_count_before_first": 4,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-012-ch03",
+      "case_id": "r1-p3-survey-012",
+      "case_group_id": "f4f7767b1f166f1c096761080af19365e7f1a7a8279c744e704999cb7529adf7",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 242.56,
+        "outcome": "direction",
+        "sequence": 63,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "a1c7a3ca054553b9ad8050096f83f457bf5d3c0cf4196895e8ac38d576410401"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 55.97,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "2f69fc64c51b358388915b54487f8d858c4a20e199977eac6a1f0745234b9383"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 55.97,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "2f69fc64c51b358388915b54487f8d858c4a20e199977eac6a1f0745234b9383"
+      },
+      "prior_no_signal_count_before_first": 3,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-013-ch01",
+      "case_id": "r1-p3-survey-013",
+      "case_group_id": "9f955859dd55660d7f5ff6b1663e24e796bd6d82d9263e151b28f32a25fe02fa",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 193.63,
+        "outcome": "direction",
+        "sequence": 81,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "4ceae6a6f2846841a62a6e035b5090b3afa201a7425bfc49ab4b4439a3db6810"
+      },
+      "second": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 340.49,
+        "outcome": "direction",
+        "sequence": 101,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "eec126130205aea4647ac1a0d470cf403af4c515fc3185d39a61bd19742cbd54"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 340.49,
+        "outcome": "direction",
+        "sequence": 101,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "eec126130205aea4647ac1a0d470cf403af4c515fc3185d39a61bd19742cbd54"
+      },
+      "prior_no_signal_count_before_first": 4,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-013-ch03",
+      "case_id": "r1-p3-survey-013",
+      "case_group_id": "9f955859dd55660d7f5ff6b1663e24e796bd6d82d9263e151b28f32a25fe02fa",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 166.94,
+        "outcome": "direction",
+        "sequence": 43,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "7972ae90abd5738e16ca7b454f822cd39085f9640a7d63f7875368da4216b87c"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 63,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "e1ec48ac89cd4ede611b1e2e11dc451319e8495267289fab01b8ea0063298740"
+      },
+      "prior_no_signal_count_before_first": 2,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-014-ch01",
+      "case_id": "r1-p3-survey-014",
+      "case_group_id": "aaa24b4420f4355cb7b65384eedf8ec181f3323e5692e0c2394d5e30d746e678",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 14.72,
+        "outcome": "direction",
+        "sequence": 121,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "5e087e969cb4db21104d90730c23991ed5a74323ab76abcbd2068c2aee9145ca"
+      },
+      "second": null,
+      "next_measurement_after_first": null,
+      "prior_no_signal_count_before_first": 6,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-014-ch02",
+      "case_id": "r1-p3-survey-014",
+      "case_group_id": "aaa24b4420f4355cb7b65384eedf8ec181f3323e5692e0c2394d5e30d746e678",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 174.85,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "c80f26ed4552b8a8e2e6303de9e6c731c26b14d08dfe64a49ebee14362153924"
+      },
+      "second": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 9.27,
+        "outcome": "direction",
+        "sequence": 122,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "41e19dbebac9d5726d71eab67e94a1f5b9c1096d13cffa6ae00e64b4468096b5"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "89641c239be41028b50f003ba6cafbc3cc888b47c17f4f6eefe57526fdc4892a"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-015-ch01",
+      "case_id": "r1-p3-survey-015",
+      "case_group_id": "7d46917529da99c1e3fa3451d9510440953e36e8814935a3d30feee1b5cb8128",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 1,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 10.47,
+        "outcome": "direction",
+        "sequence": 1,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "98896c9ad78f9248b41460c75324d7361c89bff510b83e0edfb4c06b5e71aa11"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 271.68,
+        "outcome": "direction",
+        "sequence": 41,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "45395f0e217405c397102d4c081d5b03fae6193d6d60be12e9b63d8a45917c97"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "a107fbabf1aab6bd929d53d4b8cf0c78d057d34c1c00449d8683d933c4c18d8a"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-015-ch04",
+      "case_id": "r1-p3-survey-015",
+      "case_group_id": "7d46917529da99c1e3fa3451d9510440953e36e8814935a3d30feee1b5cb8128",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 4,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 93.91,
+        "outcome": "direction",
+        "sequence": 4,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "c0aeaf7b550506a77ef4f6c47ad715cb5c84fbaaab13694c5f6c4cdb3502b0c5"
+      },
+      "second": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 305.38,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "ba49bc5db5b7b6c121931a4435031794a25c8b6f53dd94052e316693a2014e43"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 305.38,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "ba49bc5db5b7b6c121931a4435031794a25c8b6f53dd94052e316693a2014e43"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-016-ch01",
+      "case_id": "r1-p3-survey-016",
+      "case_group_id": "1d630a5ea0c85a0f9cdcbc34357f38809076a2d023a7b846193e9b26a35175c6",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 232.51,
+        "outcome": "direction",
+        "sequence": 1,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "f90eb4c0cffcca5cfdbaa348815539c22100a19bb9e7b476c6780a47743f1f52"
+      },
+      "second": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 73.67,
+        "outcome": "direction",
+        "sequence": 101,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "f05201b854a9ea06d0aa454766781e41e78a29287d16c764361984c5c61f7b69"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "b1b8722aed4e92fb415459fe9e5982f670fc2e9f35254e38fbb28e6b12bd0c91"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-016-ch02",
+      "case_id": "r1-p3-survey-016",
+      "case_group_id": "1d630a5ea0c85a0f9cdcbc34357f38809076a2d023a7b846193e9b26a35175c6",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 4.3,
+        "outcome": "direction",
+        "sequence": 82,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "81cfc2e1baecd920fc1a76e6576d68e2b5f2f68108865c9a978ee55b4efc61ae"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 102,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "7a63822f43f462c1ff819eee21d5a22ecd41e1fe0f1ea3c082c39accd771d4d8"
+      },
+      "prior_no_signal_count_before_first": 4,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-017-ch01",
+      "case_id": "r1-p3-survey-017",
+      "case_group_id": "c79fb94215fe434de584c0ba5d84c2166744c8fe1c3a63c4a4f1ca102f05b4d2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": 127.35,
+        "outcome": "direction",
+        "sequence": 101,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "489517884b330ab039a58b2511114c05b7b1b316da3ba3f31ac9b57539f86715"
+      },
+      "second": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 293.8,
+        "outcome": "direction",
+        "sequence": 121,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "a3cef34fb2ab59a9b3ce6a525b84a323c5e8b6cee17295b6b3edcbaf130f76c7"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 293.8,
+        "outcome": "direction",
+        "sequence": 121,
+        "phase": "coverage",
+        "station_id": "coverage:006",
+        "request_id_sha256": "a3cef34fb2ab59a9b3ce6a525b84a323c5e8b6cee17295b6b3edcbaf130f76c7"
+      },
+      "prior_no_signal_count_before_first": 5,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-017-ch03",
+      "case_id": "r1-p3-survey-017",
+      "case_group_id": "c79fb94215fe434de584c0ba5d84c2166744c8fe1c3a63c4a4f1ca102f05b4d2",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 141.53,
+        "outcome": "direction",
+        "sequence": 3,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "8af31318d794773988026889a8f06db8df8de0f8a7145e464614eb15ea815b02"
+      },
+      "second": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 265.49,
+        "outcome": "direction",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0b97627eabbb01afcb60bb565bfd84b6519e024c8e8d13c9ef92f99a53f883cb"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 265.49,
+        "outcome": "direction",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "0b97627eabbb01afcb60bb565bfd84b6519e024c8e8d13c9ef92f99a53f883cb"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-018-ch01",
+      "case_id": "r1-p3-survey-018",
+      "case_group_id": "e715bcc2dabb3643d5cb966cffec9c6bf5cb69cd09f115dd4eaf160fd31ae98d",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 1,
+      "first": {
+        "position": [
+          1558.8457268119894,
+          0.0
+        ],
+        "report_deg": 258.62,
+        "outcome": "direction",
+        "sequence": 61,
+        "phase": "coverage",
+        "station_id": "coverage:003",
+        "request_id_sha256": "a7fd0cb502ce726264ea7753e155a3f1a5c5dc757faa77e16e83dbc8b8c0bfdd"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 33.42,
+        "outcome": "direction",
+        "sequence": 81,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "2920dab275f398f712a4372ccafc153d98a40226917eca154596bb5f3cc0afee"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 33.42,
+        "outcome": "direction",
+        "sequence": 81,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "2920dab275f398f712a4372ccafc153d98a40226917eca154596bb5f3cc0afee"
+      },
+      "prior_no_signal_count_before_first": 3,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-018-ch02",
+      "case_id": "r1-p3-survey-018",
+      "case_group_id": "e715bcc2dabb3643d5cb966cffec9c6bf5cb69cd09f115dd4eaf160fd31ae98d",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "development",
+      "channel": 2,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 123.02,
+        "outcome": "direction",
+        "sequence": 2,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "be9048a43a7c729671b700b41d0fa723989d22dd6f8dbc379e545d89e544e9b1"
+      },
+      "second": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 297.1,
+        "outcome": "direction",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "1667debe3dba53bc3728404a3c581a52d672fa6bcbff88709ed9fae40062ddc0"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 297.1,
+        "outcome": "direction",
+        "sequence": 22,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "1667debe3dba53bc3728404a3c581a52d672fa6bcbff88709ed9fae40062ddc0"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-019-ch01",
+      "case_id": "r1-p3-survey-019",
+      "case_group_id": "e3b13754dcfb8826a013985d4d5968310f06a478a057da4c2a3fda1f33ce4f9e",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 1,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 262.67,
+        "outcome": "direction",
+        "sequence": 1,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "016665012df4a5e325e0ccbe3a6f39869d067e581988b446c9b145ae18b10d1d"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 129.55,
+        "outcome": "direction",
+        "sequence": 81,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "2af1e57fead33c7ab6762069315216f73ddbc69722441b846291e5479ca590b0"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 21,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "1e1301c40e4cf2df07f7ee6148c95532684466e35654dfd324ce03812afc959e"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-019-ch02",
+      "case_id": "r1-p3-survey-019",
+      "case_group_id": "e3b13754dcfb8826a013985d4d5968310f06a478a057da4c2a3fda1f33ce4f9e",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 2,
+      "first": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 202.24,
+        "outcome": "direction",
+        "sequence": 82,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "7b5397d8caa58a7845faaaed998fc20fa2935e50d84b2982d388f262660f1646"
+      },
+      "second": null,
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059954,
+          -1349.9999999999995
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 102,
+        "phase": "coverage",
+        "station_id": "coverage:005",
+        "request_id_sha256": "8f5edccd99e002e0da10ba024fe0938adb449c0e1044262f6037c503e9ec7350"
+      },
+      "prior_no_signal_count_before_first": 4,
+      "second_direction_status": "not_observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-020-ch03",
+      "case_id": "r1-p3-survey-020",
+      "case_group_id": "a6479d7232908f9931bbc8b6c05536dc95ab326ffabe6f04e06583c25a79bd07",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 3,
+      "first": {
+        "position": [
+          0.0,
+          0.0
+        ],
+        "report_deg": 304.52,
+        "outcome": "direction",
+        "sequence": 3,
+        "phase": "coverage",
+        "station_id": "coverage:000",
+        "request_id_sha256": "6e410f26898501f362c2bac7bbb64614891b603d7d3f6feaf83818cb7b08e494"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          -1349.9999999999998
+        ],
+        "report_deg": 114.58,
+        "outcome": "direction",
+        "sequence": 83,
+        "phase": "coverage",
+        "station_id": "coverage:004",
+        "request_id_sha256": "e9d38d79034843cfb7ec76c882cbe9f5cd1447428b2f97fb2b86c6ee5ba27443"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": null,
+        "outcome": "no_signal",
+        "sequence": 23,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "db306c6071d2b785db3e626d386acd41409d44b0657c784c69008cb3987c5350"
+      },
+      "prior_no_signal_count_before_first": 0,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": false,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    },
+    {
+      "context_id": "r1-p3-survey-020-ch04",
+      "case_id": "r1-p3-survey-020",
+      "case_group_id": "a6479d7232908f9931bbc8b6c05536dc95ab326ffabe6f04e06583c25a79bd07",
+      "problem": 3,
+      "source_model": "omnidirectional",
+      "split": "fit",
+      "channel": 4,
+      "first": {
+        "position": [
+          -779.4228634059943,
+          1350.0
+        ],
+        "report_deg": 0.72,
+        "outcome": "direction",
+        "sequence": 24,
+        "phase": "coverage",
+        "station_id": "coverage:001",
+        "request_id_sha256": "c8e0902d93d092efa91ccb793419de3c2e97bccf647ed07097b75e387f012993"
+      },
+      "second": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 178.99,
+        "outcome": "direction",
+        "sequence": 44,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "b107a33dc1dd3b54d9492a25dcacb6d16accfaaf0d146f44b24598a7cb6f0096"
+      },
+      "next_measurement_after_first": {
+        "position": [
+          779.4228634059949,
+          1349.9999999999998
+        ],
+        "report_deg": 178.99,
+        "outcome": "direction",
+        "sequence": 44,
+        "phase": "coverage",
+        "station_id": "coverage:002",
+        "request_id_sha256": "b107a33dc1dd3b54d9492a25dcacb6d16accfaaf0d146f44b24598a7cb6f0096"
+      },
+      "prior_no_signal_count_before_first": 1,
+      "second_direction_status": "observed_before_any_clear",
+      "second_direction_is_immediate_next_measurement": true,
+      "only_first_is_permitted_for_new_second_point_selection": true,
+      "historical_negatives_intentionally_not_in_simple_q2_context": true
+    }
+  ]
+}

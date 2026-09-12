@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-11T23:26:52.258719",
+  "scope": "local development comparison and iteration only",
+  "archives": [
+    {
+      "path": "D:\\微信\\xwechat_files\\wxid_ephpivkng8l622_1d63\\msg\\file\\2026-09\\solution.zip",
+      "sha256": "a29708388538533b373e0950e5c13927da1efb1e7d0af30111a873d2f5093e01"
+    },
+    {
+      "path": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_datasets\\official_composition_H1_H2_360_20260911.zip",
+      "sha256": "6927c9f64468fdc4f52256fb59a350a06c8a8c6f9cfae34170e43b37a8a7aaa0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  "\\operatorname{rad}(A)=\\min_{c\\in\\mathbb R^2}\\sup_{g\\in A}\\|g-c\\|_2 .",
+  "\\mathcal K_1=\\{(g,R):g\\in T\\cap W(s_1,\\alpha_1),\\ 1000\\le R\\le1500,\\ 5<\\|g-s_1\\|\\le R\\}.",
+  "P_1=\\{g\\in T\\cap W(s_1,\\alpha_1):5<\\|g-s_1\\|\\le1500\\}.",
+  "P_2(q,\\theta)=P_1\\cap W(q,\\theta)\\cap\\{g:5<d_2\\le1500\\},\\quad\\theta\\in\\Theta .",
+  "P_2(q,\\mathrm{near})=P_1\\cap B(q,5).",
+  "P_2(q,\\varnothing)=P_1\\cap\\{g:d_2>\\max(1000,d_1)\\}.",
+  "F(q)=\\sup_{o\\in\\mathcal Y(q)}\\min_{c\\in\\mathbb R^2}\\sup_{g\\in P_2(q,o)}\\|g-c\\|_2 .",
+  "F^*=\\inf_{q\\in\\mathbb R^2}F(q).",
+  "Q_{\\mathrm{cand}}=\\bigcup_{g\\in P_1}B(g,1500).",
+  "Q_{\\mathrm{cand}}\\subseteq B(s_1,3000)\\cap B(0,3300)."
+]

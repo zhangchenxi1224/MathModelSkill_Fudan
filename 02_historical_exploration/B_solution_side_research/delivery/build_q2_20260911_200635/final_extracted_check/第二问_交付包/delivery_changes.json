@@ -1,0 +1,18 @@
+{
+  "original_source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier",
+  "changes": [
+    {
+      "path": "q2_certified_frontier/tests/test_q2_geometry.py",
+      "reason": "Use the packaged vendor directory rather than a neighboring research project",
+      "original_sha256": "31592af0494286e1ffa8d8b5c01b5cdd1607afabe935a97bd1cc9e2887e10b84",
+      "delivery_sha256": "17060a86bafceced6ab4c62cc1f86dc5882f09838f080e448f3234285228a121"
+    }
+  ],
+  "excluded": [
+    "__pycache__",
+    ".pytest_cache",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "core_solver_or_result_changes": false
+}

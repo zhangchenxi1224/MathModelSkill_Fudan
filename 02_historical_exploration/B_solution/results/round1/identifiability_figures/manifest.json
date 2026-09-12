@@ -1,0 +1,39 @@
+{
+  "selection_rule": "first survey fit case in frozen plan order, separately for P3/P4",
+  "archive_audit": {
+    "archived_cases": 160,
+    "archive_errors": 0,
+    "audit_issues": 0,
+    "aggregate_count_alias_mismatches": 0,
+    "empty_outer_hulls": 0,
+    "public_N_sum": 2077,
+    "public_Ndir_sum": 578
+  },
+  "cases": [
+    {
+      "case_id": "r1-p3-survey-001",
+      "problem": 3,
+      "sampled_channels": [
+        17,
+        14
+      ],
+      "source_json": "p3_r1-p3-survey-001_source.json",
+      "coverage_cells_measured": 140,
+      "survey_cells_measured": 32,
+      "survey_cells_masked": 608
+    },
+    {
+      "case_id": "r1-p4-survey-001",
+      "problem": 4,
+      "sampled_channels": [
+        8,
+        13
+      ],
+      "source_json": "p4_r1-p4-survey-001_source.json",
+      "coverage_cells_measured": 620,
+      "survey_cells_measured": 38,
+      "survey_cells_masked": 722
+    }
+  ],
+  "plan_sha256": "cafd3e33d3e86ea646eac89f302469fda887488994348bfe423d0ef26a8a3433"
+}

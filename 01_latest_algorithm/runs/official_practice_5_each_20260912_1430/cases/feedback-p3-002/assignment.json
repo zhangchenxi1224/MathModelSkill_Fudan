@@ -1,0 +1,14 @@
+{
+  "case_id": "feedback-p3-002",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "selected_policy": {
+    "arm": "dp_geometric",
+    "options": {
+      "planning_seconds": 60.0
+    },
+    "description": "全反馈几何，局部两步前瞻，保留几何清除覆盖"
+  },
+  "split": "official_descriptive",
+  "pilot": false
+}

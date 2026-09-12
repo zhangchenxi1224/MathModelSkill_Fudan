@@ -1,0 +1,19 @@
+{
+  "dataset_archive": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_datasets\\official_composition_H1_H2_360_20260911.zip",
+  "archive_sha256": "6927c9f64468fdc4f52256fb59a350a06c8a8c6f9cfae34170e43b37a8a7aaa0",
+  "previous_project": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\selected_dataset_iteration_20260911",
+  "excluded_world_count": 3096,
+  "source_paths": [
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\selected_dataset_iteration_20260911\\inputs\\exclude_next_campaign.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\p4_refinement\\manifest.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\00.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\01.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\02.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\03.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\04.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\05.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\06.json",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\dynamic_joint_planner_20260911\\results\\release_smoke\\cases\\07.json"
+  ],
+  "scope": "Local isolated synthesis campaign; no official actions"
+}

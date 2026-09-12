@@ -1,0 +1,1442 @@
+[
+  {
+    "case_id": "round-official369_confirmation-p3-0000-4c05c042616d2581",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0001-129e4c8b5241b836",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0002-7af5289ed7cc223a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0003-27483943fea870b3",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0004-03b6138d9286f8dd",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0005-550911f22ffdc3f2",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0006-6a67ae321965367f",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0007-0eeb72af075af31a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0008-2296e080ac366fd6",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0009-7cfd525b88299ef3",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0010-40da9ce3d8cfbf1d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0011-6e075e1b1813792d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0012-21dae679405164db",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0013-6620e8eccd97fd88",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0014-04cc0d01086d25a1",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0015-2bd0ce77ab4744d4",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0016-377f0d295cb71da9",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0017-078af29cf212b400",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0018-2cee31fde870cb2d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0019-336ecf93213b8d6e",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0020-5e56288e8ccfa286",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0021-118fc01514a4260d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0022-35d58c80221f4670",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0023-7db6d87c9d538fe3",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0024-583c472c92c34ca8",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0025-4912672eae0f19d8",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0026-63778b2044cbfa66",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0027-510332d8c6674c8e",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0028-0ab6e05a34ddc433",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0029-3528c7c278925587",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0030-2ae25b50c333a282",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0031-699ad2fcb479d76b",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0032-142a3cdbdbdf1410",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0033-42cf24503cf88ee0",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0034-23326f8a501ca5d9",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0035-5db1d034efec7e37",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0036-4175c6de91e76f6b",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0037-6c62f2e7c7f56a67",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0038-2c57c0790e9b5b0f",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0039-5d701645622af70c",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0040-66a1c7680bfb3350",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0041-1c10066e25df9a31",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0042-358d737ccba3304a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0043-780b88171465baef",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0044-7f4a0076e6a644c2",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0045-0834f9591762ee73",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0046-536f0aa9fea733d7",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0047-087e3e99772557eb",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0048-0b89df6dbbeeb9ce",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0049-1481ae48ca5a87f7",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0050-2f65039085d19173",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0051-4c8ed98be416d23b",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0052-3917d9d1418691c9",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0053-060f732e6afcc269",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0054-556e961d01e325d8",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0055-70292ad3b57f2e82",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0056-3e91362b496e1f73",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0057-3b3b29a02f88f0af",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0058-1bed4c7f37504021",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0059-5c08ec5ef75df2a5",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0000-240f5fbb6a89352c",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0001-5ee5c205d66b03d8",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0002-2b0de38607360c09",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0003-00566301595693cc",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0004-005ac104b3e4af91",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0005-38faf51c6ff68a77",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0006-4d8e5a2369f5cc0c",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0007-3ab5657a99cf4015",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0008-0979b6391b868315",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0009-29ba61cedfb5645d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0010-29ad405c5ff523e0",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0011-7326ecd8354fd2eb",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0012-28619765a309b94c",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0013-5c36868df3b402b6",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0014-59f453006d56d178",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0015-018bb3dbbc81b88c",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0016-012e39de0c0d39d2",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0017-7be76db627df22f1",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0018-1d54ce187af1d6ad",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0019-5140234c5041656f",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0020-3598e35012dc01c7",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0021-4983cb570cd1ae93",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0022-5f3aff2cc03af9ea",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0023-5257f0ed2f5366cf",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0024-62b929ef1532054e",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0025-240f72f2dc5d8691",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0026-3145003ffd869a80",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0027-60118032a99c3d6a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0028-408b6abdf2c68810",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0029-2b789cc5a754fa01",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0030-39478ff9c1198669",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0031-54c4a30f693df5e6",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0032-1d164bb83a870c83",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0033-587f231fd37eb16a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0034-599e7056a4002582",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0035-58bd9f7bca4605fb",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0036-45d10e38a3206e73",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0037-72ab2dcf06216574",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0038-407804213af4ce8a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0039-731d0db0935f4a46",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0040-1b5f8c689ef1ddc7",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0041-253e5f2cf8186cc5",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0042-7684e7e4065600e3",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0043-7ca822a51cc3f50a",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0044-19136bd26e9efe3b",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0045-4ab7ccbcb4c7bb41",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0046-3b0b22b4dae2942d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0047-493bee7c053e965d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0048-5b13e0d216cf28ef",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0049-04a7ddd186c0e029",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0050-32e40f9c6ebd57f3",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0051-41d3fc751efb6bcb",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0052-167ba4443b3cdc9f",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0053-572f97d323e389e7",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0054-307c2c7fb9a1984d",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0055-3f0770ddede944b4",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0056-6ccc86daf64355ab",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0057-5d2eec512b8a7e49",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0058-30341add924e6d39",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p3-0059-38187c6aa1611260",
+    "source_group": "official369_new240",
+    "problem": 3,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0000-49570ed73c22d625",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0001-607def0b7e5814e7",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0002-1f718e3be0c59d76",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0003-2897d19bd3a00eec",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0004-0da74c0509e0bc46",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0005-02deee03f0d58ea3",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0006-0567d118af012ec6",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0007-2a2785193bf36ef5",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0008-53140ce8dd440f29",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0009-63772dfb90738622",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0010-220fa73e2f6c12c3",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0011-17a11811851e0a0e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0012-736df86803ec86e1",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0013-3db2c4bf97d6fc8c",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0014-1411320098c80d3d",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0015-39c03acd9554aed8",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0016-4a28ce6692524fce",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0017-1dda1af3aef0d191",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0018-5c8dbd03d69e8ad3",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0019-166abe50a77c4475",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0020-41a4bbca9ea0ca96",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0021-70f4ab61d7c6b3c7",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0022-35a992b110aaa589",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0023-785e5f65505afe2a",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0024-5095e473a56a5c25",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0025-63766a71089141ac",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0026-6fc3f3792ecc951a",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0027-5c3451e7a2e4976f",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0028-78040410af45db72",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0029-704efa2275e78aa5",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0030-073b46382346ad57",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0031-3b1eb3e93d9b87ad",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0032-1a78dac949164e94",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0033-01ea9c9c5ee7c3d9",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0034-22dcf9d1a5260001",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0035-2b25416c7c66e6cd",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0036-533ad0c3603345d5",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0037-16b7ab4b91a639a0",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0038-048132a5d576cfeb",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0039-7e140378cf25ee60",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0040-72049fd0ab326eaa",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0041-0193dc68d7792f9e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0042-4e289fb211808704",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0043-10eb8a82fe81e5e7",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0044-5bca0cf7d8e30f59",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0045-4dd223997c7916bc",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0046-3ccf44a268a8be2a",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0047-59eceab491e1ec72",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0048-49fc4a505c41a723",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0049-13fc253ae191b441",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0050-7308179c194e42f4",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0051-28c5a27e06256029",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0052-2f3b6ed050b4e88c",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0053-591b2f91ee7cd877",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0054-1ea53ff669195ec4",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0055-4126c105a3ced656",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0056-5ab9449ebb30f00f",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0057-77810155ac5c2d71",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0058-26c3f64b00444f80",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0059-5f94a3b554ac1f82",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "correlated"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0000-1d9a369018d185a6",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0001-2cbbcbff14851c7d",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0002-0fd010c60563605c",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0003-554e9f5ac53cc660",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0004-775efbc2677cee15",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0005-6afdb6955f23355d",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0006-393ea21b9012bd1b",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0007-4e0f7247a759deeb",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0008-35d9d7b58466e54b",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0009-72aa8c3f5c7786a8",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0010-3dcb5aa027486467",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0011-7c8336ef37b2e970",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0012-66b9c121647b3805",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0013-7b88a59cb41b7ec4",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0014-60cff44e5b3ab02a",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0015-2cc8d313b700bc03",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0016-64f6111c0890aaf3",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0017-22d446c36383cec4",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0018-1acb279b8316b035",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0019-071b70c44d6f4213",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0020-51328d1a527e94b7",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0021-7c7f9475b5fed658",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0022-795105df7d6253ce",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0023-56f3dc096167d569",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0024-1d5e61cc7756dc91",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0025-7ad08d7ac06e1bfb",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0026-20f5b2641fd22417",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0027-7623b6ba77cc76ab",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0028-6acdc86f5e0d506c",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0029-7bcc9edfbb68caa2",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0030-4e4839c17e4213b9",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0031-1dd95985b4f8ccfb",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0032-3263080846d4af58",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0033-3626cb632a385ccd",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0034-7281051ad104546e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0035-14a472e180871b0a",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0036-032b9663a421e75c",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0037-0738b5bb6e330f65",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0038-78518e9fbff55fd5",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0039-141b6d274c3a45d7",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0040-3edd2bf7767a16f2",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0041-6385623e8e2584a1",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0042-7c6408f067ca0fbd",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0043-5b968db29ca64e2e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0044-716a0c4d246067e0",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0045-21ad17c93237a3f2",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0046-56bd8092b4285580",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0047-2eb9087651e38c5e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0048-2daac18882825139",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0049-2607f125c4118984",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0050-0abf9ad9320bd14b",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0051-615253368c0d5e4e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0052-71d0fc5bf424c76e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0053-6e626fef822794f9",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0054-0e1a12b82c841542",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0055-22e4826948d2b679",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0056-230dc9aaf04e9b8e",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0057-128134194e8bca4f",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0058-0120fce0ff03f937",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  },
+  {
+    "case_id": "round-official369_confirmation-p4-0059-17504821b42a7191",
+    "source_group": "official369_new240",
+    "problem": 4,
+    "error_mode": "extreme"
+  }
+]

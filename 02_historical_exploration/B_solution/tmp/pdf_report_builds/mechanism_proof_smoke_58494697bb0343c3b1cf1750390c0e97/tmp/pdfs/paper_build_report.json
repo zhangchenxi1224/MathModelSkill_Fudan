@@ -1,0 +1,53 @@
+{
+  "blocks": 31,
+  "flowables": 35,
+  "headings": [
+    {
+      "line": 1,
+      "level": 1,
+      "text": "公开观测对精确机制候选的逻辑见证"
+    },
+    {
+      "line": 7,
+      "level": 2,
+      "text": "接收半径的端点点质量模型"
+    },
+    {
+      "line": 28,
+      "level": 2,
+      "text": "近邻观测的几何方位变化上界"
+    },
+    {
+      "line": 52,
+      "level": 2,
+      "text": "特定150 m平滑误差公式"
+    },
+    {
+      "line": 78,
+      "level": 2,
+      "text": "与统计校准的关系"
+    }
+  ],
+  "tables": [],
+  "images": [],
+  "content_width_pt": 497.27559055118115,
+  "content_height_pt": 741.8897637795277,
+  "body_font_size_pt": 11.0,
+  "pdf_created": true,
+  "measured_flowables": 31,
+  "width_overflows": [],
+  "pages": 2,
+  "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\docs\\model_witnesses.md",
+  "output": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\tmp\\pdf_report_builds\\mechanism_proof_smoke_58494697bb0343c3b1cf1750390c0e97\\new_report.pdf",
+  "bytes": 167081,
+  "fonts": {
+    "PaperSong": "C:\\Windows\\Fonts\\simsun.ttc",
+    "PaperHei": "C:\\Windows\\Fonts\\simhei.ttf",
+    "PaperLatin": "C:\\Windows\\Fonts\\cambria.ttc",
+    "PaperSymbols": "C:\\Windows\\Fonts\\seguisym.ttf",
+    "PaperCode": "C:\\Windows\\Fonts\\consola.ttf"
+  },
+  "source_sha256": "8e6d78fd4dc953cfdf3fb7d4f90f35c531e5f6e6e9744fc2ef827c02137b0f04",
+  "pdf_sha256": "793fed7ba82e9b3461680fe951aec609f3b8a62c44e798c59feda65eabc94526",
+  "qa_status": "Built; every page still requires rendered visual inspection"
+}

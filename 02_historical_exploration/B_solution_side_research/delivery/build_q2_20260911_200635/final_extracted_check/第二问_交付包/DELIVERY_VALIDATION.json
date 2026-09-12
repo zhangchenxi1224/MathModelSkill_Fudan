@@ -1,0 +1,34 @@
+{
+  "validated_at_local": "2026-09-11T20:09:08",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "validated_from_extracted_zip": true,
+  "checks": [
+    {
+      "check": "unpacked_file_checksums",
+      "exit_code": 0,
+      "stdout": "{\n  \"checked_files\": 98,\n  \"failures\": []\n}",
+      "stderr": ""
+    },
+    {
+      "check": "unpacked_test_suite",
+      "exit_code": 0,
+      "stdout": "....................                                                     [100%]\n20 passed in 5.25s",
+      "stderr": ""
+    },
+    {
+      "check": "unpacked_canonical_selection",
+      "exit_code": 0,
+      "stdout": "{\"strategies\": [\"fixed\", \"active\", \"precision\", \"precision_800\"], \"canonical_selection_matches_saved_result\": true, \"local_vendor\": true}",
+      "stderr": ""
+    },
+    {
+      "check": "unpacked_cli_entrypoint",
+      "exit_code": 0,
+      "stdout": "usage: study.py [-h] --output OUTPUT [--official-contexts OFFICIAL_CONTEXTS]\n                [--skip-synthetic] [--angle-step ANGLE_STEP]\n                [--workers WORKERS]\n\nQ2 precision-first geometry study; public first observations select actions.\nNo HTTP, no real source/second observation enters selection. The grid is\nfinite and conservative response bounds do not imply global continuous\noptimality.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --official-contexts OFFICIAL_CONTEXTS\n  --skip-synthetic\n  --angle-step ANGLE_STEP\n  --workers WORKERS",
+      "stderr": ""
+    }
+  ],
+  "full_1344_row_study_rerun_during_packaging": false,
+  "experiment_scope": "Existing completed v2 results are shipped unchanged; packaging verification ran tests and one first-observation selection.",
+  "core_or_result_changes": false
+}

@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-09-11T09:44:53.084960+00:00",
+  "status": "passed_final_independent_audit",
+  "audited_cases": 120,
+  "verified_full_clear_cases": 120,
+  "failed_cases": 0,
+  "planned_remaining": 0,
+  "skipped_cases": 0,
+  "unique_accepted_requests": 34861,
+  "measurements": 27005,
+  "clear_attempts": 7616,
+  "successful_clears": 1542,
+  "unsuccessful_clear_attempts": 6074,
+  "total_sources": 1542,
+  "directional_sources": 393,
+  "omnidirectional_sources": 1149,
+  "walk_distance_m": 3799374.6465383284,
+  "switches": 23559,
+  "rejected_response_rows": 0,
+  "unconfirmed_transport_rows": 0,
+  "duplicate_accepted_responses": 0,
+  "max_response_time_residual_s": 6.987887900322676e-06,
+  "primary_issue_count": 0,
+  "public_evidence_issue_count": 0,
+  "original_jlog_copies_verified": 120,
+  "stopping_certificate_counts": {
+    "per_channel_coverage": 109,
+    "known_upper_bound": 11
+  },
+  "groups": [
+    {
+      "problem": 3,
+      "arm": "baseline",
+      "cases": 30,
+      "N": 398,
+      "Ndir": 0,
+      "Nomni": 398,
+      "measures": 3626,
+      "clear_attempts": 730,
+      "clear_successes": 398,
+      "clear_failures": 332
+    },
+    {
+      "problem": 3,
+      "arm": "candidate",
+      "cases": 30,
+      "N": 381,
+      "Ndir": 0,
+      "Nomni": 381,
+      "measures": 2920,
+      "clear_attempts": 949,
+      "clear_successes": 381,
+      "clear_failures": 568
+    },
+    {
+      "problem": 4,
+      "arm": "baseline",
+      "cases": 30,
+      "N": 376,
+      "Ndir": 212,
+      "Nomni": 164,
+      "measures": 10980,
+      "clear_attempts": 2913,
+      "clear_successes": 376,
+      "clear_failures": 2537
+    },
+    {
+      "problem": 4,
+      "arm": "candidate",
+      "cases": 30,
+      "N": 387,
+      "Ndir": 181,
+      "Nomni": 206,
+      "measures": 9479,
+      "clear_attempts": 3024,
+      "clear_successes": 387,
+      "clear_failures": 2637
+    }
+  ],
+  "startup_incident": {
+    "official_cases_started": 0,
+    "robot_requests_sent": 0,
+    "sha256": "b169c5ef24f0143f9464a19807a94e16adb7287e4187a2045d75ed415ab67a61",
+    "counted_as_failed_case": false
+  },
+  "tests": {
+    "passed": 276,
+    "exit_code": 0,
+    "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\round2\\test_run_final_delivery.json",
+    "sha256": "47fbea6e329bc3efb0b2970577273e079e0aba955ecc48a3a7ac35327286918f"
+  },
+  "source_documents": {
+    "overall.json": "c0b598a957b551da966c6d5bcf8d3e98da1e0e3af7509188b315d515071db2e3",
+    "public_evidence_summary.json": "00736047a49255052d841bab879597c447dbc4cf9f34db4911c02e473aa33ddb",
+    "design_integrity.json": "7f1e1add40bac75300d20e25a3f3955d1e3f5358ef19daf174961a41d067c456"
+  },
+  "scope": "Post-collection read-only integrity and public evidence audit. Independent official arms; no performance pairing, no official actions or hidden files. Failed clearing attempts are retained and distinct from failed cases."
+}

@@ -1,0 +1,168 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "previous_p4": {
+    "implementation": "previous_selected",
+    "problems": [
+      4
+    ]
+  },
+  "p3_r1130_w1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1130,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.0
+    }
+  },
+  "p3_r1150_w1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.0
+    }
+  },
+  "p3_r1130_w1.25": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1130,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.25
+    }
+  },
+  "p3_r1150_w1.25": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ],
+    "completion_aware": true,
+    "config": {
+      "radius_weight": 1.25
+    }
+  },
+  "p4_L2_d1000_w1": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1000,
+      "radius_weight": 1.0
+    },
+    "completion_aware": true
+  },
+  "p4_L2_d1600_w1": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1600,
+      "radius_weight": 1.0
+    },
+    "completion_aware": true
+  },
+  "p4_L1_d1600_w1": {
+    "implementation": "synthesis",
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1600,
+      "radius_weight": 1.0
+    },
+    "completion_aware": true
+  },
+  "p4_L2_d1200_w1": {
+    "implementation": "synthesis",
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "refined_global": true,
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200,
+      "radius_weight": 1.0
+    },
+    "completion_aware": true
+  }
+}

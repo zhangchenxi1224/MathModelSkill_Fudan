@@ -1,0 +1,25 @@
+{
+  "name": "dynamic_joint_h2_prior_p3",
+  "implementation": "dynamic_joint",
+  "problems": [
+    3
+  ],
+  "limit": 2,
+  "planner": {
+    "horizon": 2
+  },
+  "prior": {
+    "count_probabilities": {
+      "10": 0.1336405529953917,
+      "11": 0.16589861751152074,
+      "12": 0.14976958525345624,
+      "13": 0.1175115207373272,
+      "14": 0.1175115207373272,
+      "15": 0.10138248847926266,
+      "16": 0.2142857142857143
+    },
+    "directional_fraction": 0.0,
+    "broad_weight": 0.35,
+    "label": "composition-d0efea5015d5ecb6_marginals_with_35pct_broad"
+  }
+}

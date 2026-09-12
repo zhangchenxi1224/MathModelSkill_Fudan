@@ -1,0 +1,111 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "legacy_L5": {
+    "implementation": "legacy"
+  },
+  "p3_hull_r1150": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ]
+  },
+  "p3_hull_r1200": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ]
+  },
+  "p3_hull_r1300": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1300,
+    "problems": [
+      3
+    ]
+  },
+  "p3_center_r1200_fisher": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ],
+    "mode": "fisher"
+  },
+  "p4_hull": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_hull_d1200": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p4_hull_L2_d1200": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  }
+}

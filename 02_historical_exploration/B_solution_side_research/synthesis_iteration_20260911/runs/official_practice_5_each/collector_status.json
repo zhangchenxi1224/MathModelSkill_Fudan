@@ -1,0 +1,11 @@
+{
+  "state": "stopped_normally",
+  "updated_utc": "2026-09-11T14:43:05.726399+00:00",
+  "pid": 54744,
+  "audited": 10,
+  "counts": {
+    "p3_selected": 5,
+    "p4_selected": 5
+  },
+  "planned_cases": 10
+}

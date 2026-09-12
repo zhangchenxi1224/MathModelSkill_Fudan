@@ -1,0 +1,216 @@
+{
+  "development": [
+    {
+      "problem": 3,
+      "variant": "compact1150",
+      "n": 380,
+      "complete": 380,
+      "baseline_complete": 380,
+      "mean_main_s": 4450.048567884211,
+      "mean_candidate_s": 3813.398798613158,
+      "mean_delta_s": -636.6497692710526,
+      "ci95_delta_s": [
+        -676.1755575426315,
+        -595.7663282089474
+      ],
+      "H_mean_delta_s": {
+        "H1": -626.3219902894737,
+        "H2": -646.9775482526317
+      },
+      "regressions": 25,
+      "worst_regression_s": 430.4695409999995,
+      "weighted_delta_s": -635.5151159401563,
+      "weight_effective_sample_size": 363.7528845784019,
+      "walk_distance_m_delta": -3016.959375579155,
+      "measures_delta": -1.0447368421052632,
+      "switches_delta": -1.7210526315789474,
+      "clear_attempts_delta": -8.771052631578947,
+      "failed_clear_attempts_delta": -8.771052631578947,
+      "program_real_time_s_delta": 0.05910558289676709
+    },
+    {
+      "problem": 3,
+      "variant": "compact1200",
+      "n": 380,
+      "complete": 380,
+      "baseline_complete": 380,
+      "mean_main_s": 4450.048567884211,
+      "mean_candidate_s": 3829.4504889921054,
+      "mean_delta_s": -620.5980788921053,
+      "ci95_delta_s": [
+        -662.1759787326316,
+        -579.291418147237
+      ],
+      "H_mean_delta_s": {
+        "H1": -600.787110636842,
+        "H2": -640.4090471473685
+      },
+      "regressions": 25,
+      "worst_regression_s": 494.4458510000004,
+      "weighted_delta_s": -620.3711185679333,
+      "weight_effective_sample_size": 363.7528845784019,
+      "walk_distance_m_delta": -2933.8851345091607,
+      "measures_delta": -0.9447368421052632,
+      "switches_delta": -1.631578947368421,
+      "clear_attempts_delta": -9.155263157894737,
+      "failed_clear_attempts_delta": -9.155263157894737,
+      "program_real_time_s_delta": 0.055817453159129636
+    },
+    {
+      "problem": 4,
+      "variant": "merged25_l1",
+      "n": 580,
+      "complete": 580,
+      "baseline_complete": 580,
+      "mean_main_s": 9114.436944851725,
+      "mean_candidate_s": 8578.518197968966,
+      "mean_delta_s": -535.9187468827586,
+      "ci95_delta_s": [
+        -600.9449219938792,
+        -469.0744294898707
+      ],
+      "H_mean_delta_s": {
+        "H1": -575.2396417551723,
+        "H2": -496.5978520103448
+      },
+      "regressions": 135,
+      "worst_regression_s": 1629.3435850000005,
+      "weighted_delta_s": -626.1081531650448,
+      "weight_effective_sample_size": 41.97025246261816,
+      "walk_distance_m_delta": -2046.6282133625537,
+      "measures_delta": -18.982758620689655,
+      "switches_delta": -19.48793103448276,
+      "clear_attempts_delta": -4.063793103448276,
+      "failed_clear_attempts_delta": -4.063793103448276,
+      "program_real_time_s_delta": 0.12166279844763078
+    },
+    {
+      "problem": 4,
+      "variant": "side31_l2",
+      "n": 580,
+      "complete": 580,
+      "baseline_complete": 580,
+      "mean_main_s": 9114.436944851725,
+      "mean_candidate_s": 9644.795734337931,
+      "mean_delta_s": 530.3587894862069,
+      "ci95_delta_s": [
+        447.5481851514656,
+        613.632451747069
+      ],
+      "H_mean_delta_s": {
+        "H1": 497.74424264137934,
+        "H2": 562.9733363310345
+      },
+      "regressions": 453,
+      "worst_regression_s": 2718.526564,
+      "weighted_delta_s": 540.0125794496415,
+      "weight_effective_sample_size": 41.97025246261816,
+      "walk_distance_m_delta": 2268.811188288834,
+      "measures_delta": 36.06551724137931,
+      "switches_delta": 18.627586206896552,
+      "clear_attempts_delta": -40.786206896551725,
+      "failed_clear_attempts_delta": -40.786206896551725,
+      "program_real_time_s_delta": 0.2626994431064994
+    },
+    {
+      "problem": 4,
+      "variant": "stationary_rescue",
+      "n": 580,
+      "complete": 580,
+      "baseline_complete": 580,
+      "mean_main_s": 9114.436944851725,
+      "mean_candidate_s": 9065.07735275,
+      "mean_delta_s": -49.359592101724125,
+      "ci95_delta_s": [
+        -57.14007867120687,
+        -41.96608479094827
+      ],
+      "H_mean_delta_s": {
+        "H1": -48.0057527965517,
+        "H2": -50.713431406896554
+      },
+      "regressions": 107,
+      "worst_regression_s": 20.0,
+      "weighted_delta_s": -67.62679444312437,
+      "weight_effective_sample_size": 41.97025246261816,
+      "walk_distance_m_delta": -136.66865020952434,
+      "measures_delta": 2.3086206896551724,
+      "switches_delta": 0,
+      "clear_attempts_delta": -11.189655172413794,
+      "failed_clear_attempts_delta": -11.189655172413794,
+      "program_real_time_s_delta": 0.037927686722130226
+    }
+  ],
+  "confirmation": [
+    {
+      "problem": 3,
+      "variant": "compact1150",
+      "n": 120,
+      "complete": 120,
+      "baseline_complete": 120,
+      "mean_main_s": 4425.250014225,
+      "mean_candidate_s": 3792.8302301083336,
+      "mean_delta_s": -632.4197841166666,
+      "ci95_delta_s": [
+        -704.4995914262499,
+        -559.3814238066667
+      ],
+      "H_mean_delta_s": {
+        "H1": -616.9076210166667,
+        "H2": -647.9319472166667
+      },
+      "regressions": 8,
+      "worst_regression_s": 406.2927639999998,
+      "weighted_delta_s": -632.4197841166666,
+      "weight_effective_sample_size": 120.0,
+      "walk_distance_m_delta": -2994.9739242457254,
+      "measures_delta": -1.1583333333333334,
+      "switches_delta": -1.7333333333333334,
+      "clear_attempts_delta": -8.633333333333333,
+      "failed_clear_attempts_delta": -8.633333333333333,
+      "program_real_time_s_delta": 0.08179505833152992
+    },
+    {
+      "problem": 4,
+      "variant": "merged25_l1",
+      "n": 120,
+      "complete": 120,
+      "baseline_complete": 120,
+      "mean_main_s": 9149.512498433334,
+      "mean_candidate_s": 8619.794870525,
+      "mean_delta_s": -529.7176279083334,
+      "ci95_delta_s": [
+        -683.3968732208334,
+        -366.5298179354169
+      ],
+      "H_mean_delta_s": {
+        "H1": -538.7044354166668,
+        "H2": -520.7308204000001
+      },
+      "regressions": 34,
+      "worst_regression_s": 1599.779689,
+      "weighted_delta_s": -529.7176279083335,
+      "weight_effective_sample_size": 120.0,
+      "walk_distance_m_delta": -2207.463141182199,
+      "measures_delta": -13.758333333333333,
+      "switches_delta": -13.958333333333334,
+      "clear_attempts_delta": -1.825,
+      "failed_clear_attempts_delta": -1.825,
+      "program_real_time_s_delta": 0.1564244108303683
+    }
+  ],
+  "verdict": {
+    "3": {
+      "tested_candidate": "compact1150",
+      "accepted": true,
+      "recommended": "compact1150",
+      "reason": "confirmed improvement under retained synthetic models"
+    },
+    "4": {
+      "tested_candidate": "merged25_l1",
+      "accepted": true,
+      "recommended": "merged25_l1",
+      "reason": "confirmed improvement under retained synthetic models"
+    }
+  }
+}

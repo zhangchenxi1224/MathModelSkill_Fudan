@@ -1,0 +1,16 @@
+{
+  "omni_ring_endpoint_distance": {
+    "1000": 807.4179764203197,
+    "1800": 901.921736939537
+  },
+  "safe_candidate_rectangle_distance_bound": 957.6020460197693,
+  "safe_candidate_750_500_bound": 916.2432420166865,
+  "directional_square_cells": 32,
+  "directional_square_vertices": 45,
+  "directional_square_diameter": 989.9494936611666,
+  "directional_square_max_vertex_radius": 2523.8858928247923,
+  "first_bearing_strip_halfwidth": 26.30948931332056,
+  "clear_fallback_count": 110,
+  "clear_fallback_max_distance": 19.79898987322333,
+  "full_scan_seconds": 119
+}

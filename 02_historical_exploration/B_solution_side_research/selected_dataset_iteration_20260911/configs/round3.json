@@ -1,0 +1,211 @@
+{
+  "champion": {
+    "implementation": "champion",
+    "limit": 1
+  },
+  "p3_route_r1200": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ]
+  },
+  "p3_route_r1150": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1150,
+    "problems": [
+      3
+    ]
+  },
+  "p3_route_r1300": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1300,
+    "problems": [
+      3
+    ]
+  },
+  "p3_route_r1125": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1125,
+    "problems": [
+      3
+    ]
+  },
+  "p3_route_r1200_hull": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ]
+  },
+  "p3_route_r1200_d400": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ],
+    "config": {
+      "joint_detour_m": 400
+    }
+  },
+  "p3_route_r1200_fisher": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "center",
+      "shared": false
+    },
+    "ring": 1200,
+    "problems": [
+      3
+    ],
+    "mode": "fisher"
+  },
+  "p4_hull": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_hull_L2": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  },
+  "p4_hull_d1200": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p4_hull_d1600": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1600
+    }
+  },
+  "p4_hull_d400": {
+    "limit": 1,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 400
+    }
+  },
+  "p4_hull_L2_d1200": {
+    "limit": 2,
+    "cover": "bbox",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ],
+    "config": {
+      "joint_detour_m": 1200
+    }
+  },
+  "p4_hull_original": {
+    "limit": 1,
+    "cover": "original",
+    "reorder": true,
+    "schedule_options": {
+      "reorder": true,
+      "service_score": "hull",
+      "shared": false
+    },
+    "problems": [
+      4
+    ]
+  }
+}

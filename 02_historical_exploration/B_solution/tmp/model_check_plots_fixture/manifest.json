@@ -1,0 +1,321 @@
+{
+  "input": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\tmp\\model_check_plots_fixture.json",
+  "input_sha256": "8a574c062baaabed1325bc460c03293c7e8739060c70ae11b79282e40187fdd6",
+  "declaration": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\calibration\\model_check_plot_design.json",
+  "declaration_sha256": "b85cc49e17f79a6f551f19b7f11b137aeaa7bdebd45b38a867fa539884556ed8",
+  "script_sha256": "d12f54e0a6b83643341f813867955ea4905d05b1883abba63f30e2adb5219506",
+  "analysis_version": "synthetic-layout-fixture",
+  "candidate_check_count": 6,
+  "groups": [
+    {
+      "problem": 4,
+      "protocol": "survey",
+      "model_keys": [
+        {
+          "id": "M01",
+          "model": "fixture_joint__radius_0__noise_deterministic",
+          "label": "fixture_joint / R=0 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        },
+        {
+          "id": "M02",
+          "model": "fixture_joint__radius_1__noise_deterministic",
+          "label": "fixture_joint / R=1 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        },
+        {
+          "id": "M03",
+          "model": "fixture_joint__radius_2__noise_deterministic",
+          "label": "fixture_joint / R=2 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        },
+        {
+          "id": "M04",
+          "model": "fixture_joint__radius_3__noise_deterministic",
+          "label": "fixture_joint / R=3 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        },
+        {
+          "id": "M05",
+          "model": "fixture_joint__radius_4__noise_deterministic",
+          "label": "fixture_joint / R=4 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        },
+        {
+          "id": "M06",
+          "model": "fixture_joint__radius_5__noise_deterministic",
+          "label": "fixture_joint / R=5 / noise=deterministic",
+          "candidate_status": "insufficient_evidence",
+          "n_official_development": 5,
+          "n_local": 20
+        }
+      ],
+      "catalog": {
+        "core": [
+          {
+            "metric": "completion_fraction",
+            "title": "Completion fraction",
+            "unit": "fraction"
+          },
+          {
+            "metric": "complete_only_total_virtual_time_s",
+            "title": "Virtual time: completed cases",
+            "unit": "seconds"
+          },
+          {
+            "metric": "complete_only_failed_clears",
+            "title": "Failed clears: completed cases",
+            "unit": "attempts"
+          },
+          {
+            "metric": "coverage_station_coverage:000@0.0000,0.0000_visibility",
+            "title": "Visibility at the origin, before clearance",
+            "unit": "fraction of all 20 channels"
+          },
+          {
+            "metric": "same_point_repeat_absolute_report_delta_deg",
+            "title": "Same-point absolute report change",
+            "unit": "degrees; observable proxy"
+          },
+          {
+            "metric": "nearest_observed_point_absolute_report_delta_deg",
+            "title": "Nearest observed point (<=50 m) report change",
+            "unit": "degrees; includes geometry"
+          },
+          {
+            "metric": "coverage_mean_hull_area_ratio",
+            "title": "Coverage: mean hull area ratio",
+            "unit": "ratio; algorithmic proxy"
+          },
+          {
+            "metric": "survey_mean_hull_area_ratio",
+            "title": "Added survey: mean hull area ratio",
+            "unit": "ratio; algorithmic proxy"
+          },
+          {
+            "metric": "survey_no_signal_fraction",
+            "title": "Added survey: no-signal fraction",
+            "unit": "fraction"
+          },
+          {
+            "metric": "joint_fixture_mean_visible_station_fraction",
+            "title": "Mean visible-station fraction",
+            "unit": "fraction among confirmed sources"
+          }
+        ],
+        "pairs": {
+          "fixture": [
+            {
+              "metric": "joint_fixture_pair_000_001_both_visible_probability",
+              "title": "Stations 0 / 1: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_000_001_discordant_probability",
+              "title": "Stations 0 / 1: discordant",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_001_002_both_visible_probability",
+              "title": "Stations 1 / 2: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_001_002_discordant_probability",
+              "title": "Stations 1 / 2: discordant",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_002_003_both_visible_probability",
+              "title": "Stations 2 / 3: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_002_003_discordant_probability",
+              "title": "Stations 2 / 3: discordant",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_003_004_both_visible_probability",
+              "title": "Stations 3 / 4: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_003_004_discordant_probability",
+              "title": "Stations 3 / 4: discordant",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_004_005_both_visible_probability",
+              "title": "Stations 4 / 5: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_004_005_discordant_probability",
+              "title": "Stations 4 / 5: discordant",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_005_006_both_visible_probability",
+              "title": "Stations 5 / 6: both visible",
+              "unit": "probability among confirmed sources"
+            },
+            {
+              "metric": "joint_fixture_pair_005_006_discordant_probability",
+              "title": "Stations 5 / 6: discordant",
+              "unit": "probability among confirmed sources"
+            }
+          ]
+        },
+        "counts": {
+          "fixture": [
+            {
+              "metric": "joint_fixture_visible_count_probability_000",
+              "visible_stations": 0
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_001",
+              "visible_stations": 1
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_002",
+              "visible_stations": 2
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_003",
+              "visible_stations": 3
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_004",
+              "visible_stations": 4
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_005",
+              "visible_stations": 5
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_006",
+              "visible_stations": 6
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_007",
+              "visible_stations": 7
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_008",
+              "visible_stations": 8
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_009",
+              "visible_stations": 9
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_010",
+              "visible_stations": 10
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_011",
+              "visible_stations": 11
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_012",
+              "visible_stations": 12
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_013",
+              "visible_stations": 13
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_014",
+              "visible_stations": 14
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_015",
+              "visible_stations": 15
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_016",
+              "visible_stations": 16
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_017",
+              "visible_stations": 17
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_018",
+              "visible_stations": 18
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_019",
+              "visible_stations": 19
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_020",
+              "visible_stations": 20
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_021",
+              "visible_stations": 21
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_022",
+              "visible_stations": 22
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_023",
+              "visible_stations": 23
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_024",
+              "visible_stations": 24
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_025",
+              "visible_stations": 25
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_026",
+              "visible_stations": 26
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_027",
+              "visible_stations": 27
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_028",
+              "visible_stations": 28
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_029",
+              "visible_stations": 29
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_030",
+              "visible_stations": 30
+            },
+            {
+              "metric": "joint_fixture_visible_count_probability_031",
+              "visible_stations": 31
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "pages": [
+    "p4_survey_core",
+    "p4_survey_joint_pairs_fixture",
+    "p4_survey_joint_counts_fixture"
+  ],
+  "scope": "data-only copy of stored model-minus-official diagnostics; no additional inference"
+}

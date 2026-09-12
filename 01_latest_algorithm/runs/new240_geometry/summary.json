@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "problem": 3,
+      "arm": "geometry",
+      "runs": 120,
+      "complete": 120,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 3717.980380058333,
+      "mean_T_per_source_success_s": 291.2323447741278,
+      "mean_loss_s": 3717.980380058333,
+      "mean_paired_loss_difference_s": null,
+      "max_wall_s": 7.5099144000560045
+    },
+    {
+      "problem": 4,
+      "arm": "geometry",
+      "runs": 120,
+      "complete": 120,
+      "mean_clear_fraction": 1.0,
+      "mean_T_success_s": 8506.137027575,
+      "mean_T_per_source_success_s": 682.415538219296,
+      "mean_loss_s": 8506.137027575,
+      "mean_paired_loss_difference_s": null,
+      "max_wall_s": 40.16242740000598
+    }
+  ],
+  "runs": 240,
+  "note": "360000 is an explicit incomplete-run evaluation penalty, not an official score or completion time."
+}

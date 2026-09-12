@@ -1,0 +1,18 @@
+{
+  "input_directory": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\q2_precision_v2",
+  "output_directory": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\figures",
+  "input_sha256": {
+    "synthetic_summary.json": "2f78a09859e6b7827695208556e6e510b3539fa18f696199c3e3ebce2f5497cb",
+    "bound_convergence.json": "27015cfe48773dd96c44709f49862559bfaffeaf45e8bfcd21896a45a9ea12ec",
+    "completion.json": "af9a85f7309997eeb8d9bb4410323dd2899e70222ed1320ac53fe94b72547462"
+  },
+  "files": [
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\figures\\q2_comparison.png",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\figures\\q2_comparison.pdf",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\figures\\q2_reception_lens.png",
+    "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_certified_frontier\\results\\figures\\q2_reception_lens.pdf"
+  ],
+  "interpretation": "Synthetic sample summaries; sample maxima are not worst-case proofs.",
+  "first_context_count": 9,
+  "worlds_per_strategy": 336
+}

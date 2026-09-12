@@ -1,0 +1,21 @@
+{
+  "role": "development_selected_not_officially_validated",
+  "policies": {
+    "3": "side",
+    "4": "p4_route_rescue"
+  },
+  "source": "report/comparison.json",
+  "dataset_worlds": 360,
+  "selection_note": "Lowest full-clear mean on the supplied equal-H development mixture; retain per-H results and regressions.",
+  "p4_settings": {
+    "coverage_points": 25,
+    "local_base_limit": 1,
+    "joint_detour_m": 800,
+    "service_score": "hull",
+    "reorder_unvisited": true,
+    "max_extra_measures": 1,
+    "cover_cell_threshold": 12,
+    "extra_first_clear_proxy_gate_s": 60,
+    "approach_standoff_m": 200
+  }
+}

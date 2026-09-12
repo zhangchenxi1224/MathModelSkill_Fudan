@@ -1,0 +1,15 @@
+{
+  "stage": 3,
+  "manifest_sha256": "cd1e242cb9e30b1167239aaab152a2f8cb6ca89aa41498b580ec1889fd2c4b5c",
+  "selected_variants": {
+    "3": "joint",
+    "4": "joint"
+  },
+  "selection_basis": "development_only",
+  "frozen_before_confirmation": true,
+  "development_results_sha256": "9e40bcba812b30272184b542604c112215be79732867c7ee85008f70c89eb051",
+  "formal_authorized": false,
+  "practice_validation_in_authorized_plan": true,
+  "official_dispatch_ready": false,
+  "selection_sha256": "f20b3dc942e5cb72a9c2b7c8d14a4f451af9be5ee8d7a77387626f7e090fe653"
+}

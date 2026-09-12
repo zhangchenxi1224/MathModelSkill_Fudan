@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "case_id": "round-calibrated-p3-0014-6a572efb3484c4da",
+  "seed": 7662644947446973658,
+  "problem": 3,
+  "pool": "calibrated",
+  "composition_model": "smoothed_joint",
+  "n": 11,
+  "n_directed": 0,
+  "layout": "random",
+  "radius_mode": "mixed",
+  "error_mode": "extreme",
+  "partition": "development",
+  "mechanism_id": "mixed_extreme150_after_observable_screen",
+  "mechanism_status": "unresolved",
+  "error_field": {
+    "seed": 8604793443744491692,
+    "mode": "extreme",
+    "correlation_length_m": 150.0,
+    "definition": "FixedErrorField-v1"
+  },
+  "sources": [
+    {
+      "channel": 4,
+      "position": [
+        1028.0735864996059,
+        -814.9392940649685
+      ],
+      "radius": 1095.7422089131514,
+      "direction_deg": null
+    },
+    {
+      "channel": 11,
+      "position": [
+        507.20996488462765,
+        207.49835473987497
+      ],
+      "radius": 1091.5902070909676,
+      "direction_deg": null
+    },
+    {
+      "channel": 17,
+      "position": [
+        -601.5596485551009,
+        909.355032797755
+      ],
+      "radius": 1074.2818911406016,
+      "direction_deg": null
+    },
+    {
+      "channel": 13,
+      "position": [
+        -1237.3609127546385,
+        468.0385589172675
+      ],
+      "radius": 1155.4595568921359,
+      "direction_deg": null
+    },
+    {
+      "channel": 6,
+      "position": [
+        117.50910403925914,
+        -669.8917746764758
+      ],
+      "radius": 1267.8064758712926,
+      "direction_deg": null
+    },
+    {
+      "channel": 5,
+      "position": [
+        1362.15568775356,
+        368.70222298538397
+      ],
+      "radius": 1212.674531608166,
+      "direction_deg": null
+    },
+    {
+      "channel": 16,
+      "position": [
+        1551.8362011582767,
+        -723.5663301885721
+      ],
+      "radius": 1412.3766960078444,
+      "direction_deg": null
+    },
+    {
+      "channel": 19,
+      "position": [
+        -124.37244000532331,
+        1748.8451323185411
+      ],
+      "radius": 1068.227021718717,
+      "direction_deg": null
+    },
+    {
+      "channel": 1,
+      "position": [
+        1326.3346588624388,
+        1145.5610443779592
+      ],
+      "radius": 1294.4334812484822,
+      "direction_deg": null
+    },
+    {
+      "channel": 2,
+      "position": [
+        -862.3832647114568,
+        1141.4587724827063
+      ],
+      "radius": 1068.001212420208,
+      "direction_deg": null
+    },
+    {
+      "channel": 15,
+      "position": [
+        -378.07879290223343,
+        -359.77766552467284
+      ],
+      "radius": 1023.8249875254038,
+      "direction_deg": null
+    }
+  ],
+  "scenario_sha256": "a1ac7bbf04cf12c50458935746d037195b0fb866b19e96a54968a1fa5b0145e3"
+}

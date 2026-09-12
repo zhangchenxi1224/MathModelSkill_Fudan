@@ -1,0 +1,1 @@
+报告图表从既有final_*记录生成，没有重新运行算法。make_report_evidence.py需要numpy、matplotlib；build_docx.py需要python-docx、lxml、latex2mathml以及Microsoft Office的MML2OMML.XSL。图表使用Microsoft YaHei字体。脚本内字体与Office安装位置可按计算机调整。

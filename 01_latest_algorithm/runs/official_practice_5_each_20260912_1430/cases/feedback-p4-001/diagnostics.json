@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p4-001",
+  "problem": 4,
+  "case_code": "67HD-3HYX-EGS8-QVQD",
+  "measurement_outcomes": {
+    "no_signal": 47,
+    "direction": 32
+  },
+  "planning_calls": 30,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 18,
+    "cover": 12
+  },
+  "http_records": 204,
+  "decision_records": 271,
+  "http_outcomes": {
+    "accepted": 204
+  },
+  "costs": {
+    "move_s": 2767.895569702021,
+    "measure_s": 395,
+    "switch_s": 74,
+    "clear_s": 401
+  },
+  "timing_residual_s": 7.297978754650103e-06,
+  "stop_evidence_type": "known_upper_bound",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 47,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}

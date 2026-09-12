@@ -1,0 +1,32 @@
+{
+  "summaries": {
+    "fixed": {
+      "case_units": 20,
+      "contexts": 40,
+      "mean_per_case_certified_radius_upper_m": 75.88481284919736,
+      "max_context_certified_radius_upper_m": 81.96595848670108
+    },
+    "active": {
+      "case_units": 20,
+      "contexts": 40,
+      "mean_per_case_certified_radius_upper_m": 160.30798989016117,
+      "max_context_certified_radius_upper_m": 175.36415814277296
+    },
+    "precision": {
+      "case_units": 20,
+      "contexts": 40,
+      "mean_per_case_certified_radius_upper_m": 52.604736054558074,
+      "max_context_certified_radius_upper_m": 57.69504950673618
+    },
+    "precision_800": {
+      "case_units": 20,
+      "contexts": 40,
+      "mean_per_case_certified_radius_upper_m": 70.72111276607374,
+      "max_context_certified_radius_upper_m": 77.97094691908683
+    }
+  },
+  "scope": "offline conservative bounds on real public FIRST observations, not empirical performance at unvisited points",
+  "no_ground_truth": true,
+  "policy_selection_used_second": false,
+  "new_official_calls": 0
+}

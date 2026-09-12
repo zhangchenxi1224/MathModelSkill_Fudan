@@ -1,0 +1,222 @@
+{
+  "contexts": 3,
+  "worlds": 0,
+  "paired_rows": 0,
+  "new_official_calls": 0,
+  "official_results_scope": "public first-observation model bounds only",
+  "primary_metric": "worst legal feedback MEC radius interval, same evaluator for every method",
+  "global_optimality_claim": false,
+  "context_comparison": [
+    {
+      "context_id": "r1-p3-survey-007-ch03",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            699.9999999999998,
+            399.99999999999983
+          ],
+          "point_global": [
+            -730.6938759147702,
+            2154.7518162626784
+          ],
+          "lower_m": 27.362764,
+          "upper_m": 27.543693947494344,
+          "gap_m": 0.1809299474943451,
+          "gap_reached": true,
+          "elapsed_s": 0.6244973000138998,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            306.4177772475912,
+            -257.1150438746157
+          ],
+          "point_global": [
+            -396.47489199959534,
+            1465.5458835083436
+          ],
+          "lower_m": 11.350387,
+          "upper_m": 11.50836847903506,
+          "gap_m": 0.15798147903506,
+          "gap_reached": true,
+          "elapsed_s": 0.8075475000077859,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            -815.8712337842129,
+            2389.7939778132836
+          ],
+          "lower_m": 30.601326,
+          "upper_m": 30.78568234085214,
+          "gap_m": 0.18435634085214048,
+          "gap_reached": true,
+          "elapsed_s": 0.7076219000155106,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            318.62661056,
+            -255.10633259
+          ],
+          "point_global": [
+            -391.4686268893598,
+            1476.8608223734532
+          ],
+          "lower_m": 11.04603,
+          "upper_m": 11.24476428694451,
+          "gap_m": 0.19873428694451079,
+          "gap_reached": true,
+          "elapsed_s": 1.1008708999725059,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 278
+    },
+    {
+      "context_id": "r1-p3-survey-013-ch01",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            -399.99999999999994
+          ],
+          "point_global": [
+            4.876040972291747,
+            -1126.2206000145375
+          ],
+          "lower_m": 66.364121,
+          "upper_m": 66.55716741348535,
+          "gap_m": 0.193046413485348,
+          "gap_reached": true,
+          "elapsed_s": 0.27610980009194463,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            869.7166556128275,
+            -502.13114523676677
+          ],
+          "point_global": [
+            -184.12831763193503,
+            -1066.9595972523375
+          ],
+          "lower_m": 46.937739,
+          "upper_m": 47.120799467331594,
+          "gap_m": 0.1830604673315932,
+          "gap_reached": true,
+          "elapsed_s": 0.5168309001019225,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            94.75137732458563,
+            -2133.4059970073463
+          ],
+          "lower_m": 51.13908,
+          "upper_m": 51.31776472741723,
+          "gap_m": 0.1786847274172274,
+          "gap_reached": true,
+          "elapsed_s": 0.4018372999271378,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            970.18031093,
+            -469.11312245
+          ],
+          "point_global": [
+            -273.9819600575038,
+            -1122.7221188173917
+          ],
+          "lower_m": 41.810297,
+          "upper_m": 42.00900309853457,
+          "gap_m": 0.1987060985345721,
+          "gap_reached": true,
+          "elapsed_s": 0.8914858000352979,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 273
+    },
+    {
+      "context_id": "r1-p3-survey-018-ch01",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            400.0000000000002
+          ],
+          "point_global": [
+            1812.8611665355093,
+            -765.1641368896395
+          ],
+          "lower_m": 53.863267,
+          "upper_m": 54.054317203101874,
+          "gap_m": 0.1910502031018737,
+          "gap_reached": true,
+          "elapsed_s": 0.30286809999961406,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692104,
+            -575.8825025043229
+          ],
+          "point_global": [
+            832.0040645159534,
+            -692.6459194214176
+          ],
+          "lower_m": 34.733929,
+          "upper_m": 34.92802282769837,
+          "gap_m": 0.19409382769836725,
+          "gap_reached": true,
+          "elapsed_s": 0.6885975999757648,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            1979.331916227851,
+            -951.6781832691806
+          ],
+          "lower_m": 37.024987,
+          "upper_m": 37.21182190241211,
+          "gap_m": 0.18683490241210876,
+          "gap_reached": true,
+          "elapsed_s": 0.7492298000724986,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            870.86101708,
+            -579.67068599
+          ],
+          "point_global": [
+            818.7372310789808,
+            -739.3621776974751
+          ],
+          "lower_m": 32.698667,
+          "upper_m": 32.89836617908024,
+          "gap_m": 0.19969917908024115,
+          "gap_reached": true,
+          "elapsed_s": 1.0926676000235602,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 243
+    }
+  ],
+  "synthetic_secondary": {}
+}

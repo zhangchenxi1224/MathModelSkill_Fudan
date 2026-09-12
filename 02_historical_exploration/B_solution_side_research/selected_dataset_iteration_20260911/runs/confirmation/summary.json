@@ -1,0 +1,313 @@
+{
+  "runs": 480,
+  "all_complete": 480,
+  "hull_violations": 0,
+  "groups": [
+    {
+      "problem": 3,
+      "hypothesis": "H1",
+      "variant": "champion",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 4414.516169116667,
+      "mean_T_per_N_s": 345.8182596586502,
+      "p95_success_s": 4991.37526195,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 1.917727299965918,
+      "mean_walk_m": 18613.66418731693,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 3,
+      "hypothesis": "H1",
+      "variant": "p3_hull_r1150",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 3807.7966718,
+      "mean_T_per_N_s": 297.67285131598635,
+      "p95_success_s": 4601.837882099999,
+      "mean_difference_s": -606.7194973166667,
+      "paired_ci95_s": [
+        -688.3895447520833,
+        -519.93852517
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -13.61400611324954,
+      "regressions": 5,
+      "worst_regression_s": 415.28361700000005,
+      "worst_regression_pct": 9.529503902652614,
+      "max_program_real_s": 1.985068199923262,
+      "mean_walk_m": 15756.400028601525,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 3,
+      "hypothesis": "H2",
+      "variant": "champion",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 4509.214629,
+      "mean_T_per_N_s": 347.7889783488329,
+      "p95_success_s": 5137.1937480999995,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 2.372156099998392,
+      "mean_walk_m": 19138.073153198624,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 3,
+      "hypothesis": "H2",
+      "variant": "p3_hull_r1150",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 3752.348288766667,
+      "mean_T_per_N_s": 289.8081373984273,
+      "p95_success_s": 4277.663220649999,
+      "mean_difference_s": -756.8663402333334,
+      "paired_ci95_s": [
+        -854.2680849183332,
+        -669.5441705000001
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -16.52275808351858,
+      "regressions": 1,
+      "worst_regression_s": 156.8359220000002,
+      "worst_regression_pct": 3.3496708579497936,
+      "max_program_real_s": 2.3930603000335395,
+      "mean_walk_m": 15510.491448614453,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 3,
+      "hypothesis": "design_mixture",
+      "variant": "champion",
+      "n": 120,
+      "complete": 120,
+      "new_failures": 0,
+      "mean_loss_s": 4461.865399058333,
+      "mean_T_per_N_s": 346.8036190037416,
+      "p95_success_s": 5132.38172555,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": [
+        0.0,
+        0.0
+      ],
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 2.372156099998392,
+      "mean_walk_m": 18875.868670257776,
+      "walk_observed_n": 120
+    },
+    {
+      "problem": 3,
+      "hypothesis": "design_mixture",
+      "variant": "p3_hull_r1150",
+      "n": 120,
+      "complete": 120,
+      "new_failures": 0,
+      "mean_loss_s": 3780.0724802833333,
+      "mean_T_per_N_s": 293.74049435720684,
+      "p95_success_s": 4524.498762499999,
+      "mean_difference_s": -681.792918775,
+      "paired_ci95_s": [
+        -748.2839904443749,
+        -620.484730784792
+      ],
+      "paired_ci975_s": [
+        -758.1280171935417,
+        -608.77219862875
+      ],
+      "mean_pair_pct": -15.06838209838406,
+      "regressions": 6,
+      "worst_regression_s": 415.28361700000005,
+      "worst_regression_pct": 9.529503902652614,
+      "max_program_real_s": 2.3930603000335395,
+      "mean_walk_m": 15633.44573860799,
+      "walk_observed_n": 120
+    },
+    {
+      "problem": 4,
+      "hypothesis": "H1",
+      "variant": "champion",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 10851.380777866667,
+      "mean_T_per_N_s": 879.9098436186904,
+      "p95_success_s": 12402.7827081,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 3.1071024999255314,
+      "mean_walk_m": 42367.23722655137,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 4,
+      "hypothesis": "H1",
+      "variant": "p4_hull_L2_d1200",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 9662.740434416666,
+      "mean_T_per_N_s": 788.758180110019,
+      "p95_success_s": 10757.03765485,
+      "mean_difference_s": -1188.6403434499998,
+      "paired_ci95_s": [
+        -1461.8769008820834,
+        -943.8985499870834
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -10.834932720729224,
+      "regressions": 3,
+      "worst_regression_s": 594.9274560000013,
+      "worst_regression_pct": 5.744800753768375,
+      "max_program_real_s": 4.521166100050323,
+      "mean_walk_m": 37596.785506337095,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 4,
+      "hypothesis": "H2",
+      "variant": "champion",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 10900.592762283333,
+      "mean_T_per_N_s": 863.0030174838223,
+      "p95_success_s": 12378.896874099999,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 2.746146699995734,
+      "mean_walk_m": 42849.71381409231,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 4,
+      "hypothesis": "H2",
+      "variant": "p4_hull_L2_d1200",
+      "n": 60,
+      "complete": 60,
+      "new_failures": 0,
+      "mean_loss_s": 9623.301565516667,
+      "mean_T_per_N_s": 767.4626052205805,
+      "p95_success_s": 10681.845844099998,
+      "mean_difference_s": -1277.2911967666669,
+      "paired_ci95_s": [
+        -1634.5109255975,
+        -946.1731496745838
+      ],
+      "paired_ci975_s": null,
+      "mean_pair_pct": -11.126720221299532,
+      "regressions": 8,
+      "worst_regression_s": 658.8546809999989,
+      "worst_regression_pct": 8.906480659642945,
+      "max_program_real_s": 4.249690000084229,
+      "mean_walk_m": 37819.42448800028,
+      "walk_observed_n": 60
+    },
+    {
+      "problem": 4,
+      "hypothesis": "design_mixture",
+      "variant": "champion",
+      "n": 120,
+      "complete": 120,
+      "new_failures": 0,
+      "mean_loss_s": 10875.986770075,
+      "mean_T_per_N_s": 871.4564305512564,
+      "p95_success_s": 12398.7520394,
+      "mean_difference_s": 0.0,
+      "paired_ci95_s": [
+        0.0,
+        0.0
+      ],
+      "paired_ci975_s": [
+        0.0,
+        0.0
+      ],
+      "mean_pair_pct": 0.0,
+      "regressions": 0,
+      "worst_regression_s": 0.0,
+      "worst_regression_pct": 0.0,
+      "max_program_real_s": 3.1071024999255314,
+      "mean_walk_m": 42608.47552032184,
+      "walk_observed_n": 120
+    },
+    {
+      "problem": 4,
+      "hypothesis": "design_mixture",
+      "variant": "p4_hull_L2_d1200",
+      "n": 120,
+      "complete": 120,
+      "new_failures": 0,
+      "mean_loss_s": 9643.020999966666,
+      "mean_T_per_N_s": 778.1103926652997,
+      "p95_success_s": 10757.03765485,
+      "mean_difference_s": -1232.9657701083333,
+      "paired_ci95_s": [
+        -1447.0397746825001,
+        -1029.4817268306251
+      ],
+      "paired_ci975_s": [
+        -1480.3147320014582,
+        -1005.0512576308333
+      ],
+      "mean_pair_pct": -10.980826471014378,
+      "regressions": 11,
+      "worst_regression_s": 658.8546809999989,
+      "worst_regression_pct": 8.906480659642945,
+      "max_program_real_s": 4.521166100050323,
+      "mean_walk_m": 37708.10499716869,
+      "walk_observed_n": 120
+    }
+  ],
+  "interpretation": "Synthetic development/regression or separately frozen fresh synthetic validation; not official scores.",
+  "partition": "confirmation",
+  "expected_runs": 480,
+  "wall_s": 147.07182219997048,
+  "workers": 8,
+  "plan_sha256": "066a67d3ac95b7b171e641b427b885dbc393207103d40a85a269e76b6fc374ca"
+}

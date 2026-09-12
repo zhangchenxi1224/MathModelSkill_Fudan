@@ -1,0 +1,49 @@
+{
+  "runs": 24,
+  "all_audited_complete": true,
+  "by_policy": {
+    "champion": {
+      "runs": 8,
+      "complete": 8,
+      "mean_T_s": 7402.9167531250005,
+      "mean_T_per_N_s": 581.307579261899,
+      "median_wall_s": 1.5691972500062548,
+      "max_wall_s": 2.0297913000686094,
+      "completed_plans": 0,
+      "budget_fallbacks": 0,
+      "plans_with_cross_channel_second_step": 0,
+      "plans_with_outcome_dependent_second_step": 0,
+      "paired_mean_change_percent": 0.0,
+      "paired_worst_change_percent": 0.0
+    },
+    "dynamic_joint_h1": {
+      "runs": 8,
+      "complete": 8,
+      "mean_T_s": 8344.9468205,
+      "mean_T_per_N_s": 655.772006489383,
+      "median_wall_s": 4.293488650000654,
+      "max_wall_s": 5.743123599910177,
+      "completed_plans": 2958,
+      "budget_fallbacks": 0,
+      "plans_with_cross_channel_second_step": 0,
+      "plans_with_outcome_dependent_second_step": 0,
+      "paired_mean_change_percent": 12.092992239250094,
+      "paired_worst_change_percent": 34.76405451964868
+    },
+    "dynamic_joint_h2": {
+      "runs": 8,
+      "complete": 8,
+      "mean_T_s": 9043.214865375,
+      "mean_T_per_N_s": 721.4050485861378,
+      "median_wall_s": 13.286836700048298,
+      "max_wall_s": 23.15486939996481,
+      "completed_plans": 2805,
+      "budget_fallbacks": 0,
+      "plans_with_cross_channel_second_step": 2786,
+      "plans_with_outcome_dependent_second_step": 2170,
+      "paired_mean_change_percent": 23.82447882931139,
+      "paired_worst_change_percent": 52.79263250871544
+    }
+  },
+  "source_valid": true
+}

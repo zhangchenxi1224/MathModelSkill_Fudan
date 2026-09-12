@@ -1,0 +1,187 @@
+{
+  "figures": [
+    {
+      "figure": "round1_completion_time",
+      "caption": "Actual official practice collection; baseline and standard survey remain separate. Boxplots are descriptive, all 160 completed.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round1_completion_time.png",
+          "sha256": "9b6c95611731a713afddbb9c2ad660a8e703fe57818b5e17467b6cd0e7b72e55"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round1_completion_time.pdf",
+          "sha256": "2d06795b9ccdbff1a91e74d9c69874936c60b0c454c03d2bdc945c7af4ac20d9"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "round1_action_costs",
+      "caption": "Component means use the actual 60/20/60/20 completed cases. Survey travel is acquisition cost, not a normal-policy performance sample.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round1_action_costs.png",
+          "sha256": "5a8ed38c8bb79b486d7f1fcebd5bc6db38ead372a2b3a49b8dba38332219d042"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round1_action_costs.pdf",
+          "sha256": "c96a1ad5c0b7c7824d07a6ece7aa6522f3e5d01e139a436ed9915c9f99b235ae"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "round1_p3_composition",
+      "caption": "Observed joint source counts from public post-exit audits. This display uses all 80 first-round cases for description; fitting remains restricted to the original fit split. Invalid P4 support cells are masked.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round1_p3_composition.png",
+          "sha256": "3b117b7e54dc091e10bad852af7773ebe8bf9e7fc7ab1c67c96e5d9985ddea11"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round1_p3_composition.pdf",
+          "sha256": "a8fcd71c7b3401bb7cc07e9de78287b6bb0b5e6e834b6605d38750b07125126d"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "round1_p4_composition",
+      "caption": "Observed joint source counts from public post-exit audits. This display uses all 80 first-round cases for description; fitting remains restricted to the original fit split. Invalid P4 support cells are masked.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round1_p4_composition.png",
+          "sha256": "925b16aa9859f0b4b1b27963643ee09ab97885b3dcc6bdf44bd7552ae8e38206"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round1_p4_composition.pdf",
+          "sha256": "99fc7cad7421e1b5866d25e306645fcf3b0a2a4a7a56d49c0d697c905ac16f58"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "stage1_p3_l1_l5",
+      "caption": "P3, joint_triangular_l1: four declared design groups, development and frozen confirmation kept separate. Intervals concern 360000-second failure-penalized differences, not official population effects. All 500 plotted pairs have zero failures in both arms; exact source rows retained.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/stage1_p3_l1_l5.png",
+          "sha256": "7ee8782e307caebfc59e05973894738004edb96a7d73bd65d3b7e11e5d826e9e"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/stage1_p3_l1_l5.pdf",
+          "sha256": "6c036ac8f6d8aad182bf97f3fe72f4647d7d8a8feb16c6c087c7e6e33740c082"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "stage1_p4_l1_l5",
+      "caption": "P4, joint_triangular_l1: four declared design groups, development and frozen confirmation kept separate. Intervals concern 360000-second failure-penalized differences, not official population effects. All 500 plotted pairs have zero failures in both arms; exact source rows retained.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/stage1_p4_l1_l5.png",
+          "sha256": "c54c4ff37d2049748818449a8a796b7d51baa6f0bd23c3076328aab9d0d0ac80"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/stage1_p4_l1_l5.pdf",
+          "sha256": "df34fd0aa0703bba967805fade5a09a07873e85021f894cc948069fda119981a"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "stage2_p4_nosignal",
+      "caption": "P4, nosignal: four declared design groups, development and frozen confirmation kept separate. Intervals concern 360000-second failure-penalized differences, not official population effects. All 200 plotted pairs have zero failures in both arms; exact source rows retained.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/stage2_p4_nosignal.png",
+          "sha256": "18188d3ee75df543cbdc7976708666532dd5bd75d7c6dabd89ba3561c7372187"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/stage2_p4_nosignal.pdf",
+          "sha256": "155011291320e4f32e67650e404f92269a2ae3de3fb81108da545cc3f770df27"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.464553661616163
+    },
+    {
+      "figure": "stage3_p3_scheduling",
+      "caption": "All eight preregistered scheduling contrasts are shown, separately by design group. Joint retained for both problems. Confirmation only reran retained joint, so no confirmation improvement comparison is fabricated.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/stage3_p3_scheduling.png",
+          "sha256": "356e82eed062246f1ca19cf9148e71bf715b536427056e85fd324d8753a2f4ed"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/stage3_p3_scheduling.pdf",
+          "sha256": "d1774ba083dc2e41dc652dca7d9c5e6ca00aa0b95d5cb29be43d75f01d1a5343"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.227272727272727
+    },
+    {
+      "figure": "stage3_p4_scheduling",
+      "caption": "All eight preregistered scheduling contrasts are shown, separately by design group. Joint retained for both problems. Confirmation only reran retained joint, so no confirmation improvement comparison is fabricated.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/stage3_p4_scheduling.png",
+          "sha256": "32aea50aebf2edeb1531708be1f8cb2df0a33671222b82f24e23dc0fd200f3ab"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/stage3_p4_scheduling.pdf",
+          "sha256": "652e170bec85753fd1d16f889504b612bc14943ca0adf0b51181708c2c90f16e"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.227272727272727
+    },
+    {
+      "figure": "round2_p3_validation",
+      "caption": "New official practice only; independent-arm pointwise intervals, never paired. Complete-case times conditional on success; all failures kept in the penalized comparison. Full arm failure-rate intervals and source rows are retained in the source JSON.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round2_p3_validation.png",
+          "sha256": "8a6091d4d0a94a69eaae709adc50456219b4fc3211de98f4576bf922f4abd43f"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round2_p3_validation.pdf",
+          "sha256": "70e65ef2963c4c282052d151afc92ee3bd7918dc914cccc4a2c666bf9318031d"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.227272727272727
+    },
+    {
+      "figure": "round2_p4_validation",
+      "caption": "New official practice only; independent-arm pointwise intervals, never paired. Complete-case times conditional on success; all failures kept in the penalized comparison. Full arm failure-rate intervals and source rows are retained in the source JSON.",
+      "outputs": [
+        {
+          "path": "results/pipeline_summary/report_figures/round2_p4_validation.png",
+          "sha256": "00bf382b928373f2b7edd3b6f530cb4fd887ffab1ea3d33c456759bcfdf81dca"
+        },
+        {
+          "path": "results/pipeline_summary/report_figures/round2_p4_validation.pdf",
+          "sha256": "b43c763c81b47664c4fa8d35e9d482e7cc75502007e0fea8a30696af939c700f"
+        }
+      ],
+      "estimated_minimum_A4_font_pt": 10.227272727272727
+    }
+  ],
+  "stage1_confirmation_scope": "Only the published frozen L1/L5 paired_summary.json; no unselected L2/L3 confirmation runs opened",
+  "stage2_p3": "Retained original selector; no self-comparison graphic fabricated",
+  "fresh_official_figures": true,
+  "script_sha256": "7d240a4956b0494ea74bd1ea7850d4a0055c8f2c9714a311c7005e2baee9cb8a",
+  "frozen_selection_files": [
+    {
+      "path": "results/round1/local/selection.json",
+      "sha256": "849034abf5df7733f80896faf281c2a08d01256e621c31680531b1ad63807d1b"
+    },
+    {
+      "path": "results/round1/stage2/selection.json",
+      "sha256": "cf4ca8b9cf37070e524186385f69ab2b5d7492f1457422a6d8dc6112efd498eb"
+    },
+    {
+      "path": "results/round1/stage3/selection.json",
+      "sha256": "bf2b959b956a2ff78b1bd83454038cae848a99abc3c75136f8258d58a4c99bff"
+    }
+  ]
+}

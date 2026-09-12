@@ -1,0 +1,347 @@
+{
+  "passed": true,
+  "per_problem": {
+    "3": {
+      "passed": true,
+      "conditions": {
+        "confirmation_all_complete": true,
+        "stress_all_complete": true,
+        "both_H_mean_noninferior": true,
+        "primary_ci975_below_zero": true
+      },
+      "selected": "p3_hull_r1150",
+      "recommended": "p3_hull_r1150",
+      "confirmation": {
+        "partition": "confirmation",
+        "problem": 3,
+        "hypothesis": "design_mixture",
+        "selected": "p3_hull_r1150",
+        "baseline": {
+          "n": 120,
+          "complete": 120,
+          "failures": 0,
+          "mean_penalized_T_s": 4461.8653990583325,
+          "mean_penalized_T_per_N_s": 346.8036190037416,
+          "mean_success_T_s": 4461.8653990583325,
+          "mean_success_T_per_N_s": 346.8036190037416,
+          "p95_success_T_s": 5132.381725550001,
+          "max_success_T_s": 5440.811832,
+          "max_program_real_s": 2.372156099998392,
+          "cost_observed_n": 120,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 18875.868670257776,
+            "measures": 93.86666666666666,
+            "switches": 91.65833333333333,
+            "clear_attempts": 33.18333333333333,
+            "clear_successes": 13.075,
+            "clear_failures": 20.108333333333334,
+            "movement_cost_s": 3775.173732391666,
+            "measurement_cost_s": 469.3333333333333,
+            "switch_cost_s": 91.65833333333333,
+            "optical_attempt_cost_s": 99.55,
+            "laser_cost_s": 26.15
+          }
+        },
+        "candidate": {
+          "n": 120,
+          "complete": 120,
+          "failures": 0,
+          "mean_penalized_T_s": 3780.0724802833333,
+          "mean_penalized_T_per_N_s": 293.7404943572068,
+          "mean_success_T_s": 3780.0724802833333,
+          "mean_success_T_per_N_s": 293.7404943572068,
+          "p95_success_T_s": 4524.498762499999,
+          "max_success_T_s": 4838.965261,
+          "max_program_real_s": 2.3930603000335395,
+          "cost_observed_n": 120,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 15633.44573860799,
+            "measures": 93.06666666666666,
+            "switches": 90.275,
+            "clear_attempts": 23.875,
+            "clear_successes": 13.075,
+            "clear_failures": 10.8,
+            "movement_cost_s": 3126.6891469499997,
+            "measurement_cost_s": 465.3333333333333,
+            "switch_cost_s": 90.275,
+            "optical_attempt_cost_s": 71.625,
+            "laser_cost_s": 26.15
+          }
+        },
+        "mean_delta_s": -681.792918775,
+        "ratio_of_means_reduction_pct": 15.280445683522636,
+        "mean_paired_reduction_pct": 15.06838209838406,
+        "regressions": 6,
+        "new_failures": 0,
+        "worst_regression_s": 415.28361700000005,
+        "worst_regression_case_id": "round-new_confirmation-p3-0050-0136c6e85bd4a117",
+        "worst_regression_pct": 9.529503902652614,
+        "bootstrap": {
+          "ci95_s": [
+            -747.83252191375,
+            -616.33952713625
+          ],
+          "ci975_s": [
+            -757.1185544226042,
+            -606.0010736303124
+          ],
+          "draws": 10000,
+          "seed": 10293016702008781894,
+          "unit": "paired whole case; resample within this displayed group"
+        }
+      },
+      "stress": {
+        "partition": "stress",
+        "problem": 3,
+        "hypothesis": "design_mixture",
+        "selected": "p3_hull_r1150",
+        "baseline": {
+          "n": 24,
+          "complete": 24,
+          "failures": 0,
+          "mean_penalized_T_s": 4411.283638875,
+          "mean_penalized_T_per_N_s": 359.2102344078125,
+          "mean_success_T_s": 4411.283638875,
+          "mean_success_T_per_N_s": 359.2102344078125,
+          "p95_success_T_s": 5336.80664975,
+          "max_success_T_s": 5433.163008,
+          "max_program_real_s": 2.3033399999840185,
+          "cost_observed_n": 24,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 18788.293201062403,
+            "measures": 91.16666666666667,
+            "switches": 88.29166666666667,
+            "clear_attempts": 27.833333333333332,
+            "clear_successes": 13.0,
+            "clear_failures": 14.833333333333334,
+            "movement_cost_s": 3757.6586388749997,
+            "measurement_cost_s": 455.8333333333333,
+            "switch_cost_s": 88.29166666666667,
+            "optical_attempt_cost_s": 83.5,
+            "laser_cost_s": 26.0
+          }
+        },
+        "candidate": {
+          "n": 24,
+          "complete": 24,
+          "failures": 0,
+          "mean_penalized_T_s": 3865.494295916667,
+          "mean_penalized_T_per_N_s": 320.49625321979164,
+          "mean_success_T_s": 3865.494295916667,
+          "mean_success_T_per_N_s": 320.49625321979164,
+          "p95_success_T_s": 5572.345195499999,
+          "max_success_T_s": 6045.566611,
+          "max_program_real_s": 2.4600192999932915,
+          "cost_observed_n": 24,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 16224.346482551211,
+            "measures": 87.66666666666667,
+            "switches": 84.54166666666667,
+            "clear_attempts": 23.916666666666668,
+            "clear_successes": 13.0,
+            "clear_failures": 10.916666666666666,
+            "movement_cost_s": 3244.869295916667,
+            "measurement_cost_s": 438.3333333333333,
+            "switch_cost_s": 84.54166666666667,
+            "optical_attempt_cost_s": 71.75,
+            "laser_cost_s": 26.0
+          }
+        },
+        "mean_delta_s": -545.7893429583333,
+        "ratio_of_means_reduction_pct": 12.372574235501322,
+        "mean_paired_reduction_pct": 14.070175229432188,
+        "regressions": 6,
+        "new_failures": 0,
+        "worst_regression_s": 709.0317020000002,
+        "worst_regression_case_id": "round-new_stress-p3-0001-b3ed57f5a71169a1",
+        "worst_regression_pct": 15.187121852660557,
+        "bootstrap": {
+          "ci95_s": [
+            -844.2824362645833,
+            -260.1669916843753
+          ],
+          "ci975_s": [
+            -886.1562388364582,
+            -226.46371760781253
+          ],
+          "draws": 10000,
+          "seed": 3732714656328480376,
+          "unit": "paired whole case; resample within this displayed group"
+        }
+      }
+    },
+    "4": {
+      "passed": true,
+      "conditions": {
+        "confirmation_all_complete": true,
+        "stress_all_complete": true,
+        "both_H_mean_noninferior": true,
+        "primary_ci975_below_zero": true
+      },
+      "selected": "p4_hull_L2_d1200",
+      "recommended": "p4_hull_L2_d1200",
+      "confirmation": {
+        "partition": "confirmation",
+        "problem": 4,
+        "hypothesis": "design_mixture",
+        "selected": "p4_hull_L2_d1200",
+        "baseline": {
+          "n": 120,
+          "complete": 120,
+          "failures": 0,
+          "mean_penalized_T_s": 10875.986770075,
+          "mean_penalized_T_per_N_s": 871.4564305512563,
+          "mean_success_T_s": 10875.986770075,
+          "mean_success_T_per_N_s": 871.4564305512563,
+          "p95_success_T_s": 12398.752039399998,
+          "max_success_T_s": 13135.398658,
+          "max_program_real_s": 3.1071024999255314,
+          "cost_observed_n": 120,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 42608.475520321845,
+            "measures": 333.06666666666666,
+            "switches": 310.31666666666666,
+            "clear_attempts": 117.70833333333333,
+            "clear_successes": 12.758333333333333,
+            "clear_failures": 104.95,
+            "movement_cost_s": 8521.695103408349,
+            "measurement_cost_s": 1665.3333333333333,
+            "switch_cost_s": 310.31666666666666,
+            "optical_attempt_cost_s": 353.125,
+            "laser_cost_s": 25.516666666666666
+          }
+        },
+        "candidate": {
+          "n": 120,
+          "complete": 120,
+          "failures": 0,
+          "mean_penalized_T_s": 9643.020999966666,
+          "mean_penalized_T_per_N_s": 778.1103926652997,
+          "mean_success_T_s": 9643.020999966666,
+          "mean_success_T_per_N_s": 778.1103926652997,
+          "p95_success_T_s": 10757.03765485,
+          "max_success_T_s": 11499.296353,
+          "max_program_real_s": 4.521166100050323,
+          "cost_observed_n": 120,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 37708.10499716869,
+            "measures": 324.025,
+            "switches": 290.0833333333333,
+            "clear_attempts": 55.225,
+            "clear_successes": 12.758333333333333,
+            "clear_failures": 42.46666666666667,
+            "movement_cost_s": 7541.620999966666,
+            "measurement_cost_s": 1620.125,
+            "switch_cost_s": 290.0833333333333,
+            "optical_attempt_cost_s": 165.675,
+            "laser_cost_s": 25.516666666666666
+          }
+        },
+        "mean_delta_s": -1232.9657701083333,
+        "ratio_of_means_reduction_pct": 11.336587623486338,
+        "mean_paired_reduction_pct": 10.980826471014378,
+        "regressions": 11,
+        "new_failures": 0,
+        "worst_regression_s": 658.8546809999989,
+        "worst_regression_case_id": "round-new_confirmation-p4-0044-55a566f58001373b",
+        "worst_regression_pct": 8.906480659642945,
+        "bootstrap": {
+          "ci95_s": [
+            -1454.5149794752083,
+            -1027.4217211952086
+          ],
+          "ci975_s": [
+            -1486.9156081672913,
+            -999.1059261517707
+          ],
+          "draws": 10000,
+          "seed": 16458386928364537567,
+          "unit": "paired whole case; resample within this displayed group"
+        }
+      },
+      "stress": {
+        "partition": "stress",
+        "problem": 4,
+        "hypothesis": "design_mixture",
+        "selected": "p4_hull_L2_d1200",
+        "baseline": {
+          "n": 24,
+          "complete": 24,
+          "failures": 0,
+          "mean_penalized_T_s": 10094.323696166666,
+          "mean_penalized_T_per_N_s": 828.7497164760416,
+          "mean_success_T_s": 10094.323696166666,
+          "mean_success_T_per_N_s": 828.7497164760416,
+          "p95_success_T_s": 12583.089763049997,
+          "max_success_T_s": 12867.748553,
+          "max_program_real_s": 3.2290273000253364,
+          "cost_observed_n": 24,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 39024.11848441669,
+            "measures": 338.5416666666667,
+            "switches": 316.6666666666667,
+            "clear_attempts": 84.70833333333333,
+            "clear_successes": 13.0,
+            "clear_failures": 71.70833333333333,
+            "movement_cost_s": 7804.823696166674,
+            "measurement_cost_s": 1692.7083333333333,
+            "switch_cost_s": 316.6666666666667,
+            "optical_attempt_cost_s": 254.125,
+            "laser_cost_s": 26.0
+          }
+        },
+        "candidate": {
+          "n": 24,
+          "complete": 24,
+          "failures": 0,
+          "mean_penalized_T_s": 8382.800752500001,
+          "mean_penalized_T_per_N_s": 705.543789065625,
+          "mean_success_T_s": 8382.800752500001,
+          "mean_success_T_per_N_s": 705.543789065625,
+          "p95_success_T_s": 10075.23601975,
+          "max_success_T_s": 10190.272238,
+          "max_program_real_s": 5.236201300052926,
+          "cost_observed_n": 24,
+          "mean_costs_and_calls": {
+            "walk_distance_m": 31705.67043906548,
+            "measures": 312.375,
+            "switches": 284.7916666666667,
+            "clear_attempts": 56.333333333333336,
+            "clear_successes": 13.0,
+            "clear_failures": 43.333333333333336,
+            "movement_cost_s": 6341.134085833334,
+            "measurement_cost_s": 1561.875,
+            "switch_cost_s": 284.7916666666667,
+            "optical_attempt_cost_s": 169.0,
+            "laser_cost_s": 26.0
+          }
+        },
+        "mean_delta_s": -1711.5229436666666,
+        "ratio_of_means_reduction_pct": 16.955300772815697,
+        "mean_paired_reduction_pct": 17.148557816773554,
+        "regressions": 1,
+        "new_failures": 0,
+        "worst_regression_s": 184.9564250000003,
+        "worst_regression_case_id": "round-new_stress-p4-0005-9b81bad91161fb51",
+        "worst_regression_pct": 2.4947486865323887,
+        "bootstrap": {
+          "ci95_s": [
+            -2382.881834329167,
+            -1114.4858638625003
+          ],
+          "ci975_s": [
+            -2480.3198006697917,
+            -1055.7704889213542
+          ],
+          "draws": 10000,
+          "seed": 17220253274290670306,
+          "unit": "paired whole case; resample within this displayed group"
+        }
+      }
+    }
+  },
+  "selection_sha256": "61a82027c350d07a186d1ca8cd783f7faa22b57066329c3e838ccd95d85d5b60",
+  "acceptance_sha256": "696d9b225dd98f1e06b4332c878baffa9eaadfc76b03946145dd6d49bd940e63",
+  "independent_audit_sha256": "c61bc3e554ded0b7d3fbdb509acbc6093a6897f47811d14360b8991d4b58c56c",
+  "statement": "Synthetic validation only; no claim of global optimality or new official score."
+}

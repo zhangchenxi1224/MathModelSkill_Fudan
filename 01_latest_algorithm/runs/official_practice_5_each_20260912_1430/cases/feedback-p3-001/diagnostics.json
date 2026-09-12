@@ -1,0 +1,32 @@
+{
+  "case_id": "feedback-p3-001",
+  "problem": 3,
+  "case_code": "AJTU-7P9Y-SY88-VXX7",
+  "measurement_outcomes": {
+    "direction": 32,
+    "no_signal": 54
+  },
+  "planning_calls": 28,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 17,
+    "cover": 11
+  },
+  "http_records": 125,
+  "decision_records": 184,
+  "http_outcomes": {
+    "accepted": 125
+  },
+  "costs": {
+    "move_s": 2665.246912797028,
+    "measure_s": 430,
+    "switch_s": 80,
+    "clear_s": 141
+  },
+  "timing_residual_s": 2.029719325946644e-07,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 167.2227939999998,
+  "feedback_no_signal": 54,
+  "feedback_pruned_clear_points": 0,
+  "original_log_retained": true
+}
