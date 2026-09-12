@@ -1,0 +1,5042 @@
+[
+  {
+    "id": "synthetic-0000",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0001",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0002",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0003",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0004",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0005",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0006",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0007",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0008",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0009",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0010",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0011",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0012",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0013",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0014",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0015",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0016",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0017",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0018",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0019",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0020",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0021",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0022",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0023",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0024",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0025",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0026",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0027",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0028",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0029",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0030",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0031",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0032",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0033",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0034",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0035",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0036",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0037",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0038",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0039",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0040",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0041",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0042",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0043",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0044",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0045",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0046",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0047",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0048",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0049",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0050",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0051",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0052",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0053",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0054",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0055",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0056",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0057",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0058",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0059",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0060",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0061",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0062",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0063",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0064",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0065",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0066",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0067",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0068",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0069",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0070",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0071",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0072",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0073",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0074",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0075",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0076",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0077",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0078",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0079",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0080",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0081",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0082",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0083",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0084",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0085",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0086",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0087",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0088",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0089",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0090",
+    "source": [
+      100.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0091",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0092",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0093",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0094",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0095",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0096",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0097",
+    "source": [
+      300.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0098",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0099",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0100",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0101",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0102",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0103",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0104",
+    "source": [
+      600.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0105",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0106",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0107",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0108",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0109",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0110",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0111",
+    "source": [
+      1000.0,
+      0.0
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0112",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0113",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0114",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0115",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0116",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0117",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0118",
+    "source": [
+      1250.0,
+      0.0
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0119",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0120",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0121",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0122",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0123",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0124",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0125",
+    "source": [
+      1500.0,
+      0.0
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      0.0,
+      0.0
+    ],
+    "true_angle": 0.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0126",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0127",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0128",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0129",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0130",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0131",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0132",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0133",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0134",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0135",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0136",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0137",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0138",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0139",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0140",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0141",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0142",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0143",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0144",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0145",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0146",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0147",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0148",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0149",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0150",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0151",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0152",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0153",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0154",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0155",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0156",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0157",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0158",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0159",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0160",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0161",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0162",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0163",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0164",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0165",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0166",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0167",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0168",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0169",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0170",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0171",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0172",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0173",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0174",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0175",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0176",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0177",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0178",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0179",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0180",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0181",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0182",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0183",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0184",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0185",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0186",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0187",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0188",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0189",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0190",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0191",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0192",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0193",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0194",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0195",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0196",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0197",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0198",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0199",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0200",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0201",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0202",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0203",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0204",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0205",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0206",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0207",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0208",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0209",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0210",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0211",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0212",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0213",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0214",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0215",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0216",
+    "source": [
+      1500.0,
+      1.2246467991473532e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0217",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0218",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0219",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0220",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0221",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0222",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0223",
+    "source": [
+      1300.0,
+      3.6739403974420595e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0224",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0225",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0226",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0227",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0228",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0229",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0230",
+    "source": [
+      1000.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0231",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0232",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0233",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0234",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0235",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0236",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0237",
+    "source": [
+      600.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0238",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0239",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0240",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0241",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0242",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0243",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0244",
+    "source": [
+      350.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0245",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0246",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0247",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0248",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0249",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0250",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0251",
+    "source": [
+      100.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      1600.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0252",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0253",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0254",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0255",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0256",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0257",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0258",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0259",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0260",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0261",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0262",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0263",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0264",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0265",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0266",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0267",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0268",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0269",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0270",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0271",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0272",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0273",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0274",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0275",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0276",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0277",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0278",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0279",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": -1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0280",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0281",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0282",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0283",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0284",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0285",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0286",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0287",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0288",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0289",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0290",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0291",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0292",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0293",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0294",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0295",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0296",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0297",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0298",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0299",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0300",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0301",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0302",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0303",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0304",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0305",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0306",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0307",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 0.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0308",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0309",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0310",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0311",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0312",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0313",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0314",
+    "source": [
+      1600.0,
+      7.347880794884119e-14
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0315",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0316",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0317",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0318",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0319",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0320",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0321",
+    "source": [
+      1200.0,
+      1.2246467991473532e-13
+    ],
+    "radius": 1000.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0322",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0323",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0324",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0325",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0326",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0327",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0328",
+    "source": [
+      950.0,
+      1.5308084989341916e-13
+    ],
+    "radius": 1250.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  },
+  {
+    "id": "synthetic-0329",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -1.0
+  },
+  {
+    "id": "synthetic-0330",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.75
+  },
+  {
+    "id": "synthetic-0331",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": -0.5
+  },
+  {
+    "id": "synthetic-0332",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.0
+  },
+  {
+    "id": "synthetic-0333",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.5
+  },
+  {
+    "id": "synthetic-0334",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 0.75
+  },
+  {
+    "id": "synthetic-0335",
+    "source": [
+      700.0,
+      1.8369701987210297e-13
+    ],
+    "radius": 1500.0,
+    "first_position": [
+      2200.0,
+      0.0
+    ],
+    "true_angle": 180.0,
+    "first_error": 1.0,
+    "other_coordinate_error": 1.0
+  }
+]

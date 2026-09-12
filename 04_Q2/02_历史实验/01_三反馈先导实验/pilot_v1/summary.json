@@ -1,0 +1,111 @@
+{
+  "contexts": 1,
+  "worlds": 180,
+  "paired_rows": 720,
+  "new_official_calls": 0,
+  "official_results_scope": "public first-observation model bounds only",
+  "primary_metric": "worst legal feedback MEC radius interval, same evaluator for every method",
+  "global_optimality_claim": false,
+  "context_comparison": [
+    {
+      "context_id": "center",
+      "modes": {
+        "old_fixed": {
+          "point_local": [
+            700.0,
+            400.0
+          ],
+          "point_global": [
+            700.0,
+            400.0
+          ],
+          "lower_m": 78.532642,
+          "upper_m": 78.71029539834424,
+          "gap_m": 0.17765339834424765,
+          "gap_reached": true,
+          "elapsed_s": 0.27399330004118383,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "old_precision": {
+          "point_local": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "point_global": [
+            822.4454480692101,
+            575.8825025043233
+          ],
+          "lower_m": 55.555878,
+          "upper_m": 55.71727496422965,
+          "gap_m": 0.16139696422965244,
+          "gap_reached": true,
+          "elapsed_s": 0.43534700002055615,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_seed": {
+          "point_local": [
+            850.0,
+            600.0
+          ],
+          "point_global": [
+            850.0,
+            600.0
+          ],
+          "lower_m": 52.91651,
+          "upper_m": 53.09496870308454,
+          "gap_m": 0.17845870308453726,
+          "gap_reached": true,
+          "elapsed_s": 0.5280160999391228,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        },
+        "open_search": {
+          "point_local": [
+            886.58855358,
+            -621.53634069
+          ],
+          "point_global": [
+            886.58855358,
+            -621.53634069
+          ],
+          "lower_m": 50.122607,
+          "upper_m": 50.27065244947306,
+          "gap_m": 0.14804544947305942,
+          "gap_reached": true,
+          "elapsed_s": 0.5456968999933451,
+          "upper_status": "analytic_arc_numeric_enclosure"
+        }
+      },
+      "search_evaluations": 222
+    }
+  ],
+  "synthetic_secondary": {
+    "old_fixed": {
+      "n": 180,
+      "mean_radius_upper_m": 31.339166990318944,
+      "sample_max_radius_upper_m": 78.59039672395261,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    },
+    "old_precision": {
+      "n": 180,
+      "mean_radius_upper_m": 27.504758502895925,
+      "sample_max_radius_upper_m": 55.5421432217631,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    },
+    "open_search": {
+      "n": 180,
+      "mean_radius_upper_m": 29.01516719407715,
+      "sample_max_radius_upper_m": 50.056590086877755,
+      "no_signal_count": 15,
+      "all_truths_covered": true
+    },
+    "open_seed": {
+      "n": 180,
+      "mean_radius_upper_m": 27.38629636985258,
+      "sample_max_radius_upper_m": 52.928680352960654,
+      "no_signal_count": 0,
+      "all_truths_covered": true
+    }
+  }
+}

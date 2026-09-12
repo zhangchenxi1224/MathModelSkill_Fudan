@@ -1,0 +1,32 @@
+{
+  "source_files": {
+    "evaluator.py": "ce03919dec427a84bb25dd7fdb6767647d6ff908f0031765dd1bc72d7c8e40be",
+    "experiment.py": "d1180b79a2b0155f094363382cbc97f1db223128a63af7725ced365bbdbb33fd",
+    "geometry.py": "08c9d3928472e7f81eb0b79a1abdba70a31396f6e021faecc5b0a1f65a07d822",
+    "model.py": "df7d39118cecb87a221a12e25fd0b71077d93caea72119e346c8bde911b7c59a",
+    "search.py": "26ccfa2f4af69c16f03c11ff67d11eee21df976ce522a9c073b5f7a7b95802b9",
+    "vendor/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "inputs/baseline_official_contexts.json": "1d4b386758cabdad2f2b1958fb66ac1e9efec798c9331c1f60a801bc293fbd50",
+    "inputs/baseline_synthetic_selections.json": "e5eebde668719c94704532ee1e1046e703bf81b12d9189cede4f8c7fe4c8065b",
+    "inputs/official_first_contexts.json": "12c5ac7f41caf65f1fda81141b0ba7e428ec444f4eea196ed1078d48fa0aecf8"
+  },
+  "settings": {
+    "output": "results\\pilot_v1",
+    "budget": 60,
+    "official_cases": 2,
+    "workers": 1,
+    "canonical_only": true
+  },
+  "contexts": [
+    {
+      "id": "center",
+      "station": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 0.0
+    }
+  ],
+  "report_error_deg": 1.0,
+  "report_grid_deg": 0.01
+}

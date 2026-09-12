@@ -1,0 +1,3650 @@
+[
+  {
+    "context_id": "r1-p3-survey-001-ch01",
+    "case_id": "r1-p3-survey-001",
+    "first": {
+      "position": [
+        -1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 28.6,
+      "outcome": "direction",
+      "sequence": 121,
+      "phase": "coverage",
+      "station_id": "coverage:006",
+      "request_id_sha256": "35c06008b717871595f2acbb4de30b2ca1d4e8122496c3f79e4697b8268fbc1a"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -752.7809008361603,
+          -16.108889612767427
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.8642375146217,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.50406689948579
+      },
+      "active": {
+        "point": [
+          -1121.8964429898601,
+          -18.036722743568077
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.0640288495673,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.22740434541313
+      },
+      "precision": {
+        "point": [
+          -1112.4228902682662,
+          899.3129726367023
+        ],
+        "movement_m": 1004.0205036454215,
+        "coarse_radius_upper_m": 63.59045259387414,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864035,
+          "margin_m": 0.019999913596507213,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.677729078272684
+      },
+      "precision_800": {
+        "point": [
+          -774.6287871146119,
+          -158.1258723033009
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.21413782109603,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.89954807781633
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-001-ch02",
+    "case_id": "r1-p3-survey-001",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 21.91,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "71adef6bb5a3eadb4f39abe0b8a32dad0df546780a39cda0d1331475c48c7e16"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          500.1799128352949,
+          632.3132568561857
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.24483757215471,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.88663340390708
+      },
+      "active": {
+        "point": [
+          431.87286376517767,
+          -68.81736367563252
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.10257658331227,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.1894931713503
+      },
+      "precision": {
+        "point": [
+          548.150760255229,
+          841.1824509415422
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.59083363185492,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67806870521144
+      },
+      "precision_800": {
+        "point": [
+          760.4559523331039,
+          -248.40842288688987
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.2355243828143,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91876601655459
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 27.585009403582717,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-002-ch02",
+    "case_id": "r1-p3-survey-002",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 64.43,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "7e3b95eaf6cff6008b99f53aaa684307272a18c2a0356173cf4415d12a89a2a5"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -58.694013105729766,
+          804.0864461148094
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.78502820817518,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.42219643135996
+      },
+      "active": {
+        "point": [
+          -41.10813533173973,
+          435.38502639565746
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.11804962587874,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719423,
+          "margin_m": 329.7321216280577,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.16597266721377
+      },
+      "precision": {
+        "point": [
+          874.4583395103485,
+          493.33536686640434
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.5892822509785,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863999,
+          "margin_m": 0.01999991360014519,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67668592782846
+      },
+      "precision_800": {
+        "point": [
+          -199.35760160723396,
+          774.7622517142994
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.244109359882,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.92648048769789
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 209.46092030812267,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-002-ch03",
+    "case_id": "r1-p3-survey-002",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 27.63,
+      "outcome": "direction",
+      "sequence": 3,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "94b48b2347937fdd3a74b8f7c3e957840a236f0fe92e9ae1b5a16d8dc1dadd0f"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          805.6766082487145,
+          -29.75235992064006
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.17186395969127,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.81440923791567
+      },
+      "active": {
+        "point": [
+          227.88933169000012,
+          373.2511922310297
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.06686863844206,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719425,
+          "margin_m": 329.7321216280575,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.22272745235497
+      },
+      "precision": {
+        "point": [
+          995.7257517689945,
+          -128.79207663702064
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.590094054730336,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863996,
+          "margin_m": 0.019999913600372565,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67740950502295
+      },
+      "precision_800": {
+        "point": [
+          304.468986371926,
+          739.7963478807204
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.21571330544106,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.9009638036114
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 27.605448360019597,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-003-ch03",
+    "case_id": "r1-p3-survey-003",
+    "first": {
+      "position": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 240.79,
+      "outcome": "direction",
+      "sequence": 63,
+      "phase": "coverage",
+      "station_id": "coverage:003",
+      "request_id_sha256": "ec53b8678c4e2ff7cddd19eb30902e716f204266d29f609d35fc82b6184ec73d"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          1566.3720896268478,
+          -806.190643621457
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.75111386143854,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.38733469738794
+      },
+      "active": {
+        "point": [
+          1572.2295309956794,
+          -437.11654485454176
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.1381162791702,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.13853165051424
+      },
+      "precision": {
+        "point": [
+          654.83096671245,
+          -436.8231739074496
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.587898488586525,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864033,
+          "margin_m": 0.019999913596734586,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.675452552414086
+      },
+      "precision_800": {
+        "point": [
+          1708.613623024276,
+          -785.8559519811158
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.25524338962657,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343166,
+          "margin_m": 203.76649746568341,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.93648555872244
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 720.5783649668695,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-003-ch04",
+    "case_id": "r1-p3-survey-003",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 3.06,
+      "outcome": "direction",
+      "sequence": 4,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "037498e8e32098945007a77c7c7e471525f0e11e5134c03f23343cb294af7b0e"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          677.6492508801526,
+          436.7968552789362
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.28639507739842,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.92806287836393
+      },
+      "active": {
+        "point": [
+          386.4761981155373,
+          -204.66105709235453
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.119821354521,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.163418657788
+      },
+      "precision": {
+        "point": [
+          790.5312087349953,
+          618.964926111644
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58913316554576,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.676553044958354
+      },
+      "precision_800": {
+        "point": [
+          639.4122329997972,
+          -480.7826913380026
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.245092391358,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.92736384178329
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-004-ch05",
+    "case_id": "r1-p3-survey-004",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 50.62,
+      "outcome": "direction",
+      "sequence": 5,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "73964f0762185ae50e24d9cf0a97bd5bd14b05e2d5c37976eee0ed8519c562c2"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          134.94048208041255,
+          794.8528582674317
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.0041328820279,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.64612452322044
+      },
+      "active": {
+        "point": [
+          64.00788230206106,
+          432.6118248536504
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.0093703867102,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719425,
+          "margin_m": 329.7321216280575,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.35099620969464
+      },
+      "precision": {
+        "point": [
+          966.9406583619092,
+          270.3385561606838
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.604243373140065,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.69002109061493
+      },
+      "precision_800": {
+        "point": [
+          -8.65666414566145,
+          799.9531624825727
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 86.1838154769317,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.96556155039977
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 74.07283589273547,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-004-ch08",
+    "case_id": "r1-p3-survey-004",
+    "first": {
+      "position": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 106.05,
+      "outcome": "direction",
+      "sequence": 88,
+      "phase": "coverage",
+      "station_id": "coverage:004",
+      "request_id_sha256": "46ba186f502a92eda67ee76e1b30a5179c0c178779a0ecb52fb8d6709c624b0f"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          970.2979029132186,
+          -566.6950023821397
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.29327247837946,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.93519783867568
+      },
+      "active": {
+        "point": [
+          459.51464424830897,
+          -1051.8243280960733
+        ],
+        "movement_m": 437.3213921133976,
+        "coarse_radius_upper_m": 186.11978581696627,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.15241791147182
+      },
+      "precision": {
+        "point": [
+          1105.471403439976,
+          -400.39507094680926
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58686801510435,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864033,
+          "margin_m": 0.019999913596734586,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.674534070672955
+      },
+      "precision_800": {
+        "point": [
+          115.80266765800741,
+          -903.2246249003836
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.24507267355656,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343166,
+          "margin_m": 203.76649746568341,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.92734612332195
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-005-ch01",
+    "case_id": "r1-p3-survey-005",
+    "first": {
+      "position": [
+        -779.4228634059943,
+        1350.0
+      ],
+      "report_deg": 239.27,
+      "outcome": "direction",
+      "sequence": 21,
+      "phase": "coverage",
+      "station_id": "coverage:001",
+      "request_id_sha256": "061c7b5a07b270f0761561f1e53d069fbf8bda86ba84f780827b6835ce07133d"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -1480.951942896734,
+          952.6878423344241
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.76949603861641,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.40624445411385
+      },
+      "active": {
+        "point": [
+          -1164.4518506413442,
+          1142.6291269524077
+        ],
+        "movement_m": 437.3213921133974,
+        "coarse_radius_upper_m": 186.12701328753496,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.15332136799668
+      },
+      "precision": {
+        "point": [
+          -704.6669187505054,
+          348.7664006441498
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58858340223769,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.676063029785475
+      },
+      "precision_800": {
+        "point": [
+          -1534.6019667119722,
+          1085.9838604744414
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.24908281849419,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.93094964935105
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 556.0892065692431,
+      "movement_between_two_positive_stations_m": 1558.8457268119896,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-005-ch03",
+    "case_id": "r1-p3-survey-005",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 221.8,
+      "outcome": "direction",
+      "sequence": 3,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "f77914c270d80db12c87a6002eb61b696ccb99884db3143052d4fbc3f3645760"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -255.22021167822237,
+          -764.7631290477616
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.82632132458245,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.4644966638316
+      },
+      "active": {
+        "point": [
+          -129.58369407494644,
+          -417.6817762721887
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.0959726459812,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719423,
+          "margin_m": 329.7321216280577,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.20025553670834
+      },
+      "precision": {
+        "point": [
+          -996.9577295516569,
+          -118.88001189270987
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.59164424946767,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67879122529778
+      },
+      "precision_800": {
+        "point": [
+          -114.10314696440945,
+          -791.8209847262311
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.23186036431103,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91547352860812
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 33.536761005566426,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-006-ch02",
+    "case_id": "r1-p3-survey-006",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 304.98,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "30b3e64c1911b9ff0b36b9744de9fbe1549757566fedc26a7477df0b606134da"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          729.0442085156843,
+          -344.2303618650445
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 89.81786996804884,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.45652493089082
+      },
+      "active": {
+        "point": [
+          399.33817110117934,
+          -178.26672460547775
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.08950490474365,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719422,
+          "margin_m": 329.7321216280578,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.18916528517713
+      },
+      "precision": {
+        "point": [
+          -0.3504692638053108,
+          -1004.020442476995
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58799890101506,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.675542052037315
+      },
+      "precision_800": {
+        "point": [
+          772.6683380426072,
+          -207.3249608379932
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.22827195316688,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91224898358118
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 199.92347545345348,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-006-ch03",
+    "case_id": "r1-p3-survey-006",
+    "first": {
+      "position": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 248.18,
+      "outcome": "direction",
+      "sequence": 63,
+      "phase": "coverage",
+      "station_id": "coverage:003",
+      "request_id_sha256": "beac52e0b28bceb07896aa65ac33ee45c5d9b7361cf3bb1790a7d36661de8f0b"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          1670.003841277679,
+          -798.5260631866894
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.78502820817978,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.4221964313645
+      },
+      "active": {
+        "point": [
+          1628.3413896166905,
+          -431.7642329458697
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.1180496258969,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.16597266722061
+      },
+      "precision": {
+        "point": [
+          718.5253464841393,
+          -549.4714097622033
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.589282250984056,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864035,
+          "margin_m": 0.019999913596507213,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.676685927834086
+      },
+      "precision_800": {
+        "point": [
+          1808.448364162721,
+          -760.0648152806175
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.24410935989219,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.92648048770697
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 52.65608659640386,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-007-ch02",
+    "case_id": "r1-p3-survey-007",
+    "first": {
+      "position": [
+        779.4228634059949,
+        1349.9999999999998
+      ],
+      "report_deg": 200.97,
+      "outcome": "direction",
+      "sequence": 42,
+      "phase": "coverage",
+      "station_id": "coverage:002",
+      "request_id_sha256": "f1d87cbcf8589bf35f852016b38f8e51d5a0a09ed802356bd29fd8c4af257f4d"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          268.93693728150595,
+          725.9774689734168
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.1194947932366,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.76206290374827
+      },
+      "active": {
+        "point": [
+          348.7370933334586,
+          1425.8931318172226
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.04659302751602,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719463,
+          "margin_m": 329.73212162805373,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.25896256010816
+      },
+      "precision": {
+        "point": [
+          217.54597151896928,
+          517.9233628422309
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.593237297135566,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864035,
+          "margin_m": 0.019999913596507213,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.680211141510156
+      },
+      "precision_800": {
+        "point": [
+          23.14448027766025,
+          1610.8505457398771
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.20446479256522,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.89085593052774
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 5.274900624116444,
+      "movement_between_two_positive_stations_m": 283.4365208477802,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-007-ch03",
+    "case_id": "r1-p3-survey-007",
+    "first": {
+      "position": [
+        -779.4228634059943,
+        1350.0
+      ],
+      "report_deg": 56.79,
+      "outcome": "direction",
+      "sequence": 23,
+      "phase": "coverage",
+      "station_id": "coverage:001",
+      "request_id_sha256": "0be7e447dfdeb0d2f54de8abf1752fafa616620c38bd8dba5255f0de85d0aa90"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -730.69387591477,
+          2154.7518162626784
+        ],
+        "movement_m": 806.2257748298547,
+        "coarse_radius_upper_m": 39.663598322367825,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959935,
+          "margin_m": 198.06718320400648,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 1.4551915228366852e-11
+        },
+        "fine_radius_upper_m": 30.626199048849198
+      },
+      "active": {
+        "point": [
+          -653.2487714757706,
+          1356.0433300971017
+        ],
+        "movement_m": 126.31873698339092,
+        "coarse_radius_upper_m": 47.174333914789344,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 933.4027550472202,
+          "margin_m": 66.59724495277976,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 42.00058989890853
+      },
+      "precision": {
+        "point": [
+          -396.47489199959523,
+          1465.5458835083436
+        ],
+        "movement_m": 400.0,
+        "coarse_radius_upper_m": 15.596379092074264,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 745.8411733106265,
+          "margin_m": 254.15882668937354,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 11.907407578369183
+      },
+      "precision_800": {
+        "point": [
+          -396.47489199959523,
+          1465.5458835083436
+        ],
+        "movement_m": 400.0,
+        "coarse_radius_upper_m": 15.596379092074264,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 745.8411733106265,
+          "margin_m": 254.15882668937354,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 11.907407578369183
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 29.468621230565375,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-008-ch03",
+    "case_id": "r1-p3-survey-008",
+    "first": {
+      "position": [
+        -779.4228634059954,
+        -1349.9999999999995
+      ],
+      "report_deg": 113.58,
+      "outcome": "direction",
+      "sequence": 103,
+      "phase": "coverage",
+      "station_id": "coverage:005",
+      "request_id_sha256": "f15285357a50aa1ae33e1c00f53ede8056aaf630ebb00b4c3311c9ba78e478a7"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -1426.04422823484,
+          -868.4599595600768
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 89.77882280378117,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959867,
+          "margin_m": 198.0671832040133,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.41626823553787
+      },
+      "active": {
+        "point": [
+          -1135.6468347990217,
+          -1096.3181476632972
+        ],
+        "movement_m": 437.3213921133977,
+        "coarse_radius_upper_m": 186.1145027644325,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.15827530277832
+      },
+      "precision": {
+        "point": [
+          -580.6272981428194,
+          -365.8569743314232
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58695170595965,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.67460866601276
+      },
+      "precision_800": {
+        "point": [
+          -1495.8680623785913,
+          -994.0417484182759
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 86.24214141765373,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343166,
+          "margin_m": 203.76649746568341,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.9247120912823
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 121.53815605119513,
+      "movement_between_two_positive_stations_m": 1558.8457268119887,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-008-ch04",
+    "case_id": "r1-p3-survey-008",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 118.77,
+      "outcome": "direction",
+      "sequence": 4,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "62ec2593516a730bf60a0005e5a09c1b8fd89930b103983875e4a29fa6c3b890"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          13.717179731458941,
+          806.109073872894
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.81786996805033,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.45652493089207
+      },
+      "active": {
+        "point": [
+          16.740190629824582,
+          437.0008764495526
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.08950490474572,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.18916528517997
+      },
+      "precision": {
+        "point": [
+          -900.6335753908556,
+          443.7525601268004
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58799890101841,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.675542052040605
+      },
+      "precision_800": {
+        "point": [
+          155.79836119162903,
+          784.6826560145207
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.22827195316765,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343127,
+          "margin_m": 203.76649746568728,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91224898358396
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 639.5722041036598,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-009-ch01",
+    "case_id": "r1-p3-survey-009",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 64.41,
+      "outcome": "direction",
+      "sequence": 1,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "1639c157b1da65221c48ab55d825ed438bb1a560a10e08cfa6e1bf157905d0e4"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -58.41333041647863,
+          804.1068852022444
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 89.79129547989051,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959831,
+          "margin_m": 198.06718320401694,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.42862657660775
+      },
+      "active": {
+        "point": [
+          -40.956154785885445,
+          435.3993493164116
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.11453767186663,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.17111631220772
+      },
+      "precision": {
+        "point": [
+          874.6304927611704,
+          493.03009327297445
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58959439566687,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67696414873023
+      },
+      "precision_800": {
+        "point": [
+          -199.08714642291477,
+          774.8317934424095
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.24216078564929,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.92472949539528
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 125.3311180841141,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-009-ch04",
+    "case_id": "r1-p3-survey-009",
+    "first": {
+      "position": [
+        -779.4228634059943,
+        1350.0
+      ],
+      "report_deg": 171.55,
+      "outcome": "direction",
+      "sequence": 24,
+      "phase": "coverage",
+      "station_id": "coverage:001",
+      "request_id_sha256": "804623f18300cdecf76cd2fa387c5b77b7f21e1b55f4e28157647eeb963dbb8e"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -1530.602506086103,
+          1057.204603139011
+        ],
+        "movement_m": 806.2257748298548,
+        "coarse_radius_upper_m": 39.07669971942205,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959864,
+          "margin_m": 198.06718320401365,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 30.62490741171615
+      },
+      "active": {
+        "point": [
+          -855.9246681708581,
+          1271.660892328822
+        ],
+        "movement_m": 109.49676672394374,
+        "coarse_radius_upper_m": 35.46209845330587,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 941.7020763797296,
+          "margin_m": 58.29792362027035,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 31.476817254273087
+      },
+      "precision": {
+        "point": [
+          -1078.7737396478583,
+          1084.6906468040972
+        ],
+        "movement_m": 400.0,
+        "coarse_radius_upper_m": 13.241612038688665,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 810.3079842122894,
+          "margin_m": 189.6920157877106,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 10.072909467764804
+      },
+      "precision_800": {
+        "point": [
+          -1078.7737396478583,
+          1084.6906468040972
+        ],
+        "movement_m": 400.0,
+        "coarse_radius_upper_m": 13.241612038688665,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 810.3079842122894,
+          "margin_m": 189.6920157877106,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 10.072909467764804
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 78.00608199534891,
+      "movement_between_two_positive_stations_m": 422.5254488143887,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-010-ch01",
+    "case_id": "r1-p3-survey-010",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 221.28,
+      "outcome": "direction",
+      "sequence": 1,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "a6308291aaf2467da8b7e6cc5f9f6002b721f22d0093641293989c25cdbfde45"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -262.1503753996768,
+          -762.4153596811966
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.00464616841396,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.64563241723322
+      },
+      "active": {
+        "point": [
+          -133.36906481658016,
+          -416.4885263124914
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.02539887146094,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.35746935132073
+      },
+      "precision": {
+        "point": [
+          -997.9955768041885,
+          -109.82713881222955
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.60896691884997,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.694231290771675
+      },
+      "precision_800": {
+        "point": [
+          -121.28468838727149,
+          -790.7528212803305
+        ],
+        "movement_m": 799.9999999999999,
+        "coarse_radius_upper_m": 86.19270713163476,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.9634125675189
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 38.18793565481649,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-010-ch03",
+    "case_id": "r1-p3-survey-010",
+    "first": {
+      "position": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 223.01,
+      "outcome": "direction",
+      "sequence": 63,
+      "phase": "coverage",
+      "station_id": "coverage:003",
+      "request_id_sha256": "5d790a9d285cf3e7fee2b54478b92eba3c23b9ff71511d406123e5abe687ef57"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          1319.8318632838168,
+          -769.9820602074675
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 89.96984947272516,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.61147775535942
+      },
+      "active": {
+        "point": [
+          1438.1110784394896,
+          -420.3250464609132
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.02008678292856,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719458,
+          "margin_m": 329.7321216280542,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.31971658332608
+      },
+      "precision": {
+        "point": [
+          564.6206847808731,
+          -139.90617405472398
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.600093022875015,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.68632179395993
+      },
+      "precision_800": {
+        "point": [
+          1461.4888391587015,
+          -794.0539253894946
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.18976027062546,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.92997851484853
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 50.07756890042858,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-011-ch02",
+    "case_id": "r1-p3-survey-011",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 346.34,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "fe1552fb5d63e7ae128b36bdf93601f486e41cd2fb31e374ae60b6a61e4a5315"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          585.7360315428672,
+          -553.9975643921309
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.18612616331316,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.82863801491746
+      },
+      "active": {
+        "point": [
+          417.52879460265365,
+          130.07576898736784
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.07267411952355,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719423,
+          "margin_m": 329.7321216280577,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.21351622054806
+      },
+      "precision": {
+        "point": [
+          663.181635531412,
+          -753.8217893071857
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.5894328738274,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863996,
+          "margin_m": 0.019999913600372565,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67682018103317
+      },
+      "precision_800": {
+        "point": [
+          716.941511916996,
+          354.9575587167737
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.21893414922219,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.90385804602009
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 68.56476535578112,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-011-ch03",
+    "case_id": "r1-p3-survey-011",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 112.02,
+      "outcome": "direction",
+      "sequence": 3,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "e37012c6d0823ed299e3ca10efe063d1abc2d21f7ca01485961505296b84db7e"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -633.2723674506008,
+          498.9650374760854
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 90.20002927781591,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.84188300760057
+      },
+      "active": {
+        "point": [
+          67.98810098256558,
+          432.00418762412994
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.08481988368985,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.21954702161625
+      },
+      "precision": {
+        "point": [
+          -842.2332739626387,
+          546.534796669508
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.593242187877955,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.68021550073189
+      },
+      "precision_800": {
+        "point": [
+          246.9479953629277,
+          760.9314605049731
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.2256726513548,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.90991325317825
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-012-ch02",
+    "case_id": "r1-p3-survey-012",
+    "first": {
+      "position": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 186.6,
+      "outcome": "direction",
+      "sequence": 82,
+      "phase": "coverage",
+      "station_id": "coverage:004",
+      "request_id_sha256": "0931f127323d968d235b3d75ab5a9ddb6a71021068ad58baffedd8279dbe5f2b"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          38.087067288570864,
+          -1033.1068991048478
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.73427325298374,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.37005264858375
+      },
+      "active": {
+        "point": [
+          381.0472174449513,
+          -1169.5925591747355
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.14761896489605,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719463,
+          "margin_m": 329.73212162805373,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.12473374373997
+      },
+      "precision": {
+        "point": [
+          28.618247958574443,
+          -2016.5955304105005
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58707829037043,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.674721493240156
+      },
+      "precision_800": {
+        "point": [
+          111.5445727952698,
+          -909.6154079320031
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.26051611865364,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.94122365520398
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 41.375047961741096,
+      "movement_between_two_positive_stations_m": 1558.8457268119903,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-012-ch03",
+    "case_id": "r1-p3-survey-012",
+    "first": {
+      "position": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 242.56,
+      "outcome": "direction",
+      "sequence": 63,
+      "phase": "coverage",
+      "station_id": "coverage:003",
+      "request_id_sha256": "a1c7a3ca054553b9ad8050096f83f457bf5d3c0cf4196895e8ac38d576410401"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          881.274532057158,
+          -436.9179282640051
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.80728644280995,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.44563475277282
+      },
+      "active": {
+        "point": [
+          1186.3522950995923,
+          -229.12582423446244
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.09594004830825,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.267878371946,
+          "margin_m": 329.73212162805396,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.18066670429354
+      },
+      "precision": {
+        "point": [
+          1690.93904088961,
+          -995.2931870139556
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58761718578549,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.67520182156138
+      },
+      "precision_800": {
+        "point": [
+          820.0631021258434,
+          -306.9205653941249
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.23184227847081,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.91545727667304
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 238.2296760892975,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-013-ch01",
+    "case_id": "r1-p3-survey-013",
+    "first": {
+      "position": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 193.63,
+      "outcome": "direction",
+      "sequence": 81,
+      "phase": "coverage",
+      "station_id": "coverage:004",
+      "request_id_sha256": "4ceae6a6f2846841a62a6e035b5090b3afa201a7425bfc49ab4b4439a3db6810"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          4.876040972291733,
+          -1126.2206000145375
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 74.55022463004252,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 69.13396883454705
+      },
+      "active": {
+        "point": [
+          361.9622335475497,
+          -1219.7056312874947
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 165.77856301157274,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 153.50025494306928
+      },
+      "precision": {
+        "point": [
+          -184.12831763193492,
+          -1066.9595972523375
+        ],
+        "movement_m": 1004.2622904735338,
+        "coarse_radius_upper_m": 53.1580319565489,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000663445,
+          "margin_m": 0.019999933655526547,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 48.62521043621988
+      },
+      "precision_800": {
+        "point": [
+          62.667305100431236,
+          -994.6671002593766
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 75.41163772887226,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 67.24211303401238
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 50.01061495211944,
+      "movement_between_two_positive_stations_m": 1558.8457268119903,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-013-ch03",
+    "case_id": "r1-p3-survey-013",
+    "first": {
+      "position": [
+        779.4228634059949,
+        1349.9999999999998
+      ],
+      "report_deg": 166.94,
+      "outcome": "direction",
+      "sequence": 43,
+      "phase": "coverage",
+      "station_id": "coverage:002",
+      "request_id_sha256": "7972ae90abd5738e16ca7b454f822cd39085f9640a7d63f7875368da4216b87c"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          187.91760524613898,
+          1897.8334870827466
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.108816792923,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.69869711739388
+      },
+      "active": {
+        "point": [
+          363.2790875436568,
+          1215.5590917501813
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 171.01436235860842,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 157.59806721824194
+      },
+      "precision": {
+        "point": [
+          -181.2648904870033,
+          1057.387991382489
+        ],
+        "movement_m": 1004.2622904735337,
+        "coarse_radius_upper_m": 54.975135111930214,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000663445,
+          "margin_m": 0.019999933655526547,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 50.71589463855235
+      },
+      "precision_800": {
+        "point": [
+          66.23770077229983,
+          987.5542470946168
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 77.75499722421587,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 69.63630716667252
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-014-ch01",
+    "case_id": "r1-p3-survey-014",
+    "first": {
+      "position": [
+        -1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 14.72,
+      "outcome": "direction",
+      "sequence": 121,
+      "phase": "coverage",
+      "station_id": "coverage:006",
+      "request_id_sha256": "5e087e969cb4db21104d90730c23991ed5a74323ab76abcbd2068c2aee9145ca"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -983.4585735845732,
+          564.738544727425
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.12098591428997,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959865,
+          "margin_m": 198.06718320401353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.76272224620283
+      },
+      "active": {
+        "point": [
+          -1138.9820553728932,
+          -122.32946254146097
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.0557881958633,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.27787376694963
+      },
+      "precision": {
+        "point": [
+          -909.722858006336,
+          765.9612737821177
+        ],
+        "movement_m": 1004.0205036454215,
+        "coarse_radius_upper_m": 63.59906574847825,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.68540616240456
+      },
+      "precision_800": {
+        "point": [
+          -835.4603903208705,
+          -341.63380241075475
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.20956604100738,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343164,
+          "margin_m": 203.76649746568364,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.89543989140748
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-014-ch02",
+    "case_id": "r1-p3-survey-014",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 174.85,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "c80f26ed4552b8a8e2e6303de9e6c731c26b14d08dfe64a49ebee14362153924"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -661.2687887889888,
+          461.219675397249
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.8642375146315,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.50406689949644
+      },
+      "active": {
+        "point": [
+          -353.28938535790644,
+          257.75300229761183
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.0640288495745,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.22740434542158
+      },
+      "precision": {
+        "point": [
+          -870.8185405893357,
+          -499.7321693730203
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.59045259389237,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67772907829172
+      },
+      "precision_800": {
+        "point": [
+          -564.2025270892942,
+          567.1644456646187
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.21413782110535,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.899548077826
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 109.78741144100364,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-015-ch01",
+    "case_id": "r1-p3-survey-015",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 10.47,
+      "outcome": "direction",
+      "sequence": 1,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "98896c9ad78f9248b41460c75324d7361c89bff510b83e0edfb4c06b5e71aa11"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          615.6568659648033,
+          520.5445450587262
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.32446729548457,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.96595848670108
+      },
+      "active": {
+        "point": [
+          409.64347228382593,
+          -153.10854194084112
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.1362395203447,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.14096692042213
+      },
+      "precision": {
+        "point": [
+          704.1021346168845,
+          715.7495062997615
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58800099683245,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67554392008194
+      },
+      "precision_800": {
+        "point": [
+          696.0781954176477,
+          -394.30336780721393
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.25420204838896,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.93554980564379
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 27.665060616886205,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-015-ch04",
+    "case_id": "r1-p3-survey-015",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 93.91,
+      "outcome": "direction",
+      "sequence": 4,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "c0aeaf7b550506a77ef4f6c47ad715cb5c84fbaaab13694c5f6c4cdb3502b0c5"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -446.80154996180056,
+          671.0949075590818
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.95809023033448,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.59855624822264
+      },
+      "active": {
+        "point": [
+          -250.04732025881202,
+          358.78452813825055
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.04038334674408,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719423,
+          "margin_m": 329.7321216280577,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.31515205324052
+      },
+      "precision": {
+        "point": [
+          518.4599974497833,
+          859.8002109704186
+        ],
+        "movement_m": 1004.0205036454213,
+        "coarse_radius_upper_m": 63.603454683069785,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.689318114026605
+      },
+      "precision_800": {
+        "point": [
+          -554.8220620858702,
+          576.3440634055171
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.201019865841,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91502051460355
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 52.37051794754152,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-016-ch01",
+    "case_id": "r1-p3-survey-016",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 232.51,
+      "outcome": "direction",
+      "sequence": 1,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "f90eb4c0cffcca5cfdbaa348815539c22100a19bb9e7b476c6780a47743f1f52"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -108.65223657270684,
+          -798.8708853674344
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 90.01192559339923,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.652981086762
+      },
+      "active": {
+        "point": [
+          -49.70520269480525,
+          -434.4875059481783
+        ],
+        "movement_m": 437.32139211339745,
+        "coarse_radius_upper_m": 186.02325084085314,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.36415814277296
+      },
+      "precision": {
+        "point": [
+          -957.4986645701792,
+          -302.0819079103033
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.60988489879709,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.69504950673618
+      },
+      "precision_800": {
+        "point": [
+          35.03500280689377,
+          -799.2324746769997
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.19151551636054,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.97094691908683
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 75.73998917967391,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-016-ch02",
+    "case_id": "r1-p3-survey-016",
+    "first": {
+      "position": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 4.3,
+      "outcome": "direction",
+      "sequence": 82,
+      "phase": "coverage",
+      "station_id": "coverage:004",
+      "request_id_sha256": "81cfc2e1baecd920fc1a76e6576d68e2b5f2f68108865c9a978ee55b4efc61ae"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          1447.460966143045,
+          -898.6408378115241
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 39.88260409370231,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959867,
+          "margin_m": 198.0671832040133,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 30.62425618582006
+      },
+      "active": {
+        "point": [
+          878.4042646285684,
+          -1458.923747089471
+        ],
+        "movement_m": 147.1791441339266,
+        "coarse_radius_upper_m": 44.418104400810314,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 919.0695763768472,
+          "margin_m": 80.93042362315282,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 41.01851152229795
+      },
+      "precision": {
+        "point": [
+          1066.7728875395158,
+          -1069.5868566595007
+        ],
+        "movement_m": 401.49914984671426,
+        "coarse_radius_upper_m": 15.602466246587069,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 745.1294872239571,
+          "margin_m": 254.87051277604291,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 12.366753696607628
+      },
+      "precision_800": {
+        "point": [
+          1066.7728875395158,
+          -1069.5868566595007
+        ],
+        "movement_m": 401.49914984671426,
+        "coarse_radius_upper_m": 15.602466246587069,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 745.1294872239571,
+          "margin_m": 254.87051277604291,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 12.366753696607628
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-017-ch01",
+    "case_id": "r1-p3-survey-017",
+    "first": {
+      "position": [
+        -779.4228634059954,
+        -1349.9999999999995
+      ],
+      "report_deg": 127.35,
+      "outcome": "direction",
+      "sequence": 101,
+      "phase": "coverage",
+      "station_id": "coverage:005",
+      "request_id_sha256": "489517884b330ab039a58b2511114c05b7b1b316da3ba3f31ac9b57539f86715"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -1522.0782504623992,
+          -1036.2118930295421
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 90.07128468310758,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959867,
+          "margin_m": 198.0671832040133,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.71279057687569
+      },
+      "active": {
+        "point": [
+          -828.0662655195554,
+          -915.3923385042333
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.03916777960598,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.318335866392
+      },
+      "precision": {
+        "point": [
+          -1736.180544991997,
+          -1045.5793856083583
+        ],
+        "movement_m": 1004.0205036454213,
+        "coarse_radius_upper_m": 63.60385072705048,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864033,
+          "margin_m": 0.019999913596734586,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.68967111662129
+      },
+      "precision_800": {
+        "point": [
+          -742.4350737865313,
+          -550.8555178072822
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.20034551370608,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.91870722731983
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 116.69166284099113,
+      "movement_between_two_positive_stations_m": 1558.8457268119887,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-017-ch03",
+    "case_id": "r1-p3-survey-017",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 141.53,
+      "outcome": "direction",
+      "sequence": 3,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "8af31318d794773988026889a8f06db8df8de0f8a7145e464614eb15ea815b02"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -796.8957096828497,
+          122.2997460711486
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 90.32398972101416,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.96564686575636
+      },
+      "active": {
+        "point": [
+          -153.6266738514052,
+          409.4494414226914
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.13433604808844,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719423,
+          "margin_m": 329.7321216280577,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.13732060638068
+      },
+      "precision": {
+        "point": [
+          -1002.1797590995382,
+          60.76925366990493
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58684975869975,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.674517798373884
+      },
+      "precision_800": {
+        "point": [
+          -159.90479555227677,
+          783.8561451946299
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 86.25314588852041,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.233502534313,
+          "margin_m": 203.76649746568705,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.93460073666803
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 32.96264923737803,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-018-ch01",
+    "case_id": "r1-p3-survey-018",
+    "first": {
+      "position": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 258.62,
+      "outcome": "direction",
+      "sequence": 61,
+      "phase": "coverage",
+      "station_id": "coverage:003",
+      "request_id_sha256": "a7fd0cb502ce726264ea7753e155a3f1a5c5dc757faa77e16e83dbc8b8c0bfdd"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          1812.8611665355093,
+          -765.1641368896395
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 61.940217234492906,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 56.04865969562925
+      },
+      "active": {
+        "point": [
+          1264.2760210562092,
+          -323.23163281299253
+        ],
+        "movement_m": 437.32139211339774,
+        "coarse_radius_upper_m": 124.75248480564592,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719462,
+          "margin_m": 329.73212162805385,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 114.51994925133135
+      },
+      "precision": {
+        "point": [
+          832.0040645159534,
+          -692.6459194214175
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 43.44423301215626,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864034,
+          "margin_m": 0.0199999135966209,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 36.07688852462282
+      },
+      "precision_800": {
+        "point": [
+          979.700851059351,
+          -551.8978283065273
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 54.282853130099284,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 795.9606036916649,
+          "margin_m": 204.03939630833509,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 48.736552386156646
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 38.530529711581806,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-018-ch02",
+    "case_id": "r1-p3-survey-018",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 123.02,
+      "outcome": "direction",
+      "sequence": 2,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "be9048a43a7c729671b700b41d0fa723989d22dd6f8dbc379e545d89e544e9b1"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -716.8443879445992,
+          368.96358014353245
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 90.30323761537915,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.932816795983,
+          "margin_m": 198.06718320401706,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.94483410170315
+      },
+      "active": {
+        "point": [
+          -15.691316963549411,
+          437.0397951811133
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 186.12701328751143,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.15332136798497
+      },
+      "precision": {
+        "point": [
+          -931.0428320166828,
+          375.7877282333215
+        ],
+        "movement_m": 1004.0205036454215,
+        "coarse_radius_upper_m": 63.588583402228025,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863999,
+          "margin_m": 0.01999991360014519,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67606302977535
+      },
+      "precision_800": {
+        "point": [
+          97.21829761679658,
+          794.0709052776659
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.24908281848295,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.93094964933883
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 265.0785663314771,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-019-ch01",
+    "case_id": "r1-p3-survey-019",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 262.67,
+      "outcome": "direction",
+      "sequence": 1,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "016665012df4a5e325e0ccbe3a6f39869d067e581988b446c9b145ae18b10d1d"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          307.4223481882573,
+          -745.3130213772049
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.95456357359392,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.59498453693303
+      },
+      "active": {
+        "point": [
+          175.3172698410611,
+          -400.641803729312
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.0416094007931,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719422,
+          "margin_m": 329.7321216280578,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.31198013216436
+      },
+      "precision": {
+        "point": [
+          -676.1070970858897,
+          -742.2508774063504
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.6030633009316,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.68896926664843
+      },
+      "precision_800": {
+        "point": [
+          431.83970594218755,
+          -673.4348286001883
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.20170003723779,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.91133975820168
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 37.45615524618332,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-019-ch02",
+    "case_id": "r1-p3-survey-019",
+    "first": {
+      "position": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 202.24,
+      "outcome": "direction",
+      "sequence": 82,
+      "phase": "coverage",
+      "station_id": "coverage:004",
+      "request_id_sha256": "7b5397d8caa58a7845faaaed998fc20fa2935e50d84b2982d388f262660f1646"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          282.89308952393776,
+          -1985.1835826346844
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 47.410362233837965,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 43.049964483401574
+      },
+      "active": {
+        "point": [
+          347.160805475502,
+          -1283.6711731319238
+        ],
+        "movement_m": 437.32139211339756,
+        "coarse_radius_upper_m": 99.78967648984397,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 90.1468043666116
+      },
+      "precision": {
+        "point": [
+          -176.4889734419611,
+          -1043.8262650525344
+        ],
+        "movement_m": 1003.7478746167855,
+        "coarse_radius_upper_m": 39.10792485923114,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800001076352,
+          "margin_m": 0.019999892364808147,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 30.9919168023597
+      },
+      "precision_800": {
+        "point": [
+          -13.25101368834487,
+          -1241.9809064460007
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 40.88833584348673,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 795.7185610360333,
+          "margin_m": 204.2814389639667,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 37.40164217808613
+      }
+    },
+    "actual_observed_geometry": null,
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-020-ch03",
+    "case_id": "r1-p3-survey-020",
+    "first": {
+      "position": [
+        0.0,
+        0.0
+      ],
+      "report_deg": 304.52,
+      "outcome": "direction",
+      "sequence": 3,
+      "phase": "coverage",
+      "station_id": "coverage:000",
+      "request_id_sha256": "6e410f26898501f362c2bac7bbb64614891b603d7d3f6feaf83818cb7b08e494"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          726.2570838413435,
+          -350.07234705167394
+        ],
+        "movement_m": 806.2257748298549,
+        "coarse_radius_upper_m": 89.75721017590216,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959828,
+          "margin_m": 198.06718320401717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 81.39360975825464
+      },
+      "active": {
+        "point": [
+          397.89409947224794,
+          -181.46703724139226
+        ],
+        "movement_m": 437.3213921133975,
+        "coarse_radius_upper_m": 186.1343732660545,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719424,
+          "margin_m": 329.7321216280576,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 175.14341406321705
+      },
+      "precision": {
+        "point": [
+          -8.411164113358959,
+          -1003.9852708375078
+        ],
+        "movement_m": 1004.0205036454214,
+        "coarse_radius_upper_m": 63.58810816264232,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000863997,
+          "margin_m": 0.01999991360025888,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 57.67563943913033
+      },
+      "precision_800": {
+        "point": [
+          770.9789426320077,
+          -213.52159145630068
+        ],
+        "movement_m": 800.0,
+        "coarse_radius_upper_m": 86.25316653922968,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343128,
+          "margin_m": 203.76649746568717,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 3.637978807091713e-12
+        },
+        "fine_radius_upper_m": 77.93461929346596
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 158.3863056068584,
+      "movement_between_two_positive_stations_m": 1558.8457268119894,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  },
+  {
+    "context_id": "r1-p3-survey-020-ch04",
+    "case_id": "r1-p3-survey-020",
+    "first": {
+      "position": [
+        -779.4228634059943,
+        1350.0
+      ],
+      "report_deg": 0.72,
+      "outcome": "direction",
+      "sequence": 24,
+      "phase": "coverage",
+      "station_id": "coverage:001",
+      "request_id_sha256": "c8e0902d93d092efa91ccb793419de3c2e97bccf647ed07097b75e387f012993"
+    },
+    "selection": {
+      "fixed": {
+        "point": [
+          -84.5045484166641,
+          1758.7646455998733
+        ],
+        "movement_m": 806.225774829855,
+        "coarse_radius_upper_m": 89.77258692994863,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 801.9328167959866,
+          "margin_m": 198.06718320401342,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 81.4094207498588
+      },
+      "active": {
+        "point": [
+          -407.2798308033176,
+          1579.6944999021157
+        ],
+        "movement_m": 437.32139211339745,
+        "coarse_radius_upper_m": 186.12519955084406,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 670.2678783719459,
+          "margin_m": 329.7321216280541,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 175.1558278787442
+      },
+      "precision": {
+        "point": [
+          50.19421032263983,
+          784.4978490594899
+        ],
+        "movement_m": 1004.0205036454213,
+        "coarse_radius_upper_m": 63.58871385637108,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 999.9800000864033,
+          "margin_m": 0.019999913596734586,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 57.67617930619388
+      },
+      "precision_800": {
+        "point": [
+          -173.09753162182358,
+          1871.8904023229545
+        ],
+        "movement_m": 800.0000000000001,
+        "coarse_radius_upper_m": 86.24807646603936,
+        "safety": {
+          "type": "four_disk_joint",
+          "certified": true,
+          "max_distance_m": 796.2335025343165,
+          "margin_m": 203.76649746568353,
+          "required_margin_m": 1e-05,
+          "numeric_guard_m": 7.275957614183426e-12
+        },
+        "fine_radius_upper_m": 77.9300453383315
+      }
+    },
+    "actual_observed_geometry": {
+      "posterior_outer_mec_radius_m": 720.5777936800406,
+      "movement_between_two_positive_stations_m": 1558.8457268119892,
+      "warning": "actual survey second positive may follow intermediate no_signal; not Q2 policy evaluation"
+    },
+    "counterfactual_second_response_available": false
+  }
+]

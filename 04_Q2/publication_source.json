@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-12",
+  "scope": "Organize and upload existing Q1/Q2 material; no new engineering audit or experiment run",
+  "q1_source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution",
+  "q2_current_source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\q2_three_feedback_20260911",
+  "provided_archive": "第二问_实验数据与脚本_最新与历史分组_20260911_231809.zip",
+  "provided_archive_sha256": "4e318be3b56187547316f529be30fe9362e1d37e4ce0415a77bfc4866ebccd79",
+  "release": "https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/q1-q2-delivery-20260912",
+  "latest_q2_model": "direction + near + no_signal; shared unknown reception radius"
+}

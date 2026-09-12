@@ -1,0 +1,93 @@
+{
+  "context": "s=(0,0), first report=0.00 degrees, omnidirectional source in target B(0,1800)",
+  "old_point": [
+    "700",
+    "400"
+  ],
+  "new_point": [
+    "822.44544806921010000000",
+    "575.88250250432330000000"
+  ],
+  "old_worst_radius_lower_m": "78.53",
+  "new_worst_radius_upper_m": "57.961749",
+  "strict_gap_lower_m": "20.568251",
+  "strict_improvement_for_this_first_observation": true,
+  "global_optimality_claim": false,
+  "old_safety": {
+    "epsilon_deg": "1.0051",
+    "constraints": [
+      {
+        "center_radius_m": 5,
+        "angle_sign": -1,
+        "distance_upper_m": "801.932816795979152005870000000000",
+        "margin_lower_m": "198.0671832040208479941300000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 5,
+        "angle_sign": 1,
+        "distance_upper_m": "801.845316390580313280840000000000",
+        "margin_lower_m": "198.1546836094196867191600000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 1000,
+        "angle_sign": -1,
+        "distance_upper_m": "514.051097525034436006380000000000",
+        "margin_lower_m": "485.9489024749655639936200000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 1000,
+        "angle_sign": 1,
+        "distance_upper_m": "485.985888171631091581930000000000",
+        "margin_lower_m": "514.0141118283689084180700000",
+        "valid": true
+      }
+    ],
+    "valid": true
+  },
+  "new_safety": {
+    "epsilon_deg": "1.0051",
+    "constraints": [
+      {
+        "center_radius_m": 5,
+        "angle_sign": -1,
+        "distance_upper_m": "999.980000086396022543470000000000",
+        "margin_lower_m": "0.0199999136039774565300000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 5,
+        "angle_sign": 1,
+        "distance_upper_m": "999.878975083077147483020000000000",
+        "margin_lower_m": "0.1210249169228525169800000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 1000,
+        "angle_sign": -1,
+        "distance_upper_m": "619.373020252725965929460000000000",
+        "margin_lower_m": "380.6269797472740340705400000",
+        "valid": true
+      },
+      {
+        "center_radius_m": 1000,
+        "angle_sign": 1,
+        "distance_upper_m": "585.846213861818918166740000000000",
+        "margin_lower_m": "414.1537861381810818332600000",
+        "valid": true
+      }
+    ],
+    "valid": true
+  },
+  "upper_verification": {
+    "report_bins_cover_full_360_without_gaps": true,
+    "saved_polygons_and_empty_bins_match_exact_recomputation": true,
+    "all_saved_vertices_exactly_inside_saved_circles": true,
+    "saved_global_upper_matches_bin_maximum_and_near": true,
+    "verified_bins": 1440
+  },
+  "arithmetic": "80-digit decimal trigonometry with outward allowance; exact rational clipping and exact rational circle containment",
+  "formal_proof_assistant_verification": false
+}

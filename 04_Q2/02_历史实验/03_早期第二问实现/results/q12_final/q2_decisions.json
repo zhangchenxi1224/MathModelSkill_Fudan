@@ -1,0 +1,2396 @@
+{
+  "angle_359_fixed": {
+    "first_angle_deg": 359.0,
+    "mode": "fixed",
+    "point": [
+      706.8743491843873,
+      387.72239355645803
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.9159716422417,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 112.20357240224872,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.9159716422417,
+      "endpoint": [
+        706.8743491843873,
+        387.72239355645803
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_359_estimated": {
+    "first_angle_deg": 359.0,
+    "mode": "estimated",
+    "point": [
+      721.6858947833327,
+      140.81998142704794
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          721.6858947833327,
+          140.81998142704794
+        ],
+        "score_s": 222.29464745589794,
+        "direction_posterior_radius_bound_m": 175.58841794431993,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            721.6858947833327,
+            140.81998142704794
+          ],
+          "score_s": 222.29464745589794,
+          "direction_posterior_radius_bound_m": 175.58841794431993,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 175.58841794431993,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 801.7487900263851,
+      "endpoint": [
+        721.6858947833327,
+        140.81998142704794
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_359_active": {
+    "first_angle_deg": 359.0,
+    "mode": "active",
+    "point": [
+      371.0160942352579,
+      -231.51038382416937
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          371.0160942352579,
+          -231.51038382416937
+        ],
+        "score_s": 189.151824040233,
+        "direction_posterior_radius_bound_m": 241.71886404388374,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            187.50054637706975,
+            68.91875301147448
+          ],
+          "score_s": 236.45523224661406,
+          "direction_posterior_radius_bound_m": 478.7553376020931,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            173.2281060086401,
+            -103.03894064216375
+          ],
+          "score_s": 219.16873987536033,
+          "direction_posterior_radius_bound_m": 434.64362783466896,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            176.7185872960968,
+            96.93059838911451
+          ],
+          "score_s": 219.3287559896405,
+          "direction_posterior_radius_bound_m": 435.04366812036943,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            185.50804711762896,
+            -115.75519191208468
+          ],
+          "score_s": 214.26036567877236,
+          "direction_posterior_radius_bound_m": 413.82056616858154,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            198.2242983875499,
+            -103.47525080309585
+          ],
+          "score_s": 219.15237701607964,
+          "direction_posterior_radius_bound_m": 423.57754366520965,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            189.4348385660178,
+            109.21053949810334
+          ],
+          "score_s": 214.420879634413,
+          "direction_posterior_radius_bound_m": 414.2218510576831,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            201.7147796750066,
+            96.49428822818241
+          ],
+          "score_s": 219.3117851326527,
+          "direction_posterior_radius_bound_m": 423.9760639566423,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            240.56196492777758,
+            46.939993809015974
+          ],
+          "score_s": 252.85879238720872,
+          "direction_posterior_radius_bound_m": 497.0975807362135,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            375.0010927541395,
+            137.83750602294896
+          ],
+          "score_s": 206.9107624021359,
+          "direction_posterior_radius_bound_m": 305.0114199764556,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            346.4562120172802,
+            -206.0778812843275
+          ],
+          "score_s": 192.85129920112166,
+          "direction_posterior_radius_bound_m": 268.07180429534037,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            353.4371745921936,
+            193.86119677822902
+          ],
+          "score_s": 193.03003421809808,
+          "direction_posterior_radius_bound_m": 268.51864183778144,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            396.4485967750998,
+            -206.9505016061917
+          ],
+          "score_s": 194.58201025965298,
+          "direction_posterior_radius_bound_m": 250.34822789915344,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            371.0160942352579,
+            -231.51038382416937
+          ],
+          "score_s": 189.151824040233,
+          "direction_posterior_radius_bound_m": 241.71886404388374,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            403.4295593500132,
+            192.98857645636483
+          ],
+          "score_s": 194.76246272935316,
+          "direction_posterior_radius_bound_m": 250.79935907340393,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            378.8696771320356,
+            218.4210789962067
+          ],
+          "score_s": 189.33632570707638,
+          "direction_posterior_radius_bound_m": 242.18011821099216,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            481.12392985555516,
+            93.87998761803195
+          ],
+          "score_s": 226.9048646660396,
+          "direction_posterior_radius_bound_m": 309.66336120148236,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            537.7565113054477,
+            187.7599752360639
+          ],
+          "score_s": 203.09918537943275,
+          "direction_posterior_radius_bound_m": 210.45160034326875,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            537.7565113054477,
+            -236.73137316959873
+          ],
+          "score_s": 199.33553077426217,
+          "direction_posterior_radius_bound_m": 192.06008004687442,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.71886404388374,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.503169979261,
+      "endpoint": [
+        706.2072868648978,
+        -440.6663823533421
+      ],
+      "endpoint_max_distance_m": 907.9710477015551,
+      "lambda": 0.5253642962002398
+    }
+  },
+  "angle_0_fixed": {
+    "first_angle_deg": 0.0,
+    "mode": "fixed",
+    "point": [
+      700.0,
+      400.0
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.5017733040543,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.91092581755662,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.5017733040543,
+      "endpoint": [
+        700.0,
+        400.0
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_0_estimated": {
+    "first_angle_deg": 0.0,
+    "mode": "estimated",
+    "point": [
+      721.8211308091836,
+      159.1479957554249
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          721.8211308091836,
+          159.1479957554249
+        ],
+        "score_s": 221.98986588256298,
+        "direction_posterior_radius_bound_m": 172.89590806730575,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            721.8211308091836,
+            159.1479957554249
+          ],
+          "score_s": 221.98986588256298,
+          "direction_posterior_radius_bound_m": 172.89590806730575,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 172.89590806730575,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 799.9745647130745,
+      "endpoint": [
+        721.8211308091836,
+        159.1479957554249
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_0_active": {
+    "first_angle_deg": 0.0,
+    "mode": "active",
+    "point": [
+      375.0,
+      225.0
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          375.0,
+          225.0
+        ],
+        "score_s": 189.22840688541675,
+        "direction_posterior_radius_bound_m": 241.9103211568431,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            187.55771168458622,
+            75.02308467393921
+          ],
+          "score_s": 234.22965805947328,
+          "direction_posterior_radius_bound_m": 472.07122632161236,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            175.0,
+            100.0
+          ],
+          "score_s": 219.22567720063935,
+          "direction_posterior_radius_bound_m": 434.7859711478665,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            175.0,
+            -100.0
+          ],
+          "score_s": 219.22567720063898,
+          "direction_posterior_radius_bound_m": 434.7859711478656,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            187.5,
+            112.5
+          ],
+          "score_s": 214.31898274578225,
+          "direction_posterior_radius_bound_m": 413.9671088361062,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            187.5,
+            -112.5
+          ],
+          "score_s": 214.31898274578225,
+          "direction_posterior_radius_bound_m": 413.9671088361062,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            200.0,
+            100.0
+          ],
+          "score_s": 219.20960750187612,
+          "direction_posterior_radius_bound_m": 423.7206198797008,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            200.0,
+            -100.0
+          ],
+          "score_s": 219.20960750187612,
+          "direction_posterior_radius_bound_m": 423.7206198797008,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            240.6070436030612,
+            53.04933191847496
+          ],
+          "score_s": 251.03677141935657,
+          "direction_posterior_radius_bound_m": 491.8990096686909,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            375.11542336917245,
+            150.04616934787842
+          ],
+          "score_s": 204.825270117601,
+          "direction_posterior_radius_bound_m": 297.55733763986086,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            350.0,
+            200.0
+          ],
+          "score_s": 192.923994134851,
+          "direction_posterior_radius_bound_m": 268.2535416296638,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            350.0,
+            -200.0
+          ],
+          "score_s": 192.9239941348507,
+          "direction_posterior_radius_bound_m": 268.253541629663,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            400.0,
+            200.0
+          ],
+          "score_s": 194.65587447191837,
+          "direction_posterior_radius_bound_m": 250.5328884298169,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            400.0,
+            -200.0
+          ],
+          "score_s": 194.6558744719186,
+          "direction_posterior_radius_bound_m": 250.53288842981746,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            375.0,
+            225.0
+          ],
+          "score_s": 189.22840688541675,
+          "direction_posterior_radius_bound_m": 241.9103211568431,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            375.0,
+            -225.0
+          ],
+          "score_s": 189.22840688541692,
+          "direction_posterior_radius_bound_m": 241.91032115684357,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            481.2140872061224,
+            106.09866383694992
+          ],
+          "score_s": 224.9495103724774,
+          "direction_posterior_radius_bound_m": 303.48793817179234,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            538.033519064445,
+            212.19732767389985
+          ],
+          "score_s": 200.35716201181089,
+          "direction_posterior_radius_bound_m": 199.20967007769994,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            538.033519064445,
+            -212.19732767389982
+          ],
+          "score_s": 200.35716201181077,
+          "direction_posterior_radius_bound_m": 199.2096700776997,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.9103211568431,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.7292875949963,
+      "endpoint": [
+        713.9428664291457,
+        428.3657198574875
+      ],
+      "endpoint_max_distance_m": 908.0866839697732,
+      "lambda": 0.5252521141861095
+    }
+  },
+  "angle_1_fixed": {
+    "first_angle_deg": 1.0,
+    "mode": "fixed",
+    "point": [
+      692.9124240345604,
+      412.15576256865495
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.296202163704,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.6672558693896,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.296202163704,
+      "endpoint": [
+        692.9124240345604,
+        412.15576256865495
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_1_estimated": {
+    "first_angle_deg": 1.0,
+    "mode": "estimated",
+    "point": [
+      721.6858947833327,
+      177.54852987719914
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          721.6858947833327,
+          177.54852987719914
+        ],
+        "score_s": 220.8336028310636,
+        "direction_posterior_radius_bound_m": 167.98139298877288,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            721.6858947833327,
+            177.54852987719914
+          ],
+          "score_s": 220.8336028310636,
+          "direction_posterior_radius_bound_m": 167.98139298877288,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 167.98139298877288,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 798.3381217027385,
+      "endpoint": [
+        721.6858947833327,
+        177.54852987719914
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_1_active": {
+    "first_angle_deg": 1.0,
+    "mode": "active",
+    "point": [
+      371.016094235258,
+      231.51038382416934
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          371.016094235258,
+          231.51038382416934
+        ],
+        "score_s": 189.15182404023264,
+        "direction_posterior_radius_bound_m": 241.7188640438828,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            187.50054637706972,
+            81.16160249485823
+          ],
+          "score_s": 232.09771308068463,
+          "direction_posterior_radius_bound_m": 465.5879556690296,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            173.2281060086401,
+            103.03894064216374
+          ],
+          "score_s": 219.1687398753604,
+          "direction_posterior_radius_bound_m": 434.6436278346691,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            176.7185872960968,
+            -96.93059838911452
+          ],
+          "score_s": 219.32875598964003,
+          "direction_posterior_radius_bound_m": 435.0436681203682,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            185.508047117629,
+            115.75519191208467
+          ],
+          "score_s": 214.26036567877125,
+          "direction_posterior_radius_bound_m": 413.82056616857875,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            198.2242983875499,
+            103.47525080309583
+          ],
+          "score_s": 219.1523770160794,
+          "direction_posterior_radius_bound_m": 423.5775436652091,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            189.43483856601776,
+            -109.21053949810336
+          ],
+          "score_s": 214.42087963441224,
+          "direction_posterior_radius_bound_m": 414.22185105768125,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            201.7147796750066,
+            -96.49428822818243
+          ],
+          "score_s": 219.31178513265257,
+          "direction_posterior_radius_bound_m": 423.97606395664195,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            240.56196492777758,
+            59.18284329239971
+          ],
+          "score_s": 250.33752849951242,
+          "direction_posterior_radius_bound_m": 489.4762832191523,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            375.00109275413945,
+            162.32320498971646
+          ],
+          "score_s": 202.87864082193414,
+          "direction_posterior_radius_bound_m": 290.3839479894715,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            346.4562120172802,
+            206.07788128432747
+          ],
+          "score_s": 192.8512992011215,
+          "direction_posterior_radius_bound_m": 268.07180429534003,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            353.4371745921936,
+            -193.86119677822904
+          ],
+          "score_s": 193.03003421809765,
+          "direction_posterior_radius_bound_m": 268.51864183778036,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            396.4485967750998,
+            206.95050160619166
+          ],
+          "score_s": 194.5820102596532,
+          "direction_posterior_radius_bound_m": 250.34822789915398,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            371.016094235258,
+            231.51038382416934
+          ],
+          "score_s": 189.15182404023264,
+          "direction_posterior_radius_bound_m": 241.7188640438828,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            403.4295593500132,
+            -192.98857645636485
+          ],
+          "score_s": 194.76246272935316,
+          "direction_posterior_radius_bound_m": 250.79935907340396,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            378.8696771320355,
+            -218.42107899620672
+          ],
+          "score_s": 189.3363257070766,
+          "direction_posterior_radius_bound_m": 242.18011821099276,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            481.12392985555516,
+            118.36568658479942
+          ],
+          "score_s": 223.10021485614683,
+          "direction_posterior_radius_bound_m": 297.5154610811097,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            537.7565113054475,
+            -187.75997523606387
+          ],
+          "score_s": 203.09918537943253,
+          "direction_posterior_radius_bound_m": 210.4516003432683,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            537.7565113054476,
+            236.73137316959884
+          ],
+          "score_s": 199.3355307742619,
+          "direction_posterior_radius_bound_m": 192.06008004687376,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.7188640438828,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.5031699792605,
+      "endpoint": [
+        706.2072868648971,
+        440.66638235334153
+      ],
+      "endpoint_max_distance_m": 907.9710477015543,
+      "lambda": 0.5253642962002405
+    }
+  },
+  "angle_89_fixed": {
+    "first_angle_deg": 89.0,
+    "mode": "fixed",
+    "point": [
+      -387.722393556458,
+      706.8743491843873
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.9159716422406,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 112.20357240224983,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.9159716422406,
+      "endpoint": [
+        -387.722393556458,
+        706.8743491843873
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_89_estimated": {
+    "first_angle_deg": 89.0,
+    "mode": "estimated",
+    "point": [
+      177.54852987722586,
+      721.6858947833309
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          177.54852987722586,
+          721.6858947833309
+        ],
+        "score_s": 220.8336028310559,
+        "direction_posterior_radius_bound_m": 167.98139298875142,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            177.54852987722586,
+            721.6858947833309
+          ],
+          "score_s": 220.8336028310559,
+          "direction_posterior_radius_bound_m": 167.98139298875142,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 167.98139298875142,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 798.3381217027419,
+      "endpoint": [
+        177.54852987722586,
+        721.6858947833309
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_89_active": {
+    "first_angle_deg": 89.0,
+    "mode": "active",
+    "point": [
+      231.51038382416937,
+      371.0160942352579
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          231.51038382416937,
+          371.0160942352579
+        ],
+        "score_s": 189.15182404023182,
+        "direction_posterior_radius_bound_m": 241.71886404388073,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            81.16160249486711,
+            187.5005463770692
+          ],
+          "score_s": 232.09771308067664,
+          "direction_posterior_radius_bound_m": 465.5879556690081,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            103.03894064216377,
+            173.2281060086401
+          ],
+          "score_s": 219.1687398753591,
+          "direction_posterior_radius_bound_m": 434.6436278346659,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -96.9305983891145,
+            176.7185872960968
+          ],
+          "score_s": 219.3287559896397,
+          "direction_posterior_radius_bound_m": 435.04366812036733,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            115.75519191208468,
+            185.50804711762896
+          ],
+          "score_s": 214.26036567877088,
+          "direction_posterior_radius_bound_m": 413.82056616857784,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            103.47525080309585,
+            198.2242983875499
+          ],
+          "score_s": 219.1523770160781,
+          "direction_posterior_radius_bound_m": 423.57754366520584,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -109.21053949810334,
+            189.4348385660178
+          ],
+          "score_s": 214.42087963441227,
+          "direction_posterior_radius_bound_m": 414.2218510576813,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -96.49428822818241,
+            201.7147796750066
+          ],
+          "score_s": 219.3117851326523,
+          "direction_posterior_radius_bound_m": 423.97606395664127,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            59.18284329240862,
+            240.56196492777698
+          ],
+          "score_s": 250.33752849950372,
+          "direction_posterior_radius_bound_m": 489.4762832191298,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            162.32320498973422,
+            375.0010927541384
+          ],
+          "score_s": 202.87864082192675,
+          "direction_posterior_radius_bound_m": 290.38394798944995,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            206.07788128432753,
+            346.4562120172802
+          ],
+          "score_s": 192.85129920112036,
+          "direction_posterior_radius_bound_m": 268.0718042953371,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -193.861196778229,
+            353.4371745921936
+          ],
+          "score_s": 193.03003421809822,
+          "direction_posterior_radius_bound_m": 268.51864183778184,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            206.9505016061917,
+            396.4485967750998
+          ],
+          "score_s": 194.582010259652,
+          "direction_posterior_radius_bound_m": 250.348227899151,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            231.51038382416937,
+            371.0160942352579
+          ],
+          "score_s": 189.15182404023182,
+          "direction_posterior_radius_bound_m": 241.71886404388073,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -192.98857645636483,
+            403.4295593500132
+          ],
+          "score_s": 194.76246272935362,
+          "direction_posterior_radius_bound_m": 250.79935907340504,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -218.4210789962067,
+            378.8696771320356
+          ],
+          "score_s": 189.33632570707687,
+          "direction_posterior_radius_bound_m": 242.18011821099336,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            118.36568658481724,
+            481.12392985555397
+          ],
+          "score_s": 223.10021485613703,
+          "direction_posterior_radius_bound_m": 297.51546108108363,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.75997523602766,
+            537.7565113054459
+          ],
+          "score_s": 203.09918537944026,
+          "direction_posterior_radius_bound_m": 210.4516003432944,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            236.7313731696344,
+            537.7565113054458
+          ],
+          "score_s": 199.33553077425566,
+          "direction_posterior_radius_bound_m": 192.06008004685182,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.71886404388073,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.5031699792562,
+      "endpoint": [
+        440.6663823533398,
+        706.2072868648942
+      ],
+      "endpoint_max_distance_m": 907.9710477015519,
+      "lambda": 0.5253642962002426
+    }
+  },
+  "angle_90_fixed": {
+    "first_angle_deg": 90.0,
+    "mode": "fixed",
+    "point": [
+      -399.99999999999994,
+      700.0
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.50177330405,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.910925817556,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.50177330405,
+      "endpoint": [
+        -399.99999999999994,
+        700.0
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_90_estimated": {
+    "first_angle_deg": 90.0,
+    "mode": "estimated",
+    "point": [
+      159.1479957554244,
+      721.8211308091813
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          159.1479957554244,
+          721.8211308091813
+        ],
+        "score_s": 221.98986588256247,
+        "direction_posterior_radius_bound_m": 172.89590806730567,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            159.1479957554244,
+            721.8211308091813
+          ],
+          "score_s": 221.98986588256247,
+          "direction_posterior_radius_bound_m": 172.89590806730567,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 172.89590806730567,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 799.9745647130723,
+      "endpoint": [
+        159.1479957554244,
+        721.8211308091813
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_90_active": {
+    "first_angle_deg": 90.0,
+    "mode": "active",
+    "point": [
+      225.00000000000003,
+      375.0
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          225.00000000000003,
+          375.0
+        ],
+        "score_s": 189.2284068854163,
+        "direction_posterior_radius_bound_m": 241.91032115684192,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            75.023084673939,
+            187.55771168458563
+          ],
+          "score_s": 234.22965805947268,
+          "direction_posterior_radius_bound_m": 472.0712263216112,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -99.99999999999999,
+            175.0
+          ],
+          "score_s": 219.22567720063824,
+          "direction_posterior_radius_bound_m": 434.78597114786373,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            100.00000000000001,
+            175.0
+          ],
+          "score_s": 219.22567720063816,
+          "direction_posterior_radius_bound_m": 434.78597114786356,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -112.49999999999999,
+            187.5
+          ],
+          "score_s": 214.31898274578165,
+          "direction_posterior_radius_bound_m": 413.9671088361047,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            112.50000000000001,
+            187.5
+          ],
+          "score_s": 214.31898274578145,
+          "direction_posterior_radius_bound_m": 413.9671088361043,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -99.99999999999999,
+            200.0
+          ],
+          "score_s": 219.20960750187544,
+          "direction_posterior_radius_bound_m": 423.7206198796991,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            100.00000000000001,
+            200.0
+          ],
+          "score_s": 219.20960750187527,
+          "direction_posterior_radius_bound_m": 423.72061987969875,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            53.049331918474806,
+            240.60704360306045
+          ],
+          "score_s": 251.03677141935617,
+          "direction_posterior_radius_bound_m": 491.89900966869027,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            150.046169347878,
+            375.11542336917125
+          ],
+          "score_s": 204.8252701176009,
+          "direction_posterior_radius_bound_m": 297.55733763986126,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -199.99999999999997,
+            350.0
+          ],
+          "score_s": 192.92399413484995,
+          "direction_posterior_radius_bound_m": 268.25354162966113,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            200.00000000000003,
+            350.0
+          ],
+          "score_s": 192.9239941348498,
+          "direction_posterior_radius_bound_m": 268.2535416296608,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -199.99999999999997,
+            400.0
+          ],
+          "score_s": 194.65587447191783,
+          "direction_posterior_radius_bound_m": 250.53288842981559,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            200.00000000000003,
+            400.0
+          ],
+          "score_s": 194.65587447191785,
+          "direction_posterior_radius_bound_m": 250.5328884298157,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -224.99999999999997,
+            375.0
+          ],
+          "score_s": 189.2284068854164,
+          "direction_posterior_radius_bound_m": 241.91032115684226,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            225.00000000000003,
+            375.0
+          ],
+          "score_s": 189.2284068854163,
+          "direction_posterior_radius_bound_m": 241.91032115684192,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            106.09866383694961,
+            481.2140872061209
+          ],
+          "score_s": 224.9495103724763,
+          "direction_posterior_radius_bound_m": 303.48793817179046,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            212.19732767389917,
+            538.0335190644432
+          ],
+          "score_s": 200.35716201181003,
+          "direction_posterior_radius_bound_m": 199.20967007769875,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            -212.19732767389937,
+            538.0335190644432
+          ],
+          "score_s": 200.35716201181015,
+          "direction_posterior_radius_bound_m": 199.20967007769897,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.91032115684192,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.729287594992,
+      "endpoint": [
+        428.3657198574857,
+        713.9428664291428
+      ],
+      "endpoint_max_distance_m": 908.0866839697707,
+      "lambda": 0.5252521141861117
+    }
+  },
+  "angle_91_fixed": {
+    "first_angle_deg": 91.0,
+    "mode": "fixed",
+    "point": [
+      -412.15576256865495,
+      692.9124240345604
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.2962021636997,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.66725586938725,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.2962021636997,
+      "endpoint": [
+        -412.15576256865495,
+        692.9124240345604
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_91_estimated": {
+    "first_angle_deg": 91.0,
+    "mode": "estimated",
+    "point": [
+      140.81998142702287,
+      721.6858947833309
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          140.81998142702287,
+          721.6858947833309
+        ],
+        "score_s": 222.29464745590366,
+        "direction_posterior_radius_bound_m": 175.58841794433752,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            140.81998142702287,
+            721.6858947833309
+          ],
+          "score_s": 222.29464745590366,
+          "direction_posterior_radius_bound_m": 175.58841794433752,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 175.58841794433752,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 801.7487900263802,
+      "endpoint": [
+        140.81998142702287,
+        721.6858947833309
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_91_active": {
+    "first_angle_deg": 91.0,
+    "mode": "active",
+    "point": [
+      -231.51038382416934,
+      371.016094235258
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          -231.51038382416934,
+          371.016094235258
+        ],
+        "score_s": 189.15182404023193,
+        "direction_posterior_radius_bound_m": 241.71886404388107,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            68.91875301146611,
+            187.50054637706918
+          ],
+          "score_s": 236.4552322466204,
+          "direction_posterior_radius_bound_m": 478.7553376021106,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -103.03894064216374,
+            173.2281060086401
+          ],
+          "score_s": 219.16873987535922,
+          "direction_posterior_radius_bound_m": 434.6436278346662,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            96.93059838911452,
+            176.7185872960968
+          ],
+          "score_s": 219.32875598964,
+          "direction_posterior_radius_bound_m": 435.0436681203681,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -115.75519191208467,
+            185.508047117629
+          ],
+          "score_s": 214.26036567877102,
+          "direction_posterior_radius_bound_m": 413.8205661685782,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -103.47525080309582,
+            198.2242983875499
+          ],
+          "score_s": 219.15237701607833,
+          "direction_posterior_radius_bound_m": 423.5775436652063,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            109.21053949810336,
+            189.43483856601776
+          ],
+          "score_s": 214.42087963441202,
+          "direction_posterior_radius_bound_m": 414.2218510576807,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            96.49428822818244,
+            201.7147796750066
+          ],
+          "score_s": 219.31178513265212,
+          "direction_posterior_radius_bound_m": 423.97606395664076,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            46.93999380900762,
+            240.56196492777696
+          ],
+          "score_s": 252.85879238721583,
+          "direction_posterior_radius_bound_m": 497.09758073623243,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            137.83750602293222,
+            375.00109275413837
+          ],
+          "score_s": 206.91076240214178,
+          "direction_posterior_radius_bound_m": 305.01141997647375,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -206.07788128432747,
+            346.4562120172802
+          ],
+          "score_s": 192.85129920112036,
+          "direction_posterior_radius_bound_m": 268.0718042953372,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            193.86119677822904,
+            353.4371745921936
+          ],
+          "score_s": 193.030034218098,
+          "direction_posterior_radius_bound_m": 268.5186418377812,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -206.95050160619164,
+            396.4485967750998
+          ],
+          "score_s": 194.58201025965172,
+          "direction_posterior_radius_bound_m": 250.34822789915032,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -231.51038382416934,
+            371.016094235258
+          ],
+          "score_s": 189.15182404023193,
+          "direction_posterior_radius_bound_m": 241.71886404388107,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            192.98857645636488,
+            403.4295593500132
+          ],
+          "score_s": 194.76246272935344,
+          "direction_posterior_radius_bound_m": 250.7993590734046,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            218.42107899620672,
+            378.8696771320355
+          ],
+          "score_s": 189.33632570707672,
+          "direction_posterior_radius_bound_m": 242.18011821099302,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            93.87998761801524,
+            481.1239298555539
+          ],
+          "score_s": 226.9048646660476,
+          "direction_posterior_radius_bound_m": 309.6633612015046,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            187.75997523603039,
+            537.7565113054457
+          ],
+          "score_s": 203.0991853794394,
+          "direction_posterior_radius_bound_m": 210.45160034329191,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        },
+        {
+          "point": [
+            -236.73137316963167,
+            537.7565113054458
+          ],
+          "score_s": 199.3355307742559,
+          "direction_posterior_radius_bound_m": 192.06008004685296,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.71886404388107,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.503169979256,
+      "endpoint": [
+        -440.6663823533397,
+        706.2072868648942
+      ],
+      "endpoint_max_distance_m": 907.9710477015518,
+      "lambda": 0.5253642962002426
+    }
+  },
+  "angle_179_fixed": {
+    "first_angle_deg": 179.0,
+    "mode": "fixed",
+    "point": [
+      -692.9124240345604,
+      412.15576256865495
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.2962021636998,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.66725586938702,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.2962021636998,
+      "endpoint": [
+        -692.9124240345604,
+        412.15576256865495
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_179_estimated": {
+    "first_angle_deg": 179.0,
+    "mode": "estimated",
+    "point": [
+      -562.5016391312076,
+      243.4848074846014
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          -562.5016391312076,
+          243.4848074846014
+        ],
+        "score_s": 200.3175861650896,
+        "direction_posterior_radius_bound_m": 181.82498431467357,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            -562.5016391312076,
+            243.4848074846014
+          ],
+          "score_s": 200.3175861650896,
+          "direction_posterior_radius_bound_m": 181.82498431467357,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 181.82498431467357,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 968.6346396766728,
+      "endpoint": [
+        -562.5016391312076,
+        243.4848074846014
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_179_active": {
+    "first_angle_deg": 179.0,
+    "mode": "active",
+    "point": [
+      -371.016094235258,
+      231.5103838241693
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          -371.016094235258,
+          231.5103838241693
+        ],
+        "score_s": 189.15182404023147,
+        "direction_posterior_radius_bound_m": 241.71886404387993,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            -134.43912782636144,
+            59.18284329240864
+          ],
+          "score_s": 246.55414118081777,
+          "direction_posterior_radius_bound_m": 530.4406662298476,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.5005463770692,
+            81.16160249486713
+          ],
+          "score_s": 232.09771308067673,
+          "direction_posterior_radius_bound_m": 465.58795566900835,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -173.2281060086401,
+            103.03894064216374
+          ],
+          "score_s": 219.16873987535922,
+          "direction_posterior_radius_bound_m": 434.6436278346662,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -176.7185872960968,
+            -96.93059838911452
+          ],
+          "score_s": 219.32875598963966,
+          "direction_posterior_radius_bound_m": 435.0436681203673,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -185.508047117629,
+            115.75519191208465
+          ],
+          "score_s": 214.26036567877117,
+          "direction_posterior_radius_bound_m": 413.8205661685785,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -198.2242983875499,
+            103.47525080309582
+          ],
+          "score_s": 219.15237701607822,
+          "direction_posterior_radius_bound_m": 423.57754366520606,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -189.43483856601776,
+            -109.21053949810337
+          ],
+          "score_s": 214.42087963441213,
+          "direction_posterior_radius_bound_m": 414.22185105768096,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -201.7147796750066,
+            -96.49428822818244
+          ],
+          "score_s": 219.31178513265223,
+          "direction_posterior_radius_bound_m": 423.97606395664116,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -268.8782556527229,
+            118.36568658481728
+          ],
+          "score_s": 215.23464801087698,
+          "direction_posterior_radius_bound_m": 378.69724658279875,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -375.0010927541384,
+            162.32320498973425
+          ],
+          "score_s": 202.87864082192712,
+          "direction_posterior_radius_bound_m": 290.38394798945086,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -346.4562120172802,
+            206.07788128432747
+          ],
+          "score_s": 192.85129920112047,
+          "direction_posterior_radius_bound_m": 268.0718042953374,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -353.4371745921936,
+            -193.86119677822904
+          ],
+          "score_s": 193.03003421809768,
+          "direction_posterior_radius_bound_m": 268.5186418377804,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -403.31738347908436,
+            177.54852987722592
+          ],
+          "score_s": 201.31113324665893,
+          "direction_posterior_radius_bound_m": 270.44377295005677,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -396.4485967750998,
+            206.95050160619164
+          ],
+          "score_s": 194.58201025965207,
+          "direction_posterior_radius_bound_m": 250.34822789915123,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -371.016094235258,
+            231.5103838241693
+          ],
+          "score_s": 189.15182404023147,
+          "direction_posterior_radius_bound_m": 241.71886404387993,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -403.4295593500132,
+            -192.98857645636488
+          ],
+          "score_s": 194.76246272935362,
+          "direction_posterior_radius_bound_m": 250.79935907340504,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -378.8696771320355,
+            -218.42107899620675
+          ],
+          "score_s": 189.33632570707687,
+          "direction_posterior_radius_bound_m": 242.18011821099336,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -537.7565113054459,
+            -187.75997523602757
+          ],
+          "score_s": 203.09918537944026,
+          "direction_posterior_radius_bound_m": 210.4516003432944,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.71886404387993,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.503169979256,
+      "endpoint": [
+        -706.2072868648943,
+        440.6663823533397
+      ],
+      "endpoint_max_distance_m": 907.9710477015518,
+      "lambda": 0.5253642962002426
+    }
+  },
+  "angle_180_fixed": {
+    "first_angle_deg": 180.0,
+    "mode": "fixed",
+    "point": [
+      -700.0,
+      -399.9999999999999
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.5017733040502,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 111.9109258175563,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.5017733040502,
+      "endpoint": [
+        -700.0,
+        -399.9999999999999
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_180_estimated": {
+    "first_angle_deg": 180.0,
+    "mode": "estimated",
+    "point": [
+      -562.6731350537568,
+      225.06925402181702
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          -562.6731350537568,
+          225.06925402181702
+        ],
+        "score_s": 200.10048417298864,
+        "direction_posterior_radius_bound_m": 184.7424539512601,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            -562.6731350537568,
+            225.06925402181702
+          ],
+          "score_s": 200.10048417298864,
+          "direction_posterior_radius_bound_m": 184.7424539512601,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 184.7424539512601,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 970.4515836951934,
+      "endpoint": [
+        -562.6731350537568,
+        225.06925402181702
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_180_active": {
+    "first_angle_deg": 180.0,
+    "mode": "active",
+    "point": [
+      -375.0,
+      -224.99999999999994
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          -375.0,
+          -224.99999999999994
+        ],
+        "score_s": 189.2284068854161,
+        "direction_posterior_radius_bound_m": 241.9103211568415,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            -134.5083797661108,
+            53.04933191847482
+          ],
+          "score_s": 250.01824168819758,
+          "direction_posterior_radius_bound_m": 540.2497954825374,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.55771168458563,
+            75.02308467393901
+          ],
+          "score_s": 234.2296580594725,
+          "direction_posterior_radius_bound_m": 472.07122632161077,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -175.0,
+            -99.99999999999997
+          ],
+          "score_s": 219.22567720063793,
+          "direction_posterior_radius_bound_m": 434.785971147863,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -175.0,
+            100.00000000000003
+          ],
+          "score_s": 219.2256772006379,
+          "direction_posterior_radius_bound_m": 434.7859711478629,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.5,
+            -112.49999999999997
+          ],
+          "score_s": 214.31898274578128,
+          "direction_posterior_radius_bound_m": 413.9671088361038,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.5,
+            112.50000000000003
+          ],
+          "score_s": 214.3189827457816,
+          "direction_posterior_radius_bound_m": 413.9671088361046,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -200.0,
+            -99.99999999999997
+          ],
+          "score_s": 219.2096075018752,
+          "direction_posterior_radius_bound_m": 423.7206198796985,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -200.0,
+            100.00000000000003
+          ],
+          "score_s": 219.2096075018751,
+          "direction_posterior_radius_bound_m": 423.7206198796983,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -269.0167595322216,
+            106.09866383694964
+          ],
+          "score_s": 217.8375914531484,
+          "direction_posterior_radius_bound_m": 387.5023611569578,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -375.11542336917125,
+            150.04616934787802
+          ],
+          "score_s": 204.8252701176011,
+          "direction_posterior_radius_bound_m": 297.5573376398617,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -350.0,
+            -199.99999999999994
+          ],
+          "score_s": 192.92399413485018,
+          "direction_posterior_radius_bound_m": 268.2535416296617,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -350.0,
+            200.00000000000006
+          ],
+          "score_s": 192.9239941348501,
+          "direction_posterior_radius_bound_m": 268.25354162966147,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -403.5251392983324,
+            159.14799575542446
+          ],
+          "score_s": 203.31638826492951,
+          "direction_posterior_radius_bound_m": 278.903544448454,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -400.0,
+            -199.99999999999994
+          ],
+          "score_s": 194.6558744719182,
+          "direction_posterior_radius_bound_m": 250.53288842981652,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -400.0,
+            200.00000000000006
+          ],
+          "score_s": 194.6558744719181,
+          "direction_posterior_radius_bound_m": 250.5328884298163,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -375.0,
+            -224.99999999999994
+          ],
+          "score_s": 189.2284068854161,
+          "direction_posterior_radius_bound_m": 241.9103211568415,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -375.0,
+            225.00000000000006
+          ],
+          "score_s": 189.22840688541658,
+          "direction_posterior_radius_bound_m": 241.91032115684263,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -538.0335190644432,
+            212.19732767389928
+          ],
+          "score_s": 200.35716201181026,
+          "direction_posterior_radius_bound_m": 199.20967007769923,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.9103211568415,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.729287594992,
+      "endpoint": [
+        -713.9428664291429,
+        -428.3657198574856
+      ],
+      "endpoint_max_distance_m": 908.0866839697707,
+      "lambda": 0.5252521141861116
+    }
+  },
+  "angle_181_fixed": {
+    "first_angle_deg": 181.0,
+    "mode": "fixed",
+    "point": [
+      -706.8743491843873,
+      387.722393556458
+    ],
+    "candidate_metadata": {
+      "mode": "fixed",
+      "guarantee": "Q_safe_vertex_certificate",
+      "max_distance_m": 906.9159716422405,
+      "candidate_count": 1
+    },
+    "direction_outcome_bound_m": 112.2035724022494,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 906.9159716422405,
+      "endpoint": [
+        -706.8743491843873,
+        387.722393556458
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_181_estimated": {
+    "first_angle_deg": 181.0,
+    "mode": "estimated",
+    "point": [
+      -537.7565113054457,
+      187.75997523602894
+    ],
+    "candidate_metadata": {
+      "mode": "estimated",
+      "selected": {
+        "point": [
+          -537.7565113054457,
+          187.75997523602894
+        ],
+        "score_s": 203.09918537944023,
+        "direction_posterior_radius_bound_m": 210.45160034329416,
+        "distance_guarantee": "Q_safe_vertex_certificate"
+      },
+      "candidate_count": 1,
+      "evaluations": [
+        {
+          "point": [
+            -537.7565113054457,
+            187.75997523602894
+          ],
+          "score_s": 203.09918537944023,
+          "direction_posterior_radius_bound_m": 210.45160034329416,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 210.45160034329416,
+    "independent_safety_certificate": {
+      "type": "Q_safe",
+      "max_distance_m": 991.5703103483836,
+      "endpoint": [
+        -537.7565113054457,
+        187.75997523602894
+      ],
+      "lambda": 1.0
+    }
+  },
+  "angle_181_active": {
+    "first_angle_deg": 181.0,
+    "mode": "active",
+    "point": [
+      -371.0160942352579,
+      -231.5103838241694
+    ],
+    "candidate_metadata": {
+      "mode": "active",
+      "selected": {
+        "point": [
+          -371.0160942352579,
+          -231.5103838241694
+        ],
+        "score_s": 189.1518240402314,
+        "direction_posterior_radius_bound_m": 241.7188640438797,
+        "distance_guarantee": "joint_radius_convexity_certificate"
+      },
+      "candidate_count": 18,
+      "evaluations": [
+        {
+          "point": [
+            -134.4391278263614,
+            46.939993809007234
+          ],
+          "score_s": 252.54323115968782,
+          "direction_posterior_radius_bound_m": 547.658987122893,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -187.50054637706918,
+            68.91875301146572
+          ],
+          "score_s": 236.45523224662043,
+          "direction_posterior_radius_bound_m": 478.7553376021108,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -173.2281060086401,
+            -103.03894064216377
+          ],
+          "score_s": 219.16873987535925,
+          "direction_posterior_radius_bound_m": 434.64362783466623,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -176.7185872960968,
+            96.9305983891145
+          ],
+          "score_s": 219.3287559896396,
+          "direction_posterior_radius_bound_m": 435.04366812036716,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -185.50804711762896,
+            -115.7551919120847
+          ],
+          "score_s": 214.26036567877108,
+          "direction_posterior_radius_bound_m": 413.8205661685783,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -198.2242983875499,
+            -103.47525080309586
+          ],
+          "score_s": 219.1523770160781,
+          "direction_posterior_radius_bound_m": 423.57754366520584,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -189.4348385660178,
+            109.21053949810333
+          ],
+          "score_s": 214.4208796344121,
+          "direction_posterior_radius_bound_m": 414.22185105768085,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -201.7147796750066,
+            96.4942882281824
+          ],
+          "score_s": 219.31178513265223,
+          "direction_posterior_radius_bound_m": 423.9760639566411,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -268.8782556527228,
+            93.87998761801447
+          ],
+          "score_s": 222.24708052299965,
+          "direction_posterior_radius_bound_m": 400.7195197548459,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -375.00109275413837,
+            137.83750602293145
+          ],
+          "score_s": 206.91076240214232,
+          "direction_posterior_radius_bound_m": 305.0114199764752,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -346.4562120172802,
+            -206.07788128432753
+          ],
+          "score_s": 192.8512992011204,
+          "direction_posterior_radius_bound_m": 268.0718042953373,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -353.4371745921936,
+            193.861196778229
+          ],
+          "score_s": 193.03003421809763,
+          "direction_posterior_radius_bound_m": 268.5186418377803,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -403.31738347908424,
+            140.8199814270217
+          ],
+          "score_s": 207.18895878187374,
+          "direction_posterior_radius_bound_m": 291.8751246257046,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -396.4485967750998,
+            -206.95050160619172
+          ],
+          "score_s": 194.58201025965207,
+          "direction_posterior_radius_bound_m": 250.34822789915123,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -371.0160942352579,
+            -231.5103838241694
+          ],
+          "score_s": 189.1518240402314,
+          "direction_posterior_radius_bound_m": 241.7188640438797,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -403.4295593500132,
+            192.9885764563648
+          ],
+          "score_s": 194.76246272935362,
+          "direction_posterior_radius_bound_m": 250.79935907340504,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -378.8696771320356,
+            218.42107899620666
+          ],
+          "score_s": 189.33632570707687,
+          "direction_posterior_radius_bound_m": 242.18011821099336,
+          "distance_guarantee": "joint_radius_convexity_certificate"
+        },
+        {
+          "point": [
+            -537.7565113054457,
+            187.75997523602894
+          ],
+          "score_s": 203.09918537944023,
+          "direction_posterior_radius_bound_m": 210.45160034329416,
+          "distance_guarantee": "Q_safe_vertex_certificate"
+        }
+      ],
+      "no_signal": "impossible under Q3 distance certificate; retained possible in Q4",
+      "score_status": "time-valued heuristic; bound certifies direction branches only"
+    },
+    "direction_outcome_bound_m": 241.7188640438797,
+    "independent_safety_certificate": {
+      "type": "convex_hull_first_station_and_Q_safe",
+      "max_distance_m": 1152.5031699792562,
+      "endpoint": [
+        -706.2072868648943,
+        -440.66638235333994
+      ],
+      "endpoint_max_distance_m": 907.9710477015519,
+      "lambda": 0.5253642962002425
+    }
+  }
+}

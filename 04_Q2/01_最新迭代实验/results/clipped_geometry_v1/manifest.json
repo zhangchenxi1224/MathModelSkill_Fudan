@@ -1,0 +1,56 @@
+{
+  "source_files": {
+    "evaluator.py": "ce03919dec427a84bb25dd7fdb6767647d6ff908f0031765dd1bc72d7c8e40be",
+    "experiment.py": "762490036cc8b2aebb5692a9c4ec6735c8d55da567deedff16b91673387a6efd",
+    "geometry.py": "08c9d3928472e7f81eb0b79a1abdba70a31396f6e021faecc5b0a1f65a07d822",
+    "model.py": "df7d39118cecb87a221a12e25fd0b71077d93caea72119e346c8bde911b7c59a",
+    "search.py": "f6fcbbcae16acc9f30a30e17cf6736a07aee296d0ce75b4b4dd9e425d70a103f",
+    "vendor/geometry.py": "69d3f2bae51042ede95c68de7bd73a5f8b9254d5df30d0c9e3f8403482188545",
+    "inputs/baseline_official_contexts.json": "1d4b386758cabdad2f2b1958fb66ac1e9efec798c9331c1f60a801bc293fbd50",
+    "inputs/baseline_synthetic_selections.json": "e5eebde668719c94704532ee1e1046e703bf81b12d9189cede4f8c7fe4c8065b",
+    "inputs/official_first_contexts.json": "12c5ac7f41caf65f1fda81141b0ba7e428ec444f4eea196ed1078d48fa0aecf8"
+  },
+  "settings": {
+    "output": "results\\clipped_geometry_v1",
+    "budget": 80,
+    "official_cases": 2,
+    "workers": 2,
+    "canonical_only": false,
+    "context_ids": [
+      "r1-p3-survey-007-ch03",
+      "r1-p3-survey-013-ch01",
+      "r1-p3-survey-018-ch01"
+    ]
+  },
+  "contexts": [
+    {
+      "id": "r1-p3-survey-007-ch03",
+      "station": [
+        -779.4228634059943,
+        1350.0
+      ],
+      "report_deg": 56.79,
+      "official_case_id": "r1-p3-survey-007"
+    },
+    {
+      "id": "r1-p3-survey-013-ch01",
+      "station": [
+        779.4228634059949,
+        -1349.9999999999998
+      ],
+      "report_deg": 193.63,
+      "official_case_id": "r1-p3-survey-013"
+    },
+    {
+      "id": "r1-p3-survey-018-ch01",
+      "station": [
+        1558.8457268119894,
+        0.0
+      ],
+      "report_deg": 258.62,
+      "official_case_id": "r1-p3-survey-018"
+    }
+  ],
+  "report_error_deg": 1.0,
+  "report_grid_deg": 0.01
+}

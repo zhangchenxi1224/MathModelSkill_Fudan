@@ -1,0 +1,88 @@
+{
+  "equilateral_counterexample": {
+    "vertices": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        39.0,
+        0.0
+      ],
+      [
+        19.5,
+        33.77499074759311
+      ]
+    ],
+    "diameter_m": 39.0,
+    "diameter_half_m": 19.5,
+    "minimum_covering_radius_m": 22.516660498395964,
+    "mec_center": [
+      19.5,
+      11.258330249197702
+    ],
+    "can_clear_with_20m_radius": false,
+    "diameter_is_less_than_40_but_no_20m_cover_exists": true
+  },
+  "nearest_safe_vs_mec": {
+    "vertices": [
+      [
+        -8.0,
+        -6.0
+      ],
+      [
+        8.0,
+        -6.0
+      ],
+      [
+        8.0,
+        6.0
+      ],
+      [
+        -8.0,
+        6.0
+      ]
+    ],
+    "current": [
+      100.0,
+      0.0
+    ],
+    "mec_center": [
+      0.0,
+      0.0
+    ],
+    "mec_radius_m": 10.000000000000144,
+    "nearest_safe": [
+      11.077735740910136,
+      0.0
+    ],
+    "nearest_safe_farthest_m": 19.999,
+    "movement_to_mec_m": 100.0,
+    "movement_to_nearest_safe_m": 88.92226425908987,
+    "movement_saved_m": 11.077735740910128
+  },
+  "intersection_examples": {
+    "bounded_kind": "polygon",
+    "bounded_vertices": [
+      [
+        990.9705393339227,
+        517.2974551060241
+      ],
+      [
+        991.7191663185683,
+        474.4086438799196
+      ],
+      [
+        1008.4202876851732,
+        482.39795840352315
+      ],
+      [
+        1009.1955218721752,
+        526.8110952317201
+      ]
+    ],
+    "bounded_diameter_m": 55.239839890371655,
+    "one_bearing_kind": "unbounded",
+    "disjoint_kind": "empty"
+  }
+}
