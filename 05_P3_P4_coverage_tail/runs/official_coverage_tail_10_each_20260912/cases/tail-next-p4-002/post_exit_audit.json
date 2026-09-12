@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p4-002",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "BYBS-GV3A-QA37-HRNZ",
+  "source_total_post_exit": 11,
+  "directional_total_post_exit": 5,
+  "omnidirectional_total_post_exit": 6,
+  "cleared": 11,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 6348.441963,
+  "original_log_filename": "practice-p4-6294099553867883781-BYBS-GV3A-QA37-HRNZ.jlog",
+  "original_log_sha256": "8f8b65d63b8d99910bfd9b5f1cbf4c485dee17bffee053a3454f8d7fb3769a2c",
+  "original_log_bytes": 80644,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:44:46.419708+00:00"
+}

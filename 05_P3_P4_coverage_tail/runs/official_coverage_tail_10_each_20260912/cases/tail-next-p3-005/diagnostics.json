@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p3-005",
+  "problem": 3,
+  "case_code": "XWYM-XC5F-E2N5-FHN4",
+  "measurement_outcomes": {
+    "direction": 24,
+    "no_signal": 95
+  },
+  "planning_calls": 16,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 12,
+    "cover": 4
+  },
+  "http_records": 155,
+  "decision_records": 203,
+  "http_outcomes": {
+    "accepted": 155
+  },
+  "costs": {
+    "move_s": 2746.03311148501,
+    "measure_s": 595,
+    "switch_s": 112,
+    "clear_s": 122
+  },
+  "timing_residual_s": 5.149900061951485e-07,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 95,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 1,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "station_information_measures": 4,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 0,
+  "count_posterior_updates": 7,
+  "original_log_retained": true
+}

@@ -1,0 +1,307 @@
+{
+  "practice_only": true,
+  "planned_cases": 20,
+  "per_problem": 10,
+  "cases": [
+    {
+      "case_id": "tail-next-p3-001",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-002",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-003",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-004",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-005",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-006",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-007",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-008",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-009",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p3-010",
+      "problem": 3,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-001",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-002",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-003",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-004",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-005",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-006",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-007",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-008",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-009",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    },
+    {
+      "case_id": "tail-next-p4-010",
+      "problem": 4,
+      "protocol": "selected_feedback",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      },
+      "split": "official_descriptive",
+      "pilot": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-002",
+  "problem": 4,
+  "case_code": "BYBS-GV3A-QA37-HRNZ",
+  "measurement_outcomes": {
+    "no_signal": 238,
+    "direction": 23
+  },
+  "planning_calls": 15,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 7,
+    "cover": 8
+  },
+  "http_records": 351,
+  "decision_records": 500,
+  "http_outcomes": {
+    "accepted": 351
+  },
+  "costs": {
+    "move_s": 4516.441947853549,
+    "measure_s": 1305,
+    "switch_s": 241,
+    "clear_s": 286
+  },
+  "timing_residual_s": 1.5146451005421113e-05,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 2948.2609260000004,
+  "feedback_no_signal": 238,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 3,
+  "resweep_checks": 2,
+  "resweep_measures": 0,
+  "station_information_measures": 10,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 75,
+  "count_posterior_updates": 24,
+  "original_log_retained": true
+}

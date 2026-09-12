@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-007",
+  "problem": 4,
+  "case_code": "J4PF-Y34C-FMBY-EJR4",
+  "measurement_outcomes": {
+    "direction": 30,
+    "no_signal": 197
+  },
+  "planning_calls": 13,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 5,
+    "cover": 8
+  },
+  "http_records": 252,
+  "decision_records": 483,
+  "http_outcomes": {
+    "accepted": 252
+  },
+  "costs": {
+    "move_s": 4657.612203279112,
+    "measure_s": 1135,
+    "switch_s": 208,
+    "clear_s": 97
+  },
+  "timing_residual_s": 3.720888344105333e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 323.3738030000004,
+  "feedback_no_signal": 197,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 7,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "station_information_measures": 11,
+  "opportunity_search_measures": 7,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 147,
+  "count_posterior_updates": 24,
+  "original_log_retained": true
+}

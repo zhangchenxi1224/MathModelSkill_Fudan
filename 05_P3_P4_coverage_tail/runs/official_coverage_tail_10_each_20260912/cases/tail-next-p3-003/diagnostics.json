@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p3-003",
+  "problem": 3,
+  "case_code": "JC7J-WPZR-8KUB-Z9F2",
+  "measurement_outcomes": {
+    "no_signal": 63,
+    "direction": 32
+  },
+  "planning_calls": 15,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 6,
+    "cover": 9
+  },
+  "http_records": 126,
+  "decision_records": 186,
+  "http_outcomes": {
+    "accepted": 126
+  },
+  "costs": {
+    "move_s": 2419.1112355723326,
+    "measure_s": 475,
+    "switch_s": 91,
+    "clear_s": 113
+  },
+  "timing_residual_s": 2.427667368465336e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 63,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 1,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "station_information_measures": 13,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 0,
+  "count_posterior_updates": 7,
+  "original_log_retained": true
+}

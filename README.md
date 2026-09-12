@@ -9,7 +9,7 @@
 |---|---|---|
 |第一问|交会区域分类、直径计算、覆盖圆反例和几何代码|[03_Q1/README.md](03_Q1/README.md)|
 |第二问|最新三反馈选点、8个首次上下文对照、1920条合成配对记录及历史分组|[04_Q2/README.md](04_Q2/README.md)|
-|第三、四问|P4双环覆盖＋顺路搜索，P3保留原版；新240条确认|[当前算法与使用](05_P3_P4_coverage_tail/README.md) · [本轮报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md)|
+|第三、四问|P4双环覆盖＋顺路搜索，P3保留原版；新240条确认与官方20局全清|[当前算法与使用](05_P3_P4_coverage_tail/README.md) · [本轮报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md)|
 
 **下载第一、二问全部整理材料：** [Q1/Q2 Release](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/q1-q2-delivery-20260912)，内含第一、二问合并ZIP，以及用户提供的第二问“最新与历史分组”原始ZIP。第一、二问的整理目录也完整保存在网页仓库中，可直接浏览或使用 Code → Download ZIP。
 
@@ -23,7 +23,7 @@
 
 **结果与原理：** [本轮实验报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md) · [第一性原理与方法](05_P3_P4_coverage_tail/METHOD.md) · [可视化表格 HTML](05_P3_P4_coverage_tail/reports/results.html) · [新240条数据](05_P3_P4_coverage_tail/data/fresh_confirmation240.json)
 
-**完整脚本、数据和日志：** [直接下载本轮完整 ZIP（约194 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/download/p3-p4-coverage-tail-20260912/coverage_tail_iteration_20260912_complete.zip) · [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-coverage-tail-20260912)。本轮只有一个 ZIP，无需分卷合并；解压后约2.75 GB、3245个文件。
+**完整脚本、数据和日志：** [直接下载本轮完整 ZIP（约194 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/download/p3-p4-coverage-tail-20260912/coverage_tail_iteration_20260912_complete.zip) · [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-coverage-tail-20260912)。这是本地迭代完整包，只有一个ZIP，无需分卷合并，解压后约2.75 GB、3245个文件；后续官方20局另有下方约3.41 MB实验包。
 
 ### 本轮实现与结果
 
@@ -47,7 +47,22 @@ P4共6场变慢，最大约1493秒；[逐局配对数据](05_P3_P4_coverage_tail
 
 旧240用于开发；**新240在候选冻结后才运行**，形成480次基线/候选配对运行。其独立性针对本轮冻结候选；若继续据此调参，应转为开发数据。沿用官方记录支持的生成模型，未识别的源位置、接收半径、朝向和误差场仍含仿真假设。
 
-**本轮尚未新增官方演练。** `reports/official_diagnosis.json` 分析的是此前20局，不是双环顺路搜索版本的新官方成绩。旧版5局/题演练及1200场景结果另见下面的历史资料。
+### 最新官方演练：P3、P4各10局
+
+**当前部署版本已完成20局官方演练，20/20全部全清**：P3=`current`，P4=`ring_search`。
+
+|题目|全清|平均总虚拟时间|平均时间/源|10—15源组|16源组|
+|---|---:|---:|---:|---:|---:|
+|P3|10/10|3363.63秒|**250.87秒**|264.55秒/源（8局）|196.17秒/源（2局）|
+|P4|10/10|5882.37秒|**437.68秒**|518.59秒/源（6局）|316.32秒/源（4局）|
+
+[逐局成绩与案例编号](05_P3_P4_coverage_tail/runs/official_coverage_tail_10_each_20260912/report/results.md) · [可视化表格、分组与耗时诊断](05_P3_P4_coverage_tail/runs/official_coverage_tail_10_each_20260912/report/results.html) · [结构化结果](05_P3_P4_coverage_tail/runs/official_coverage_tail_10_each_20260912/report/results.json) · [完整实验包（约3.41 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-official-20-20260912)
+
+“平均时间/源”先按每局计算T/N，再在对应组内取算术平均；不是本地确认实验中各N等权的指标。本批使用新生成的官方场景，**未与旧算法同场景配对，不能把两批均值差直接解释为算法提速幅度**；这些是官方演练成绩。
+
+完整实验包包含脚本快照、全部请求响应、决策与几何状态，以及20份官方原始日志；本批全部289个文件也已在仓库的 `05_P3_P4_coverage_tail/runs/official_coverage_tail_10_each_20260912` 中展开。下载后打开 `report/results.html` 查看交互表格。
+
+`reports/official_diagnosis.json` 仍是更早一批20局的开发诊断；本次官方结果以以上新目录为准。旧版5局/题演练及1200场景结果保留在历史资料中。
 
 ### 运行与文件入口
 
@@ -72,7 +87,7 @@ python -B -X utf8 -u campaign.py --problem 4 --dataset data/fresh_confirmation24
 |[`data/`](05_P3_P4_coverage_tail/data/)|新240条、生成依据与校准参考|
 |[`reports/`](05_P3_P4_coverage_tail/reports/)|全部候选比较、确认结果、逐局表和退步分析|
 |[`runs/`](05_P3_P4_coverage_tail/runs/)|网页保留逐局结果；完整请求和决策日志在本轮ZIP中|
-|[`run_selected_official.py`](05_P3_P4_coverage_tail/run_selected_official.py)|已准备的官方入口，保留原研发工程的采集器和制表依赖；本轮未执行|
+|[`run_selected_official.py`](05_P3_P4_coverage_tail/run_selected_official.py)|本批官方20局使用的入口，保留原研发工程的采集器和制表依赖|
 
 下载完整ZIP并解压后，双击 `reports/results.html` 查看交互表格；GitHub网页只显示HTML源码。历史日志中的原始绝对路径用于追溯。官方运行需要独立模拟器已登录，并满足脚本的原工程路径依赖；查看或下载资料不会自动开始演练。
 

@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-010",
+  "problem": 4,
+  "case_code": "R9RA-JGHY-5NQQ-BHHW",
+  "measurement_outcomes": {
+    "no_signal": 77,
+    "direction": 38
+  },
+  "planning_calls": 19,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 8,
+    "cover": 11
+  },
+  "http_records": 145,
+  "decision_records": 321,
+  "http_outcomes": {
+    "accepted": 145
+  },
+  "costs": {
+    "move_s": 2732.0207156637002,
+    "measure_s": 575,
+    "switch_s": 110,
+    "clear_s": 116
+  },
+  "timing_residual_s": 1.3362996469368227e-06,
+  "stop_evidence_type": "known_upper_bound",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 77,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 5,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "station_information_measures": 18,
+  "opportunity_search_measures": 17,
+  "opportunity_search_discoveries": 3,
+  "replaced_stations": 0,
+  "future_service_deferrals": 89,
+  "count_posterior_updates": 7,
+  "original_log_retained": true
+}

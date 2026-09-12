@@ -1,0 +1,1407 @@
+{
+  "title": "最新版算法官方演练：P3、P4各10局",
+  "environment": "official_practice",
+  "selected_policies": {
+    "3": {
+      "candidate": "current",
+      "tested_candidate": "substitute",
+      "status": "retain_deployed_baseline",
+      "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+      "baseline": "opportunity",
+      "results": "runs/confirmation_p3"
+    },
+    "4": {
+      "candidate": "ring_search",
+      "tested_candidate": "ring_search",
+      "status": "confirmed_on_fresh_local",
+      "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+      "baseline": "count_transit",
+      "results": "runs/confirmation_p4"
+    }
+  },
+  "sections": [
+    {
+      "problem": 3,
+      "scheme": "覆盖收尾迭代：current",
+      "summary": {
+        "cases": 10,
+        "full_clear_cases": 10,
+        "mean_total_virtual_time_s": 3363.6281404,
+        "mean_time_per_source_s": 250.87342900033883,
+        "mean_program_real_time_s": 13.57462191004306
+      },
+      "cases": [
+        {
+          "index": 1,
+          "case_id": "tail-next-p3-001",
+          "problem": 3,
+          "case_code": "PW7Q-MP7N-NP55-CM6V",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 0,
+          "cleared": 13,
+          "total_virtual_time_s": 3789.447407,
+          "average_time_per_source_s": 291.4959543846154,
+          "walk_distance_m": 15367.237042433857,
+          "measures": 106,
+          "switches": 100,
+          "clear_attempts": 20,
+          "failed_clear_attempts": 7,
+          "program_real_time_s": 10.885611200006679,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-001"
+        },
+        {
+          "index": 2,
+          "case_id": "tail-next-p3-002",
+          "problem": 3,
+          "case_code": "QS7R-ZABN-EZ64-6D79",
+          "status": "complete",
+          "full_clear": true,
+          "N": 15,
+          "Nd": 0,
+          "cleared": 15,
+          "total_virtual_time_s": 3494.036753,
+          "average_time_per_source_s": 232.93578353333334,
+          "walk_distance_m": 13845.183747726278,
+          "measures": 96,
+          "switches": 92,
+          "clear_attempts": 41,
+          "failed_clear_attempts": 26,
+          "program_real_time_s": 13.18454810010735,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-002"
+        },
+        {
+          "index": 3,
+          "case_id": "tail-next-p3-003",
+          "problem": 3,
+          "case_code": "JC7J-WPZR-8KUB-Z9F2",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 0,
+          "cleared": 13,
+          "total_virtual_time_s": 3098.111238,
+          "average_time_per_source_s": 238.31624907692307,
+          "walk_distance_m": 12095.556177861663,
+          "measures": 95,
+          "switches": 91,
+          "clear_attempts": 29,
+          "failed_clear_attempts": 16,
+          "program_real_time_s": 10.154961900087073,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-003"
+        },
+        {
+          "index": 4,
+          "case_id": "tail-next-p3-004",
+          "problem": 3,
+          "case_code": "2YT4-GV58-36HQ-GUHF",
+          "status": "complete",
+          "full_clear": true,
+          "N": 12,
+          "Nd": 0,
+          "cleared": 12,
+          "total_virtual_time_s": 3047.153581,
+          "average_time_per_source_s": 253.92946508333333,
+          "walk_distance_m": 11770.767907322313,
+          "measures": 102,
+          "switches": 96,
+          "clear_attempts": 21,
+          "failed_clear_attempts": 9,
+          "program_real_time_s": 13.035408600000665,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-004"
+        },
+        {
+          "index": 5,
+          "case_id": "tail-next-p3-005",
+          "problem": 3,
+          "case_code": "XWYM-XC5F-E2N5-FHN4",
+          "status": "complete",
+          "full_clear": true,
+          "N": 10,
+          "Nd": 0,
+          "cleared": 10,
+          "total_virtual_time_s": 3575.033112,
+          "average_time_per_source_s": 357.5033112,
+          "walk_distance_m": 13730.16555742505,
+          "measures": 119,
+          "switches": 112,
+          "clear_attempts": 34,
+          "failed_clear_attempts": 24,
+          "program_real_time_s": 23.199387400061823,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-005"
+        },
+        {
+          "index": 6,
+          "case_id": "tail-next-p3-006",
+          "problem": 3,
+          "case_code": "PUPD-KN9E-PMF9-9MZ9",
+          "status": "complete",
+          "full_clear": true,
+          "N": 15,
+          "Nd": 0,
+          "cleared": 15,
+          "total_virtual_time_s": 3327.461473,
+          "average_time_per_source_s": 221.83076486666667,
+          "walk_distance_m": 13647.307370290242,
+          "measures": 86,
+          "switches": 78,
+          "clear_attempts": 20,
+          "failed_clear_attempts": 5,
+          "program_real_time_s": 11.682945500011556,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-006"
+        },
+        {
+          "index": 7,
+          "case_id": "tail-next-p3-007",
+          "problem": 3,
+          "case_code": "VZBD-JS4F-7R4F-3YF2",
+          "status": "complete",
+          "full_clear": true,
+          "N": 13,
+          "Nd": 0,
+          "cleared": 13,
+          "total_virtual_time_s": 3350.830506,
+          "average_time_per_source_s": 257.7561927692308,
+          "walk_distance_m": 13219.152526551026,
+          "measures": 97,
+          "switches": 94,
+          "clear_attempts": 34,
+          "failed_clear_attempts": 21,
+          "program_real_time_s": 10.83967630006373,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-007"
+        },
+        {
+          "index": 8,
+          "case_id": "tail-next-p3-008",
+          "problem": 3,
+          "case_code": "HY6E-N25P-274E-JDPJ",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 0,
+          "cleared": 16,
+          "total_virtual_time_s": 2990.323222,
+          "average_time_per_source_s": 186.895201375,
+          "walk_distance_m": 11796.616111472684,
+          "measures": 81,
+          "switches": 77,
+          "clear_attempts": 39,
+          "failed_clear_attempts": 23,
+          "program_real_time_s": 10.628357700072229,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-008"
+        },
+        {
+          "index": 9,
+          "case_id": "tail-next-p3-009",
+          "problem": 3,
+          "case_code": "WNF9-26PD-HBWR-4958",
+          "status": "complete",
+          "full_clear": true,
+          "N": 14,
+          "Nd": 0,
+          "cleared": 14,
+          "total_virtual_time_s": 3676.8044,
+          "average_time_per_source_s": 262.62888571428573,
+          "walk_distance_m": 14629.021982943992,
+          "measures": 104,
+          "switches": 95,
+          "clear_attempts": 36,
+          "failed_clear_attempts": 22,
+          "program_real_time_s": 17.65874820004683,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-009"
+        },
+        {
+          "index": 10,
+          "case_id": "tail-next-p3-010",
+          "problem": 3,
+          "case_code": "SSK2-8R5H-B4RT-8DV4",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 0,
+          "cleared": 16,
+          "total_virtual_time_s": 3287.079712,
+          "average_time_per_source_s": 205.442482,
+          "walk_distance_m": 12980.398555523994,
+          "measures": 97,
+          "switches": 90,
+          "clear_attempts": 28,
+          "failed_clear_attempts": 12,
+          "program_real_time_s": 14.476574199972674,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p3-010"
+        }
+      ]
+    },
+    {
+      "problem": 4,
+      "scheme": "覆盖收尾迭代：ring_search",
+      "summary": {
+        "cases": 10,
+        "full_clear_cases": 10,
+        "mean_total_virtual_time_s": 5882.3712854,
+        "mean_time_per_source_s": 437.6826459657359,
+        "mean_program_real_time_s": 22.241107899986673
+      },
+      "cases": [
+        {
+          "index": 1,
+          "case_id": "tail-next-p4-001",
+          "problem": 4,
+          "case_code": "NAB3-3MQE-8K95-ABN5",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 11,
+          "cleared": 16,
+          "total_virtual_time_s": 6083.081906,
+          "average_time_per_source_s": 380.192619125,
+          "walk_distance_m": 23610.409495780856,
+          "measures": 182,
+          "switches": 167,
+          "clear_attempts": 84,
+          "failed_clear_attempts": 68,
+          "program_real_time_s": 32.62808749999385,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-001"
+        },
+        {
+          "index": 2,
+          "case_id": "tail-next-p4-002",
+          "problem": 4,
+          "case_code": "BYBS-GV3A-QA37-HRNZ",
+          "status": "complete",
+          "full_clear": true,
+          "N": 11,
+          "Nd": 5,
+          "cleared": 11,
+          "total_virtual_time_s": 6348.441963,
+          "average_time_per_source_s": 577.1310875454545,
+          "walk_distance_m": 22582.209739267746,
+          "measures": 261,
+          "switches": 241,
+          "clear_attempts": 88,
+          "failed_clear_attempts": 77,
+          "program_real_time_s": 25.277381899999455,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-002"
+        },
+        {
+          "index": 3,
+          "case_id": "tail-next-p4-003",
+          "problem": 4,
+          "case_code": "N9Y5-TXPV-GTXB-EHZC",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 16,
+          "cleared": 16,
+          "total_virtual_time_s": 6792.42078,
+          "average_time_per_source_s": 424.52629875,
+          "walk_distance_m": 25612.103773580733,
+          "measures": 220,
+          "switches": 202,
+          "clear_attempts": 112,
+          "failed_clear_attempts": 96,
+          "program_real_time_s": 39.27805059996899,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-003"
+        },
+        {
+          "index": 4,
+          "case_id": "tail-next-p4-004",
+          "problem": 4,
+          "case_code": "JEYW-3D7F-8WSF-B6NT",
+          "status": "complete",
+          "full_clear": true,
+          "N": 12,
+          "Nd": 9,
+          "cleared": 12,
+          "total_virtual_time_s": 6564.304276,
+          "average_time_per_source_s": 547.0253563333333,
+          "walk_distance_m": 23101.52138204577,
+          "measures": 310,
+          "switches": 286,
+          "clear_attempts": 28,
+          "failed_clear_attempts": 16,
+          "program_real_time_s": 26.06751520000398,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-004"
+        },
+        {
+          "index": 5,
+          "case_id": "tail-next-p4-005",
+          "problem": 4,
+          "case_code": "KK88-SUDY-MFNJ-7VVB",
+          "status": "complete",
+          "full_clear": true,
+          "N": 15,
+          "Nd": 1,
+          "cleared": 15,
+          "total_virtual_time_s": 6356.569443,
+          "average_time_per_source_s": 423.7712962,
+          "walk_distance_m": 25327.847204266425,
+          "measures": 203,
+          "switches": 180,
+          "clear_attempts": 22,
+          "failed_clear_attempts": 7,
+          "program_real_time_s": 11.501345600001514,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-005"
+        },
+        {
+          "index": 6,
+          "case_id": "tail-next-p4-006",
+          "problem": 4,
+          "case_code": "5238-UUZG-HHJ9-M5EJ",
+          "status": "complete",
+          "full_clear": true,
+          "N": 14,
+          "Nd": 7,
+          "cleared": 14,
+          "total_virtual_time_s": 6760.358211,
+          "average_time_per_source_s": 482.88272935714286,
+          "walk_distance_m": 24881.791143992526,
+          "measures": 264,
+          "switches": 244,
+          "clear_attempts": 64,
+          "failed_clear_attempts": 50,
+          "program_real_time_s": 21.39109449996613,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-006"
+        },
+        {
+          "index": 7,
+          "case_id": "tail-next-p4-007",
+          "problem": 4,
+          "case_code": "J4PF-Y34C-FMBY-EJR4",
+          "status": "complete",
+          "full_clear": true,
+          "N": 14,
+          "Nd": 3,
+          "cleared": 14,
+          "total_virtual_time_s": 6097.612207,
+          "average_time_per_source_s": 435.5437290714286,
+          "walk_distance_m": 23288.06101639556,
+          "measures": 227,
+          "switches": 208,
+          "clear_attempts": 23,
+          "failed_clear_attempts": 9,
+          "program_real_time_s": 12.742081600008532,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-007"
+        },
+        {
+          "index": 8,
+          "case_id": "tail-next-p4-008",
+          "problem": 4,
+          "case_code": "8AF7-VTR4-TN5X-BFAG",
+          "status": "complete",
+          "full_clear": true,
+          "N": 10,
+          "Nd": 6,
+          "cleared": 10,
+          "total_virtual_time_s": 6451.882374,
+          "average_time_per_source_s": 645.1882373999999,
+          "walk_distance_m": 22129.41185355267,
+          "measures": 325,
+          "switches": 306,
+          "clear_attempts": 25,
+          "failed_clear_attempts": 15,
+          "program_real_time_s": 18.645543799968436,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-008"
+        },
+        {
+          "index": 9,
+          "case_id": "tail-next-p4-009",
+          "problem": 4,
+          "case_code": "CEH9-EEBN-4J5B-KSV3",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 3,
+          "cleared": 16,
+          "total_virtual_time_s": 3836.020977,
+          "average_time_per_source_s": 239.7513110625,
+          "walk_distance_m": 15830.104896750396,
+          "measures": 93,
+          "switches": 89,
+          "clear_attempts": 28,
+          "failed_clear_attempts": 12,
+          "program_real_time_s": 15.144976799958386,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-009"
+        },
+        {
+          "index": 10,
+          "case_id": "tail-next-p4-010",
+          "problem": 4,
+          "case_code": "R9RA-JGHY-5NQQ-BHHW",
+          "status": "complete",
+          "full_clear": true,
+          "N": 16,
+          "Nd": 2,
+          "cleared": 16,
+          "total_virtual_time_s": 3533.020717,
+          "average_time_per_source_s": 220.8137948125,
+          "walk_distance_m": 13660.103578318502,
+          "measures": 115,
+          "switches": 110,
+          "clear_attempts": 28,
+          "failed_clear_attempts": 12,
+          "program_real_time_s": 19.735001499997452,
+          "error": null,
+          "raw_folder": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution_side_research\\coverage_tail_iteration_20260912\\runs\\official_coverage_tail_10_each_20260912\\cases\\tail-next-p4-010"
+        }
+      ]
+    }
+  ],
+  "by_N": [
+    {
+      "problem": 3,
+      "N": 10,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 3575.033112,
+      "mean_T_per_N": 357.5033112
+    },
+    {
+      "problem": 3,
+      "N": 11,
+      "cases": 0,
+      "full_clear_cases": 0,
+      "mean_T": null,
+      "mean_T_per_N": null
+    },
+    {
+      "problem": 3,
+      "N": 12,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 3047.153581,
+      "mean_T_per_N": 253.92946508333333
+    },
+    {
+      "problem": 3,
+      "N": 13,
+      "cases": 3,
+      "full_clear_cases": 3,
+      "mean_T": 3412.7963836666663,
+      "mean_T_per_N": 262.52279874358976
+    },
+    {
+      "problem": 3,
+      "N": 14,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 3676.8044,
+      "mean_T_per_N": 262.62888571428573
+    },
+    {
+      "problem": 3,
+      "N": 15,
+      "cases": 2,
+      "full_clear_cases": 2,
+      "mean_T": 3410.749113,
+      "mean_T_per_N": 227.38327420000002
+    },
+    {
+      "problem": 3,
+      "N": 16,
+      "cases": 2,
+      "full_clear_cases": 2,
+      "mean_T": 3138.701467,
+      "mean_T_per_N": 196.1688416875
+    },
+    {
+      "problem": 4,
+      "N": 10,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 6451.882374,
+      "mean_T_per_N": 645.1882373999999
+    },
+    {
+      "problem": 4,
+      "N": 11,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 6348.441963,
+      "mean_T_per_N": 577.1310875454545
+    },
+    {
+      "problem": 4,
+      "N": 12,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 6564.304276,
+      "mean_T_per_N": 547.0253563333333
+    },
+    {
+      "problem": 4,
+      "N": 13,
+      "cases": 0,
+      "full_clear_cases": 0,
+      "mean_T": null,
+      "mean_T_per_N": null
+    },
+    {
+      "problem": 4,
+      "N": 14,
+      "cases": 2,
+      "full_clear_cases": 2,
+      "mean_T": 6428.985209,
+      "mean_T_per_N": 459.2132292142857
+    },
+    {
+      "problem": 4,
+      "N": 15,
+      "cases": 1,
+      "full_clear_cases": 1,
+      "mean_T": 6356.569443,
+      "mean_T_per_N": 423.7712962
+    },
+    {
+      "problem": 4,
+      "N": 16,
+      "cases": 4,
+      "full_clear_cases": 4,
+      "mean_T": 5061.136095,
+      "mean_T_per_N": 316.3210059375
+    }
+  ],
+  "diagnostics": [
+    {
+      "case_id": "tail-next-p3-001",
+      "problem": 3,
+      "case_code": "PW7Q-MP7N-NP55-CM6V",
+      "measurement_outcomes": {
+        "no_signal": 75,
+        "direction": 31
+      },
+      "planning_calls": 15,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 9,
+        "cover": 6
+      },
+      "http_records": 128,
+      "decision_records": 183,
+      "http_outcomes": {
+        "accepted": 128
+      },
+      "costs": {
+        "move_s": 3073.4474084867716,
+        "measure_s": 530,
+        "switch_s": 100,
+        "clear_s": 86
+      },
+      "timing_residual_s": -1.4867714526189957e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 75,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 9,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-002",
+      "problem": 3,
+      "case_code": "QS7R-ZABN-EZ64-6D79",
+      "measurement_outcomes": {
+        "no_signal": 62,
+        "direction": 34
+      },
+      "planning_calls": 19,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 7,
+        "cover": 12
+      },
+      "http_records": 139,
+      "decision_records": 209,
+      "http_outcomes": {
+        "accepted": 139
+      },
+      "costs": {
+        "move_s": 2769.0367495452556,
+        "measure_s": 480,
+        "switch_s": 92,
+        "clear_s": 153
+      },
+      "timing_residual_s": 3.4547442737675738e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 62,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 2,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 12,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-003",
+      "problem": 3,
+      "case_code": "JC7J-WPZR-8KUB-Z9F2",
+      "measurement_outcomes": {
+        "no_signal": 63,
+        "direction": 32
+      },
+      "planning_calls": 15,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 6,
+        "cover": 9
+      },
+      "http_records": 126,
+      "decision_records": 186,
+      "http_outcomes": {
+        "accepted": 126
+      },
+      "costs": {
+        "move_s": 2419.1112355723326,
+        "measure_s": 475,
+        "switch_s": 91,
+        "clear_s": 113
+      },
+      "timing_residual_s": 2.427667368465336e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 63,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 13,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-004",
+      "problem": 3,
+      "case_code": "2YT4-GV58-36HQ-GUHF",
+      "measurement_outcomes": {
+        "no_signal": 74,
+        "direction": 28
+      },
+      "planning_calls": 18,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 10,
+        "cover": 8
+      },
+      "http_records": 125,
+      "decision_records": 183,
+      "http_outcomes": {
+        "accepted": 125
+      },
+      "costs": {
+        "move_s": 2354.1535814644626,
+        "measure_s": 510,
+        "switch_s": 96,
+        "clear_s": 87
+      },
+      "timing_residual_s": -4.6446257329080254e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 367.6806200000001,
+      "feedback_no_signal": 74,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 8,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 6,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-005",
+      "problem": 3,
+      "case_code": "XWYM-XC5F-E2N5-FHN4",
+      "measurement_outcomes": {
+        "direction": 24,
+        "no_signal": 95
+      },
+      "planning_calls": 16,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 12,
+        "cover": 4
+      },
+      "http_records": 155,
+      "decision_records": 203,
+      "http_outcomes": {
+        "accepted": 155
+      },
+      "costs": {
+        "move_s": 2746.03311148501,
+        "measure_s": 595,
+        "switch_s": 112,
+        "clear_s": 122
+      },
+      "timing_residual_s": 5.149900061951485e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 95,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 4,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-006",
+      "problem": 3,
+      "case_code": "PUPD-KN9E-PMF9-9MZ9",
+      "measurement_outcomes": {
+        "no_signal": 49,
+        "direction": 37
+      },
+      "planning_calls": 18,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 11,
+        "cover": 7
+      },
+      "http_records": 108,
+      "decision_records": 173,
+      "http_outcomes": {
+        "accepted": 108
+      },
+      "costs": {
+        "move_s": 2729.461474058048,
+        "measure_s": 430,
+        "switch_s": 78,
+        "clear_s": 90
+      },
+      "timing_residual_s": -1.0580483831290621e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 49,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 11,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-007",
+      "problem": 3,
+      "case_code": "VZBD-JS4F-7R4F-3YF2",
+      "measurement_outcomes": {
+        "direction": 31,
+        "no_signal": 66
+      },
+      "planning_calls": 17,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 9,
+        "cover": 8
+      },
+      "http_records": 133,
+      "decision_records": 194,
+      "http_outcomes": {
+        "accepted": 133
+      },
+      "costs": {
+        "move_s": 2643.8305053102054,
+        "measure_s": 485,
+        "switch_s": 94,
+        "clear_s": 128
+      },
+      "timing_residual_s": 6.897944331285544e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 66,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 11,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-008",
+      "problem": 3,
+      "case_code": "HY6E-N25P-274E-JDPJ",
+      "measurement_outcomes": {
+        "direction": 37,
+        "no_signal": 44
+      },
+      "planning_calls": 18,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 8,
+        "cover": 10
+      },
+      "http_records": 122,
+      "decision_records": 192,
+      "http_outcomes": {
+        "accepted": 122
+      },
+      "costs": {
+        "move_s": 2359.3232222945367,
+        "measure_s": 405,
+        "switch_s": 77,
+        "clear_s": 149
+      },
+      "timing_residual_s": -2.945366759377066e-07,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 44,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 13,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 6,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-009",
+      "problem": 3,
+      "case_code": "WNF9-26PD-HBWR-4958",
+      "measurement_outcomes": {
+        "direction": 32,
+        "no_signal": 72
+      },
+      "planning_calls": 20,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 13,
+        "cover": 7
+      },
+      "http_records": 142,
+      "decision_records": 205,
+      "http_outcomes": {
+        "accepted": 142
+      },
+      "costs": {
+        "move_s": 2925.804396588798,
+        "measure_s": 520,
+        "switch_s": 95,
+        "clear_s": 136
+      },
+      "timing_residual_s": 3.411201760172844e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 72,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 6,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p3-010",
+      "problem": 3,
+      "case_code": "SSK2-8R5H-B4RT-8DV4",
+      "measurement_outcomes": {
+        "direction": 37,
+        "no_signal": 60
+      },
+      "planning_calls": 20,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 12,
+        "cover": 8
+      },
+      "http_records": 127,
+      "decision_records": 194,
+      "http_outcomes": {
+        "accepted": 127
+      },
+      "costs": {
+        "move_s": 2596.0797111047987,
+        "measure_s": 485,
+        "switch_s": 90,
+        "clear_s": 116
+      },
+      "timing_residual_s": 8.952015377872158e-07,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 60,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 11,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 0,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-001",
+      "problem": 4,
+      "case_code": "NAB3-3MQE-8K95-ABN5",
+      "measurement_outcomes": {
+        "no_signal": 151,
+        "direction": 31
+      },
+      "planning_calls": 24,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 11,
+        "cover": 13
+      },
+      "http_records": 268,
+      "decision_records": 446,
+      "http_outcomes": {
+        "accepted": 268
+      },
+      "costs": {
+        "move_s": 4722.081899156171,
+        "measure_s": 910,
+        "switch_s": 167,
+        "clear_s": 284
+      },
+      "timing_residual_s": 6.8438293965300545e-06,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 151,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 6,
+      "resweep_checks": 6,
+      "resweep_measures": 0,
+      "station_information_measures": 10,
+      "opportunity_search_measures": 7,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 84,
+      "count_posterior_updates": 17,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-002",
+      "problem": 4,
+      "case_code": "BYBS-GV3A-QA37-HRNZ",
+      "measurement_outcomes": {
+        "no_signal": 238,
+        "direction": 23
+      },
+      "planning_calls": 15,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 7,
+        "cover": 8
+      },
+      "http_records": 351,
+      "decision_records": 500,
+      "http_outcomes": {
+        "accepted": 351
+      },
+      "costs": {
+        "move_s": 4516.441947853549,
+        "measure_s": 1305,
+        "switch_s": 241,
+        "clear_s": 286
+      },
+      "timing_residual_s": 1.5146451005421113e-05,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 2948.2609260000004,
+      "feedback_no_signal": 238,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 3,
+      "resweep_checks": 2,
+      "resweep_measures": 0,
+      "station_information_measures": 10,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 75,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-003",
+      "problem": 4,
+      "case_code": "N9Y5-TXPV-GTXB-EHZC",
+      "measurement_outcomes": {
+        "direction": 36,
+        "no_signal": 184
+      },
+      "planning_calls": 25,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 14,
+        "cover": 11
+      },
+      "http_records": 334,
+      "decision_records": 503,
+      "http_outcomes": {
+        "accepted": 334
+      },
+      "costs": {
+        "move_s": 5122.420754716147,
+        "measure_s": 1100,
+        "switch_s": 202,
+        "clear_s": 368
+      },
+      "timing_residual_s": 2.5283853574364912e-05,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 184,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 3,
+      "resweep_checks": 4,
+      "resweep_measures": 3,
+      "station_information_measures": 10,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 73,
+      "count_posterior_updates": 22,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-004",
+      "problem": 4,
+      "case_code": "JEYW-3D7F-8WSF-B6NT",
+      "measurement_outcomes": {
+        "no_signal": 286,
+        "direction": 24
+      },
+      "planning_calls": 15,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 8,
+        "cover": 7
+      },
+      "http_records": 340,
+      "decision_records": 433,
+      "http_outcomes": {
+        "accepted": 340
+      },
+      "costs": {
+        "move_s": 4620.304276409153,
+        "measure_s": 1550,
+        "switch_s": 286,
+        "clear_s": 108
+      },
+      "timing_residual_s": -4.0915347199188545e-07,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 836.0493889999998,
+      "feedback_no_signal": 286,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 3,
+      "resweep_checks": 1,
+      "resweep_measures": 0,
+      "station_information_measures": 8,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 19,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-005",
+      "problem": 4,
+      "case_code": "KK88-SUDY-MFNJ-7VVB",
+      "measurement_outcomes": {
+        "no_signal": 166,
+        "direction": 37
+      },
+      "planning_calls": 14,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 2,
+        "cover": 12
+      },
+      "http_records": 227,
+      "decision_records": 432,
+      "http_outcomes": {
+        "accepted": 227
+      },
+      "costs": {
+        "move_s": 5065.569440853285,
+        "measure_s": 1015,
+        "switch_s": 180,
+        "clear_s": 96
+      },
+      "timing_residual_s": 2.14671490539331e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 2643.3173870000005,
+      "feedback_no_signal": 166,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 5,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 21,
+      "opportunity_search_measures": 20,
+      "opportunity_search_discoveries": 2,
+      "replaced_stations": 0,
+      "future_service_deferrals": 105,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-006",
+      "problem": 4,
+      "case_code": "5238-UUZG-HHJ9-M5EJ",
+      "measurement_outcomes": {
+        "direction": 31,
+        "no_signal": 233
+      },
+      "planning_calls": 17,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 7,
+        "cover": 10
+      },
+      "http_records": 330,
+      "decision_records": 465,
+      "http_outcomes": {
+        "accepted": 330
+      },
+      "costs": {
+        "move_s": 4976.3582287985055,
+        "measure_s": 1320,
+        "switch_s": 244,
+        "clear_s": 220
+      },
+      "timing_residual_s": -1.779850572347641e-05,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 338.95840899999985,
+      "feedback_no_signal": 233,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 2,
+      "resweep_checks": 3,
+      "resweep_measures": 0,
+      "station_information_measures": 11,
+      "opportunity_search_measures": 8,
+      "opportunity_search_discoveries": 1,
+      "replaced_stations": 0,
+      "future_service_deferrals": 50,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-007",
+      "problem": 4,
+      "case_code": "J4PF-Y34C-FMBY-EJR4",
+      "measurement_outcomes": {
+        "direction": 30,
+        "no_signal": 197
+      },
+      "planning_calls": 13,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 5,
+        "cover": 8
+      },
+      "http_records": 252,
+      "decision_records": 483,
+      "http_outcomes": {
+        "accepted": 252
+      },
+      "costs": {
+        "move_s": 4657.612203279112,
+        "measure_s": 1135,
+        "switch_s": 208,
+        "clear_s": 97
+      },
+      "timing_residual_s": 3.720888344105333e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 323.3738030000004,
+      "feedback_no_signal": 197,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 7,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 11,
+      "opportunity_search_measures": 7,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 147,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-008",
+      "problem": 4,
+      "case_code": "8AF7-VTR4-TN5X-BFAG",
+      "measurement_outcomes": {
+        "direction": 24,
+        "no_signal": 301
+      },
+      "planning_calls": 15,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 8,
+        "cover": 7
+      },
+      "http_records": 352,
+      "decision_records": 457,
+      "http_outcomes": {
+        "accepted": 352
+      },
+      "costs": {
+        "move_s": 4425.882370710534,
+        "measure_s": 1625,
+        "switch_s": 306,
+        "clear_s": 95
+      },
+      "timing_residual_s": 3.2894658943405375e-06,
+      "stop_evidence_type": "per_channel_coverage",
+      "time_after_last_successful_clear_s": 584.5953979999995,
+      "feedback_no_signal": 301,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 1,
+      "resweep_checks": 1,
+      "resweep_measures": 0,
+      "station_information_measures": 7,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 38,
+      "count_posterior_updates": 24,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-009",
+      "problem": 4,
+      "case_code": "CEH9-EEBN-4J5B-KSV3",
+      "measurement_outcomes": {
+        "no_signal": 55,
+        "direction": 38
+      },
+      "planning_calls": 17,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 8,
+        "cover": 9
+      },
+      "http_records": 123,
+      "decision_records": 265,
+      "http_outcomes": {
+        "accepted": 123
+      },
+      "costs": {
+        "move_s": 3166.020979350079,
+        "measure_s": 465,
+        "switch_s": 89,
+        "clear_s": 116
+      },
+      "timing_residual_s": -2.3500788302044384e-06,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 55,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 3,
+      "resweep_checks": 1,
+      "resweep_measures": 0,
+      "station_information_measures": 16,
+      "opportunity_search_measures": 0,
+      "opportunity_search_discoveries": 0,
+      "replaced_stations": 0,
+      "future_service_deferrals": 70,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    },
+    {
+      "case_id": "tail-next-p4-010",
+      "problem": 4,
+      "case_code": "R9RA-JGHY-5NQQ-BHHW",
+      "measurement_outcomes": {
+        "no_signal": 77,
+        "direction": 38
+      },
+      "planning_calls": 19,
+      "planning_guard_hits": 0,
+      "planning_decisions": {
+        "measure": 8,
+        "cover": 11
+      },
+      "http_records": 145,
+      "decision_records": 321,
+      "http_outcomes": {
+        "accepted": 145
+      },
+      "costs": {
+        "move_s": 2732.0207156637002,
+        "measure_s": 575,
+        "switch_s": 110,
+        "clear_s": 116
+      },
+      "timing_residual_s": 1.3362996469368227e-06,
+      "stop_evidence_type": "known_upper_bound",
+      "time_after_last_successful_clear_s": 0.0,
+      "feedback_no_signal": 77,
+      "feedback_pruned_clear_points": 0,
+      "count_route_changes": 5,
+      "resweep_checks": 0,
+      "resweep_measures": 0,
+      "station_information_measures": 18,
+      "opportunity_search_measures": 17,
+      "opportunity_search_discoveries": 3,
+      "replaced_stations": 0,
+      "future_service_deferrals": 89,
+      "count_posterior_updates": 7,
+      "original_log_retained": true
+    }
+  ],
+  "interpretation": "本次为20个新官方演练案例，未与旧算法在相同案例配对；用于检验官方可运行性和实际表现，不能单凭本次均值推断相对提速。"
+}

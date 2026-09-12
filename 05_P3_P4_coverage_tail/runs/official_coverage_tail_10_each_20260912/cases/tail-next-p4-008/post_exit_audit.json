@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p4-008",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "8AF7-VTR4-TN5X-BFAG",
+  "source_total_post_exit": 10,
+  "directional_total_post_exit": 6,
+  "omnidirectional_total_post_exit": 4,
+  "cleared": 10,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 6451.882374,
+  "original_log_filename": "practice-p4-2963869042934029298-8AF7-VTR4-TN5X-BFAG.jlog",
+  "original_log_sha256": "a95d04a4233bd99e65d764aac4dcd8b687871eec97876227d7fcc95d4b934e16",
+  "original_log_bytes": 75607,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:48:37.678075+00:00"
+}

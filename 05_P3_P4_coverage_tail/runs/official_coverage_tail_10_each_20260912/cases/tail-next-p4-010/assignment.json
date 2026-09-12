@@ -1,0 +1,15 @@
+{
+  "case_id": "tail-next-p4-010",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "selected_policy": {
+    "candidate": "ring_search",
+    "tested_candidate": "ring_search",
+    "status": "confirmed_on_fresh_local",
+    "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+    "baseline": "count_transit",
+    "results": "runs/confirmation_p4"
+  },
+  "split": "official_descriptive",
+  "pilot": false
+}

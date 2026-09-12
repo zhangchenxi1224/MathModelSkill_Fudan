@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-001",
+  "problem": 4,
+  "case_code": "NAB3-3MQE-8K95-ABN5",
+  "measurement_outcomes": {
+    "no_signal": 151,
+    "direction": 31
+  },
+  "planning_calls": 24,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 11,
+    "cover": 13
+  },
+  "http_records": 268,
+  "decision_records": 446,
+  "http_outcomes": {
+    "accepted": 268
+  },
+  "costs": {
+    "move_s": 4722.081899156171,
+    "measure_s": 910,
+    "switch_s": 167,
+    "clear_s": 284
+  },
+  "timing_residual_s": 6.8438293965300545e-06,
+  "stop_evidence_type": "known_upper_bound",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 151,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 6,
+  "resweep_checks": 6,
+  "resweep_measures": 0,
+  "station_information_measures": 10,
+  "opportunity_search_measures": 7,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 84,
+  "count_posterior_updates": 17,
+  "original_log_retained": true
+}

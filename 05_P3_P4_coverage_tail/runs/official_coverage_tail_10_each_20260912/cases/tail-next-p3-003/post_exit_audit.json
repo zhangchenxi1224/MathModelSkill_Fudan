@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-003",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "JC7J-WPZR-8KUB-Z9F2",
+  "source_total_post_exit": 13,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 13,
+  "cleared": 13,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3098.111238,
+  "original_log_filename": "practice-p3-8679361903412927725-JC7J-WPZR-8KUB-Z9F2.jlog",
+  "original_log_sha256": "5bed9f691e7694597e27748bcf3a537a7ae99b45d3eb478e6f3221123624c212",
+  "original_log_bytes": 35378,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:39:51.315401+00:00"
+}

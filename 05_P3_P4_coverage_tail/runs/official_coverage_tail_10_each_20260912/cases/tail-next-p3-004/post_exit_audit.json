@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-004",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "2YT4-GV58-36HQ-GUHF",
+  "source_total_post_exit": 12,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 12,
+  "cleared": 12,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3047.153581,
+  "original_log_filename": "practice-p3-4134419927014008006-2YT4-GV58-36HQ-GUHF.jlog",
+  "original_log_sha256": "84d380881192af49d4d52a4651b0e77e1000e36074ebd8f9d8984849ea2d5c49",
+  "original_log_bytes": 34683,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:40:18.708706+00:00"
+}

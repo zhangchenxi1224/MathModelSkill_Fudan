@@ -1,0 +1,43 @@
+{
+  "environment": "official_practice",
+  "total_cases": 20,
+  "full_clear_cases": 20,
+  "matched_old_algorithm": false,
+  "report": "runs/official_coverage_tail_10_each_20260912/report/results.md",
+  "interactive_report": "runs/official_coverage_tail_10_each_20260912/report/results.html",
+  "raw_run": "runs/official_coverage_tail_10_each_20260912",
+  "release": "https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-official-20-20260912",
+  "archive": "official_coverage_tail_10_each_20260912_complete.zip",
+  "archive_bytes": 3408443,
+  "archive_files": 289,
+  "uncompressed_bytes": 44855403,
+  "archive_sha256": "c7646fb144d57104e953e17523c6ef0df3f31e4aa9883d66f60a69ba462f311e",
+  "summary": [
+    {
+      "problem": 3,
+      "policy": "current",
+      "cases": 10,
+      "full_clear_cases": 10,
+      "mean_total_virtual_time_s": 3363.6281404,
+      "mean_time_per_source_s": 250.87342900033883,
+      "mean_program_real_time_s": 13.57462191004306,
+      "low_N_cases": 8,
+      "mean_time_per_source_N10_15": 264.54957582854854,
+      "N16_cases": 2,
+      "mean_time_per_source_N16": 196.1688416875
+    },
+    {
+      "problem": 4,
+      "policy": "ring_search",
+      "cases": 10,
+      "full_clear_cases": 10,
+      "mean_total_virtual_time_s": 5882.3712854,
+      "mean_time_per_source_s": 437.6826459657359,
+      "mean_program_real_time_s": 22.241107899986673,
+      "low_N_cases": 6,
+      "mean_time_per_source_N10_15": 518.5904059845599,
+      "N16_cases": 4,
+      "mean_time_per_source_N16": 316.3210059375
+    }
+  ]
+}

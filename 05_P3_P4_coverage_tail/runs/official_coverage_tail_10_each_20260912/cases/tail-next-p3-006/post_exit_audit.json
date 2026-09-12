@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-006",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "PUPD-KN9E-PMF9-9MZ9",
+  "source_total_post_exit": 15,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 15,
+  "cleared": 15,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3327.461473,
+  "original_log_filename": "practice-p3-5403414167571894163-PUPD-KN9E-PMF9-9MZ9.jlog",
+  "original_log_sha256": "41c007ac069fa1ace0e4f6920ec121e395de23d7ac5e09e51ffee42ecd6b9e2b",
+  "original_log_bytes": 32088,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:41:23.071716+00:00"
+}

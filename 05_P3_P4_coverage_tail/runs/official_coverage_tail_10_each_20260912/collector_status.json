@@ -1,0 +1,11 @@
+{
+  "state": "finished",
+  "updated_utc": "2026-09-12T12:49:45.661484+00:00",
+  "pid": 28024,
+  "audited": 20,
+  "counts": {
+    "p3_selected_feedback": 10,
+    "p4_selected_feedback": 10
+  },
+  "planned_cases": 20
+}

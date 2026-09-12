@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-009",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "WNF9-26PD-HBWR-4958",
+  "source_total_post_exit": 14,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 14,
+  "cleared": 14,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3676.8044,
+  "original_log_filename": "practice-p3-3448193066436118826-WNF9-26PD-HBWR-4958.jlog",
+  "original_log_sha256": "8bc0840a5f2bf8d3822bd9e1937540b4f649e65fc370523516b85d21682f481d",
+  "original_log_bytes": 39213,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:42:49.590313+00:00"
+}

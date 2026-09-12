@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-009",
+  "problem": 4,
+  "case_code": "CEH9-EEBN-4J5B-KSV3",
+  "measurement_outcomes": {
+    "no_signal": 55,
+    "direction": 38
+  },
+  "planning_calls": 17,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 8,
+    "cover": 9
+  },
+  "http_records": 123,
+  "decision_records": 265,
+  "http_outcomes": {
+    "accepted": 123
+  },
+  "costs": {
+    "move_s": 3166.020979350079,
+    "measure_s": 465,
+    "switch_s": 89,
+    "clear_s": 116
+  },
+  "timing_residual_s": -2.3500788302044384e-06,
+  "stop_evidence_type": "known_upper_bound",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 55,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 3,
+  "resweep_checks": 1,
+  "resweep_measures": 0,
+  "station_information_measures": 16,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 70,
+  "count_posterior_updates": 7,
+  "original_log_retained": true
+}

@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p4-001",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "NAB3-3MQE-8K95-ABN5",
+  "source_total_post_exit": 16,
+  "directional_total_post_exit": 11,
+  "omnidirectional_total_post_exit": 5,
+  "cleared": 16,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 6083.081906,
+  "original_log_filename": "practice-p4-2789666728950669351-NAB3-3MQE-8K95-ABN5.jlog",
+  "original_log_sha256": "f3282dea1f1dab253c298384e34e41b3f1cf51c14b4ccc649f4918813bda850f",
+  "original_log_bytes": 66745,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:44:05.857861+00:00"
+}

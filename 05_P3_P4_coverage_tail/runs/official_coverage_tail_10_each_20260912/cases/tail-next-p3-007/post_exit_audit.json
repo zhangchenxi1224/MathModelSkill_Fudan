@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-007",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "VZBD-JS4F-7R4F-3YF2",
+  "source_total_post_exit": 13,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 13,
+  "cleared": 13,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3350.830506,
+  "original_log_filename": "practice-p3-4658981737283683564-VZBD-JS4F-7R4F-3YF2.jlog",
+  "original_log_sha256": "55da6a72a0392e8776be1cfa39e5aa81c565eef07927281ee2e2c90e459fa9fd",
+  "original_log_bytes": 37186,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:41:50.070426+00:00"
+}

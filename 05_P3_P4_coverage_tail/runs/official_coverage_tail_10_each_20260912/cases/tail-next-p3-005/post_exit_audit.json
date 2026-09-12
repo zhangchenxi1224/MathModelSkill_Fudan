@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p3-005",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "XWYM-XC5F-E2N5-FHN4",
+  "source_total_post_exit": 10,
+  "directional_total_post_exit": 0,
+  "omnidirectional_total_post_exit": 10,
+  "cleared": 10,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3575.033112,
+  "original_log_filename": "practice-p3-1038882097146519761-XWYM-XC5F-E2N5-FHN4.jlog",
+  "original_log_sha256": "2f6117a3af472784bb2d67607706af70acf814920c7f41b0d0f285e0fc03ed94",
+  "original_log_bytes": 41622,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:40:56.464475+00:00"
+}

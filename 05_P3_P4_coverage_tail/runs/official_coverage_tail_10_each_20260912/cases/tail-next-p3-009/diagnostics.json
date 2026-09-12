@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p3-009",
+  "problem": 3,
+  "case_code": "WNF9-26PD-HBWR-4958",
+  "measurement_outcomes": {
+    "direction": 32,
+    "no_signal": 72
+  },
+  "planning_calls": 20,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 13,
+    "cover": 7
+  },
+  "http_records": 142,
+  "decision_records": 205,
+  "http_outcomes": {
+    "accepted": 142
+  },
+  "costs": {
+    "move_s": 2925.804396588798,
+    "measure_s": 520,
+    "switch_s": 95,
+    "clear_s": 136
+  },
+  "timing_residual_s": 3.411201760172844e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 0.0,
+  "feedback_no_signal": 72,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 1,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "station_information_measures": 6,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 0,
+  "count_posterior_updates": 7,
+  "original_log_retained": true
+}

@@ -39,5 +39,6 @@
     "reason": "Official369 composition family and 320 matched protocol simulations support retained representative. Twenty new task-time observations alone cannot identify physical parameters.",
     "dataset_sha256": "7608fb24e2391c89922823807a6f4be4ecd36e08ecd2420ba42ede7c830ef635"
   },
-  "official_status": "No new official rounds run in this iteration. Latest20 official logs were used for diagnosis only."
+  "official_status": "Subsequent official practice completed: P3 10/10 and P4 10/10 fully cleared. New official cases, no paired old-algorithm comparison.",
+  "official_evaluation": "official_evaluation.json"
 }

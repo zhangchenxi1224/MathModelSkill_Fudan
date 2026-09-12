@@ -1,0 +1,114 @@
+[
+  {
+    "problem": 3,
+    "N": 10,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 3575.033112,
+    "mean_T_per_N": 357.5033112
+  },
+  {
+    "problem": 3,
+    "N": 11,
+    "cases": 0,
+    "full_clear_cases": 0,
+    "mean_T": null,
+    "mean_T_per_N": null
+  },
+  {
+    "problem": 3,
+    "N": 12,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 3047.153581,
+    "mean_T_per_N": 253.92946508333333
+  },
+  {
+    "problem": 3,
+    "N": 13,
+    "cases": 3,
+    "full_clear_cases": 3,
+    "mean_T": 3412.7963836666663,
+    "mean_T_per_N": 262.52279874358976
+  },
+  {
+    "problem": 3,
+    "N": 14,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 3676.8044,
+    "mean_T_per_N": 262.62888571428573
+  },
+  {
+    "problem": 3,
+    "N": 15,
+    "cases": 2,
+    "full_clear_cases": 2,
+    "mean_T": 3410.749113,
+    "mean_T_per_N": 227.38327420000002
+  },
+  {
+    "problem": 3,
+    "N": 16,
+    "cases": 2,
+    "full_clear_cases": 2,
+    "mean_T": 3138.701467,
+    "mean_T_per_N": 196.1688416875
+  },
+  {
+    "problem": 4,
+    "N": 10,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 6451.882374,
+    "mean_T_per_N": 645.1882373999999
+  },
+  {
+    "problem": 4,
+    "N": 11,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 6348.441963,
+    "mean_T_per_N": 577.1310875454545
+  },
+  {
+    "problem": 4,
+    "N": 12,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 6564.304276,
+    "mean_T_per_N": 547.0253563333333
+  },
+  {
+    "problem": 4,
+    "N": 13,
+    "cases": 0,
+    "full_clear_cases": 0,
+    "mean_T": null,
+    "mean_T_per_N": null
+  },
+  {
+    "problem": 4,
+    "N": 14,
+    "cases": 2,
+    "full_clear_cases": 2,
+    "mean_T": 6428.985209,
+    "mean_T_per_N": 459.2132292142857
+  },
+  {
+    "problem": 4,
+    "N": 15,
+    "cases": 1,
+    "full_clear_cases": 1,
+    "mean_T": 6356.569443,
+    "mean_T_per_N": 423.7712962
+  },
+  {
+    "problem": 4,
+    "N": 16,
+    "cases": 4,
+    "full_clear_cases": 4,
+    "mean_T": 5061.136095,
+    "mean_T_per_N": 316.3210059375
+  }
+]

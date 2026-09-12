@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-008",
+  "problem": 4,
+  "case_code": "8AF7-VTR4-TN5X-BFAG",
+  "measurement_outcomes": {
+    "direction": 24,
+    "no_signal": 301
+  },
+  "planning_calls": 15,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 8,
+    "cover": 7
+  },
+  "http_records": 352,
+  "decision_records": 457,
+  "http_outcomes": {
+    "accepted": 352
+  },
+  "costs": {
+    "move_s": 4425.882370710534,
+    "measure_s": 1625,
+    "switch_s": 306,
+    "clear_s": 95
+  },
+  "timing_residual_s": 3.2894658943405375e-06,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 584.5953979999995,
+  "feedback_no_signal": 301,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 1,
+  "resweep_checks": 1,
+  "resweep_measures": 0,
+  "station_information_measures": 7,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "replaced_stations": 0,
+  "future_service_deferrals": 38,
+  "count_posterior_updates": 24,
+  "original_log_retained": true
+}

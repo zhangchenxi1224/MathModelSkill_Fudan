@@ -1,0 +1,20 @@
+{
+  "environment": "official_practice",
+  "case_id": "tail-next-p4-010",
+  "problem": 4,
+  "protocol": "selected_feedback",
+  "split": "official_descriptive",
+  "case_code": "R9RA-JGHY-5NQQ-BHHW",
+  "source_total_post_exit": 16,
+  "directional_total_post_exit": 2,
+  "omnidirectional_total_post_exit": 14,
+  "cleared": 16,
+  "clear_fraction": 1.0,
+  "status": "complete",
+  "total_virtual_time_s": 3533.020717,
+  "original_log_filename": "practice-p4-2879015866835543859-R9RA-JGHY-5NQQ-BHHW.jlog",
+  "original_log_sha256": "b6fe206e8b8bbd79138733fcf3392226fadc15990f1511eb2c1387ee87e137bf",
+  "original_log_bytes": 38969,
+  "metadata_source": "visible post-exit UI accessibility tree: post_exit_ui.json",
+  "audited_utc": "2026-09-12T12:49:42.297316+00:00"
+}

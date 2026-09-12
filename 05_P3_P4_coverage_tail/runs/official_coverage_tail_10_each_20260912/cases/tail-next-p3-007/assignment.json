@@ -1,0 +1,15 @@
+{
+  "case_id": "tail-next-p3-007",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "selected_policy": {
+    "candidate": "current",
+    "tested_candidate": "substitute",
+    "status": "retain_deployed_baseline",
+    "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+    "baseline": "opportunity",
+    "results": "runs/confirmation_p3"
+  },
+  "split": "official_descriptive",
+  "pilot": false
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "tail-next-p4-006",
+  "problem": 4,
+  "case_code": "5238-UUZG-HHJ9-M5EJ",
+  "measurement_outcomes": {
+    "direction": 31,
+    "no_signal": 233
+  },
+  "planning_calls": 17,
+  "planning_guard_hits": 0,
+  "planning_decisions": {
+    "measure": 7,
+    "cover": 10
+  },
+  "http_records": 330,
+  "decision_records": 465,
+  "http_outcomes": {
+    "accepted": 330
+  },
+  "costs": {
+    "move_s": 4976.3582287985055,
+    "measure_s": 1320,
+    "switch_s": 244,
+    "clear_s": 220
+  },
+  "timing_residual_s": -1.779850572347641e-05,
+  "stop_evidence_type": "per_channel_coverage",
+  "time_after_last_successful_clear_s": 338.95840899999985,
+  "feedback_no_signal": 233,
+  "feedback_pruned_clear_points": 0,
+  "count_route_changes": 2,
+  "resweep_checks": 3,
+  "resweep_measures": 0,
+  "station_information_measures": 11,
+  "opportunity_search_measures": 8,
+  "opportunity_search_discoveries": 1,
+  "replaced_stations": 0,
+  "future_service_deferrals": 50,
+  "count_posterior_updates": 24,
+  "original_log_retained": true
+}
