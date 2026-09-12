@@ -9,7 +9,7 @@
 |---|---|---|
 |第一问|交会区域分类、直径计算、覆盖圆反例和几何代码|[03_Q1/README.md](03_Q1/README.md)|
 |第二问|最新三反馈选点、8个首次上下文对照、1920条合成配对记录及历史分组|[04_Q2/README.md](04_Q2/README.md)|
-|第三、四问|P4双环覆盖＋顺路搜索，P3保留原版；新240条确认与官方20局全清|[当前算法与使用](05_P3_P4_coverage_tail/README.md) · [本轮报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md)|
+|第三、四问|P4双环覆盖＋顺路搜索，P3保留原版；新240条确认、官方20局演练与6局正式测试|[当前算法与使用](05_P3_P4_coverage_tail/README.md) · [本轮报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md)|
 
 **下载第一、二问全部整理材料：** [Q1/Q2 Release](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/q1-q2-delivery-20260912)，内含第一、二问合并ZIP，以及用户提供的第二问“最新与历史分组”原始ZIP。第一、二问的整理目录也完整保存在网页仓库中，可直接浏览或使用 Code → Download ZIP。
 
@@ -23,7 +23,7 @@
 
 **结果与原理：** [本轮实验报告](05_P3_P4_coverage_tail/reports/FINAL_REPORT.md) · [第一性原理与方法](05_P3_P4_coverage_tail/METHOD.md) · [可视化表格 HTML](05_P3_P4_coverage_tail/reports/results.html) · [新240条数据](05_P3_P4_coverage_tail/data/fresh_confirmation240.json)
 
-**完整脚本、数据和日志：** [直接下载本轮完整 ZIP（约194 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/download/p3-p4-coverage-tail-20260912/coverage_tail_iteration_20260912_complete.zip) · [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-coverage-tail-20260912)。这是本地迭代完整包，只有一个ZIP，无需分卷合并，解压后约2.75 GB、3245个文件；后续官方20局另有下方约3.41 MB实验包。
+**完整脚本、数据和日志：** [直接下载本轮完整 ZIP（约194 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/download/p3-p4-coverage-tail-20260912/coverage_tail_iteration_20260912_complete.zip) · [Release 页面](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-coverage-tail-20260912)。这是本地迭代完整包，只有一个ZIP，无需分卷合并，解压后约2.75 GB、3245个文件；后续官方20局演练与6局正式测试各有独立完整包，见下方结果入口。
 
 ### 本轮实现与结果
 
@@ -47,7 +47,26 @@ P4共6场变慢，最大约1493秒；[逐局配对数据](05_P3_P4_coverage_tail
 
 旧240用于开发；**新240在候选冻结后才运行**，形成480次基线/候选配对运行。其独立性针对本轮冻结候选；若继续据此调参，应转为开发数据。沿用官方记录支持的生成模型，未识别的源位置、接收半径、朝向和误差场仍含仿真假设。
 
-### 最新官方演练：P3、P4各10局
+### 最新正式测试：P3、P4各3次
+
+**六局均正常结束并满足算法完成判据，6份官方日志均已上传成功**。正式测试与下方20局演练分别列示。
+
+|题目|次数|成功清除数C|总虚拟时间（秒）|秒/成功清除源T/C|
+|---|---:|---:|---:|---:|
+|P3|1|10|2822.06|282.21|
+|P3|2|16|3671.02|229.44|
+|P3|3|14|3685.38|263.24|
+|P4|1|10|6196.37|619.64|
+|P4|2|11|6389.90|580.90|
+|P4|3|14|6475.28|462.52|
+
+三局T/C的算术平均：**P3 258.30秒/成功清除源，P4 554.35秒/成功清除源**。正式界面不公开真实源总数N及定向源数Nd，因此以成功清除数C为分母，不能将六局正常结束写作官方公开的全清率。
+
+[正式逐局成绩及案例编号](05_P3_P4_coverage_tail/runs/formal_selected_3_each_20260912/report/results.md) · [可视化表格与耗时诊断](05_P3_P4_coverage_tail/runs/formal_selected_3_each_20260912/report/results.html) · [官方上传记录](05_P3_P4_coverage_tail/runs/formal_selected_3_each_20260912/upload_status.json) · [完整正式实验包（约1.70 MB）](https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-formal-6-20260912)
+
+完整包包含算法快照、全部请求响应、逐步决策与几何状态、6份官方原始日志及上传记录。正式测试机会已经使用；本次GitHub更新仅整理已有结果。
+
+### 此前官方演练：P3、P4各10局
 
 **当前部署版本已完成20局官方演练，20/20全部全清**：P3=`current`，P4=`ring_search`。
 

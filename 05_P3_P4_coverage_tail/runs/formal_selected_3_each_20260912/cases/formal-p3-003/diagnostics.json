@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "direction": 34,
+    "no_signal": 66
+  },
+  "costs_s": {
+    "move": 2990.382183751918,
+    "measure": 500,
+    "switch": 92,
+    "clear": 103
+  },
+  "time_after_last_clear_s": 0.0,
+  "request_records": 127,
+  "decision_records": 193,
+  "count_route_changes": 1,
+  "station_information_measures": 12,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "stop_evidence_type": "per_channel_coverage",
+  "original_logs": [
+    {
+      "filename": "formal-p3-3-2UKD-V3U8-FS59-8VM8.jlog",
+      "bytes": 103110,
+      "sha256": "fec5c7f5ab5c36c2dbcc387850db844648447cb4f27b0728cae384bf93983bb9"
+    }
+  ]
+}

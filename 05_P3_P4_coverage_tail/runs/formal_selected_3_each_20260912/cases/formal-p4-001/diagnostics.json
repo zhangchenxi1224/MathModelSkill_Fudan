@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "no_signal": 286,
+    "direction": 23
+  },
+  "costs_s": {
+    "move": 4292.366093690968,
+    "measure": 1545,
+    "switch": 291,
+    "clear": 68
+  },
+  "time_after_last_clear_s": 573.5161600000001,
+  "request_records": 327,
+  "decision_records": 428,
+  "count_route_changes": 2,
+  "station_information_measures": 6,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "stop_evidence_type": "per_channel_coverage",
+  "original_logs": [
+    {
+      "filename": "formal-p4-1-G6DQ-HPQ5-UFS8-7S6P.jlog",
+      "bytes": 143948,
+      "sha256": "b61259697111404d25960415346f2d18e802ec292ba517a2236ee2f49659890e"
+    }
+  ]
+}

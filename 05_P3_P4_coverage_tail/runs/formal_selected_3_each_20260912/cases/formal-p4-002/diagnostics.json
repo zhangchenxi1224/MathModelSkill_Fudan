@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "no_signal": 242,
+    "direction": 26
+  },
+  "costs_s": {
+    "move": 4658.89552394728,
+    "measure": 1340,
+    "switch": 252,
+    "clear": 139
+  },
+  "time_after_last_clear_s": 172.45179699999971,
+  "request_records": 309,
+  "decision_records": 468,
+  "count_route_changes": 3,
+  "station_information_measures": 12,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "stop_evidence_type": "per_channel_coverage",
+  "original_logs": [
+    {
+      "filename": "formal-p4-2-WTAM-VVEE-DSGX-8EVH.jlog",
+      "bytes": 141159,
+      "sha256": "1b501e3a0dec42e9dd370943c9a363717ba99b7fbd0d79bca41d7645e846f3c6"
+    }
+  ]
+}

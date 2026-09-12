@@ -1,0 +1,36 @@
+{
+  "environment": "official_formal",
+  "cases": 6,
+  "normal_completion": 6,
+  "official_logs_uploaded": 6,
+  "true_source_total_public": false,
+  "metric": "Per-case T/C, where C is successful clear count; problem summary is arithmetic mean of three per-case ratios.",
+  "report": "runs/formal_selected_3_each_20260912/report/results.md",
+  "interactive_report": "runs/formal_selected_3_each_20260912/report/results.html",
+  "raw_run": "runs/formal_selected_3_each_20260912",
+  "upload_status": "runs/formal_selected_3_each_20260912/upload_status.json",
+  "release": "https://github.com/zhangchenxi1224/MathModelSkill_Fudan/releases/tag/p3-p4-formal-6-20260912",
+  "archive": "formal_selected_3_each_20260912_complete.zip",
+  "archive_bytes": 1695833,
+  "archive_files": 188,
+  "uncompressed_bytes": 16599709,
+  "archive_sha256": "e10a5cdcd9c919e2a63a4b4a7bc10e303e7f1d467642a3a39d4bbd505e6978e2",
+  "summary": [
+    {
+      "problem": 3,
+      "cases": 3,
+      "normal_completion": 3,
+      "mean_total_virtual_time_s": 3392.8207616666664,
+      "mean_time_per_successful_clear_s": 258.29541936190475,
+      "mean_program_real_time_s": 10.56431666664624
+    },
+    {
+      "problem": 4,
+      "cases": 3,
+      "normal_completion": 3,
+      "mean_total_virtual_time_s": 6353.846886333333,
+      "mean_time_per_successful_clear_s": 554.3520447086579,
+      "mean_program_real_time_s": 18.970643200019065
+    }
+  ]
+}

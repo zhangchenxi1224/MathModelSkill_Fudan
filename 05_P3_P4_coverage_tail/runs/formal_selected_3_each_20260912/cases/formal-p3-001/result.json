@@ -1,0 +1,251 @@
+{
+  "status": "complete",
+  "error": null,
+  "problem": 3,
+  "config": {
+    "problem": 3,
+    "sensing": "active",
+    "scheduling": "joint",
+    "coverage": "triangular",
+    "spacing": null,
+    "epsilon_deg": 1.0051,
+    "clear_radius": 19.999,
+    "local_measure_limit": 1,
+    "joint_detour_m": 800.0,
+    "bin_width_deg": 4.0,
+    "radius_weight": 1.0,
+    "reserve_real_s": 5.0,
+    "max_virtual_s": 360000.0,
+    "nearest_safe": true,
+    "opportunistic_known_measurements": false
+  },
+  "walk_distance_m": 10710.288966094977,
+  "switches": 98,
+  "measures": 101,
+  "clear_attempts": 19,
+  "clear_successes": 10,
+  "fallback_targets": 8,
+  "certified_clears": 2,
+  "initial_hull_invariant": true,
+  "shared_current_measures": 0,
+  "cost_gate_skips": 0,
+  "confirmed16_transitions": 0,
+  "macro_lookahead_selections": 0,
+  "feedback_pruned_clear_points": 0,
+  "feedback_absent_channels": 0,
+  "feedback_plan_calls": 11,
+  "feedback_no_signal": 80,
+  "probability_probes": 0,
+  "nominal_risk_spent": 0.0,
+  "risk_deferred_sources": 0,
+  "resweep_checks": 0,
+  "resweep_measures": 0,
+  "count_route_changes": 2,
+  "station_information_measures": 8,
+  "future_service_deferrals": 0,
+  "sweep_information_measures": 0,
+  "intersection_probes": 0,
+  "intersection_successes": 0,
+  "replaced_stations": 0,
+  "substitution_measures": 0,
+  "continuum_absent": 0,
+  "robust_deferrals": 0,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "total_virtual_time_s": 2822.057793,
+  "independently_accounted_time_s": 2822.0577932189954,
+  "timing_residual_s": -2.1899541025049984e-07,
+  "average_clear_time_s": 282.2057793,
+  "program_real_time_s": 6.700618500006385,
+  "stop_evidence": {
+    "type": "per_channel_coverage",
+    "cleared_channels": [
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "absent_channels": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      12,
+      19,
+      20
+    ],
+    "required_point_count": 7,
+    "points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1150.0,
+        0.0
+      ],
+      [
+        575.0000000000002,
+        995.9292143521044
+      ],
+      [
+        -574.9999999999998,
+        995.9292143521045
+      ],
+      [
+        -1150.0,
+        0.0
+      ],
+      [
+        -575.0000000000005,
+        -995.9292143521043
+      ],
+      [
+        575.0000000000002,
+        -995.9292143521044
+      ]
+    ],
+    "checked_indices": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "12": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "19": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "construction": "certified_contracted_seven",
+    "analytic_certificate": {
+      "type": "analytic_regular_hexagon_and_origin",
+      "problem": 3,
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "ring_radius_m": 1150.0,
+      "covering_radius_upper_m": 988.5114214360133,
+      "distance_margin_m": 11.48857856398672,
+      "point_count": 7,
+      "requires_each_unresolved_channel_at_all_seven_points": true,
+      "guarantees_localization_alone": false,
+      "proof": "docs/policies.md"
+    },
+    "feedback_absence": {}
+  },
+  "source_total": null,
+  "clear_fraction": null,
+  "feedback_options": {
+    "planning": true,
+    "planning_region_depth": 0,
+    "horizon": 2,
+    "extra_measure_allowance": 1,
+    "planning_seconds": 60.0,
+    "count_route": true,
+    "station_information": true,
+    "next_goal": [
+      575.0000000000002,
+      -995.9292143521044
+    ]
+  },
+  "probability_status": "uncalibrated_working_model",
+  "environment": "official_formal",
+  "case_id": "formal-p3-001",
+  "selected_policy": {
+    "candidate": "current",
+    "tested_candidate": "substitute",
+    "status": "retain_deployed_baseline",
+    "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+    "baseline": "opportunity",
+    "results": "runs/confirmation_p3"
+  }
+}

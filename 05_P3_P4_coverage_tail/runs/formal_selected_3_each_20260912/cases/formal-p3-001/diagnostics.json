@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "no_signal": 80,
+    "direction": 21
+  },
+  "costs_s": {
+    "move": 2142.0577932189954,
+    "measure": 505,
+    "switch": 98,
+    "clear": 77
+  },
+  "time_after_last_clear_s": 489.78468799999973,
+  "request_records": 122,
+  "decision_records": 168,
+  "count_route_changes": 2,
+  "station_information_measures": 8,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "stop_evidence_type": "per_channel_coverage",
+  "original_logs": [
+    {
+      "filename": "formal-p3-1-J2PQ-66QW-6GW2-6UDV.jlog",
+      "bytes": 108862,
+      "sha256": "be823577002657fe6c1670fc9c8bc90f2154213ccaaeb25990fd141baee413ad"
+    }
+  ]
+}

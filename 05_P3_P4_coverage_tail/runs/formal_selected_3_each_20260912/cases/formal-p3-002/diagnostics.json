@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "direction": 39,
+    "no_signal": 44
+  },
+  "costs_s": {
+    "move": 3050.0223101393512,
+    "measure": 415,
+    "switch": 75,
+    "clear": 131
+  },
+  "time_after_last_clear_s": 0.0,
+  "request_records": 118,
+  "decision_records": 191,
+  "count_route_changes": 2,
+  "station_information_measures": 15,
+  "opportunity_search_measures": 0,
+  "opportunity_search_discoveries": 0,
+  "stop_evidence_type": "known_upper_bound",
+  "original_logs": [
+    {
+      "filename": "formal-p3-2-BABJ-JA4Z-X4ZN-VNWE.jlog",
+      "bytes": 103724,
+      "sha256": "73c3c90040d9c4b685755421e356a63568ed8562b7b90251c0b1d02f65fb0c96"
+    }
+  ]
+}

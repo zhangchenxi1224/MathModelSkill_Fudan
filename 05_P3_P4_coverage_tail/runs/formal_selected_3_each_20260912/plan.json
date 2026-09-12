@@ -1,0 +1,99 @@
+{
+  "environment": "official_formal",
+  "formal_authorized": true,
+  "user_request": "P3、P4正式测试各三次，保留全部日志",
+  "planned_cases": 6,
+  "per_problem": 3,
+  "cases": [
+    {
+      "case_id": "formal-p3-001",
+      "problem": 3,
+      "index": 1,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      }
+    },
+    {
+      "case_id": "formal-p3-002",
+      "problem": 3,
+      "index": 2,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      }
+    },
+    {
+      "case_id": "formal-p3-003",
+      "problem": 3,
+      "index": 3,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "current",
+        "tested_candidate": "substitute",
+        "status": "retain_deployed_baseline",
+        "reason": "Predeclared confirmation criteria not met; no alternative selected on confirmation.",
+        "baseline": "opportunity",
+        "results": "runs/confirmation_p3"
+      }
+    },
+    {
+      "case_id": "formal-p4-001",
+      "problem": 4,
+      "index": 1,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      }
+    },
+    {
+      "case_id": "formal-p4-002",
+      "problem": 4,
+      "index": 2,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      }
+    },
+    {
+      "case_id": "formal-p4-003",
+      "problem": 4,
+      "index": 3,
+      "protocol": "selected_feedback",
+      "split": "formal",
+      "selected_policy": {
+        "candidate": "ring_search",
+        "tested_candidate": "ring_search",
+        "status": "confirmed_on_fresh_local",
+        "reason": "Independent H1 paired interval supports improvement; H2 point estimate non-regressing.",
+        "baseline": "count_transit",
+        "results": "runs/confirmation_p4"
+      }
+    }
+  ]
+}

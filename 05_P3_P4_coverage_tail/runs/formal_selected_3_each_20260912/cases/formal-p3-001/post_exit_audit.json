@@ -1,0 +1,189 @@
+{
+  "environment": "official_formal",
+  "case_id": "formal-p3-001",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "formal",
+  "case_code": "J2PQ-66QW-6GW2-6UDV",
+  "source_total_post_exit": null,
+  "directional_total_post_exit": null,
+  "omnidirectional_total_post_exit": null,
+  "cleared": 10,
+  "status": "complete",
+  "total_virtual_time_s": 2822.057793,
+  "original_logs": [
+    {
+      "filename": "formal-p3-1-J2PQ-66QW-6GW2-6UDV.jlog",
+      "bytes": 108862,
+      "sha256": "be823577002657fe6c1670fc9c8bc90f2154213ccaaeb25990fd141baee413ad"
+    }
+  ],
+  "original_log_sha256": "be823577002657fe6c1670fc9c8bc90f2154213ccaaeb25990fd141baee413ad",
+  "metadata_source": "visible post-exit UI; hidden source counts remain null",
+  "stop_evidence": {
+    "type": "per_channel_coverage",
+    "cleared_channels": [
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "absent_channels": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      12,
+      19,
+      20
+    ],
+    "required_point_count": 7,
+    "points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1150.0,
+        0.0
+      ],
+      [
+        575.0000000000002,
+        995.9292143521044
+      ],
+      [
+        -574.9999999999998,
+        995.9292143521045
+      ],
+      [
+        -1150.0,
+        0.0
+      ],
+      [
+        -575.0000000000005,
+        -995.9292143521043
+      ],
+      [
+        575.0000000000002,
+        -995.9292143521044
+      ]
+    ],
+    "checked_indices": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "9": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "12": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "19": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "construction": "certified_contracted_seven",
+    "analytic_certificate": {
+      "type": "analytic_regular_hexagon_and_origin",
+      "problem": 3,
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "ring_radius_m": 1150.0,
+      "covering_radius_upper_m": 988.5114214360133,
+      "distance_margin_m": 11.48857856398672,
+      "point_count": 7,
+      "requires_each_unresolved_channel_at_all_seven_points": true,
+      "guarantees_localization_alone": false,
+      "proof": "docs/policies.md"
+    },
+    "feedback_absence": {}
+  },
+  "recorded_utc": "2026-09-12T13:04:06.908675+00:00"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\2026WorkExperience\CUMCM2026Problems\B_solution_side_research\coverage_tail_iteration_20260912\run_selected_formal.py", line 170, in run
+    raise RuntimeError('Formal start not ready; inspect start_ui_latest.json')
+RuntimeError: Formal start not ready; inspect start_ui_latest.json

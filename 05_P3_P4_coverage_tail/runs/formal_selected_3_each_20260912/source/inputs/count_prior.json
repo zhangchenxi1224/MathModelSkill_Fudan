@@ -1,0 +1,32 @@
+{
+  "source": "D:\\2026WorkExperience\\CUMCM2026Problems\\B_solution\\results\\official369_mainline_20260912\\calibration\\composition_models.json",
+  "status": "official_count_prior; spatial/radius/orientation likelihood remains a working approximation",
+  "policies": {
+    "3": {
+      "N_prior": {
+        "10": 0.11658456486042693,
+        "11": 0.17980295566502463,
+        "12": 0.15106732348111657,
+        "13": 0.11658456486042693,
+        "14": 0.12233169129720853,
+        "15": 0.15106732348111657,
+        "16": 0.1625615763546798
+      },
+      "directional_fraction": 0.0,
+      "fit_cases": 172
+    },
+    "4": {
+      "N_prior": {
+        "10": 0.14213926776740846,
+        "11": 0.15218951902368985,
+        "12": 0.13208901651112706,
+        "13": 0.17229002153625267,
+        "14": 0.15721464465183058,
+        "15": 0.13208901651112706,
+        "16": 0.11198851399856424
+      },
+      "directional_fraction": 0.5409197194076383,
+      "fit_cases": 197
+    }
+  }
+}

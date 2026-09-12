@@ -1,0 +1,153 @@
+{
+  "environment": "official_formal",
+  "case_id": "formal-p3-003",
+  "problem": 3,
+  "protocol": "selected_feedback",
+  "split": "formal",
+  "case_code": "2UKD-V3U8-FS59-8VM8",
+  "source_total_post_exit": null,
+  "directional_total_post_exit": null,
+  "omnidirectional_total_post_exit": null,
+  "cleared": 14,
+  "status": "complete",
+  "total_virtual_time_s": 3685.38218,
+  "original_logs": [
+    {
+      "filename": "formal-p3-3-2UKD-V3U8-FS59-8VM8.jlog",
+      "bytes": 103110,
+      "sha256": "fec5c7f5ab5c36c2dbcc387850db844648447cb4f27b0728cae384bf93983bb9"
+    }
+  ],
+  "original_log_sha256": "fec5c7f5ab5c36c2dbcc387850db844648447cb4f27b0728cae384bf93983bb9",
+  "metadata_source": "visible post-exit UI; hidden source counts remain null",
+  "stop_evidence": {
+    "type": "per_channel_coverage",
+    "cleared_channels": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      16,
+      18,
+      20
+    ],
+    "absent_channels": [
+      2,
+      10,
+      13,
+      14,
+      17,
+      19
+    ],
+    "required_point_count": 7,
+    "points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1150.0,
+        0.0
+      ],
+      [
+        -574.9999999999998,
+        995.9292143521045
+      ],
+      [
+        575.0000000000002,
+        995.9292143521044
+      ],
+      [
+        1150.0,
+        0.0
+      ],
+      [
+        575.0000000000002,
+        -995.9292143521044
+      ],
+      [
+        -575.0000000000005,
+        -995.9292143521043
+      ]
+    ],
+    "checked_indices": {
+      "2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "13": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "14": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "17": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "19": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "construction": "certified_contracted_seven",
+    "analytic_certificate": {
+      "type": "analytic_regular_hexagon_and_origin",
+      "problem": 3,
+      "domain_radius_m": 1800.0,
+      "minimum_reception_radius_m": 1000.0,
+      "ring_radius_m": 1150.0,
+      "covering_radius_upper_m": 988.5114214360133,
+      "distance_margin_m": 11.48857856398672,
+      "point_count": 7,
+      "requires_each_unresolved_channel_at_all_seven_points": true,
+      "guarantees_localization_alone": false,
+      "proof": "docs/policies.md"
+    },
+    "feedback_absence": {}
+  },
+  "recorded_utc": "2026-09-12T13:11:49.455330+00:00"
+}

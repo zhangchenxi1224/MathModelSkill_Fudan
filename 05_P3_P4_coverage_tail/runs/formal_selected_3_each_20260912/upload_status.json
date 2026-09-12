@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "case_id": "formal-p3-001",
+      "case_code": "J2PQ-66QW-6GW2-6UDV",
+      "started": "2026/9/12 21:03:59",
+      "ended": "2026/9/12 21:04:07",
+      "display_size": "106.3 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:06.9331889Z"
+    },
+    {
+      "case_id": "formal-p3-002",
+      "case_code": "BABJ-JA4Z-X4ZN-VNWE",
+      "started": "2026/9/12 21:07:40",
+      "ended": "2026/9/12 21:07:52",
+      "display_size": "101.3 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:06.9331889Z"
+    },
+    {
+      "case_id": "formal-p3-003",
+      "case_code": "2UKD-V3U8-FS59-8VM8",
+      "started": "2026/9/12 21:11:34",
+      "ended": "2026/9/12 21:11:48",
+      "display_size": "100.7 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:06.9331889Z"
+    },
+    {
+      "case_id": "formal-p4-001",
+      "case_code": "G6DQ-HPQ5-UFS8-7S6P",
+      "started": "2026/9/12 21:12:01",
+      "ended": "2026/9/12 21:12:24",
+      "display_size": "140.6 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:52.2706127Z"
+    },
+    {
+      "case_id": "formal-p4-002",
+      "case_code": "WTAM-VVEE-DSGX-8EVH",
+      "started": "2026/9/12 21:12:38",
+      "ended": "2026/9/12 21:12:53",
+      "display_size": "137.9 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:52.2706127Z"
+    },
+    {
+      "case_id": "formal-p4-003",
+      "case_code": "ZQSA-WTVK-PSZ8-32HR",
+      "started": "2026/9/12 21:13:07",
+      "ended": "2026/9/12 21:13:28",
+      "display_size": "145.7 KiB",
+      "status": "已上传",
+      "observed_utc": "2026-09-12T13:14:52.2706127Z"
+    }
+  ],
+  "uploaded": 6,
+  "total": 6,
+  "summary": "6/6份正式行为日志显示已上传。P3、P4次数以保存的历史页面为准。"
+}

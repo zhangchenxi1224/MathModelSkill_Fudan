@@ -1,0 +1,27 @@
+{
+  "measurement_outcomes": {
+    "no_signal": 225,
+    "direction": 32
+  },
+  "costs_s": {
+    "move": 4776.279032542019,
+    "measure": 1285,
+    "switch": 233,
+    "clear": 181
+  },
+  "time_after_last_clear_s": 262.9803269999993,
+  "request_records": 310,
+  "decision_records": 525,
+  "count_route_changes": 4,
+  "station_information_measures": 11,
+  "opportunity_search_measures": 15,
+  "opportunity_search_discoveries": 1,
+  "stop_evidence_type": "per_channel_coverage",
+  "original_logs": [
+    {
+      "filename": "formal-p4-3-ZQSA-WTVK-PSZ8-32HR.jlog",
+      "bytes": 149229,
+      "sha256": "15fe0de8c10df30c580b994c349e8a36f0fbd1d5b5d87f5e776b48b057293680"
+    }
+  ]
+}
